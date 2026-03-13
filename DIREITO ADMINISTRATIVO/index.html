@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover" />
+  <meta name="theme-color" content="#4a85f0" />
+  <meta name="description" content="MV Estudos — Direito Administrativo" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="MV Estudos" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="application-name" content="MV Estudos" />
+  <meta name="msapplication-TileColor" content="#4a85f0" />
+  <meta name="msapplication-config" content="none" />
+  <title>MV Estudos — Direito Administrativo</title>
+  
+  <!-- Preconnect otimizado -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+  
+  <!-- Fonts otimizadas para mobile -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Syne:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  
+  <!-- Resources -->
+  <link rel="icon" type="image/png" href="./imagens/banner.png" />
+  <link rel="apple-touch-icon" href="./imagens/banner.png" />
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- Critical CSS inline para mobile -->
+  <style>
+    /* Prevenir FOUC no mobile */
+    body{margin:0;background:var(--c-bg-0);font-family:'DM Sans',system-ui,-apple-system,sans-serif}
+    .mobile-menu-toggle{display:flex;position:fixed;top:calc(var(--topbar-h)+var(--subbar-h)+10px);left:12px;z-index:401;width:44px;height:44px;align-items:center;justify-content:center;background:var(--c-bg-2);border:1px solid var(--c-border);border-radius:12px;color:var(--c-txt);cursor:pointer}
+    .sidebar{position:fixed;top:0;left:0;width:280px;height:100dvh;z-index:400;transform:translateX(-100%);transition:transform .3s cubic-bezier(.16,1,.3,1);box-shadow:var(--sh-lg);padding-top:calc(var(--topbar-h)+var(--subbar-h))}
+    .sidebar.open{transform:translateX(0)}
+    .sidebar-overlay{position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:399;background:rgba(0,0,0,.5);opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s}
+    .sidebar-overlay.active{opacity:1;visibility:visible}
+    @media (min-width:769px){.mobile-menu-toggle{display:none}.sidebar{position:relative;width:var(--sidebar-w);transform:none;padding-top:0}.sidebar-overlay{display:none}}
+  </style>
+</head>
+<body>
+  <!-- Skip link para acessibilidade mobile -->
+  <a href="#main-content" class="skip-link" aria-label="Pular para conteúdo principal">Pular para conteúdo</a>
+
+  <!-- TOPBAR COM BOTÃO MENU INTEGRADO -->
+  <header class="topbar" role="banner">
+    <div class="topbar-left">
+      <!-- BOTÃO MENU MOBILE -->
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Abrir menu lateral" aria-expanded="false" aria-controls="sidebar" touch-action="manipulation">
+        <span class="material-icons" aria-hidden="true">menu</span>
+      </button>
+      
+      <div class="logo" aria-label="MV Estudos">
+        <span class="material-icons logo-icon" aria-hidden="true">account_balance</span>
+        <span class="logo-text">
+          <span class="logo-highlight">MV</span><span class="logo-normal">ESTUDOS</span>
+        </span>
+      </div>
+    </div>
+    
+    <div class="topbar-right">
+      <div class="progress-chip" id="top-prog" aria-live="polite" aria-atomic="true">
+        <span class="material-icons chip-icon" aria-hidden="true">task_alt</span>
+        <span class="chip-text">0 / 0 tópicos</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- SUBJECT SELECTOR COM BOTÕES OTIMIZADOS -->
+  <nav class="subject-selector" role="navigation" aria-label="Selecionar matéria">
+    <button class="subject-btn active" data-subject="administrativo" aria-pressed="true" touch-action="manipulation">
+      <span class="material-icons" aria-hidden="true">domain_add</span>
+      <span class="subject-name">Direito Administrativo</span>
+      <span class="subject-btn-indicator"></span>
+    </button>
+    
+    <!-- Botão flutuante para menu lateral em mobile -->
+    <button class="mobile-sidebar-btn" id="mobile-sidebar-btn" aria-label="Ver tópicos" touch-action="manipulation">
+      <span class="material-icons" aria-hidden="true">folder_open</span>
+      <span class="btn-text">Tópicos</span>
+      <span class="btn-badge" id="topic-count">0</span>
+    </button>
+  </nav>
+
+  <!-- WORKSPACE -->
+  <div class="workspace">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar" aria-label="Lista de tópicos">
+      <div class="sidebar-head">
+        <p class="sidebar-label">
+          <span class="material-icons sidebar-label-icon">folder_open</span>
+          Matéria
+        </p>
+        <h2 class="sidebar-title">Direito Administrativo</h2>
+      </div>
+
+      <div class="sidebar-search-wrapper">
+        <span class="material-icons search-icon" aria-hidden="true">search</span>
+        <input
+          class="sidebar-search input"
+          id="search-input"
+          placeholder="Search..."
+          type="text"
+          name="text"
+          autocomplete="off"
+          autocapitalize="off"
+          autocorrect="off"
+          spellcheck="false"
+          enterkeyhint="search"
+          aria-label="Buscar tópico"
+        />
+      </div>
+
+      <ul class="sidebar-list" id="sidebar-list" role="list" aria-label="Tópicos disponíveis">
+        <li class="sidebar-loading">
+          <span class="loading-dot"></span>
+          <span class="loading-dot"></span>
+          <span class="loading-dot"></span>
+        </li>
+      </ul>
+
+      <div class="sidebar-prog">
+        <div class="prog-label">
+          <span class="prog-label-text">
+            <span class="material-icons prog-icon">trending_up</span>
+            Progresso
+          </span>
+          <span class="prog-pct-value" id="prog-pct">0%</span>
+        </div>
+        <div class="prog-bar">
+          <div class="prog-fill" id="sidebar-prog-fill" style="width:0%"></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main" id="main-content" role="main">
+
+      <input type="radio" name="main-tab" id="tab-aprender" class="tab-input" checked />
+      <input type="radio" name="main-tab" id="tab-progresso" class="tab-input" />
+
+      <nav class="tabbar" role="tablist" aria-label="Modos de estudo">
+        <label for="tab-aprender" class="tab" role="tab" tabindex="0" touch-action="manipulation">
+          <span class="material-icons" aria-hidden="true">menu_book</span>
+          <span class="tab-text">Aprender</span>
+        </label>
+        <label for="tab-progresso" class="tab" role="tab" tabindex="0" touch-action="manipulation">
+          <span class="material-icons" aria-hidden="true">insights</span>
+          <span class="tab-text">Progresso</span>
+        </label>
+      </nav>
+
+      <!-- BOTÃO FLUTUANTE DE AÇÃO RÁPIDA -->
+      <div class="floating-actions">
+        <button class="fab-progress" id="fab-progress" aria-label="Ver progresso" onclick="switchTab('progresso')" touch-action="manipulation">
+          <span class="material-icons" aria-hidden="true">insights</span>
+          <span class="fab-progress-text">Progresso</span>
+        </button>
+        
+        <button class="fab-toggle" id="fab-toggle" aria-label="Marcar progresso" onclick="toggleProgress()" touch-action="manipulation" style="display:none;">
+          <span class="material-icons" aria-hidden="true">check_circle</span>
+        </button>
+      </div>
+
+      <div class="view-area" id="view-area" role="tabpanel" aria-label="Conteúdo">
+        <div class="empty">
+          <span class="material-icons e-icon" aria-hidden="true">account_balance</span>
+          <p class="empty-text">Selecione um tópico para começar</p>
+          <p class="empty-hint">
+            <span class="material-icons empty-hint-icon" aria-hidden="true">arrow_back</span>
+            Use a barra lateral para navegar
+          </p>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- BOTÃO SCROLL -->
+  <button class="scroll-to-bottom" id="scroll-to-bottom" aria-label="Rolar para baixo" onclick="scrollToBottom()" style="display:none;" touch-action="manipulation">
+    <span class="material-icons" aria-hidden="true">arrow_downward</span>
+  </button>
+
+  <!-- OVERLAY MOBILE -->
+  <div class="sidebar-overlay" id="sidebar-overlay" aria-hidden="true" onclick="closeMobileSidebar()" role="presentation" tabindex="-1"></div>
+
+  <!-- SCRIPTS otimizados -->
+  <script src="data/data_direito-administrativo.js" defer></script>
+  <script src="app.js" defer></script>
+
+</body>
+</html>

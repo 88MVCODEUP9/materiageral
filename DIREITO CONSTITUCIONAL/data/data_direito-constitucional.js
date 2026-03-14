@@ -103,7 +103,7 @@ window.DA = {
     flashcards: [
       { q: "Quais são os instrumentos de defesa do Estado?", a: "Estado de Defesa, Estado de Sítio, Forças Armadas e Segurança Pública." },
       { q: "Qual a duração máxima do Estado de Defesa?", a: "30 dias, podendo ser prorrogado uma vez." },
-      { q: "Quem decretado o Estado de Defesa?", a: "Presidente da República." }
+      { q: "Quem decreta o Estado de Defesa?", a: "O Presidente da República." }
     ],
     quiz: [
       { q: "O Estado de Sítio é:", opts: ["Medida menos grave que o estado de defesa", "Medida mais grave que o estado de defesa", "Igual ao estado de defesa", "Não tem prazo definido"], gabarito: 1, exp: "Estado de Sítio é medida mais grave que o estado de defesa." }
@@ -203,7 +203,7 @@ window.DA = {
     <div class="lex-item">Considera o local do nascimento.</div>
     <div class="lex-item"><strong>Regra geral:</strong> Quem nasce no Brasil é brasileiro nato.</div>
     <div class="lex-item"><strong>Exceção:</strong> Filho de pais estrangeiros que estejam a serviço oficial de seu país de origem NÃO é brasileiro nato.</div>
-    
+
     <div class="callout callout-gold" style="margin-top:8px;">
       <span class="callout-icon">💡</span>
       <strong>Exemplos:</strong><br>
@@ -217,18 +217,18 @@ window.DA = {
     <span class="lex-label rose">2. IUS SANGUINIS (Direito de Sangue)</span>
     <div class="lex-item">Considera a descendência.</div>
     <div class="lex-item">Aplica-se ao nascido no exterior, filho de pai ou mãe brasileira.</div>
-    
+
     <div class="lex-list">
       <div class="lex-list-item"><span class="lex-num">a)</span> <strong>Ius sanguinis + Serviço Oficial do Brasil</strong><br>
       Se o pai ou mãe brasileira estiver a serviço da República Federativa do Brasil → brasileiro nato.<br>
       <em>Exemplo: filho de diplomata brasileiro que nasce na França.</em>
       </div>
-      
+
       <div class="lex-list-item"><span class="lex-num">b)</span> <strong>Ius sanguinis + Registro em Repartição Brasileira</strong><br>
       Nascido no exterior, registrado em embaixada ou consulado brasileiro → brasileiro nato.<br>
       <em>Exemplo: filho de brasileiro que nasce no Japão e é registrado no consulado.</em>
       </div>
-      
+
       <div class="lex-list-item"><span class="lex-num">c)</span> <strong>Ius sanguinis + Residência no Brasil + Opção</strong><br>
       Se não houve serviço oficial nem registro:<br>
       • Reside no Brasil<br>
@@ -248,7 +248,7 @@ window.DA = {
 </div>`,
     flashcards: [
       { q: "Quais são os dois critérios para brasileiro nato?", a: "Ius Soli (local do nascimento) e Ius Sanguinis (descendência)." },
-      { q: "Filho de diplomata estrangeiro nascido no Brasil é brasileiro nato?", a: "NÃO. Exceção ao Ius Soli - pais a serviço oficial do país de origem." },
+      { q: "Filho de diplomata estrangeiro nascido no Brasil é brasileiro nato?", a: "NÃO. Exceção ao Ius Soli — pais a serviço oficial do país de origem." },
       { q: "O que significa efeito ex tunc na opção de nacionalidade?", a: "Retroage à data do nascimento." }
     ],
     quiz: [
@@ -318,7 +318,7 @@ window.DA = {
     flashcards: [
       { q: "O que é considerado serviço oficial do Brasil?", a: "Serviço prestado à União, Estados, DF, Municípios e administração direta e indireta." },
       { q: "Quais os requisitos da naturalização ordinária?", a: "Originários de países de língua portuguesa, residência ininterrupta por 1 ano e idoneidade moral." },
-      { q: "E da naturalização extraordinária?", a: "Qualquer nacionalidade, residência ininterrupta por mais de 15 anos, ausência de condenação penal e requerimento." }
+      { q: "Quais os requisitos da naturalização extraordinária?", a: "Qualquer nacionalidade, residência ininterrupta por mais de 15 anos, ausência de condenação penal e requerimento." }
     ],
     quiz: [
       { q: "Naturalização ordinária exige residência de:", opts: ["6 meses", "1 ano", "5 anos", "15 anos"], gabarito: 1, exp: "Naturalização ordinária exige residência ininterrupta por 1 ano para países de língua portuguesa." }
@@ -362,7 +362,7 @@ window.DA = {
 
   <div class="callout callout-gold">
     <span class="callout-icon">🧠</span>
-    <strong>NÓ MNEMÔNICO:</strong> "PRESIDÊNCIA + DEFESA + DIPLOMACIA + JUSTIÇA"<br>
+    <strong>MNEMÔNICO:</strong> "PRESIDÊNCIA + DEFESA + DIPLOMACIA + JUSTIÇA"<br>
     Presidente, Senado, Câmara (Presidência)<br>
     Forças Armadas, Defesa (Defesa)<br>
     Diplomacia (Carreira diplomática)<br>
@@ -411,7 +411,7 @@ window.DA = {
 
   <div class="callout callout-gold">
     <span class="callout-icon">🧠</span>
-    <strong>NÓ MNEMÔNICO:</strong> "NATO NÃO, NATU TALVEZ"<br>
+    <strong>MNEMÔNICO:</strong> "NATO NÃO, NATU TALVEZ"<br>
     <strong>NATO</strong> = <strong>NÃO</strong> pode ser extraditado<br>
     <strong>NATU</strong>ralizado = <strong>TALVEZ</strong> pode ser extraditado
   </div>
@@ -465,14 +465,14 @@ window.DA = {
       📌 <strong>SÓ atinge NATURALIZADO.</strong>
     </div>
     <div class="callout callout-gold" style="margin-top:8px;">
-      🧠 <strong>NÓ MNEMÔNICO:</strong> "SAN = Sentença Ataca Naturalizado"<br>
+      🧠 <strong>MNEMÔNICO:</strong> "SAN = Sentença Ataca Naturalizado"<br>
       Se houve sentença judicial → lembra de SAN → atinge naturalizado.
     </div>
   </div>
 
   <div class="callout callout-rose">
     <span class="callout-icon">⚠️</span>
-    <strong>Pegadinha:</strong> A banca diz que o brasileiro nato pode perder nacionalidade por sentença judicial. <strong>ERRADO.</strong> Isso é para naturalizado.
+    <strong>Pegadinha:</strong> A banca diz que o brasileiro nato pode perder a nacionalidade por sentença judicial. <strong>ERRADO.</strong> Isso é para naturalizado.
   </div>
 
   <div class="lex-section">
@@ -482,7 +482,7 @@ window.DA = {
       🚨 A perda <strong>não será admitida</strong> se gerar <strong>apatridia</strong> (ficar sem nenhuma nacionalidade).
     </div>
     <div class="callout callout-gold" style="margin-top:8px;">
-      🧠 <strong>NÓ MNEMÔNICO:</strong> "VOL = Vontade, mas não Vira Órfão de pátria"
+      🧠 <strong>MNEMÔNICO:</strong> "VOL = Vontade, mas não Vira Órfão de pátria"
     </div>
   </div>
 
@@ -503,7 +503,7 @@ window.DA = {
       </div>
     </div>
     <div class="callout callout-gold" style="margin-top:8px;">
-      🧠 <strong>NÓ MNEMÔNICO:</strong> "NATO NÃO, NATU TALVEZ"
+      🧠 <strong>MNEMÔNICO:</strong> "NATO NÃO, NATU TALVEZ"
     </div>
   </div>
 
@@ -549,7 +549,7 @@ window.DA = {
       <div class="lex-list-item"><span class="lex-num">→</span> <strong>Propriedade</strong></div>
     </div>
     <div class="callout callout-gold" style="margin-top:8px;">
-      🧠 <strong>NÓ MNEMÔNICO:</strong> "VILSP" — <em>Vê Ivo Ler Seu Processo</em><br>
+      🧠 <strong>MNEMÔNICO:</strong> "VILSP" — <em>Vê Ivo Ler Seu Processo</em><br>
       <strong>V</strong>ida, <strong>I</strong>gualdade, <strong>L</strong>iberdade, <strong>S</strong>egurança, <strong>P</strong>ropriedade.
     </div>
   </div>
@@ -574,7 +574,7 @@ window.DA = {
     <div class="lex-item"><strong>NÃO.</strong> Animais <strong>não</strong> são sujeitos de direitos fundamentais.</div>
     <div class="lex-item">A proteção ocorre <strong>indiretamente</strong>, por meio da proteção ao meio ambiente (Art. 225 CF).</div>
     <div class="callout callout-gold" style="margin-top:8px;">
-      🧠 <strong>NÓ MNEMÔNICO:</strong> "Animal protege o Ambiente, não é Titular"
+      🧠 <strong>MNEMÔNICO:</strong> "Animal protege o Ambiente, não é Titular"
     </div>
   </div>
 
@@ -622,7 +622,7 @@ window.DA = {
   </div>
 
   <div class="callout callout-gold">
-    🧠 <strong>NÓ MNEMÔNICO:</strong> "Vida = NÃO morrer + Viver bem"
+    🧠 <strong>MNEMÔNICO:</strong> "Vida = NÃO morrer + Viver bem"
   </div>
 
   <div class="callout callout-rose">
@@ -653,7 +653,7 @@ window.DA = {
     <div class="lex-item">É <strong>constitucional</strong>, desde que por meios <strong>indiretos</strong> (restrições administrativas).</div>
     <div class="lex-item">Não pode ser aplicada com uso de força física.</div>
     <div class="callout callout-gold" style="margin-top:8px;">
-      🧠 <strong>NÓ MNEMÔNICO:</strong> "Vacina SIM, Força NÃO"
+      🧠 <strong>MNEMÔNICO:</strong> "Vacina SIM, Força NÃO"
     </div>
   </div>
 
@@ -715,7 +715,7 @@ window.DA = {
       <div class="lex-list-item"><span class="lex-num">3.</span> <strong>Proporcionalidade</strong></div>
     </div>
     <div class="callout callout-gold" style="margin-top:8px;">
-      🧠 <strong>NÓ MNEMÔNICO:</strong> "NLP" — Natureza, Lei, Proporção
+      🧠 <strong>MNEMÔNICO:</strong> "NLP" — Natureza, Lei, Proporção
     </div>
   </div>
 
@@ -766,7 +766,7 @@ window.DA = {
       <div class="lex-list-item"><span class="lex-num">→</span> Proibição de <strong>censura prévia</strong></div>
     </div>
     <div class="callout callout-gold" style="margin-top:8px;">
-      🧠 <strong>NÓ MNEMÔNICO:</strong> "MAN" — <strong>M</strong>anifestação, <strong>A</strong>nonimato proibido, <strong>N</strong>ão censura
+      🧠 <strong>MNEMÔNICO:</strong> "MAN" — <strong>M</strong>anifestação, <strong>A</strong>nonimato proibido, <strong>N</strong>ão censura
     </div>
   </div>
 
@@ -832,7 +832,7 @@ window.DA = {
       <div class="lex-list-item"><span class="lex-num">→</span> <strong>Protege todas</strong> as religiões igualmente</div>
     </div>
     <div class="callout callout-gold" style="margin-top:8px;">
-      🧠 <strong>NÓ MNEMÔNICO:</strong> "LAICO = Livre, Apartado, Igualitário, Cooperação"
+      🧠 <strong>MNEMÔNICO:</strong> "LAICO = Livre, Apartado, Igualitário, Cooperação"
     </div>
   </div>
 
@@ -1004,36 +1004,29 @@ window.DA = {
     <span class="lex-label blue">Diferença importante</span>
     <div class="lex-cols">
       <div class="lex-section">
-        <span class="lex-label green">✔ Sigilo telefônico</span>
+        <span class="lex-label green">Sigilo telefônico</span>
         <div class="lex-item">→ protege dados da ligação</div>
-        <div class="lex-item">lista de chamadas</div>
-        <div class="lex-item">duração</div>
-        <div class="lex-item">números</div>
-        <div class="lex-item">registros</div>
+        <div class="lex-item">lista de chamadas, duração, números, registros</div>
       </div>
       <div class="lex-section">
-        <span class="lex-label green">✔ Sigilo das comunicações telefônicas</span>
+        <span class="lex-label green">Sigilo das comunicações telefônicas</span>
         <div class="lex-item">→ protege o conteúdo da conversa</div>
-        <div class="lex-item">áudio da ligação</div>
-        <div class="lex-item">mensagens</div>
-        <div class="lex-item">conversas</div>
+        <div class="lex-item">áudio da ligação, mensagens, conversas</div>
       </div>
     </div>
   </div>
 
   <div class="lex-section">
     <span class="lex-label gold">Gravação ambiental</span>
-    <div class="lex-item">Não precisa de ordem judicial quando:</div>
-    <div class="lex-list">
-      <div class="lex-list-item"><span class="lex-num">→</span> usada para defesa</div>
-    </div>
-  </div> <!-- adicionado o fechamento da tag div -->
+    <div class="lex-item">Não precisa de ordem judicial quando usada para defesa.</div>
+  </div>
+
 </div>`,
     flashcards: [
       { q: "O que protege o sigilo das comunicações?", a: "Correspondência, comunicações telefônicas, de dados e telemáticas." },
       { q: "Quando pode haver quebra de sigilo?", a: "Somente por ordem judicial para investigação criminal ou instrução processual penal." },
       { q: "Pode quebrar sigilo em processo civil?", a: "NÃO. Só pode na esfera penal." },
-      { q: "Qual a diferença entre sigilo telefônico e das comunicações?", a: "Sigilo telefônico = dados da ligação. Comunicações = conteúdo da conversa." }
+      { q: "Qual a diferença entre sigilo telefônico e das comunicações?", a: "Sigilo telefônico = dados da ligação (lista, duração). Comunicações = conteúdo da conversa." }
     ],
     quiz: [
       { q: "A quebra de sigilo telefônico é permitida em:", opts: ["Processo administrativo", "Processo civil", "Apenas na esfera penal", "Qualquer processo"], gabarito: 2, exp: "Só é permitida na esfera penal (investigação criminal ou instrução processual penal)." },
@@ -1071,14 +1064,12 @@ window.DA = {
   <div class="callout callout-gold">
     <span class="callout-icon">⚠️</span>
     <strong>STF decidiu:</strong><br>
-    O aviso prévio pode ser dispensado<br>
-    Se a reunião for pública e conhecida, por exemplo:<br>
-    redes sociais, internet, divulgação pública
+    O aviso prévio pode ser dispensado se a reunião for pública e conhecida (redes sociais, internet, divulgação pública).
   </div>
 
   <div class="lex-section">
     <span class="lex-label green">Exemplo:</span>
-    <div class="lex-item">Marcha da maconha é permitida (STF)</div>
+    <div class="lex-item">Marcha da maconha é permitida (STF).</div>
   </div>
 
 </div>`,
@@ -1112,7 +1103,7 @@ window.DA = {
     <span class="lex-label blue">Regras:</span>
     <div class="lex-list">
       <div class="lex-list-item"><span class="lex-num">✔</span> Livre criação de associação</div>
-      <div class="lex-list-item"><span class="lex-num">✔</span> Não precisa autorização do Estado</div>
+      <div class="lex-list-item"><span class="lex-num">✔</span> Não precisa de autorização do Estado</div>
       <div class="lex-list-item"><span class="lex-num">✔</span> Estado não pode interferir</div>
       <div class="lex-list-item"><span class="lex-num">✔</span> Ninguém é obrigado a se associar</div>
       <div class="lex-list-item"><span class="lex-num">✔</span> Ninguém é obrigado a permanecer associado</div>
@@ -1132,20 +1123,19 @@ window.DA = {
     <div class="lex-list">
       <div class="lex-list-item"><span class="lex-num">✔</span> Podem ter associação</div>
       <div class="lex-list-item"><span class="lex-num">❌</span> Não pode ser sindicato</div>
-      <div class="lex-list-item"><span class="lex-num">❌</span> Não pode prejudicar serviço</div>
+      <div class="lex-list-item"><span class="lex-num">❌</span> Não pode prejudicar o serviço</div>
     </div>
   </div>
 
   <div class="lex-section">
-    <span class="lex-label blue">Suspensão / dissolução</span>
-    <div class="lex-item">Suspensão → decisão judicial</div>
-    <div class="lex-item">Dissolução definitiva → decisão judicial com trânsito em julgado</div>
+    <span class="lex-label blue">Suspensão e dissolução</span>
+    <div class="lex-item">Suspensão → decisão judicial.</div>
+    <div class="lex-item">Dissolução definitiva → decisão judicial com trânsito em julgado.</div>
   </div>
 
   <div class="lex-section">
     <span class="lex-label gold">Representação judicial</span>
-    <div class="lex-item">Associação só pode representar membros se:</div>
-    <div class="lex-item">houver autorização expressa</div>
+    <div class="lex-item">Associação só pode representar membros se houver autorização expressa.</div>
   </div>
 
 </div>`,
@@ -1155,7 +1145,7 @@ window.DA = {
       { q: "Quando uma associação pode ser dissolvida?", a: "Por decisão judicial com trânsito em julgado." }
     ],
     quiz: [
-      { q: "Sobre associações, é CORRETO:", opts: ["Precisam de autorização estatal", "Militares podem criar sindicatos", "Ninguém é obrigado a permanecer associado", "Estado pode interferir no funcionamento"], gabarito: 2, exp: "Ninguém é obrigado a permanecer associado - direito de desvinculação." }
+      { q: "Sobre associações, é CORRETO:", opts: ["Precisam de autorização estatal", "Militares podem criar sindicatos", "Ninguém é obrigado a permanecer associado", "Estado pode interferir no funcionamento"], gabarito: 2, exp: "Ninguém é obrigado a permanecer associado — direito de desvinculação." }
     ]
   },
 
@@ -1177,7 +1167,7 @@ window.DA = {
 
   <div class="lex-section">
     <span class="lex-label blue">Regra:</span>
-    <div class="lex-item">❌ Ninguém será preso</div>
+    <div class="lex-item">❌ Ninguém será preso sem flagrante ou ordem judicial.</div>
   </div>
 
   <div class="lex-section">
@@ -1192,27 +1182,26 @@ window.DA = {
   </div>
 
   <div class="lex-section">
-    <span class="lex-label rose">⚠️ Uso de algemas — Súmula Vinculante 11 STF</span>
-    <div class="lex-item">Regra:</div>
-    <div class="lex-item">❌ Não usar algemas</div>
-    <div class="lex-item">Exceções:</div>
+    <span class="lex-label rose">Uso de algemas — Súmula Vinculante 11 STF</span>
+    <div class="lex-item"><strong>Regra:</strong> não usar algemas.</div>
+    <div class="lex-item"><strong>Exceções:</strong></div>
     <div class="lex-list">
-      <div class="lex-list-item"><span class="lex-num">→</span> risco de fuga</div>
-      <div class="lex-list-item"><span class="lex-num">→</span> resistência</div>
-      <div class="lex-list-item"><span class="lex-num">→</span> perigo ao policial</div>
-      <div class="lex-list-item"><span class="lex-num">→</span> perigo a terceiros</div>
+      <div class="lex-list-item"><span class="lex-num">→</span> Risco de fuga</div>
+      <div class="lex-list-item"><span class="lex-num">→</span> Resistência</div>
+      <div class="lex-list-item"><span class="lex-num">→</span> Perigo ao policial</div>
+      <div class="lex-list-item"><span class="lex-num">→</span> Perigo a terceiros</div>
     </div>
   </div>
 
   <div class="lex-section">
-    <span class="lex-label blue">Obrigação:</span>
-    <div class="lex-item">✔ Deve justificar por escrito</div>
+    <span class="lex-label blue">Obrigações:</span>
+    <div class="lex-item">✔ Deve justificar o uso de algemas por escrito.</div>
     <div class="lex-item">Se não justificar:</div>
     <div class="lex-list">
-      <div class="lex-list-item"><span class="lex-num">→</span> nulidade</div>
-      <div class="lex-list-item"><span class="lex-num">→</span> responsabilidade civil</div>
-      <div class="lex-list-item"><span class="lex-num">→</span> responsabilidade penal</div>
-      <div class="lex-list-item"><span class="lex-num">→</span> responsabilidade disciplinar</div>
+      <div class="lex-list-item"><span class="lex-num">→</span> Nulidade</div>
+      <div class="lex-list-item"><span class="lex-num">→</span> Responsabilidade civil</div>
+      <div class="lex-list-item"><span class="lex-num">→</span> Responsabilidade penal</div>
+      <div class="lex-list-item"><span class="lex-num">→</span> Responsabilidade disciplinar</div>
     </div>
   </div>
 
@@ -1220,10 +1209,10 @@ window.DA = {
     <span class="lex-label green">Comunicação da prisão</span>
     <div class="lex-item">Obrigatório comunicar imediatamente:</div>
     <div class="lex-list">
-      <div class="lex-list-item"><span class="lex-num">→</span> juiz</div>
+      <div class="lex-list-item"><span class="lex-num">→</span> Juiz</div>
       <div class="lex-list-item"><span class="lex-num">→</span> Ministério Público</div>
-      <div class="lex-list-item"><span class="lex-num">→</span> família</div>
-      <div class="lex-list-item"><span class="lex-num">→</span> pessoa indicada</div>
+      <div class="lex-list-item"><span class="lex-num">→</span> Família</div>
+      <div class="lex-list-item"><span class="lex-num">→</span> Pessoa indicada pelo preso</div>
     </div>
   </div>
 
@@ -1231,12 +1220,12 @@ window.DA = {
     <span class="lex-label gold">Direitos do preso</span>
     <div class="lex-item">O policial deve informar:</div>
     <div class="lex-list">
-      <div class="lex-list-item"><span class="lex-num">→</span> direito ao silêncio</div>
-      <div class="lex-list-item"><span class="lex-num">→</span> direito a advogado</div>
+      <div class="lex-list-item"><span class="lex-num">→</span> Direito ao silêncio</div>
+      <div class="lex-list-item"><span class="lex-num">→</span> Direito a advogado</div>
     </div>
     <div class="callout callout-rose" style="margin-top:8px;">
       <span class="callout-icon">⚠️</span>
-      Se não informar: ➡️ Pode anular a prisão
+      Se não informar: pode anular a prisão.
     </div>
   </div>
 
@@ -1271,24 +1260,24 @@ window.DA = {
 
   <div class="lex-section">
     <span class="lex-label blue">Regra:</span>
-    <div class="lex-item">❌ Não existe prisão por dívida</div>
+    <div class="lex-item">❌ Não existe prisão por dívida.</div>
   </div>
 
   <div class="lex-section">
     <span class="lex-label green">Exceção:</span>
-    <div class="lex-item">✔ Devedor de pensão alimentícia</div>
+    <div class="lex-item">✔ Devedor de pensão alimentícia.</div>
   </div>
 
   <div class="lex-section">
-    <span class="lex-label rose">⚠️ Depositário infiel</span>
-    <div class="lex-item">STF decidiu que NÃO pode mais</div>
+    <span class="lex-label rose">Depositário infiel</span>
+    <div class="lex-item">O STF decidiu que <strong>NÃO</strong> pode mais ser preso.</div>
   </div>
 
 </div>`,
     flashcards: [
       { q: "Existe prisão por dívida?", a: "NÃO, regra geral não existe." },
       { q: "Qual a exceção à proibição de prisão por dívida?", a: "Devedor de pensão alimentícia." },
-      { q: "Depositário infiel pode ser preso?", a: "NÃO, STF decidiu que não pode mais." }
+      { q: "Depositário infiel pode ser preso?", a: "NÃO, o STF decidiu que não pode mais." }
     ],
     quiz: [
       { q: "A prisão civil é permitida para:", opts: ["Qualquer dívida", "Depositário infiel", "Devedor de pensão alimentícia", "Cheque sem fundos"], gabarito: 2, exp: "A única exceção permitida é o devedor de pensão alimentícia." }
@@ -1314,11 +1303,7 @@ window.DA = {
   <div class="lex-section">
     <span class="lex-label blue">A Constituição manda punir:</span>
     <div class="lex-list">
-      <div class="lex-list-item"><span class="lex-num">✔</span> Racismo</div>
-      <div class="lex-item">inafiançável</div>
-      <div class="lex-item">imprescritível</div>
-    </div>
-    <div class="lex-list">
+      <div class="lex-list-item"><span class="lex-num">✔</span> <strong>Racismo</strong> — inafiançável e imprescritível</div>
       <div class="lex-list-item"><span class="lex-num">✔</span> Ação de grupos armados contra o Estado</div>
       <div class="lex-list-item"><span class="lex-num">✔</span> Tortura</div>
       <div class="lex-list-item"><span class="lex-num">✔</span> Tráfico</div>
@@ -1330,20 +1315,16 @@ window.DA = {
   <div class="lex-section">
     <span class="lex-label gold">STF decidiu</span>
     <div class="lex-list">
-      <div class="lex-list-item"><span class="lex-num">✔</span> Injúria racial = racismo</div>
-      <div class="lex-item">imprescritível</div>
-      <div class="lex-item">inafiançável</div>
-    </div>
-    <div class="lex-list">
-      <div class="lex-list-item"><span class="lex-num">✔</span> Homofobia e transfobia = racismo</div>
+      <div class="lex-list-item"><span class="lex-num">✔</span> Injúria racial = racismo (imprescritível e inafiançável)</div>
+      <div class="lex-list-item"><span class="lex-num">✔</span> Homofobia e transfobia = racismo (imprescritível e inafiançável)</div>
     </div>
   </div>
 
 </div>`,
     flashcards: [
-      { q: "O que é inafiançável e imprescritível?", a: "Racismo, injúria racial, homofobia, transfobia." },
+      { q: "O que é inafiançável e imprescritível?", a: "Racismo, injúria racial, homofobia e transfobia." },
       { q: "Quais crimes a Constituição manda punir?", a: "Racismo, ação de grupos armados, tortura, tráfico, terrorismo, crimes hediondos." },
-      { q: "Injúria racial é considerada racismo?", a: "SIM, segundo STF é imprescritível e inafiançável." }
+      { q: "Injúria racial é considerada racismo?", a: "SIM, segundo o STF — imprescritível e inafiançável." }
     ],
     quiz: [
       { q: "É inafiançável e imprescritível:", opts: ["Roubo", "Racismo", "Furto", "Lesão corporal"], gabarito: 1, exp: "Racismo é inafiançável e imprescritível, assim como injúria racial, homofobia e transfobia." }
@@ -1383,27 +1364,27 @@ window.DA = {
         <tr>
           <td style="border: 1px solid #d1d5db; padding: 8px;"><strong>HC</strong></td>
           <td style="border: 1px solid #d1d5db; padding: 8px;">Habeas Corpus</td>
-          <td style="border: 1px solid #d1d5db; padding: 8px;">liberdade de locomoção</td>
+          <td style="border: 1px solid #d1d5db; padding: 8px;">Liberdade de locomoção</td>
         </tr>
         <tr>
           <td style="border: 1px solid #d1d5db; padding: 8px;"><strong>MS</strong></td>
           <td style="border: 1px solid #d1d5db; padding: 8px;">Mandado de Segurança</td>
-          <td style="border: 1px solid #d1d5db; padding: 8px;">direito líquido e certo</td>
+          <td style="border: 1px solid #d1d5db; padding: 8px;">Direito líquido e certo</td>
         </tr>
         <tr>
           <td style="border: 1px solid #d1d5db; padding: 8px;"><strong>MI</strong></td>
           <td style="border: 1px solid #d1d5db; padding: 8px;">Mandado de Injunção</td>
-          <td style="border: 1px solid #d1d5db; padding: 8px;">falta de lei</td>
+          <td style="border: 1px solid #d1d5db; padding: 8px;">Falta de lei regulamentadora</td>
         </tr>
         <tr>
           <td style="border: 1px solid #d1d5db; padding: 8px;"><strong>HD</strong></td>
           <td style="border: 1px solid #d1d5db; padding: 8px;">Habeas Data</td>
-          <td style="border: 1px solid #d1d5db; padding: 8px;">dados pessoais</td>
+          <td style="border: 1px solid #d1d5db; padding: 8px;">Acesso a dados pessoais</td>
         </tr>
         <tr>
           <td style="border: 1px solid #d1d5db; padding: 8px;"><strong>AP</strong></td>
           <td style="border: 1px solid #d1d5db; padding: 8px;">Ação Popular</td>
-          <td style="border: 1px solid #d1d5db; padding: 8px;">proteger patrimônio público</td>
+          <td style="border: 1px solid #d1d5db; padding: 8px;">Proteger patrimônio público</td>
         </tr>
       </tbody>
     </table>
@@ -1439,17 +1420,14 @@ window.DA = {
 
   <div class="lex-section">
     <span class="lex-label blue">Protege:</span>
-    <div class="lex-item">➡️ Liberdade de locomoção</div>
-    <div class="lex-item">Direito de ir e vir</div>
+    <div class="lex-item">➡️ Liberdade de locomoção — direito de ir e vir.</div>
   </div>
 
   <div class="lex-section">
     <span class="lex-label green">Tipos:</span>
     <div class="lex-list">
-      <div class="lex-list-item"><span class="lex-num">✔</span> Preventivo</div>
-      <div class="lex-item">→ ameaça de prisão</div>
-      <div class="lex-list-item"><span class="lex-num">✔</span> Repressivo</div>
-      <div class="lex-item">→ prisão já ocorreu</div>
+      <div class="lex-list-item"><span class="lex-num">✔</span> <strong>Preventivo</strong> — ameaça de prisão</div>
+      <div class="lex-list-item"><span class="lex-num">✔</span> <strong>Repressivo</strong> — prisão já ocorreu</div>
     </div>
   </div>
 
@@ -1459,62 +1437,43 @@ window.DA = {
       <div class="lex-section">
         <span class="lex-label blue">Impetrante:</span>
         <div class="lex-list">
-          <div class="lex-list-item"><span class="lex-num">→</span> qualquer pessoa</div>
-          <div class="lex-list-item"><span class="lex-num">→</span> pessoa física</div>
-          <div class="lex-list-item"><span class="lex-num">→</span> pessoa jurídica</div>
-          <div class="lex-list-item"><span class="lex-num">→</span> nem precisa advogado</div>
+          <div class="lex-list-item"><span class="lex-num">→</span> Qualquer pessoa</div>
+          <div class="lex-list-item"><span class="lex-num">→</span> Pessoa física ou jurídica</div>
+          <div class="lex-list-item"><span class="lex-num">→</span> Não precisa de advogado</div>
         </div>
       </div>
       <div class="lex-section">
         <span class="lex-label blue">Paciente:</span>
-        <div class="lex-item">só pessoa física</div>
+        <div class="lex-item">Somente pessoa física.</div>
       </div>
     </div>
     <div class="lex-section">
       <span class="lex-label blue">Autoridade coatora:</span>
       <div class="lex-list">
-        <div class="lex-list-item"><span class="lex-num">→</span> agente público</div>
-        <div class="lex-list-item"><span class="lex-num">→</span> particular</div>
+        <div class="lex-list-item"><span class="lex-num">→</span> Agente público</div>
+        <div class="lex-list-item"><span class="lex-num">→</span> Particular</div>
       </div>
     </div>
   </div>
 
   <div class="lex-section">
     <span class="lex-label gold">HC e punição militar</span>
-    <div class="lex-item">Constituição:</div>
-    <div class="lex-item">❌ Não cabe HC</div>
-    <div class="lex-item">STF decidiu:</div>
     <div class="lex-list">
-      <div class="lex-list-item"><span class="lex-num">✔</span> Pode HC para ilegalidade</div>
-      <div class="lex-list-item"><span class="lex-num">❌</span> Não pode para discutir mérito</div>
+      <div class="lex-list-item"><span class="lex-num">✔</span> Cabe HC para contestar ilegalidade (excesso de prazo, abuso)</div>
+      <div class="lex-list-item"><span class="lex-num">❌</span> Não cabe para discutir o mérito da punição</div>
     </div>
-  </div>
-
-  <div class="lex-section">
-    <span class="lex-label green">Exemplo permitido:</span>
-    <div class="lex-list">
-      <div class="lex-list-item"><span class="lex-num">→</span> excesso de prazo</div>
-      <div class="lex-list-item"><span class="lex-num">→</span> ilegalidade</div>
-      <div class="lex-list-item"><span class="lex-num">→</span> abuso</div>
-    </div>
-  </div>
-
-  <div class="lex-section">
-    <span class="lex-label rose">Exemplo proibido:</span>
-    <div class="lex-item">discutir se punição foi justa</div>
   </div>
 
 </div>`,
     flashcards: [
       { q: "O que protege o Habeas Corpus?", a: "Liberdade de locomoção, direito de ir e vir." },
-      { q: "Quem pode impetrar HC?", a: "Qualquer pessoa, física ou jurídica, nem precisa advogado." },
-      { q: "HC serve para pessoa jurídica?", a: "NÃO, paciente só pode ser pessoa física." },
-      { q: "HC cabe em punição militar?", a: "SIM para ilegalidade, NÃO para discutir mérito." }
+      { q: "Quem pode impetrar HC?", a: "Qualquer pessoa, física ou jurídica, sem precisar de advogado." },
+      { q: "HC serve para pessoa jurídica como paciente?", a: "NÃO. O paciente só pode ser pessoa física." },
+      { q: "HC cabe em punição militar?", a: "SIM para ilegalidade (excesso de prazo, abuso). NÃO para discutir o mérito." }
     ],
     quiz: [
-      { q: "Sobre Habeas Corpus, é CORRETO:", opts: ["Paciente pode ser pessoa jurídica", "Impetrante precisa ser advogado", "Protege liberdade de locomoção", "Não cabe em punição militar"], gabarito: 2, exp: "HC protege a liberdade de locomoção. Paciente só pessoa física, qualquer um pode impetrar." }
+      { q: "Sobre Habeas Corpus, é CORRETO:", opts: ["Paciente pode ser pessoa jurídica", "Impetrante precisa ser advogado", "Protege liberdade de locomoção", "Não cabe em nenhuma punição militar"], gabarito: 2, exp: "HC protege a liberdade de locomoção. Paciente só pessoa física; qualquer um pode impetrar." }
     ]
   }
 
 };
-

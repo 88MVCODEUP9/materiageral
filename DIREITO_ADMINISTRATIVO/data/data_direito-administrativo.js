@@ -92,7 +92,8 @@ window.DA = {
     <h1 class="notion-title">Regime Jurídico Administrativo</h1>
     <div class="notion-meta">
       <span class="meta-tag tag-b">Pedras de Toque</span>
-      <span class="meta-tag tag-gold">Supremacia · Indisponibilidade</span>
+      <span class="meta-tag tag-g">· Supremacia</span>
+       <span class="meta-tag tag-b">· Indisponibilidade</span>
     </div>
   </div>
 
@@ -418,7 +419,9 @@ window.DA = {
     <div class="notion-icon">🔄</div>
     <h1 class="notion-title">Descentralização</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-teal">Outorga · Delegação · Colaboração</span>
+      <span class="meta-tag tag-b">Outorga </span>
+      <span class="meta-tag tag-g">· Delegação </span>
+      <span class="meta-tag tag-b">· Colaboração</span>
     </div>
   </div>
 
@@ -546,57 +549,16 @@ window.DA = {
     <div class="notion-icon">🤝</div>
     <h1 class="notion-title">Consórcios Públicos</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-teal">Lei 11.107/2005</span>
+      <span class="meta-tag tag-g">Lei 11.107/2005</span>
       <span class="meta-tag tag-b">Cooperação Federativa</span>
     </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Poder Hierárquico</div>
-    <div class="lex-expandable-item">Organização da administração.</div>
-    <div class="lex-expandable-item">Distribuição de funções, fiscalização e revisão de atos.</div>
-    <div class="lex-expandable-item">Permite <strong>delegação</strong> e <strong>avocação</strong>.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> O poder hierárquico é o que permite organizar a administração como uma pirâmide, com níveis claros de autoridade. Serve para distribuir tarefas, controlar o trabalho dos subordinados e garantir que todos sigam a mesma linha de comando.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Um ministro pode delegar ao secretário-executivo a competência para autorizar despesas até R$ 100.000. O secretário, por sua vez, pode delegar ao diretor financeiro autorizar despesas até R$ 50.000. Isso cria uma cadeia hierárquica clara.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Delegação:</strong> Transferência temporária de competência de superior para subordinado. Ex: diretor de escola delega ao vice-diretor a competência para autorizar saídas de alunos.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Avocação:</strong> Superior chama para si competência que era do subordinado, geralmente em caráter excepcional. Ex: prefeito avoca a competência de uma secretaria que está com problemas graves.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> Evita conflitos de competência, define responsabilidades, permite controle eficiente e garante unidade de direção.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Poder Disciplinar</div>
-    <div class="lex-expandable-item">Aplica sanções a servidores.</div>
-    <div class="lex-expandable-item">Infrações funcionais.</div>
-    <div class="lex-expandable-item">Preserva <strong>moralidade administrativa</strong>.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> O poder disciplinar permite à Administração punir seus próprios agentes quando cometem infrações funcionais. É uma forma de controle interno que garante a ordem e a eficiência do serviço público.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Um servidor público falta injustificadamente ao trabalho por 5 dias seguidos. A Administração pode aplicar uma advertência, suspensão ou até demissão, dependendo da gravidade e reincidência, após processo administrativo com direito de defesa.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Um professor universitário público é flagrado cobrando por provas que deveriam ser gratuitas. A universidade pode instaurar processo administrativo disciplinar e, se comprovada a falta, aplicar demissão por improbidade administrativa.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Sanções possíveis:</strong> Advertência, multa, suspensão, demissão. Cada uma tem requisitos específicos e proporcionalidade à gravidade da falta.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância:</strong> Garante que os servidores cumpram seus deveres, protege o erário, mantém a moralidade na Administração e serve de exemplo para a sociedade.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Poder Regulamentar</div>
-    <div class="lex-expandable-item">Detalhar leis para execução.</div>
-    <div class="lex-expandable-item">Atribuição do Chefe do Executivo.</div>
-    <div class="lex-expandable-item">Ex: decretos regulamentares.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> O poder regulamentar permite ao Chefe do Executivo (Presidente, Governador, Prefeito) criar normas detalhadas para facilitar a execução das leis. As leis geralmente são mais gerais, os regulamentos explicam como aplicá-las na prática.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> O Congresso aprova lei que estabelece "critérios para proteção ambiental". O Presidente, usando poder regulamentar, baixa um decreto detalhando o que são "áreas de preservação permanente", "licenciamento obrigatório", "procedimentos de fiscalização", etc.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Lei municipal exige "padrões de segurança para escolas". O prefeito regulamenta detalhando quantos extintores por sala, largura mínima de corredores, material de construção permitido, etc.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Limites:</strong> O regulamento não pode contrariar a lei, apenas detalhá-la. Se o regulamento extrapolar os limites legais, pode ser anulado pelo Judiciário.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> Torna as leis aplicáveis, dá segurança jurídica aos administrados, uniformiza procedimentos e evita interpretações divergentes.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Poder de Polícia</div>
-    <div class="lex-expandable-item">Limitar direitos privados.</div>
-    <div class="lex-expandable-item">Proteger interesse público.</div>
-    <div class="lex-expandable-item">Ex: fiscalização, licenciamento.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> O poder de polícia administrativa permite ao Estado limitar atividades privadas em benefício do interesse público. Não se confunde com polícia judiciária (que investiga crimes) ou polícia ostensiva (que previne crimes).</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Uma prefeitura exige que bares e restaurantes tenham alvará de funcionamento, cumpram normas de higiene, não façam barulho após as 22h, etc. Isso é poder de polícia administrativa limitando atividade privada para proteger a saúde e o sossego da vizinhança.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> O IBAMA exige que indústrias instalem equipamentos de controle de poluição antes de operar. Limita o direito de poluir das empresas para proteger o meio ambiente e a saúde da população.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Características:</strong> 1) Autoexecutoriedade: pode ser executado diretamente pela Administração. 2) Coercibilidade: pode impor multas e sanções. 3) Discricionariedade: tem margem para decidir quando e como intervir.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância:</strong> Equilibra o direito à liberdade individual com a necessidade de proteger interesses coletivos como saúde, segurança, meio ambiente e ordem pública.</div>
+    <div class="lex-section-title">Conceito</div>
+    <div class="lex-expandable-item">Acordo entre entes federativos (União, Estados, DF, Municípios).</div>
+    <div class="lex-expandable-item">Para realizar objetivos de <strong>interesse comum</strong>.</div>
+    <div class="lex-expandable-item">Gestão associada de serviços públicos.</div>
   </div>
 
   <div class="lex-section-container">
@@ -614,13 +576,16 @@ window.DA = {
       <div class="lex-section-title">Natureza Jurídica</div>
       <div class="lex-expandable-item"><strong>Direito público</strong> — associação pública.</div>
       <div class="lex-expandable-item">Ou <strong>direito privado</strong>.</div>
+      <div class="lex-expandable-item">Personalidade jurídica própria.</div>
     </div>
+
     <div class="lex-section-container">
       <div class="lex-section-title">Finalidade</div>
       <div class="lex-expandable-item">Objetivos de interesse comum.</div>
       <div class="lex-expandable-item">Prestação de serviços públicos.</div>
       <div class="lex-expandable-item">Execução de obras.</div>
     </div>
+
   </div>
 
   <div class="lex-section-container">
@@ -628,16 +593,22 @@ window.DA = {
     <div class="lex-expandable-item">Cooperação <strong>federativa</strong>.</div>
     <div class="lex-expandable-item">Gestão associada de serviços.</div>
     <div class="lex-expandable-item">Podem realizar <strong>contratações</strong> e receber recursos.</div>
+    <div class="lex-expandable-item">Autonomia administrativa e financeira.</div>
   </div>
 
-</div>'
+  <div class="callout-orange">
+    <span class="callout-icon">💡</span>
+    <div><strong>Bizu:</strong> Consórcio = união de entes federativos para interesse comum | Lei 11.107/2005 | Pode ser de direito público ou privado</div>
+  </div>
 
+</div>`,
   },
-  // ═══════════════════════════════════════════════════
+
+  
   "Terceiro Setor": {
     icon: "🌐",
     color: "#f472b6",
-    aprendizado: 
+    aprendizado: `
 <div class="lex-block">
 
   <div class="notion-header">
@@ -678,14 +649,14 @@ window.DA = {
     <div><strong>Bizu:</strong> OS = <strong>CO</strong>ntrato de gestão &nbsp;|&nbsp; OSCIP = <strong>TE</strong>rmo de parceria</div>
   </div>
 
-</div>
+</div>`
   },
 
   // ═══════════════════════════════════════════════════
   "Concessão de Serviço Público": {
     icon: "📋",
     color: "#4a85f0",
-    aprendizado: 
+    aprendizado: `
 <div class="lex-block">
 
   <div class="notion-header">
@@ -693,8 +664,8 @@ window.DA = {
     <h1 class="notion-title">Concessão de Serviço Público</h1>
     <div class="notion-meta">
       <span class="meta-tag tag-b">Lei 8.987/1995</span>
-      <span class="meta-tag tag-gold">Lei 14.133/2021</span>
-      <span class="meta-tag tag-teal">PPP — Lei 11.079/2004</span>
+      <span class="meta-tag tag-g">Lei 14.133/2021</span>
+      <span class="meta-tag tag-b">PPP — Lei 11.079/2004</span>
     </div>
   </div>
 
@@ -734,14 +705,14 @@ window.DA = {
     </div>
   </div>
 
-</div>,
+</div>`,
   },
 
   // ═══════════════════════════════════════════════════
   "Permissão e Autorização": {
     icon: "📄",
     color: "#38bdf8",
-    aprendizado: 
+    aprendizado: `
 <div class="lex-block">
 
   <div class="notion-header">
@@ -749,7 +720,7 @@ window.DA = {
     <h1 class="notion-title">Permissão e Autorização</h1>
     <div class="notion-meta">
       <span class="meta-tag tag-b">Lei 8.987/1995</span>
-      <span class="meta-tag tag-teal">Precariedade</span>
+      <span class="meta-tag tag-g">Precariedade</span>
     </div>
   </div>
 
@@ -784,14 +755,13 @@ window.DA = {
     </div>
   </div>
 
-</div>,
+</div>`,
   },
 
-  // ═══════════════════════════════════════════════════
   "Autarquias": {
     icon: "🏛️",
     color: "#10b981",
-    aprendizado: 
+    aprendizado: `
 <div class="lex-block">
 
   <div class="notion-header">
@@ -845,7 +815,7 @@ window.DA = {
     <div class="lex-expandable-item">OAB — natureza <em>sui generis</em> (especial).</div>
   </div>
 
-</div>`
+</div>`,  
   },
 
   // ═══════════════════════════════════════════════════
@@ -859,7 +829,8 @@ window.DA = {
     <div class="notion-icon">🏫</div>
     <h1 class="notion-title">Fundações Públicas</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-b">Direito Público · Direito Privado</span>
+      <span class="meta-tag tag-b">Direito Público <span>
+      <span class="meta-tag tag-g">· Direito Privado</span>
     </div>
   </div>
 
@@ -902,7 +873,7 @@ window.DA = {
   },
 
   // ═══════════════════════════════════════════════════
-  "Empresas Públicas e SEM": {
+  "Empresas Públicas e Sociedades de Economia Mista": {
     icon: "🏢",
     color: "#f59e0b",
     aprendizado: `
@@ -912,8 +883,8 @@ window.DA = {
     <div class="notion-icon">🏢</div>
     <h1 class="notion-title">Empresas Públicas e Sociedades de Economia Mista</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-gold">Lei 13.303/2016</span>
-      <span class="meta-tag tag-b">Direito Privado</span>
+      <span class="meta-tag tag-b">Lei 13.303/2016</span>
+      <span class="meta-tag tag-g">Direito Privado</span>
     </div>
   </div>
 
@@ -976,7 +947,7 @@ window.DA = {
     <div class="notion-icon">⚡</div>
     <h1 class="notion-title">Poderes Administrativos</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-gold">Instrumentos de proteção do interesse público</span>
+      <span class="meta-tag tag-b">Instrumentos de proteção do interesse público</span>
     </div>
   </div>
 
@@ -1070,8 +1041,8 @@ window.DA = {
     <div class="notion-icon">⚠️</div>
     <h1 class="notion-title">Abuso de Poder</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-b">Excesso · Desvio</span>
-      <span class="meta-tag tag-gold">Ato Nulo</span>
+      <span class="meta-tag tag-b">Excesso </span> 
+      <span class="meta-tag tag-g">· Desvio</span>
     </div>
   </div>
 
@@ -1144,7 +1115,7 @@ window.DA = {
     <h1 class="notion-title">Atos Administrativos</h1>
     <div class="notion-meta">
       <span class="meta-tag tag-b">COFIM</span>
-      <span class="meta-tag tag-gold">Manifestação Unilateral de Vontade</span>
+      <span class="meta-tag tag-g">Manifestação Unilateral de Vontade</span>
     </div>
   </div>
 
@@ -1226,7 +1197,9 @@ window.DA = {
     <div class="notion-icon">🔍</div>
     <h1 class="notion-title">Controle da Administração</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-b">Interno · Legislativo · Judicial</span>
+      <span class="meta-tag tag-b">Interno</span> 
+       <span class="meta-tag tag-g">· Legislativo</span> 
+       <span class="meta-tag tag-b">· Judicial</span>
     </div>
   </div>
 
@@ -1282,7 +1255,7 @@ window.DA = {
     <h1 class="notion-title">Licitações — Nova Lei 14.133/2021</h1>
     <div class="notion-meta">
       <span class="meta-tag tag-b">Lei 14.133/2021</span>
-      <span class="meta-tag tag-gold">Substituiu a Lei 8.666/93</span>
+      <span class="meta-tag tag-g">Substituiu a Lei 8.666/93</span>
     </div>
   </div>
 
@@ -1352,8 +1325,8 @@ window.DA = {
     <div class="notion-icon">🚇</div>
     <h1 class="notion-title">Serviços Públicos</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-teal">Art. 175 CF</span>
-      <span class="meta-tag tag-b">Interesse Coletivo</span>
+      <span class="meta-tag tag-b">Art. 175 CF</span>
+      <span class="meta-tag tag-g">Interesse Coletivo</span>
     </div>
   </div>
 
@@ -1596,7 +1569,7 @@ window.DA = {
     <div class="notion-icon">🗂️</div>
     <h1 class="notion-title">Classificação dos Atos Administrativos</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-a">Múltiplos critérios</span>
+       <span class="meta-tag tag-g">Múltiplos critérios</span>
     </div>
   </div>
 
@@ -1753,7 +1726,9 @@ window.DA = {
     <div class="notion-icon">⏱️</div>
     <h1 class="notion-title">Momentos de Controle da Administração</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-b">Prévio · Concomitante · Posterior</span>
+      <span class="meta-tag tag-b">Prévio </span>
+       <span class="meta-tag tag-g">· Concomitante </span>
+        <span class="meta-tag tag-b">· Posterior </span>
     </div>
   </div>
 
@@ -1810,8 +1785,8 @@ window.DA = {
     <div class="notion-icon">📬</div>
     <h1 class="notion-title">Recursos Administrativos</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-a">Reexame de Decisões</span>
-      <span class="meta-tag tag-b">Lei 9.784/99</span>
+      <span class="meta-tag tag-b">Reexame de Decisões</span>
+      <span class="meta-tag tag-g">Lei 9.784/99</span>
     </div>
   </div>
 
@@ -1891,7 +1866,8 @@ window.DA = {
     <div class="notion-icon">⚖️</div>
     <h1 class="notion-title">Controle Judicial</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-a">Legalidade · Anulação</span>
+      <span class="meta-tag tag-b">Legalidade </span>
+       <span class="meta-tag tag-g">· Anulação</span>
     </div>
   </div>
 
@@ -2319,8 +2295,8 @@ window.DA = {
     <div class="notion-icon">🏛️</div>
     <h1 class="notion-title">Bens Públicos</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-teal">Art. 98 CC</span>
-      <span class="meta-tag tag-b">Classificação e Destinação</span>
+      <span class="meta-tag tag-b">Art. 98 CC</span>
+      <span class="meta-tag tag-g">Classificação e Destinação</span>
     </div>
   </div>
 
@@ -2415,8 +2391,8 @@ window.DA = {
     <div class="notion-icon">🚇</div>
     <h1 class="notion-title">Serviços Públicos</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-teal">Art. 175 CF</span>
-      <span class="meta-tag tag-b">Interesse Coletivo</span>
+      <span class="meta-tag tag-b">Art. 175 CF</span>
+      <span class="meta-tag tag-g">Interesse Coletivo</span>
     </div>
   </div>
 

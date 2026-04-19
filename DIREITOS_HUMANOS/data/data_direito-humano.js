@@ -163,12 +163,19 @@ window.DA = {
     <strong>Explicação simples:</strong> São direitos que pertencem a grupos ou a toda a humanidade, não a uma pessoa só. "Coletivo" é quando sabemos quem são as pessoas do grupo. "Difuso" é quando não dá para saber exatamente quem são — é todo mundo.
   </div>
 
+
   <div class="callout callout-gold">
+  <div class="callout-header">
     <span class="callout-icon">💡</span>
     <strong>Exemplos:</strong>
-    <br>• <strong>Coletivo:</strong> Direitos dos índios de uma tribo específica — sabemos quem são.
-    <br>• <strong>Difuso:</strong> Direito ao ar limpo — quem são as pessoas que respiram ar poluído? Todo mundo na região. Não dá para listar.
   </div>
+
+  <div class="callout-body">
+    <p><strong>Coletivo:</strong> Direitos dos índios de uma tribo específica — sabemos quem são.</p>
+    <p><strong>Difuso:</strong> Direito ao ar limpo — quem são as pessoas que respiram ar poluído? Todo mundo na região. Não dá para listar.</p>
+  </div>
+</div>
+
 
   <div class="lex-cols">
     <div class="lex-section-container">
@@ -194,12 +201,17 @@ window.DA = {
     <strong>Explicação simples:</strong> As gerações mais recentes surgiram com a tecnologia. A 4ª foca na informação e transparência. A 5ª na paz global. A 6ª nos direitos no mundo digital e na internet.
   </div>
 
-  <div class="callout callout-gold">
+<div class="callout callout-gold">
+  <div class="callout-header">
     <span class="callout-icon">💡</span>
     <strong>Exemplos:</strong>
-    <br>• <strong>4ª Geração:</strong> Lei de Acesso à Informação — você pode pedir dados do governo.
-    <br>• <strong>6ª Geração:</strong> LGPD (Lei Geral de Proteção de Dados) — empresas não podem usar seus dados sem autorização.
   </div>
+
+  <div class="callout-body">
+    <p><strong>4ª Geração:</strong> Lei de Acesso à Informação — você pode pedir dados do governo.</p>
+    <p><strong>6ª Geração:</strong> LGPD (Lei Geral de Proteção de Dados) — empresas não podem usar seus dados sem autorização.</p>
+  </div>
+</div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Documentos Importantes</div>
@@ -364,13 +376,7 @@ window.DA = {
     <strong>Explicação simples:</strong> Estes artigos protegem sua vida privada, sua liberdade de ir e vir, e seus direitos como cidadão. "Irretroatividade" significa que uma lei nova não pode punir algo que era permitido antigamente.
   </div>
 
-  <div class="callout callout-gold">
-    <span class="callout-icon">💡</span>
-    <strong>Exemplos:</strong>
-    <br>• <strong>Presunção de inocência:</strong> Você é inocente até que se prove o contrário. A polícia não pode te tratar como culpado antes do julgamento.
-    <br>• <strong>Irretroatividade:</strong> Se o governo criar uma lei proibindo fumar, não pode prender quem fumou antes da lei existir.
-    <br>• <strong>Asilo:</strong> Um jornalista perseguido na Rússia pode pedir asilo no Brasil para se proteger.
-  </div>
+
 
   <div class="lex-section-container">
     <div class="lex-section-title">Artigos 21–30</div>
@@ -393,13 +399,18 @@ window.DA = {
     <strong>Explicação simples:</strong> Os últimos artigos falam de direitos sociais (trabalho, educação, saúde) e também dizem que ter direitos traz deveres — você não pode usar seus direitos para prejudicar os direitos dos outros.
   </div>
 
-  <div class="callout callout-gold">
+<div class="callout callout-gold">
+  <div class="callout-header">
     <span class="callout-icon">💡</span>
     <strong>Exemplos:</strong>
-    <br>• <strong>Trabalho:</strong> Você tem direito a salário digno e férias. O CLT brasileiro vem dessa ideia.
-    <br>• <strong>Educação:</strong> Ensino fundamental obrigatório e gratuito — isso é um direito humano.
-    <br>• <strong>Limites:</strong> Você tem direito à liberdade de expressão, mas não pode usar isso para incitar ódio racial ou violência.
   </div>
+
+  <div class="callout-body">
+    <p><strong>Trabalho:</strong> Você tem direito a salário digno e férias. A CLT brasileira vem dessa ideia.</p>
+    <p><strong>Educação:</strong> Ensino fundamental obrigatório e gratuito — isso é um direito humano.</p>
+    <p><strong>Limites:</strong> Você tem direito à liberdade de expressão, mas não pode usar isso para incitar ódio racial ou violência.</p>
+  </div>
+</div>
 
   <div class="lex-cols">
     <div class="lex-section-container">
@@ -426,7 +437,7 @@ window.DA = {
     <strong>Exemplo:</strong> A Constituição brasileira de 1988 foi muito influenciada pela DUDH. Por isso, o Brasil tem direitos como igualdade entre homens e mulheres, proibição de tortura, e direito à educação — tudo inspirado na DUDH.
   </div>
 
-  <div class="callout callout-gold">
+  <div class="callout callout-orange">
     <span class="callout-icon">⚠️</span>
     Os direitos previstos na DUDH <strong>podem ter limites</strong> previstos nas leis de cada país.
   </div>
@@ -645,12 +656,17 @@ window.DA = {
   </div>
 
   <div class="callout callout-gold">
+  <div class="callout-header">
     <span class="callout-icon">💡</span>
     <strong>Exemplos:</strong>
-    <br>• <strong>Direito à vida:</strong> A CADH protege desde a concepção (diferente do PIDCP que é silente sobre isso).
-    <br>• <strong>Devido processo legal:</strong> Se for preso, tem direito a juiz imparcial, advogado, e julgamento rápido.
-    <br>• <strong>Retroatividade benéfica:</strong> Se uma lei nova diminui a pena, você pode usar essa lei nova mesmo se o crime foi antigo.
   </div>
+
+  <div class="callout-body">
+    <p><strong>Direito à vida:</strong> A CADH protege desde a concepção (diferente do PIDCP, que é silente sobre isso).</p>
+    <p><strong>Devido processo legal:</strong> Se for preso, tem direito a juiz imparcial, advogado e julgamento rápido.</p>
+    <p><strong>Retroatividade benéfica:</strong> Se uma lei nova diminui a pena, você pode usar essa lei nova mesmo se o crime foi antigo.</p>
+  </div>
+</div>
 
   <div class="lex-cols">
     <div class="lex-section-container">
@@ -669,13 +685,18 @@ window.DA = {
     <strong>Explicação simples:</strong> O Art. 1º diz que os Estados têm dois deveres: não violar direitos (respeitar) E proteger as pessoas contra violações (garantir). O Art. 2º diz que os Estados devem criar leis para tornar os direitos reais.
   </div>
 
-  <div class="callout callout-gold">
+<div class="callout callout-gold">
+  <div class="callout-header">
     <span class="callout-icon">💡</span>
     <strong>Exemplos:</strong>
-    <br>• <strong>Respeitar:</strong> O governo não pode torturar ninguém.
-    <br>• <strong>Garantir:</strong> Se um policial tortura alguém, o governo deve punir o policial e indenizar a vítima.
-    <br>• <strong>Adequação:</strong> O Brasil criou a Lei 9.455/97 (Lei de Tortura) para cumprir a CADH.
   </div>
+
+  <div class="callout-body">
+    <p><strong>Respeitar:</strong> O governo não pode torturar ninguém.</p>
+    <p><strong>Garantir:</strong> Se um policial tortura alguém, o governo deve punir o policial e indenizar a vítima.</p>
+    <p><strong>Adequação:</strong> O Brasil criou a Lei 9.455/97 (Lei de Tortura) para cumprir a CADH.</p>
+  </div>
+</div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Órgãos de Proteção</div>
@@ -849,12 +870,17 @@ window.DA = {
     <strong>Explicação simples:</strong> O Art. 1º diz que o Brasil é um país baseado na DIGNIDADE das pessoas — isso é o mais importante. O Art. 3º diz os objetivos: acabar com pobreza, construir uma sociedade justa.
   </div>
 
-  <div class="callout callout-gold">
+<div class="callout callout-gold">
+  <div class="callout-header">
     <span class="callout-icon">💡</span>
     <strong>Exemplos:</strong>
-    <br>• <strong>Dignidade:</strong> O governo não pode humilhar ninguém — nem preso, nem mendigo. Todos têm dignidade.
-    <br>• <strong>Erradicar pobreza:</strong> Programas sociais como Bolsa Família vêm desse objetivo constitucional.
   </div>
+
+  <div class="callout-body">
+    <p><strong>Dignidade:</strong> O governo não pode humilhar ninguém — nem preso, nem mendigo. Todos têm dignidade.</p>
+    <p><strong>Erradicar pobreza:</strong> Programas sociais como o Bolsa Família vêm desse objetivo constitucional.</p>
+  </div>
+</div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Art. 5º — Direitos e Garantias Fundamentais</div>
@@ -918,11 +944,16 @@ window.DA = {
   </div>
 
   <div class="callout callout-gold">
+  <div class="callout-header">
     <span class="callout-icon">💡</span>
     <strong>Exemplos:</strong>
-    <br>• <strong>Prevalência:</strong> Se uma lei internacional protege mais que a lei brasileira, o Brasil deve seguir a internacional (princípio da prevalência).
-    <br>• <strong>Asilo:</strong> O Brasil já deu asilo a opositores políticos de ditaduras (como chilenos na ditadura de Pinochet, ou brasileiros que fugiram para a França na ditadura militar).
   </div>
+
+  <div class="callout-body">
+    <p><strong>Prevalência:</strong> Se uma lei internacional protege mais que a lei brasileira, o Brasil deve seguir a internacional (princípio da prevalência).</p>
+    <p><strong>Asilo:</strong> O Brasil já concedeu asilo a opositores políticos de ditaduras (como chilenos na ditadura de Pinochet, ou brasileiros que fugiram para a França na ditadura militar).</p>
+  </div>
+</div>
 
 </div>`,
   },
@@ -980,13 +1011,18 @@ window.DA = {
     <strong>Explicação simples:</strong> Os 6 eixos são áreas prioritárias do programa. Cada eixo tem ações específicas para melhorar a vida das pessoas e garantir seus direitos.
   </div>
 
-  <div class="callout callout-gold">
+<div class="callout callout-gold">
+  <div class="callout-header">
     <span class="callout-icon">💡</span>
     <strong>Exemplos:</strong>
-    <br>• <strong>Segurança pública:</strong> Programas para polícia respeitar direitos humanos.
-    <br>• <strong>Memória e verdade:</strong> Comissão da Verdade que investigou crimes da ditadura militar (1964-1985).
-    <br>• <strong>Educação:</strong> Ensinar direitos humanos nas escolas.
   </div>
+
+  <div class="callout-body">
+    <p><strong>Segurança pública:</strong> Programas para polícia respeitar direitos humanos.</p>
+    <p><strong>Memória e verdade:</strong> Comissão da Verdade que investigou crimes da ditadura militar (1964-1985).</p>
+    <p><strong>Educação:</strong> Ensinar direitos humanos nas escolas.</p>
+  </div>
+</div>
 
   <div class="lex-cols">
     <div class="lex-section-container">
@@ -1079,12 +1115,17 @@ window.DA = {
   </div>
 
   <div class="callout callout-gold">
+  <div class="callout-header">
     <span class="callout-icon">💡</span>
     <strong>Exemplos:</strong>
-    <br>• <strong>Cotas na universidade:</strong> Negros têm vagas reservadas no vestibular para compensar anos de exclusão educacional.
-    <br>• <strong>Concurso público:</strong> 20% das vagas reservadas para negros em concursos federais.
-    <br>• <strong>Cultura afro:</strong> Ensinar capoeira, samba, religiões afro-brasileiras nas escolas.
   </div>
+
+  <div class="callout-body">
+    <p><strong>Cotas na universidade:</strong> Negros têm vagas reservadas no vestibular para compensar anos de exclusão educacional.</p>
+    <p><strong>Concurso público:</strong> 20% das vagas reservadas para negros em concursos federais.</p>
+    <p><strong>Cultura afro:</strong> Ensinar capoeira, samba, religiões afro-brasileiras nas escolas.</p>
+  </div>
+</div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Crime de Racismo — CF Art. 5º, XLII</div>
@@ -1241,13 +1282,18 @@ window.DA = {
     <strong>Explicação simples:</strong> A CADH proíbe TODAS as formas de violência contra pessoas presas ou sob custódia do Estado. Isso inclui tortura (violência para arrancar confissão), mas também tratamentos que humilham ou degradam a pessoa.
   </div>
 
-  <div class="callout callout-gold">
+<div class="callout callout-gold">
+  <div class="callout-header">
     <span class="callout-icon">💡</span>
     <strong>Exemplos:</strong>
-    <br>• <strong>Tortura:</strong> Policial bate em suspeito para ele confessar um crime.
-    <br>• <strong>Tratamento cruel:</strong> Deixar preso em celas superlotadas sem comida nem água.
-    <br>• <strong>Tratamento degradante:</strong> Forçar preso a ficar nu em público, ou usar algemas excessivamente apertadas.
   </div>
+
+  <div class="callout-body">
+    <p><strong>Tortura:</strong> Policial bate em suspeito para ele confessar um crime.</p>
+    <p><strong>Tratamento cruel:</strong> Deixar preso em celas superlotadas sem comida nem água.</p>
+    <p><strong>Tratamento degradante:</strong> Forçar preso a ficar nu em público, ou usar algemas excessivamente apertadas.</p>
+  </div>
+</div>
 
   <div class="callout callout-rose">
     <span class="callout-icon">🚨</span>
@@ -1330,12 +1376,17 @@ window.DA = {
     <strong>Explicação simples:</strong> A CADH proíbe absolutamente escravidão e trabalho forçado. Ninguém pode ser obrigado a trabalhar contra sua vontade. Nem mesmo o Estado pode forçar alguém a trabalhar (exceto nas exceções específicas).
   </div>
 
-  <div class="callout callout-gold">
+<div class="callout callout-gold">
+  <div class="callout-header">
     <span class="callout-icon">💡</span>
     <strong>Exemplos:</strong>
-    <br>• <strong>Escravidão:</strong> Pessoas obrigadas a trabalhar sem pagamento, ameaçadas de violência, impedidas de sair.
-    <br>• <strong>Tráfico:</strong> Levar pessoas para outros países para trabalho forçado ou exploração sexual.
   </div>
+
+  <div class="callout-body">
+    <p><strong>Escravidão:</strong> Pessoas obrigadas a trabalhar sem pagamento, ameaçadas de violência e impedidas de sair.</p>
+    <p><strong>Tráfico:</strong> Levar pessoas para outros países para trabalho forçado ou exploração sexual.</p>
+  </div>
+</div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Exceções ao Trabalho Forçado — Permitidas</div>
@@ -1351,12 +1402,17 @@ window.DA = {
   </div>
 
   <div class="callout callout-gold">
+  <div class="callout-header">
     <span class="callout-icon">💡</span>
     <strong>Exemplos:</strong>
-    <br>• <strong>Presos:</strong> Presos podem trabalhar voluntariamente para ganhar dinheiro e reduzir a pena.
-    <br>• <strong>Militar:</strong> Jovens brasileiros devem fazer alistamento militar obrigatório.
-    <br>• <strong>Calamidade:</strong> Em enchentes, pode-se pedir que moradores ajudem a fazer barreiras de arebags.
   </div>
+
+  <div class="callout-body">
+    <p><strong>Presos:</strong> Presos podem trabalhar voluntariamente para ganhar dinheiro e reduzir a pena.</p>
+    <p><strong>Militar:</strong> Jovens brasileiros devem fazer alistamento militar obrigatório.</p>
+    <p><strong>Calamidade:</strong> Em enchentes, pode-se pedir que moradores ajudem a fazer barreiras de areia.</p>
+  </div>
+</div>
 
   <div class="callout callout-rose">
     <span class="callout-icon">⚠️</span>

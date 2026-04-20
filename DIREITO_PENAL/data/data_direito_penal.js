@@ -1,1383 +1,1543 @@
-
 window.DA = {
 
-  // ═══════════════════════════════════════════════════
+  // ═══════════════════════════════════════════════════════
+  // INTERVENÇÃO MÍNIMA
+  // ═══════════════════════════════════════════════════════
 
-  "Intervenção Mínima e Fragmentariedade": {
+"Intervenção Mínima e Fragmentariedade": {
     icon: "⚖️",
     color: "#4a85f0",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⚖️</div>
-    <h1 class="notion-title">Intervenção Mínima e Fragmentariedade</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Princípios do Direito Penal</span>
-      <span class="meta-tag tag-g">Ultima Ratio</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-b">Princípios do Direito Penal</div>
+    <div class="tag tag-g">Ultima Ratio</div>
+    <h1>Intervenção Mínima e Fragmentariedade</h1>
+    <p>O Direito Penal atua como um sistema de proteção subsidiária, intervindo apenas quando estritamente necessário.</p>
+  </div>
+
+  <div class="lex-cols">
+    
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">gavel</span> 
+        1. Intervenção Mínima (Ultima Ratio)
+      </div>
+      <div class="lex-expandable-item">
+        <span>O Direito Penal só deve ser usado como <strong>último recurso</strong> do Estado.</span>
+      </div>
+      <div class="lex-expandable-item">
+        <span>Só há crime quando a ofensa é grave e nenhum outro ramo do Direito (Civil, Adm) é suficiente.</span>
+      </div>
+      
+      <div class="callout callout-gold">
+        <span class="callout-icon">📌</span>
+        <div class="lex-summary-content">
+          <strong>Exemplo de Subsidiariedade:</strong><br/>
+          Divórcio ou dívida pura resolvem-se no <strong>Direito Civil</strong>. Agressão física exige a força do <strong>Direito Penal</strong>.
+        </div>
+      </div>
+    </div>
+
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">fragment_column</span> 
+        2. Fragmentariedade
+      </div>
+      <div class="lex-expandable-item">
+        <span>O Direito Penal não protege tudo; protege apenas os <strong>bens jurídicos mais importantes</strong>.</span>
+      </div>
+      <div class="lex-summary">
+        <span class="lex-summary-icon">🛡️</span>
+        <div class="lex-summary-content">
+          <strong>Bens Protegidos:</strong> Vida, Liberdade, Patrimônio, Dignidade Sexual e Segurança Pública.
+        </div>
+      </div>
     </div>
   </div>
-  <div class="lex-section-container">
-    <div class="lex-section-title">1. Princípio da Intervenção Mínima (Ultima Ratio)</div>
-    <div class="lex-expandable-item">O Direito Penal só deve ser usado como <strong>último recurso</strong>.</div>
-    <div class="lex-expandable-item">Só existe crime quando a ofensa é grave, o bem jurídico é importante e nenhum outro ramo do direito resolve.</div>
-  </div>
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    Divórcio → Direito Civil<br/>
-    Mas se o homem agride a mulher → vira Direito Penal (lesão corporal)<br/>
-    <strong>O Direito Penal entra apenas quando os outros ramos não resolvem.</strong>
-  </div>
-  <div class="lex-section-container">
-    <div class="lex-section-title">2. Princípio da Fragmentariedade</div>
-    <div class="lex-expandable-item">O Direito Penal protege apenas os bens jurídicos <strong>mais importantes</strong>.</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Vida</div>
-      <div class="lex-expandable-item">Liberdade</div>
-      <div class="lex-expandable-item">Patrimônio</div>
-      <div class="lex-expandable-item">Dignidade sexual</div>
-      <div class="lex-expandable-item">Segurança pública</div>
-    </div>
-  </div>
-<div class="callout callout-gold">
-  <span class="callout-icon">📌</span>
 
-  <p>Nem toda mentira é crime.</p>
-
-  <p>
-    Mas <strong>falsa denúncia é crime</strong>,
-    porque atinge a justiça.
-  </p>
-
-  <p>
-    <strong>O réu, ao se defender, tem o direito de não produzir prova contra si mesmo.</strong>
-  </p>
-
-  <p>
-    Isso inclui, muitas vezes, o "direito ao silêncio".
-  </p>
-
-  <p>
-    Também pode abranger a ausência de punição por mentir
-    sobre os fatos que lhe são imputados.
-  </p>
-</div>    
-    </div>
-  <div class="lex-section-container">
-    <div class="lex-section-title">3. Princípio da Subsidiariedade</div>
-    <div class="lex-expandable-item">O Direito Penal só atua quando <strong>nenhum outro ramo</strong> do direito consegue resolver.</div>
-  </div>
-  <div class="callout callout-rose">
-    <span class="lex-label">Não é Penal</span><br/>
-    Dívida → Direito Civil<br/>
-    Discussão → não é crime
-  </div>
-  <div class="callout callout-green">
-    <span class="lex-label">É Penal</span><br/>
-    Ameaça → Direito Penal<br/>
-    Agressão → crime
-  </div>
-  
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que alguém te deve R$ 100. Isso é uma dívida, então você resolve no Direito Civil (juizado de pequenas causas). Agora imagine que alguém te ameaça de morte — isso é grave e ofende um bem jurídico importante, então vira Direito Penal. O Penal só entra quando a ofensa é séria o suficiente.
+    <div class="lex-summary-content">
+      <strong>Autodefesa e o Direito de Mentir:</strong><br/>
+      No processo penal, o réu tem o <strong>direito ao silêncio</strong> e à autodefesa. Em regra, não é punido por mentir sobre os fatos que lhe são imputados para se defender, <em>desde que não acuse falsamente um inocente</em> (Denunciação Caluniosa).
+    </div>
+  </div>
+
+  <div class="lex-cols">
+    <div class="callout callout-rose">
+      <span class="material-symbols-outlined">close</span>
+      <div>
+        <strong>Não é Penal:</strong><br/>
+        Dívidas civis, descumprimento de contrato ou discussões verbais leves.
+      </div>
+    </div>
+    <div class="callout callout-green">
+      <span class="material-symbols-outlined">check_circle</span>
+      <div>
+        <strong>É Penal:</strong><br/>
+        Ameaça de morte, agressão física, roubo ou estelionato.
+      </div>
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo para Prova:</strong> O Direito Penal é a <em>"Ultima Ratio"</em> (última razão). Ele é <strong>fragmentário</strong> (escolhe pedaços mais graves) e <strong>subsidiário</strong> (só entra se os outros falharem).
+    </div>
   </div>
 </div>`
   },
+  
+  // ═══════════════════════════════════════════════════════
+  // OFENSIVIDADE
+  // ═══════════════════════════════════════════════════════
 
-
-
-
-
-  "Ofensividade, Alteridade e Insignificância": {
+"Ofensividade, Alteridade e Insignificância": {
     icon: "🔍",
     color: "#f59e0b",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🔍</div>
-    <h1 class="notion-title">Ofensividade, Alteridade e Insignificância</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Princípios do Direito Penal</span>
-      <span class="meta-tag tag-g">Bagatela</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-y">Princípios do Direito Penal</div>
+    <div class="tag tag-r">Teoria do Crime</div>
+    <h1>Ofensividade, Alteridade e Insignificância</h1>
+    <p>Critérios que definem se uma conduta possui relevância jurídica para ser punida pelo Estado.</p>
+  </div>
+
+  <div class="lex-cols">
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">priority_high</span>
+        1. Ofensividade (Lesividade)
+      </div>
+      <div class="lex-expandable-item">
+        <span>Não existe crime sem <strong>ofensa real</strong> (lesão ou perigo) ao bem jurídico.</span>
+      </div>
+      <div class="lex-summary">
+        <div class="lex-summary-content">
+          <strong>Cogitação:</strong> Pensar ou desejar o mal não é crime. O Direito Penal pune apenas o <em>resultado externo</em>.
+        </div>
+      </div>
+      <div class="callout callout-rose" style="margin-bottom:0">
+        <span class="material-symbols-outlined">block</span>
+        <span>Pensar em matar → <strong>Lícito</strong></span>
+      </div>
+      <div class="callout callout-green">
+        <span class="material-symbols-outlined">check_circle</span>
+        <span>Tentar matar → <strong>Crime</strong></span>
+      </div>
+    </div>
+
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">groups</span>
+        2. Alteridade
+      </div>
+      <div class="lex-expandable-item">
+        <span>O Direito Penal só pune condutas que <strong>atigem terceiros</strong>.</span>
+      </div>
+      <div class="lex-expandable-item">
+        <span><strong>Proibição da incriminação da autolesão:</strong> O Estado não te pune por se machucar.</span>
+      </div>
+      <div class="callout callout-rose" style="margin-bottom:0">
+        <span class="material-symbols-outlined">person_off</span>
+        <span>Se ferir sozinho → <strong>Atípico</strong></span>
+      </div>
+      <div class="callout callout-green">
+        <span class="material-symbols-outlined">person_add</span>
+        <span>Ferir outrem → <strong>Crime</strong></span>
+      </div>
     </div>
   </div>
+
   <div class="lex-section-container">
-    <div class="lex-section-title">4. Princípio da Ofensividade (ou Lesividade)</div>
-    <div class="lex-expandable-item">Só existe crime se houver <strong>lesão ou perigo de lesão</strong> a um bem jurídico.</div>
-    <div class="lex-expandable-item">Não existe crime sem ofensa.</div>
-  </div>
-  <div class="callout callout-rose">
-    ❌ Não é crime<br/>
-    Pensar em matar alguém
-  </div>
-  <div class="callout callout-green">
-    ✅ É crime<br/>
-    Tentar matar
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Você pode pensar em fazer qualquer coisa — até coisas horríveis — mas enquanto for só pensamento, não é crime. O crime só existe quando você coloca a ideia em prática e causa (ou pode causar) uma lesão real. É como planejar uma viagem: só planejar não te coloca em outra cidade, você precisa realmente viajar.
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">5. Princípio da Alteridade</div>
-    <div class="lex-expandable-item">O Direito Penal só pune quando a conduta <strong>atinge outra pessoa</strong>.</div>
-    <div class="lex-expandable-item">Não se pune autolesão.</div>
-  </div>
-  <div class="callout callout-rose">
-    ❌ Não é crime<br/>
-    Se machucar sozinho
-  </div>
-  <div class="callout callout-green">
-    ✅ É crime<br/>
-    Machucar outra pessoa
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    O Direito Penal não pune você por se machucar. Se você se corta fazendo uma tatuagem, é problema seu. Mas se você corta outra pessoa, aí o Estado entra porque houve lesão a terceiro. O Penal protege a sociedade, não o indivíduo contra si mesmo.
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">6. Princípio da Insignificância (Bagatela)</div>
-    <div class="lex-expandable-item">Fato muito pequeno → <strong>não é crime</strong>.</div>
-    <div class="lex-expandable-item">É chamado de <strong>atipicidade material</strong>.</div>
-  </div>
-  <div class="lex-section-container">
-    <div class="lex-section-title">Requisitos — Bizu: MIRA (STF)</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Mínima ofensividade</div>
-      <div class="lex-expandable-item">Inexpressiva lesão</div>
-      <div class="lex-expandable-item">Reduzido grau de reprovabilidade</div>
-      <div class="lex-expandable-item">Ausência de periculosidade social</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">inventory_2</span>
+      3. Insignificância (Bagatela)
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">
+      Ocorre quando a conduta é formalmente crime, mas o dano é tão ínfimo que não merece punição. Gera a <strong>Atipicidade Material</strong>.
+    </p>
+
+    <div class="lex-cols" style="margin-top: 0.5rem">
+      <div style="display: flex; flex-direction: column; gap: 0.4rem">
+        <div class="lex-section-title" style="background: rgba(79, 126, 248, 0.05); font-size: 0.85rem">
+          Requisitos do STF (Bizu: MIRA)
+        </div>
+        <div class="lex-expandable-item"><strong>M</strong>ínima ofensividade</div>
+        <div class="lex-expandable-item"><strong>I</strong>nexpressiva lesão</div>
+        <div class="lex-expandable-item"><strong>R</strong>eduzido grau de reprovabilidade</div>
+        <div class="lex-expandable-item"><strong>A</strong>usência de periculosidade social</div>
+      </div>
+
+      <div>
+        <div class="callout callout-green">
+          <span class="callout-icon">✅</span>
+          <div class="lex-summary-content">
+            <strong>Bagatela Própria:</strong> Furtar uma bala ou um clips de papel de uma grande empresa.
+          </div>
+        </div>
+        <div class="callout callout-rose">
+          <span class="callout-icon">❌</span>
+          <div class="lex-summary-content">
+            <strong>Não se aplica:</strong> Crimes com violência, tráfico de drogas ou crimes contra a Administração Pública (em regra).
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="callout callout-green">
-    ✅ Pode ser insignificante<br/>
-    Furtar uma bala
-  </div>
-  <div class="callout callout-rose">
-    ❌ Não é insignificante<br/>
-    Furtar celular
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que você esqueceu uma bala no bolso do supermercado sem pagar. O valor é tão pequeno que não faz sentido processar criminalmente. Mas se você furta um celular, mesmo que usado, o valor é significativo e a sociedade precisa ser protegida contra esse tipo de conduta. O Direito Penal não se importa com picuinhas, só com fatos relevantes.
-  </div>
-  
+
   <div class="callout callout-gold">
-    <span class="callout-icon">⚠️</span>
-    Requisitos do princípio da insignificância foram criados pelo <strong>STF</strong>.
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>CUIDADO:</strong> A insignificância exclui a <strong>tipicidade material</strong>, mas a conduta continua sendo <em>formalmente</em> típica (está escrita na lei, mas não causa dano relevante).
+    </div>
+  </div>
+
+  <div class="callout callout-purple">
+    <span class="callout-icon">💡</span>
+    <div class="lex-summary-content">
+      <strong>Analogia:</strong> Imagine o Direito Penal como uma "Lente de Aumento". O Princípio da Insignificância diz que a lente não deve perder tempo olhando para uma poeira no chão (uma bala furtada), mas sim para as rachaduras na parede (um roubo).
+    </div>
   </div>
 </div>`
   },
 
+  // ═══════════════════════════════════════════════════════
+  // PESSOALIDADE, INDIVIDUALIZAÇÃO
+  // ═══════════════════════════════════════════════════════
 
-
-
-
-  "Pessoalidade, Individualização e Ne Bis In Idem": {
+"Pessoalidade, Individualização e Ne Bis In Idem": {
     icon: "👤",
     color: "#a78bfa",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">👤</div>
-    <h1 class="notion-title">Pessoalidade, Individualização e Ne Bis In Idem</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Princípios do Direito Penal</span>
-      <span class="meta-tag tag-g">Art. 5º CF</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Princípios Constitucionais</div>
+    <div class="tag tag-b">Garantias Fundamentais</div>
+    <h1>Pessoalidade, Individualização e Ne Bis In Idem</h1>
+    <p>Limites ao poder punitivo do Estado para garantir que a justiça seja aplicada de forma precisa e humana.</p>
+  </div>
+
+  <div class="lex-cols">
+    
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">person_cancel</span>
+        1. Pessoalidade (Intranscendência)
+      </div>
+      <div class="lex-expandable-item">
+        <span>A pena <strong>não passa da figura do condenado</strong> para terceiros (Art. 5º, XLV, CF).</span>
+      </div>
+      <div class="lex-expandable-item">
+        <span>A obrigação de reparar o dano pode ser estendida aos sucessores, mas a <strong>pena privativa de liberdade jamais</strong>.</span>
+      </div>
+      
+      <div class="callout callout-rose">
+        <span class="callout-icon">🚫</span>
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> Se um réu falece, a punibilidade é extinta. O filho não cumpre os dias de prisão do pai.
+        </div>
+      </div>
+    </div>
+
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">balance</span>
+        2. Individualização da Pena
+      </div>
+      <div class="lex-expandable-item">
+        <span>A pena deve ser moldada conforme as particularidades do criminoso e do crime.</span>
+      </div>
+      <div class="lex-list" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem;">
+        <div class="lex-expandable-item" style="padding: 0.5rem;">Culpa</div>
+        <div class="lex-expandable-item" style="padding: 0.5rem;">Motivo</div>
+        <div class="lex-expandable-item" style="padding: 0.5rem;">Antecedentes</div>
+        <div class="lex-expandable-item" style="padding: 0.5rem;">Conduta</div>
+      </div>
+      <div class="callout callout-purple">
+        <span class="material-symbols-outlined">edit_note</span>
+        <div class="lex-summary-content" style="font-size: 0.8rem;">
+          Ocorre em 3 fases: <strong>Legislativa</strong> (penas mín/máx), <strong>Judiciária</strong> (sentença) e <strong>Executiva</strong> (progressão).
+        </div>
+      </div>
     </div>
   </div>
+
   <div class="lex-section-container">
-    <div class="lex-section-title">7. Princípio da Pessoalidade da Pena (Intranscendência)</div>
-    <div class="lex-expandable-item">A pena <strong>não passa para outra pessoa</strong>.</div>
-    <div class="lex-expandable-item">Só quem comete o crime é punido.</div>
-    <div class="lex-expandable-item">Previsto no <strong>art. 5º, XLV da CF</strong>.</div>
-  </div>
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    Pai comete crime → <strong>filho não pode ser preso</strong>.
-  </div>
-  <div class="lex-section-container">
-    <div class="lex-section-title">8. Princípio da Individualização da Pena</div>
-    <div class="lex-expandable-item">Cada pessoa deve receber uma pena <strong>de acordo com o caso</strong>.</div>
-    <div class="lex-expandable-item">Não pode ter pena automática.</div>
-    <div class="lex-expandable-item">O juiz analisa:</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Gravidade</div>
-      <div class="lex-expandable-item">Culpa</div>
-      <div class="lex-expandable-item">Antecedentes</div>
-      <div class="lex-expandable-item">Circunstâncias</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">history_edu</span>
+      3. Ne Bis In Idem
+    </div>
+    
+    <div class="lex-cols">
+      <div style="display: flex; flex-direction: column; gap: 0.6rem;">
+        <div class="lex-expandable-item">
+          <span>Ninguém pode ser <strong>processado ou punido duas vezes</strong> pelo mesmo fato jurídico.</span>
+        </div>
+        <div class="lex-expandable-item">
+          <span>Impede que uma mesma circunstância seja usada duas vezes para aumentar a pena (ex: reincidência).</span>
+        </div>
+      </div>
+
+      <div class="callout callout-green">
+        <span class="callout-icon">⚖️</span>
+        <div class="lex-summary-content">
+          <strong>Regra de Ouro:</strong> <br/>
+          Mesmo Réu + Mesmo Fato = <strong>Apenas uma condenação.</strong>
+        </div>
+      </div>
     </div>
   </div>
+
   <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    Dois furtos → penas <strong>diferentes</strong>.
+    <span class="material-symbols-outlined">info</span>
+    <div class="lex-summary-content">
+      <strong>Multa vs. Reparação:</strong> Embora a prisão não passe para os filhos, o valor da <strong>reparação do dano</strong> e o <strong>perdimento de bens</strong> podem atingir a herança até o limite do valor transferido.
+    </div>
   </div>
-  <div class="lex-section-container">
-    <div class="lex-section-title">9. Princípio do Ne Bis In Idem</div>
-    <div class="lex-expandable-item">Ninguém pode ser <strong>punido duas vezes pelo mesmo fato</strong>.</div>
-    <div class="lex-expandable-item"><em>Ne bis in idem</em> = não duas vezes pelo mesmo.</div>
-  </div>
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    Não pode ser condenado duas vezes pelo mesmo roubo.
+
+  <div class="callout callout-purple">
+    <span class="callout-icon">💡</span>
+    <div class="lex-summary-content">
+      <strong>Resumo para Prova:</strong> <br/>
+      • <strong>Pessoalidade:</strong> Prisão é só para quem fez. <br/>
+      • <strong>Individualização:</strong> Cada um tem o "seu" cálculo de pena. <br/>
+      • <strong>Ne Bis In Idem:</strong> O Estado só tem uma chance de te punir por aquele erro.
+    </div>
   </div>
 </div>`
   },
+  
+  // ═══════════════════════════════════════════════════════
+  // LEGALIDADE
+  // ═══════════════════════════════════════════════════════
 
-
-
-
-
-  "Legalidade, Reserva Legal e Anterioridade": {
+"Legalidade, Reserva Legal e Anterioridade": {
     icon: "📜",
     color: "#10b981",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">📜</div>
-    <h1 class="notion-title">Legalidade, Reserva Legal e Anterioridade</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 5º XXXIX CF</span>
-      <span class="meta-tag tag-b">Art. 1º CP</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 5º, XXXIX CF</div>
+    <div class="tag tag-b">Art. 1º CP</div>
+    <h1>Legalidade, Reserva Legal e Anterioridade</h1>
+    <p>A base do Estado de Direito: <em>Nullum crimen, nulla poena sine lege</em>.</p>
+  </div>
+
+  <div class="lex-cols">
+    
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">gavel</span> 
+        1. Legalidade (Sentido Amplo)
+      </div>
+      <div class="lex-expandable-item">
+        <span>Não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal.</span>
+      </div>
+      <div class="lex-summary">
+        <div class="lex-summary-content">
+          Garante que o cidadão saiba exatamente o que é proibido antes de agir.
+        </div>
+      </div>
+    </div>
+
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">account_balance</span> 
+        2. Reserva Legal (Estrito)
+      </div>
+      <div class="lex-expandable-item">
+        <span>Somente <strong>Lei Ordinária ou Complementar</strong> pode criar crimes.</span>
+      </div>
+      <div class="lex-list">
+        <div class="lex-expandable-item" style="padding: 0.3rem 0.5rem">🚫 Proibido: Medida Provisória</div>
+        <div class="lex-expandable-item" style="padding: 0.3rem 0.5rem">🚫 Proibido: Decretos ou Portarias</div>
+      </div>
     </div>
   </div>
-  <div class="lex-section-container">
-    <div class="lex-section-title">10. Princípio da Legalidade</div>
-    <div class="lex-expandable-item">Não existe crime sem lei anterior.</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Crime → só se a lei disser</div>
-      <div class="lex-expandable-item">Pena → só se a lei disser</div><div class="lex-expandable-item">Previsto no <strong>art. 5º, XXXIX CF</strong> e <strong>art. 1º CP</strong>.</div>
+
+  <div class="lex-cols">
+    
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">event_busy</span> 
+        3. Anterioridade
+      </div>
+      <div class="lex-expandable-item">
+        <span>A lei deve estar em vigor <strong>antes</strong> da prática do fato.</span>
+      </div>
+      <div class="callout callout-gold">
+        <span class="callout-icon">📌</span>
+        <div class="lex-summary-content">
+          Lei nova não retroage para punir fatos passados (salvo se for para beneficiar o réu).
+        </div>
+      </div>
+    </div>
+
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">spellcheck</span> 
+        4. Taxatividade
+      </div>
+      <div class="lex-expandable-item">
+        <span>A lei penal deve ser <strong>clara e precisa</strong> (Mandado de Determinação).</span>
+      </div>
+      <div class="callout callout-rose">
+        <span class="material-symbols-outlined">error</span>
+        <div class="lex-summary-content">
+          Leis vagas como "agir de modo suspeito" são <strong>inconstitucionais</strong> por ferir a taxatividade.
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    Se não existe lei → <strong>não é crime</strong>.
+
+  <div class="callout callout-purple">
+    <span class="callout-icon">💡</span>
+    <div class="lex-summary-content">
+      <strong>QUADRO DE PROIBIÇÕES (O que o Princípio veda):</strong><br/>
+      • <strong>Scripta:</strong> Proíbe o costume incriminador (deve ser escrita).<br/>
+      • <strong>Stricta:</strong> Proíbe a analogia <em>in malam partem</em>.<br/>
+      • <strong>Praevia:</strong> Proíbe a retroatividade maléfica.<br/>
+      • <strong>Certa:</strong> Proíbe leis vagas e imprecisas.
+    </div>
   </div>
-  <div class="lex-section-container">
-    <div class="lex-section-title">11. Princípio da Reserva Legal</div>
-    <div class="lex-expandable-item">Só <strong>lei</strong> pode criar crime ou pena.</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Não pode ser decreto</div>
-      <div class="lex-expandable-item">Não pode ser portaria</div>
-      <div class="lex-expandable-item">Não pode ser costume</div><div class="lex-expandable-item">Tem que ser <strong>lei formal</strong>.</div>
-  </div>
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    Só o <strong>Congresso</strong> pode criar crime.
-  </div>
-  <div class="lex-section-container">
-    <div class="lex-section-title">12. Princípio da Anterioridade</div>
-    <div class="lex-expandable-item">A lei deve <strong>existir antes do crime</strong>.</div>
-  </div>
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    Lei criada hoje → <strong>não pune fato de ontem</strong>.
-  </div>
-  <div class="lex-section-container">
-    <div class="lex-section-title">13. Princípio da Taxatividade</div>
-    <div class="lex-expandable-item">A lei penal deve ser <strong>clara</strong>.</div>
-    <div class="lex-expandable-item">Não pode ser vaga nem confusa.</div>
-  </div>
-  <div class="callout callout-rose">
-    <span class="callout-icon">🚨</span>
-    <strong>Errado:</strong> "Fazer coisa ruim é crime" ❌<br/>
-    A lei tem que dizer exatamente qual crime.
+
+  <div class="callout callout-green">
+    <span class="material-symbols-outlined">verified</span>
+    <div class="lex-summary-content">
+      <strong>Exemplo prático:</strong> Se o Congresso criar hoje o "Crime de Mascar chiclete", ninguém que mascou chiclete ontem poderá ser processado. A lei só vale para o futuro.
+    </div>
   </div>
 </div>`
   },
 
+  // ═══════════════════════════════════════════════════════
+  // APLICAÇÃO DA LEI PENAL NO TEMPO
+  // ═══════════════════════════════════════════════════════
 
-
-
-
-
-
-  "Aplicação da Lei Penal no Tempo": {
+"Aplicação da Lei Penal no Tempo": {
     icon: "⏱️",
     color: "#38bdf8",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⏱️</div>
-    <h1 class="notion-title">Aplicação da Lei Penal no Tempo</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Art. 4º CP</span>
-      <span class="meta-tag tag-g">Teoria da Atividade</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-b">Art. 2º ao 4º do CP</div>
+    <div class="tag tag-g">Irretroatividade</div>
+    <h1>Aplicação da Lei Penal no Tempo</h1>
+    <p>Estudo de qual lei deve ser aplicada quando ocorre uma mudança legislativa entre o crime e o julgamento.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">schedule</span>
+      1. Tempo do Crime (Teoria da Atividade)
+    </div>
+    <div class="lex-expandable-item">
+      <span>Considera-se praticado o crime no momento da <strong>ação ou omissão</strong> (Art. 4º CP).</span>
+    </div>
+    <div class="lex-expandable-item">
+      <span>Ignora-se o momento do resultado para fins de definir "quando" o crime ocorreu.</span>
+    </div>
+
+    <div class="callout callout-gold">
+      <span class="callout-icon">📌</span>
+      <div class="lex-summary-content">
+        <strong>Caso Prático:</strong> Se um jovem de 17 anos atira na vítima hoje e ela morre 10 dias depois (quando ele já fez 18), ele será julgado como <strong>menor de idade</strong>, pois o que vale é o momento do disparo.
+      </div>
     </div>
   </div>
+
+  <div class="lex-cols">
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">trending_down</span>
+        2. Novatio Legis in Mellius
+      </div>
+      <div class="lex-expandable-item">
+        <span>A lei nova é <strong>mais benéfica</strong> (diminui pena, cria benefícios).</span>
+      </div>
+      <div class="callout callout-green">
+        <span class="material-symbols-outlined">history</span>
+        <div class="lex-summary-content">
+          <strong>Retroage:</strong> Alcança fatos passados, mesmo que já exista condenação final (trânsito em julgado).
+        </div>
+      </div>
+    </div>
+
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">trending_up</span>
+        3. Novatio Legis in Pejus
+      </div>
+      <div class="lex-expandable-item">
+        <span>A lei nova é <strong>mais severa</strong> (aumenta pena, retira direitos).</span>
+      </div>
+      <div class="callout callout-rose">
+        <span class="material-symbols-outlined">update_disabled</span>
+        <div class="lex-summary-content">
+          <strong>Irretroatividade:</strong> Só vale para crimes cometidos <em>após</em> o início da vigência da lei.
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="lex-section-container">
-    <div class="lex-section-title">14. Teoria da Atividade</div>
-    <div class="lex-expandable-item">O tempo do crime é o <strong>momento da ação ou omissão</strong>.</div>
-    <div class="lex-expandable-item">Prevista no <strong>Art. 4º CP</strong>.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">delete_forever</span>
+      4. Abolitio Criminis
+    </div>
+    <div class="lex-expandable-item">
+      <span>Quando uma lei nova <strong>revoga o crime</strong>, deixando de considerar a conduta como ilícita.</span>
+    </div>
+    
+    <div class="lex-cols">
+      <div class="callout callout-purple">
+        <div class="lex-summary-content">
+          <strong>Efeitos:</strong> Cessa a execução e os efeitos penais da condenação. 
+        </div>
+      </div>
+      <div class="callout callout-gold">
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> Adultério. Deixou de ser crime, então quem estava preso por isso teve que ser solto imediatamente.
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    Atirou hoje → crime hoje — mesmo que a vítima morra depois.
-  </div>
-  <div class="lex-section-container">
-    <div class="lex-section-title">15. Sucessão de Lei Penal</div>
-    <div class="lex-expandable-item">Quando a lei muda com o tempo, pode acontecer:</div>
-  </div>
-  <div class="callout callout-green">
-    ✅ Lei mais benéfica<br/>
-    <strong>Lex Mitior / Novatio legis in mellius</strong><br/>
-    Aplica para fatos antigos.<br/>
-    Ex: Pena era 5 anos → passou para 2 → aplica 2.
-  </div>
-  <div class="callout callout-rose">
-    ❌ Lei mais grave<br/>
-    <strong>Lex Gravior / Novatio legis in pejus</strong><br/>
-    Não pode voltar para prejudicar.<br/>
-    Ex: Crime era 2 anos → virou 5 → não aplica para fato antigo.
-  </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que em 2020 você foi pego com uma maconha e a pena era 5 anos. Em 2024, a lei mudou e a pena passou a ser 2 anos. Como a nova lei é mais benéfica para você, ela retroage e você é julgado com a pena menor. Mas o contrário não vale: se você cometeu o crime quando a pena era 2 anos e depois virou 5, não pode te prejudicar. A lei não volta para trás para piorar sua situação.
+    <div class="lex-summary-content">
+      <strong>Bizu de Prova: LUTA</strong><br/>
+      • <strong>L</strong>ugar do Crime → Teoria da <strong>U</strong>biqüidade<br/>
+      • <strong>T</strong>empo do Crime → Teoria da <strong>A</strong>tividade
+    </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">✅ Abolitio Criminis</div>
-    <div class="lex-expandable-item">A lei <strong>deixa de considerar crime</strong>.</div>
-    <div class="lex-expandable-item">Ninguém pode ser punido.</div>
-  </div>
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    Adultério deixou de ser crime → <strong>Abolitio Criminis</strong>.
-  </div>
-  <div class="lex-section-container">
-    <div class="lex-section-title">16. Regra Geral — Tempus Regit Actum</div>
-    <div class="lex-expandable-item">O tempo rege o ato.</div>
-    <div class="lex-expandable-item">Vale a lei do <strong>momento do crime</strong>.</div>
-    <div class="lex-expandable-item"><strong>Exceção:</strong> lei mais benéfica retroage.</div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Regra de Ouro:</strong> <em>Tempus regit actum</em> (o tempo rege o ato). A lei do dia do crime é a regra, a menos que uma lei posterior ajude o réu.
+    </div>
   </div>
 </div>`
-  },
+},
 
+  // ═══════════════════════════════════════════════════════
+  // APLICAÇÃO DA LEI PENAL NO ESPAÇO
+  // ═══════════════════════════════════════════════════════
 
-
-
-
-  "Lei Penal no Tempo — Retroatividade": {
-    icon: "⏰",
-    color: "#8b5cf6",
-    aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⏰</div>
-    <h1 class="notion-title">Lei Penal no Tempo — Retroatividade</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Art. 2º CP</span>
-      <span class="meta-tag tag-g">Tempus Regit Actum</span>
-    </div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">1. Regra Geral — Tempus Regit Actum</div>
-    <div class="lex-expandable-item">Expressão em latim que significa:</div>
-    <div class="lex-quote">O tempo rege o ato</div>
-    <div class="lex-expandable-item">A lei aplicada é a lei que estava valendo no momento do crime.</div>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Exemplo prático:</strong><br/>
-    • Crime em 2020 → pena 2 anos<br/>
-    • Lei mudou em 2024 → pena 5 anos<br/>
-    • Crime foi em 2020<br/><br/>
-    ✅ Aplica lei de 2020 (2 anos)
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">2. Novatio Legis — Lei Nova</div>
-    <div class="lex-expandable-item">Quando surge uma lei nova depois do crime cometido.</div>
-  </div>
-  
-  <div class="callout callout-rose">
-    ❌ Incriminadora<br/>
-    Cria crime ou aumenta pena<br/>
-    <strong>NÃO retroage</strong><br/>
-    Só para fatos futuros
-  </div>
-  <div class="callout callout-green">
-    ✅ In Mellius (Benéfica)<br/>
-    Beneficia o réu<br/>
-    <strong>RETROAGE</strong><br/>
-    Vale para fatos passados
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense no imposto de renda. Se a lei muda e o imposto diminui, você quer pagar menos mesmo nos anos anteriores (se puder). No Direito Penal é igual: se a lei ficou mais branda, ela vale até para crimes antigos. Mas se o imposto aumentasse, você não aceitaria pagar a mais por anos anteriores, né? Com penas é a mesma coisa: a lei não pode piorar a situação de quem já cometeu o fato.
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Art. 2º, parágrafo único, CP:</strong><br/><br/>
-    <div class="lex-quote">A lei posterior, que de qualquer modo favorecer o réu, aplica-se aos fatos anteriores.</div><br/>
-    
-    <strong>Exemplo:</strong><br/>
-    Antes: pena 5-20 anos<br/>
-    Nova lei: pena 2-8 anos<br/>
-    ✅ Aplica pena menor
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">3. Abolitio Criminis</div>
-    <div class="lex-expandable-item">Lei nova deixa de considerar o fato como crime.</div>
-  </div>
-  
-  <div class="callout callout-green">
-    <span class="callout-icon">✅</span>
-    <strong>Consequência:</strong><br/>
-    <div class="lex-quote">Extinção da punibilidade</div><br/>
-    
-    • Cancela pena e condenação<br/>
-    • Cessa execução da pena<br/>
-    • Extingue efeitos penais<br/>
-    • <strong>NÃO apaga efeitos civis</strong><br/><br/>
-    
-    <strong>Exemplo:</strong> Adultério deixou de ser crime
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Antigamente, trair o cônjuge era crime. Quem foi pego no adultério antes da lei mudar foi condenado e cumpriu pena. Quando o adultério deixou de ser crime, quem já estava cumprindo pena foi solto. Mas a traição ainda gera efeitos civis (divórcio, indenização) — só não é mais crime. É como se o Estado dissesse: "Não vou mais prender por isso, mas no civil você ainda responde."
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">4. Extratividade da Lei Penal</div>
-    <div class="lex-expandable-item">Aplicação da lei fora do seu tempo normal.</div>
-  </div>
-  
-  <div class="callout callout-green">
-    ✅ Retroatividade<br/>
-    Lei nova volta para beneficiar réu<br/>
-    Só se for mais benéfica
-  </div>
-  <div class="callout callout-green">
-    ✅ Ultraatividade<br/>
-    Lei antiga continua valendo<br/>
-    Quando for mais benéfica
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que você contratou um plano de saúde em 2020 com cobertura total. Em 2024, a empresa mudou as regras e a cobertura piorou. Se você adoeceu em 2023, mas só descobriu em 2024, você quer a cobertura antiga (melhor). No Direito Penal é igual: se a lei antiga era melhor para você, ela continua valendo mesmo depois de acabar.
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">5. Súmula 711 STF — Crimes Continuados</div>
-    <div class="lex-expandable-item">Aplica-se a lei vigente na cessação da continuidade/permanência.</div>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Crime permanente:</strong> sequestro, cárcere privado<br/>
-    <strong>Crime continuado:</strong> vários furtos seguidos<br/><br/>
-    
-    <strong>Exemplo:</strong><br/>
-    • Lei antiga: 2 anos<br/>
-    • Lei nova: 5 anos<br/>
-    • Crime começou antes e continuou depois<br/><br/>
-    ✅ Aplica lei nova (mesmo sendo mais grave)
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">6. Lei Temporária e Excepcional</div>
-  </div>
-  
-  <div class="callout callout-green">
-    ⏰ Temporária<br/>
-    Com prazo determinado<br/>
-    Ex: lei eleitoral
-  </div>
-  <div class="callout callout-green">
-    🚨 Excepcional<br/>
-    Situações especiais<br/>
-    Ex: pandemia, guerra
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense nas regras de trânsito em eleição: em período eleitoral existem leis especiais sobre propaganda. Essas leis só valem durante a campanha (temporária). Já em uma pandemia, surgem leis especiais sobre isolamento. Mesmo depois que a pandemia acaba, se alguém desrespeitou o isolamento durante ela, responde pela lei da época. É como uma promoção de loja: vale só no período anunciado, mas se você comprou na promoção, leva o preço da promoção mesmo depois que ela acabou.
-  </div>
-  
-  <div class="lex-section-container">
-    <span class="lex-label">Características:</span>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Autoaplicável</div>
-      <div class="lex-expandable-item">Ultraativa</div>
-      <div class="lex-expandable-item">Continua valendo mesmo após revogação</div>
-    </div>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Exemplo:</strong><br/>
-    Lei da pandemia: 3 anos de pena<br/>
-    Crime cometido na pandemia<br/>
-    Lei acabou depois<br/><br/>
-    ✅ Continua valendo a lei da pandemia
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">7. Súmula 501 STJ — Proibição de Lex Tertia</div>
-    <div class="lex-expandable-item">É proibido misturar leis para beneficiar o réu.</div>
-  </div>
-  
-  <div class="callout callout-rose">
-    <span class="callout-icon">❌</span>
-    <strong>Não pode fazer:</strong><br/>
-    <div class="lex-quote">metade de uma lei + metade de outra</div><br/>
-    
-    <strong>Nome:</strong> Lex tertia (lei terceira)
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">8. Lei Mais Benéfica Durante o Processo</div>
-    <div class="lex-expandable-item">Mesmo com processo em andamento:</div>
-    <div class="lex-expandable-item">Se surgir lei melhor → aplica-se imediatamente</div>
-  </div>
-  
-  <div class="callout callout-green">
-    <span class="callout-icon">⚖️</span>
-    <strong>Exemplo:</strong><br/>
-    • Pessoa sendo julgada<br/>
-    • Nova lei diminui pena<br/>
-    ✅ Juiz aplica lei nova automaticamente
-  </div>
-  
-</div>`
-  },
-
-
-
-
-
-  "Lei Penal no Espaço": {
+"Lei Penal no Espaço": {
     icon: "🌍",
     color: "#06b6d4",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🌍</div>
-    <h1 class="notion-title">Lei Penal no Espaço</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 6º CP</span>
-      <span class="meta-tag tag-b">Territorialidade</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 5º ao 7º do CP</div>
+    <div class="tag tag-b">Soberania</div>
+    <h1>Lei Penal no Espaço</h1>
+    <p>Define os limites geográficos e jurídicos onde a Lei Brasileira pode ser aplicada.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">location_on</span>
+      1. Lugar do Crime (Teoria da Ubiquidade)
     </div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">1. Lugar do Crime — Art. 6º CP</div>
-    <div class="lex-expandable-item"><strong>Teoria da Ubiquidade</strong></div>
-    <div class="lex-expandable-item">O crime ocorre onde:</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Praticou a conduta</div>
-      <div class="lex-expandable-item">Ocorreu o resultado</div>
-      <div class="lex-expandable-item">Nos dois lugares</div>
+    <div class="lex-expandable-item">
+      <span>Considera-se praticado o crime tanto no lugar da <strong>ação/omissão</strong> quanto no lugar do <strong>resultado</strong> (Art. 6º CP).</span>
     </div>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Exemplo clássico:</strong><br/>
-    • Pessoa atira na Argentina<br/>
-    • Vítima morre no Brasil<br/><br/>
-    ✅ Crime ocorreu nos dois países<br/>
-    ✅ Brasil pode julgar
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">2. Territorialidade — Regra Geral</div>
-    <div class="lex-expandable-item">Aplica-se a lei brasileira aos crimes cometidos no território brasileiro.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <span class="lex-label">O que é território brasileiro?</span>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Solo brasileiro</div>
-      <div class="lex-expandable-item">Mar territorial</div>
-      <div class="lex-expandable-item">Espaço aéreo</div>
-      <div class="lex-expandable-item">Navios brasileiros</div>
-      <div class="lex-expandable-item">Aeronaves brasileiras</div>
-    </div>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Importante:</strong><br/>
-    Navio e avião brasileiros valem lei brasileira<br/>
-    <strong>MESMO ESTANDO FORA DO PAÍS</strong>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">3. Territorialidade por Extensão</div>
-    <div class="lex-expandable-item">Aplica-se a lei brasileira em:</div>
-  </div>
-  
-  <div class="callout callout-green">
-    🚢 Navios<br/>
-    • Públicos: sempre<br/>
-    • Privados: em alto-mar
-  </div>
-  <div class="callout callout-green">
-    ✈️ Aeronaves<br/>
-    • Públicas: sempre<br/>
-    • Privadas: em voo
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine um navio de cruzeiro brasileiro no mar do Caribe. Se houver um assassinato a bordo, mesmo estando em águas internacionais, a lei brasileira se aplica porque o navio é brasileiro. É como se o navio fosse "Brasil flutuante". O mesmo vale para aviões da companhia aérea brasileira: enquanto estiverem voando, estão sob lei brasileira, não importa onde estejam no mundo.
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">4. Extraterritorialidade</div>
-    <div class="lex-expandable-item">Lei brasileira aplicada a crimes cometidos fora do Brasil.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <span class="lex-label">Tipos de Extraterritorialidade:</span>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">✅ Incondicionada</div>
-    <div class="lex-expandable-item">Aplica-se SEMPRE, sem requisitos.</div>
-    <div class="callout callout-gold">
-      <strong>Exemplos:</strong><br/>
-      Crime contra Presidente da República<br/>
-      Crime contra patrimônio público<br/>
-      Genocídio
-    </div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">✅ Condicionada</div>
-    <div class="lex-expandable-item">Precisa de requisitos para aplicar.</div>
-    <div class="callout callout-gold">
-      <strong>Exemplos:</strong><br/>
-      Crime cometido por brasileiro no exterior<br/>
-      Crime cometido contra brasileiro no exterior<br/>
-      Requisitos: entrada no país + requisição
-    </div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">✅ Hipercondicionada</div>
-    <div class="lex-expandable-item">Mais requisitos ainda.</div>
-    <div class="lex-expandable-item"><strong>Muito cobrado em provas!</strong></div>
-    <div class="lex-expandable-item"><strong>Exemplo:</strong> Tráfico internacional com tratado</div>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Regra de ouro:</strong><br/><br/>
     
-    <strong>Regra:</strong> Territorialidade (lei brasileira no Brasil)<br/>
-    <strong>Exceção:</strong> Extraterritorialidade (lei brasileira fora do Brasil)
+    <div class="callout callout-purple">
+      <span class="callout-icon">💡</span>
+      <div class="lex-summary-content">
+        <strong>Dica de Ouro:</strong> Se qualquer "pedaço" do crime (execução ou morte) tocar o solo brasileiro, o Brasil é competente para julgar.
+      </div>
+    </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">5. Conflito de Jurisdição</div>
-    <div class="lex-expandable-item">Quando mais de um país pode julgar o mesmo crime.</div>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">⚖️</span>
-    <strong>Exemplo prático:</strong><br/>
-    • Brasileiro mata argentino na Argentina<br/>
-    • Argentina pode julgar (territorialidade)<br/>
-    • Brasil pode julgar (extraterritorialidade condicionada)<br/><br/>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">map</span>
+      2. Território Brasileiro por Extensão
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">Embarcações e aeronaves que são consideradas "solo brasileiro" flutuante:</p>
     
-    <strong>Quem julga primeiro?</strong><br/>
-    Geralmente o país onde ocorreu o crime
+    <div class="lex-cols">
+      <div class="callout callout-green">
+        <span class="material-symbols-outlined">account_balance</span>
+        <div>
+          <strong>Públicas / Oficiais:</strong><br/>
+          Sempre território brasileiro, onde quer que estejam no mundo.
+        </div>
+      </div>
+      <div class="callout callout-blue">
+        <span class="material-symbols-outlined">directions_boat</span>
+        <div>
+          <strong>Privadas / Mercantes:</strong><br/>
+          Território brasileiro apenas em <strong>Alto-Mar</strong> ou <strong>Espaço Aéreo Internacional</strong>.
+        </div>
+      </div>
+    </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">6. Imunidades Diplomáticas</div>
-    <div class="lex-expandable-item">Diplomatas estrangeiros têm imunidade no Brasil.</div>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Regra:</strong><br/>
-    Diplomata estrangeiro não pode ser preso<br/>
-    Nem julgado por crimes cometidos no Brasil<br/><br/>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">public</span>
+      3. Extraterritorialidade (Art. 7º CP)
+    </div>
     
-    <strong>Exceção:</strong><br/>
-    País de origem pode renunciar à imunidade
+    <div class="lex-summary" style="border-left: 4px solid var(--gold); background: rgba(245, 183, 49, 0.05);">
+      <div class="lex-summary-content">
+        <strong>A) Incondicionada:</strong> Lei brasileira aplica-se mesmo que o réu seja absolvido no exterior.
+        <ul style="margin: 0.5rem 0; padding-left: 1.2rem; font-size: 0.8rem;">
+          <li>Contra a vida/liberdade do <strong>Presidente</strong>.</li>
+          <li>Contra o <strong>Patrimônio Público</strong> (União, Estados, etc).</li>
+          <li>Contra a <strong>Administração Pública</strong> (por quem trabalha nela).</li>
+          <li>Crime de <strong>Genocídio</strong> (se o agente for brasileiro).</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="lex-summary" style="margin-top: 0.5rem;">
+      <div class="lex-summary-content">
+        <strong>B) Condicionada:</strong> Exige requisitos (Entrar no Brasil, ser crime lá também, não ter sido punido lá).
+        <p style="font-size: 0.8rem; opacity: 0.8; margin-top: 0.3rem;">Ex: Crimes praticados por brasileiros no exterior ou em aeronaves privadas estrangeiras.</p>
+      </div>
+    </div>
   </div>
-  
+
+  <div class="lex-cols">
+    <div class="lex-section-container">
+      <div class="lex-section-title" style="font-size: 0.85rem">
+        <span class="material-symbols-outlined">verified_user</span>
+        Imunidade Diplomática
+      </div>
+      <div class="lex-summary-content" style="font-size: 0.8rem">
+        Diplomatas estrangeiros e suas famílias não respondem pela lei penal brasileira (Extraterritorialidade da Embaixada).
+      </div>
+    </div>
+    <div class="callout callout-rose">
+      <span class="material-symbols-outlined">warning</span>
+      <div class="lex-summary-content">
+        <strong>Cônsules:</strong> Só têm imunidade para atos praticados <strong>em serviço</strong>. Diferente dos diplomatas.
+      </div>
+    </div>
+  </div>
+
+  <div class="callout callout-gold">
+    <span class="callout-icon">🏆</span>
+    <div class="lex-summary-content">
+      <strong>RESUMO DO BIZU "LUTA":</strong><br/>
+      • <strong>L</strong>ugar do Crime: <strong>U</strong>biquidade (Art. 6º)<br/>
+      • <strong>T</strong>empo do Crime: <strong>A</strong>tividade (Art. 4º)
+    </div>
+  </div>
 </div>`
   },
 
+  // ═══════════════════════════════════════════════════════
+  // DIREITO PENAL MILITAR
+  // ═══════════════════════════════════════════════════════
 
-
-
-
-  "Princípios da Lei Penal": {
-    icon: "⚖️",
-    color: "#10b981",
-    aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⚖️</div>
-    <h1 class="notion-title">Princípios da Lei Penal</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 1º CP</span>
-      <span class="meta-tag tag-b">Legalidade</span>
-    </div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">1. Princípio da Legalidade — Art. 1º CP</div>
-    <div class="lex-expandable-item">O princípio mais importante do Direito Penal.</div>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📜</span>
-    <strong>Art. 1º do Código Penal:</strong><br/><br/>
-    
-    <div class="lex-quote">Não há crime sem lei anterior que o defina<br/>
-    Não há pena sem prévia cominação legal</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <span class="lex-label">O que significa?</span>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Só é crime se a LEI disser</div>
-      <div class="lex-expandable-item">Só tem pena se a LEI disser</div>
-      <div class="lex-expandable-item">A lei deve ser ANTERIOR ao fato</div>
-    </div>
-  </div>
-  
-  <div class="callout callout-green">
-    ✅ Pode<br/>
-    Lei cria crime<br/>
-    Lei define pena
-  </div>
-  <div class="callout callout-rose">
-    ❌ Não pode<br/>
-    Costume criar crime<br/>
-    Analogia criar crime
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que no seu bairro todo mundo estaciona na calçada há anos. Mesmo sendo "costume", isso não torna legal — se a lei proíbe, é infração. No Direito Penal é mais rigoroso ainda: só existe crime se a lei disser claramente que é crime. Não pode o juiz inventar que algo é crime só porque ele acha errado. A lei tem que prever antes, de forma clara.
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">2. Princípios Derivados da Legalidade</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <span class="lex-label">📋 Reserva Legal</span>
-    <div class="lex-expandable-item">Só LEI FORMAL pode criar crime.</div>
-    <div class="lex-expandable-item">Não vale: decreto, portaria, medida provisória.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <span class="lex-label">⏰ Anterioridade</span>
-    <div class="lex-expandable-item">A lei deve existir ANTES do crime.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <span class="lex-label">📝 Taxatividade</span>
-    <div class="lex-expandable-item">A lei penal deve ser CLARA e PRECISA.</div>
-    <div class="lex-expandable-item">Não pode ser vaga ou genérica.</div>
-  </div>
-  
-  <div class="callout callout-rose">
-    <span class="callout-icon">❌</span>
-    <strong>Errado:</strong><br/>
-    "Fazer coisa ruim é crime"
-  </div>
-  
-  <div class="callout callout-green">
-    <span class="callout-icon">✅</span>
-    <strong>Certo:</strong><br/>
-    "Matar alguém é homicídio"
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">3. Momento do Crime — Art. 4º CP</div>
-    <div class="lex-expandable-item">O Brasil adota a <strong>Teoria da Atividade</strong>.</div>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Teoria da Atividade:</strong><br/>
-    O crime acontece no momento da CONDUTA<br/>
-    Mesmo que o resultado venha depois<br/><br/>
-    
-    <strong>Exemplo:</strong><br/>
-    • Atirou hoje (conduta)<br/>
-    • Vítima morreu amanhã (resultado)<br/><br/>
-    ✅ Crime foi HOJE
-  </div>
-  
-  <div class="lex-section-container">
-    <span class="lex-label">Outras teorias (não adotadas no Brasil):</span>
-  </div>
-  
-  <div class="callout callout-rose">
-    ❌ Não Adotadas no Brasil<br/>
-    🎯 Teoria do Resultado — Crime no momento do resultado<br/>
-    ⚡ Teoria Mista — Reúne atividade + resultado
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que você manda uma mensagem ofensiva para alguém hoje, mas a pessoa só lê amanhã. O crime (injúria) ocorreu hoje, no momento que você escreveu e enviou, não quando ela leu. No Brasil, o que importa é o momento da conduta (ação), não quando o resultado se concretiza. É como assinar um contrato: o contrato vale na data da assinatura, não quando o outro recebe.
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">4. Princípio da Irretroatividade</div>
-    <div class="lex-expandable-item">Lei penal NÃO volta para atingir fatos passados.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">✅ EXCEÇÃO</div>
-    <div class="lex-expandable-item">Lei mais BENÉFICA retroage (Art. 2º, parágrafo único).</div>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Regra geral:</strong> Lei não retroage<br/>
-    <strong>Exceção:</strong> Lei benéfica retroage<br/><br/>
-    
-    Isso se chama: <strong>Retroatividade da Lei Benéfica</strong>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">5. Princípio da Humanidade</div>
-    <div class="lex-expandable-item">As penas devem ser humanas.</div>
-    <div class="lex-expandable-item">Proibidas: penas de morte, cruéis, degradantes.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">6. Princípio da Pessoalidade</div>
-    <div class="lex-expandable-item">A pena não passa para outras pessoas.</div>
-    <div class="lex-expandable-item">Só o culpado responde pelo crime.</div>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Exemplo:</strong><br/>
-    Pai comete crime → filho NÃO paga<br/>
-    Dívida civil → pode passar para herdeiros<br/>
-    Pena criminal → NÃO passa para herdeiros
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">7. Princípio da Individualização da Pena</div>
-    <div class="lex-expandable-item">Cada caso merece uma pena específica.</div>
-    <div class="lex-expandable-item">O juiz analisa as circunstâncias do crime.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">8. Princípio da Proporcionalidade</div>
-    <div class="lex-expandable-item">A pena deve ser proporcional ao crime.</div>
-    <div class="lex-expandable-item">Crime grave → pena grave</div>
-    <div class="lex-expandable-item">Crime leve → pena leve</div>
-  </div>
-  
-  <div class="callout callout-green">
-    <span class="callout-icon">🎯</span>
-    <strong>Resumo para prova:</strong><br/><br/>
-    
-    • <strong>Legalidade:</strong> só lei cria crime<br/>
-    • <strong>Anterioridade:</strong> lei antes do fato<br/>
-    • <strong>Atividade:</strong> crime na conduta<br/>
-    • <strong>Benéfica:</strong> lei boa retroage
-  </div>
-  
-</div>`
-  },
-
-  "DIREITO PENAL MILITAR — Sumário": {
+"DIREITO PENAL MILITAR — Sumário": {
     icon: "🎖️",
     color: "#1e3a5f",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🎖️</div>
-    <h1 class="notion-title">DIREITO PENAL MILITAR</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">CPM — Código Penal Militar</span>
-      <span class="meta-tag tag-g">Lei 13.491/2017</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-b">Decreto-Lei nº 1.001/69</div>
+    <div class="tag tag-g">Lei 13.491/2017</div>
+    <h1>Direito Penal Militar (CPM)</h1>
+    <p>O conjunto de normas que visa a tutela das instituições militares, baseadas na <strong>hierarquia</strong> e na <strong>disciplina</strong>.</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">📋 SUMÁRIO GERAL</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Parte Geral:</strong> Princípios, Aplicação da Lei, Crime, Imputabilidade, Concurso, Penas, Medidas de Segurança</div>
-      <div class="lex-expandable-item"><strong>Parte Especial:</strong> Crimes Militares contra a Vida, Patrimônio, Disciplina, Serviço, etc.</div>
-      <div class="lex-expandable-item"><strong>Processo Penal Militar:</strong> Ação Penal, IPM, Provas, Recursos</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_tree</span> 
+      Estrutura do Código Penal Militar
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Parte Geral (Livro Único):</strong><br/>
+          Trata das regras de aplicação, teoria do crime, penas e extinção da punibilidade. 
+          <span style="display:block; margin-top:0.3rem; font-size:0.75rem; opacity:0.8;">(Art. 1º ao 135)</span>
+        </div>
+      </div>
+
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Parte Especial:</strong><br/>
+          Define os crimes em espécie: em tempo de paz e em tempo de guerra.
+          <span style="display:block; margin-top:0.3rem; font-size:0.75rem; opacity:0.8;">(Art. 136 ao 410)</span>
+        </div>
+      </div>
     </div>
   </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>CPM = Código Penal Militar</strong><br/>
-    <strong>CPPM = Código de Processo Penal Militar</strong><br/>
-    <strong>STM = Superior Tribunal Militar</strong>
+
+  <div class="lex-cols" style="margin-top: 1rem;">
+    <div class="lex-section-container">
+      <div class="lex-section-title" style="font-size: 0.85rem">
+        <span class="material-symbols-outlined">gavel</span> 
+        Órgãos de Justiça
+      </div>
+      <div class="lex-list">
+        <div class="lex-expandable-item" style="padding: 0.4rem;"><strong>STM:</strong> Superior Tribunal Militar</div>
+        <div class="lex-expandable-item" style="padding: 0.4rem;"><strong>CPJ:</strong> Conselhos de Justiça</div>
+        <div class="lex-expandable-item" style="padding: 0.4rem;"><strong>IPM:</strong> Inquérito Policial Militar</div>
+      </div>
+    </div>
+
+    <div class="callout callout-gold">
+      <span class="material-symbols-outlined">shield</span>
+      <div class="lex-summary-content">
+        <strong>Pilares Fundamentais:</strong><br/>
+        Toda a legislação militar orbita em torno da preservação da <strong>Hierarquia</strong> e <strong>Disciplina</strong> (Art. 142, CF).
+      </div>
+    </div>
   </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO SIMPLES:</strong><br/>
-    Imagine que o Exército tem suas próprias regras de conduta, diferentes das regras civis. Se um soldado desobedece uma ordem, ele responde na Justiça Militar, não na Justiça Comum.<br/><br/>
-    <strong>EXPLICAÇÃO:</strong><br/>
-    O Direito Penal Militar é como um "manual de regras" específico para as Forças Armadas. Ele existe porque militares precisam seguir uma disciplina mais rigorosa. É diferente do direito comum porque leva em conta a hierarquia, a obediência e a missão das Forças Armadas.
+    <div class="lex-summary-content">
+      <strong>Por que um Direito Especial?</strong><br/>
+      Imagine uma empresa comum: se você falta ao trabalho, é demitido. No Exército, se você abandona o posto ou desobedece ao chefe, isso é <strong>crime</strong>. O DPM existe porque o rigor exigido de quem porta armas pelo Estado precisa de uma tutela mais severa que a lei civil.
+    </div>
+  </div>
+
+  <div class="callout callout-blue">
+    <span class="material-symbols-outlined">info</span>
+    <div class="lex-summary-content" style="font-size: 0.78rem;">
+      <strong>Atenção:</strong> A Lei 13.491/2017 ampliou o conceito de crime militar. Agora, crimes previstos na legislação comum (como a Lei de Drogas) também podem ser considerados militares se praticados em contexto militar.
+    </div>
   </div>
 </div>`
   },
 
+  // ═══════════════════════════════════════════════════════
+  // LEI  EXCEPCIONAL
+  // ═══════════════════════════════════════════════════════
 
-
-
-  "Lei Excepcional, Temporária e de Guerra": {
+"Lei Excepcional, Temporária e de Guerra": {
     icon: "⚔️",
     color: "#8b0000",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⚔️</div>
-    <h1 class="notion-title">Lei Excepcional, Temporária e de Guerra</h1>
-    <div class="notion-meta">
-      <span class="callout-rose">Art. 3° CPM</span>
-      <span class="callout-gold">Ultra-atividade</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Art. 4º CPM</div>
+    <div class="tag tag-y">Ultra-atividade</div>
+    <h1>Lei Excepcional, Temporária e de Guerra</h1>
+    <p>Normas criadas para períodos específicos que possuem a característica singular de "sobreviver" ao seu próprio fim.</p>
+  </div>
+
+  <div class="lex-cols">
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">timer</span>
+        1. Lei Temporária
+      </div>
+      <div class="lex-expandable-item">
+        <span>Possui <strong>data de início e fim</strong> previamente fixadas no texto da lei.</span>
+      </div>
+      <div class="callout callout-blue">
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> Lei da Copa do Mundo ou Lei Seca para o dia das eleições.
+        </div>
+      </div>
+    </div>
+
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">warning</span>
+        2. Lei Excepcional
+      </div>
+      <div class="lex-expandable-item">
+        <span>Vigora enquanto durar uma <strong>situação de emergência</strong> (calamidade, guerra, pandemia).</span>
+      </div>
+      <div class="callout callout-rose">
+        <div class="lex-summary-content">
+          <strong>Duração:</strong> O prazo é indeterminado; termina quando a crise acabar.
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">1. Conceitos</div>
-    <div class="callout callout-green">
-      ⏰ Temporária<br/>
-      Vigora por prazo determinado<br/>
-      Ex: Lei eleitoral
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">history</span>
+      3. O Fenômeno da Ultra-atividade
     </div>
-    <div class="callout callout-green">
-      🚨 Excepcional<br/>
-      Situação de calamidade pública<br/>
-      Ex: pandemia, estado de sítio
+    <p class="lex-summary-content" style="padding: 0 0.5rem">
+      Diferente da regra geral, estas leis <strong>continuam a ser aplicadas</strong> aos fatos ocorridos durante sua vigência, mesmo que o prazo tenha acabado ou a situação de emergência tenha cessado.
+    </p>
+
+    <div class="callout callout-gold">
+      <span class="material-symbols-outlined">bolt</span>
+      <div class="lex-summary-content">
+        <strong>Por que isso existe?</strong> Para evitar que as pessoas cometam crimes no último dia da lei sabendo que não seriam punidas depois (evita a impunidade por decurso de tempo).
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">2. Lei de Guerra (Art. 9°, CPM)</div>
-    <div class="lex-expandable-item">Exemplo mais claro no âmbito militar.</div>
-    <div class="lex-expandable-item">Aplicável em tempo de guerra declarada.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">military_tech</span>
+      4. Lei Penal em Tempo de Guerra
+    </div>
+    <div class="lex-expandable-item">
+      <span>No Direito Militar, as penas são <strong>majoradas</strong> e condutas atípicas em tempo de paz tornam-se crimes graves (ex: desertão em guerra).</span>
+    </div>
+    <div class="lex-expandable-item">
+      <span>É a forma mais drástica de Lei Excepcional, podendo prever inclusive a <strong>Pena de Morte</strong> (Art. 5º, XLVII, 'a' da CF).</span>
+    </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">3. Ultra-atividade (Art. 3°, CPM)</div>
-    <div class="lex-expandable-item">Mesmo <strong>revogadas</strong> ou após expirado seu prazo, essas leis <strong>continuam a reger os fatos praticados durante sua vigência</strong>.</div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📅</span>
+    <div class="lex-summary-content">
+      <strong>Linha do Tempo:</strong><br/>
+      1. <strong>Jan/2024:</strong> Lei "X" proíbe algo durante uma enchente.<br/>
+      2. <strong>Fev/2024:</strong> João descumpre a lei.<br/>
+      3. <strong>Mar/2024:</strong> A enchente acaba e a lei deixa de valer.<br/>
+      4. <strong>Dez/2024:</strong> João é julgado. ➡️ <strong>Ele será condenado pela Lei "X"</strong>, pois ela tem ultra-atividade.
+    </div>
   </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Exemplo:</strong><br/>
-    Lei de pandemia vigorou em 2020-2022.<br/>
-    Crime cometido em 2021 → julgado em 2024.<br/>
-    ✅ Aplica-se a lei da pandemia, mesmo já revogada.
-  </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense numa promoção de "frete grátis" que durou apenas o mês de novembro. Se você comprou algo nesse período, a loja tem que honrar o frete grátis, mesmo que agora em dezembro a promoção já tenha acabado. A lei militar excepcional funciona assim: vale para quem cometeu o crime durante o período dela, mesmo que ela já tenha acabado.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    Leis temporárias são como "ofertas por tempo limitado". Se você "usou" (cometeu um crime) durante a vigência da oferta, as regras da oferta valem para você, mesmo depois que ela acabou. Isso chama-se "ultra-atividade".
+    <div class="lex-summary-content">
+      <strong>Pense assim:</strong> É como uma multa de trânsito em uma zona de obras. Se você correu onde havia o aviso "Limite 40km/h - Obras", você receberá a multa em casa meses depois, mesmo que as obras já tenham terminado e o limite tenha voltado para 80km/h. O que vale é a <strong>regra do momento da infração</strong>.
+    </div>
   </div>
 </div>`
-  },
+  },  
 
+  // ═══════════════════════════════════════════════════════
+  // TERRITORIALIDADE
+  // ═══════════════════════════════════════════════════════
 
-
-
-
-  "Territorialidade e Extraterritorialidade (Art. 5°, CPM)": {
+"Territorialidade e Extraterritorialidade (Art. 5°, CPM)": {
     icon: "🌍",
     color: "#2d5a3d",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🌍</div>
-    <h1 class="notion-title">Territorialidade e Extraterritorialidade</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 5° CPM</span>
-      <span class="meta-tag tag-b">Aplicação da Lei Penal Militar</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 5º CPM</div>
+    <div class="tag tag-b">Soberania Militar</div>
+    <h1>Territorialidade e Extraterritorialidade</h1>
+    <p>Diferente do CP Comum, o CPM adota a <strong>Territorialidade Irrestrita</strong> para embarcações e aeronaves militares.</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">1. Territorialidade (Incondicionada)</div>
-    <div class="lex-expandable-item">Aplica-se aos crimes cometidos em <strong>território nacional</strong>.</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Solo brasileiro</div>
-      <div class="lex-expandable-item">Águas territoriais</div>
-      <div class="lex-expandable-item">Espaço aéreo brasileiro</div>
-      <div class="lex-expandable-item"><strong>Navios e aeronaves militares brasileiros</strong> — onde quer que estejam</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">map</span>
+      1. Territorialidade (Incondicionada)
+    </div>
+    <div class="lex-expandable-item">
+      <span>Aplica-se a lei penal militar, sem exceções, ao crime praticado em <strong>território nacional</strong>.</span>
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Espaço Geográfico:</strong> Solo, águas territoriais e espaço aéreo correspondente.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Por Extensão:</strong> Navios e aeronaves <strong>militares</strong> brasileiros onde quer que se encontrem.
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Extensão do Território:</strong><br/>
-    Navios e aeronaves militares brasileiros são considerados <strong>extensão do território nacional</strong>, mesmo estando no exterior.
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">2. Extraterritorialidade (Condicionada)</div>
-    <div class="lex-expandable-item">Aplica-se a crimes cometidos no <strong>estrangeiro</strong>, nos casos do Art. 5°, §2°.</div>
-    <div class="lex-expandable-item"><strong>Condições:</strong> o agente deve:</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Entrar em território nacional; ou</div>
-      <div class="lex-expandable-item">Ser extraditado</div>
+    <span class="material-symbols-outlined">anchor</span>
+    <div class="lex-summary-content">
+      <strong>Soberania Móvel:</strong> Um navio de guerra brasileiro atracado no porto do Japão <strong>continua sendo território brasileiro</strong> para fins de aplicação do CPM. Não há necessidade de requisitos extras.
     </div>
   </div>
-  
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">public</span>
+      2. Extraterritorialidade (Condicionada)
+    </div>
+    <div class="lex-expandable-item">
+      <span>Aplica-se a crimes praticados em território <strong>estrangeiro</strong> (Art. 5º, §2º).</span>
+    </div>
+    
+    <div class="callout callout-rose">
+      <span class="callout-icon">⚠️</span>
+      <div class="lex-summary-content">
+        <strong>Requisitos obrigatórios:</strong><br/>
+        1. O agente deve ser militar ou assemelhado;<br/>
+        2. O agente deve <strong>entrar em território nacional</strong> (ou ser extraditado).
+      </div>
+    </div>
+  </div>
+
   <div class="callout callout-purple">
+    <span class="material-symbols-outlined">compare_arrows</span>
+    <div class="lex-summary-content">
+      <strong>Fique atento:</strong> No CP Comum, aeronaves e navios <em>privados</em> em alto-mar são extensão do território. No CPM, o foco é na natureza <strong>Militar</strong> ou <strong>Pública</strong> da embarcação para a regra da territorialidade incondicionada.
+    </div>
+  </div>
+
+  <div class="callout callout-blue">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine um navio de guerra brasileiro que está fazendo uma missão no Mar Mediterrâneo. Se um marinheiro comete um crime lá dentro, a lei brasileira se aplica porque o navio é considerado "território brasileiro flutuante". É como se o Brasil tivesse levado um pedacinho do seu território para o exterior.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    Territorialidade significa que a lei brasileira vale dentro do Brasil. Extraterritorialidade é uma exceção: a lei brasileira também vale em alguns lugares fora do Brasil, mas apenas em situações especiais, como navios ou aeronaves militares brasileiras. É como se esses veículos fossem "embasssadas brasileiras móveis".
+    <div class="lex-summary-content">
+      <strong>Exemplo:</strong> Se um Sargento furta um colega dentro de um avião da FAB voando sobre a França, o crime aconteceu "no Brasil" para o Direito Penal Militar. Se ele estivesse de férias em um voo da Air France e fizesse o mesmo, cairíamos na <em>Extraterritorialidade</em>.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo para Prova:</strong> Crime em unidade militar ou embarcação militar = Territorialidade. Crime em solo estrangeiro (fora de extensão) = Extraterritorialidade (exige retorno ao Brasil).
+    </div>
   </div>
 </div>`
   },
+ 
+  // ═══════════════════════════════════════════════════════
+  // ART. 6°, CPM
+  // ═══════════════════════════════════════════════════════
 
-  "Lugar do Crime (Art. 6°, CPM)": {
+"Lugar do Crime (Art. 6°, CPM)": {
     icon: "📍",
     color: "#6b7280",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">📍</div>
-    <h1 class="notion-title">Lugar do Crime (Art. 6°, CPM)</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 6° CPM</span>
-      <span class="meta-tag tag-b">Teoria da Ubiquidade</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 6º CPM</div>
+    <div class="tag tag-b">Competência</div>
+    <h1>Lugar do Crime (Ubiquidade)</h1>
+    <p>Define qual jurisdição é competente para processar o crime quando a ação e o resultado ocorrem em locais diferentes.</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Teoria da Ubiquidade</div>
-    <div class="lex-expandable-item">Considera-se praticado o crime no:</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Lugar da ação ou omissão</strong> (conduta)</div>
-      <div class="lex-expandable-item"><strong>Lugar do resultado</strong></div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">share_location</span>
+      1. Teoria da Ubiquidade (Mista)
+    </div>
+    <div class="lex-expandable-item">
+      <span>Considera-se praticado o crime em <strong>qualquer um</strong> dos seguintes momentos:</span>
+    </div>
+    
+    <div class="lex-cols" style="margin-top: 0.5rem;">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Onde ocorreu a Ação:</strong><br/>
+          Local da conduta ou omissão, no todo ou em parte.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Onde ocorreu o Resultado:</strong><br/>
+          Local onde se produziu ou deveria produzir-se o resultado.
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Exemplo:</strong><br/>
-    • Militar atira na fronteira (Argentina)<br/>
-    • Vítima morre no Brasil<br/><br/>
-    ✅ Crime ocorreu nos dois lugares — ambos podem julgar
+    <span class="material-symbols-outlined">Ads_Click</span>
+    <div class="lex-summary-content">
+      <strong>O "Clique" do Crime:</strong> Imagine um disparo de artilharia feito em território estrangeiro que atinge um quartel no Brasil. Pela Ubiquidade, o Brasil pode julgar porque o <strong>resultado</strong> foi aqui, mesmo que a <strong>ação</strong> tenha sido lá.
+    </div>
   </div>
-  
-  <div class="callout callout-purple">
+
+  <div class="lex-cols">
+    <div class="lex-section-container">
+      <div class="lex-section-title" style="font-size: 0.85rem">
+        <span class="material-symbols-outlined">info</span>
+        Crimes Omissivos
+      </div>
+      <div class="lex-summary-content" style="font-size: 0.8rem">
+        Nos crimes omissivos, o lugar do crime é onde a conduta <strong>deveria ter sido praticada</strong>.
+      </div>
+    </div>
+    <div class="callout callout-purple" style="margin: 0;">
+      <span class="material-symbols-outlined">psychology</span>
+      <div class="lex-summary-content">
+        <strong>Lembre-se do LUTA:</strong><br/>
+        • <strong>L</strong>ugar: <strong>U</strong>biquidade<br/>
+        • <strong>T</strong>empo: <strong>A</strong>tividade
+      </div>
+    </div>
+  </div>
+
+  <div class="lex-summary" style="margin-top: 1rem;">
+    <span class="lex-summary-icon">🌍</span>
+    <div class="lex-summary-content">
+      <strong>Exemplo Prático:</strong><br/>
+      Um militar em missão na fronteira envia uma mensagem falsa de comando (ação) no Uruguai. Essa mensagem causa um prejuízo logístico (resultado) em uma unidade no Rio Grande do Sul. 
+      <br/>➡️ <strong>O CPM é aplicado em ambos os lugares.</strong>
+    </div>
+  </div>
+
+  <div class="callout callout-blue">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense em uma mensagem que você envia pelo WhatsApp de São Paulo para um amigo no Rio. O envio aconteceu em São Paulo, mas a recepção foi no Rio. Um crime no Direito Militar funciona assim também: ele acontece tanto no lugar onde a pessoa fez a ação (atirou), quanto no lugar onde houve o resultado (a vítima foi atingida).<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    A "Teoria da Ubiquidade" é uma palavra difícil para uma ideia simples: o crime existe em dois lugares ao mesmo tempo — onde aconteceu a ação E onde aconteceu o resultado. Isso é importante porque permite que qualquer um desses lugares possa julgar o caso.
+    <div class="lex-summary-content">
+      <strong>Analogia da Ponte:</strong> O crime é como uma ponte. A teoria da ubiquidade diz que as autoridades de <strong>qualquer uma das margens</strong> podem cuidar da ponte, não importa se o problema começou na cabeceira esquerda ou terminou na direita.
+    </div>
   </div>
 </div>`
   },
 
-  "Tempo do Crime (Art. 7°, CPM)": {
+  // ═══════════════════════════════════════════════════════
+  // ART. 7°, CPM
+  // ═══════════════════════════════════════════════════════
+
+"Tempo do Crime (Art. 7°, CPM)": {
     icon: "⏱️",
     color: "#4f46e5",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⏱️</div>
-    <h1 class="notion-title">Tempo do Crime (Art. 7°, CPM)</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 7° CPM</span>
-      <span class="meta-tag tag-b">Teoria da Atividade</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 7º CPM</div>
+    <div class="tag tag-b">Tempus Regit Actum</div>
+    <h1>Tempo do Crime (Atividade)</h1>
+    <p>Define o momento exato em que a lei penal deve ser fixada, ignorando o momento do resultado final.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">schedule</span>
+      1. Teoria da Atividade
+    </div>
+    <div class="lex-expandable-item">
+      <span>Considera-se praticado o crime no momento da <strong>ação ou omissão</strong> (Art. 7º CPM).</span>
+    </div>
+    <div class="lex-expandable-item">
+      <span>É irrelevante o momento em que se produz o resultado para fins de definir o "tempo do crime".</span>
+    </div>
+
+    <div class="callout callout-gold">
+      <span class="callout-icon">📌</span>
+      <div class="lex-summary-content">
+        <strong>Caso Prático:</strong> Se um militar dispara contra outro no último dia antes de uma lei se tornar mais severa, ele será julgado pela <strong>lei antiga</strong>, mesmo que a vítima venha a falecer dias depois sob a vigência da nova lei.
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Teoria da Atividade</div>
-    <div class="lex-expandable-item">Considera-se praticado o crime no <strong>momento da ação ou omissão</strong> (conduta), ainda que o resultado ocorra depois.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Relevância</div>
-    <div class="lex-expandable-item">Define:</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Qual lei estava em vigor (retroatividade/irretroatividade)</div>
-      <div class="lex-expandable-item">Capacidade penal do agente (se era militar na data da conduta)</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">fact_check</span>
+      2. Relevância Prática
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Imputabilidade:</strong> Define se o agente era militar ou se possuía capacidade mental plena na data da <strong>conduta</strong>.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Vigência:</strong> Determina qual lei penal deve ser aplicada (evita a retroatividade maléfica).
+        </div>
+      </div>
     </div>
   </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Exemplo:</strong><br/>
-    • Atirou hoje (conduta)<br/>
-    • Vítima morreu amanhã (resultado)<br/><br/>
-    ✅ Crime foi HOJE — aplica lei de hoje
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>Atenção ao Artigo:</strong> Enquanto no Código Penal comum o tempo do crime é o <strong>Art. 4º</strong>, no Código Penal Militar ele está previsto no <strong>Art. 7º</strong>. Não confunda os números em provas específicas!
+    </div>
   </div>
-  
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">💡</span>
+    <div class="lex-summary-content">
+      <strong>Mnemônico Inseparável (LUTA):</strong><br/>
+      • <strong>L</strong>ugar do Crime: <strong>U</strong>biquidade (Art. 6º)<br/>
+      • <strong>T</strong>empo do Crime: <strong>A</strong>tividade (Art. 7º)
+    </div>
+  </div>
+
   <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que você enviou uma mensagem ofensiva para alguém hoje, mas a pessoa só leu amanhã e ficou triste. O "crime" (o envio da mensagem) aconteceu hoje, mesmo que o resultado (a tristeza) tenha vindo depois. No Direito Militar, a mesma lógica vale: o crime é considerado no momento da ação, não no momento do resultado.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    A "Teoria da Atividade" diz que o crime acontece no momento em que a pessoa faz a ação (atira, rouba, desobedece), não quando o resultado aparece. Isso é importante para saber qual lei aplicar: a lei que valia no dia do disparo, não a lei do dia da morte.
+    <span class="callout-icon">🧠</span>
+    <div class="lex-summary-content">
+      <strong>Analogia do Retrato:</strong> O tempo do crime é como uma <strong>fotografia</strong> tirada no momento em que o militar puxa o gatilho ou deixa de cumprir o dever. O que acontece depois (a revelação da foto ou o resultado da ação) não muda o que foi registrado naquele instante.
+    </div>
   </div>
 </div>`
   },
 
-  "Extinção da Punibilidade — Aplicação no Tempo": {
+  // ═══════════════════════════════════════════════════════
+  // EXTINÇÃO DA PUNIBILIDADE
+  // ═══════════════════════════════════════════════════════
+
+"Extinção da Punibilidade — Aplicação no Tempo": {
     icon: "🕐",
     color: "#7c3aed",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🕐</div>
-    <h1 class="notion-title">Aplicação no Tempo — Extinção da Punibilidade</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Arts. 123-126 CPM</span>
-      <span class="meta-tag tag-b">Prescrição</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-y">Arts. 123 a 126 CPM</div>
+    <div class="tag tag-r">Prescrição Militar</div>
+    <h1>Extinção da Punibilidade</h1>
+    <p>O Estado perde o direito de punir (jus puniendi) quando não exerce sua pretensão dentro dos prazos legais.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">rule</span>
+      1. A Grande Diferença (Cai em Prova!)
+    </div>
+    
+    <div class="lex-cols">
+      <div class="callout callout-blue">
+        <strong>Justiça Comum (CP):</strong><br/>
+        A prescrição após a sentença é contada pela <strong>Pena em Concreto</strong> (a pena que o juiz realmente aplicou).
+      </div>
+      
+<div class="callout callout-gold">
+  <span class="material-symbols-outlined">gavel</span>
+  <div class="lex-summary-content">
+    <strong>Justiça Militar (CPM):</strong><br/>
+    A prescrição é contada <u>sempre</u> pela <strong>Pena Máxima Cominada</strong> (em abstrato) para o crime.
+  </div>
+</div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Base Legal</div>
-    <div class="lex-expandable-item">A base é o <strong>CPM</strong>, mas com forte influência do <strong>Código Penal comum</strong> e <strong>Súmulas do STF/STJ</strong>.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">hourglass_empty</span>
+      2. Regras do Art. 125 do CPM
+    </div>
+    <div class="lex-expandable-item">
+      <span>O prazo prescricional militar não se altera após a sentença condenatória.</span>
+    </div>
+    <div class="lex-expandable-item">
+      <span>A prescrição no CPM ignora a pena fixada pelo juiz, mantendo o foco na <strong>gravidade abstrata</strong> do delito.</span>
+    </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Diferença Crucial (Cai Muito!)</div>
-  </div>
-  <div class="callout callout-green">
-    Justiça Militar<br/>
-    Prazo prescricional contado pela <strong>pena máxima cominada ao crime (CPM)</strong>
-  </div>
-  <div class="callout callout-green">
-    Justiça Comum<br/>
-    Prazo contado pela <strong>pena efetivamente aplicada</strong>
-  </div>
-  
+
   <div class="callout callout-rose">
-    <span class="callout-icon">⚠️</span>
-    <strong>Diferença crucial:</strong><br/>
-    Na Justiça Militar, a prescrição é contada pela <strong>pena em abstrato</strong> (máxima cominada), não pela <strong>pena em concreto</strong> (efetivamente aplicada).
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>Cuidado:</strong> Enquanto no Direito Comum a prescrição pode diminuir se a pena aplicada for baixa, no <strong>Direito Militar a prescrição é "rígida"</strong> e baseada no teto da lei. Isso torna a punição militar mais difícil de prescrever em certos casos.
+    </div>
   </div>
-  
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">⚖️</span>
+    <div class="lex-summary-content">
+      <strong>Caso Comparativo:</strong><br/>
+      Crime com pena de 1 a 5 anos. Juiz aplica 1 ano.<br/>
+      • <strong>No Comum:</strong> O prazo será contado sobre 1 ano (prescreve rápido).<br/>
+      • <strong>No Militar:</strong> O prazo será contado sobre 5 anos (demora mais para prescrever).
+    </div>
+  </div>
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que você tem uma multa de trânsito. Se passar muito tempo sem que a prefeitura cobre, a multa "prescreve" — você não precisa mais pagar. No Direito Militar é parecido: se o Estado demorar muito para punir um crime militar, o direito de punir "expira". Mas aqui tem uma diferença: na Justiça Militar, o prazo é calculado pela pena máxima possível, não pela pena que realmente foi dada.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Prescrição" é como um "prazo de validade" para o Estado punir. Se passar esse prazo sem ação, o crime "caduca". A diferença é que na Justiça Militar, o prazo é sempre calculado pelo "pior caso" (pena máxima), enquanto na Justiça Comum, é calculado pelo "caso real" (pena que realmente foi aplicada).
+    <div class="lex-summary-content">
+      <strong>Analogia do Prazo de Validade:</strong> Imagine um iogurte. No mundo comum, se você abrir e comer só um pouco, o prazo de validade encurta. No mundo militar, não importa o quanto você comeu: a validade é <strong>sempre a que está impressa no rótulo de fábrica</strong> (a pena máxima da lei).
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo para decorar:</strong> <br/>
+      CP = Pena Aplicada (Concreto). <br/>
+      CPM = Pena Máxima (Abstrato).
+    </div>
   </div>
 </div>`
   },
 
-  "Contagem de Prazo (Art. 28, CPM)": {
+  // ═══════════════════════════════════════════════════════
+  // ART. 28°, CPM
+  // ═══════════════════════════════════════════════════════
+
+ "Contagem de Prazo (Art. 28°, CPM)": {
     icon: "📅",
     color: "#059669",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">📅</div>
-    <h1 class="notion-title">Contagem de Prazo (Art. 28, CPM)</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 28 CPM</span>
-      <span class="meta-tag tag-b">Prazos Penais</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 28 CPM</div>
+    <div class="tag tag-b">Direito Material</div>
+    <h1>Contagem de Prazo</h1>
+    <p>A regra de ouro do Direito Penal Militar para o cálculo de penas e medidas de segurança.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">calendar_today</span>
+      1. Regra do Prazo Penal
+    </div>
+    <div class="lex-expandable-item">
+      <span>No prazo de <strong>Direito Penal</strong> (CPM), o tempo é contado de forma a favorecer a liberdade.</span>
+    </div>
+    
+    <div class="lex-cols" style="margin-top: 0.5rem;">
+      <div class="callout callout-green" style="margin: 0;">
+        <span class="material-symbols-outlined">login</span>
+        <div><strong>Inclui-se:</strong><br/>O dia do começo.</div>
+      </div>
+      <div class="callout callout-rose" style="margin: 0;">
+        <span class="material-symbols-outlined">logout</span>
+        <div><strong>Exclui-se:</strong><br/>O dia do vencimento.</div>
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Regra Geral — Prazos Penais</div>
-    <div class="lex-expandable-item">Contagem em <strong>dias</strong>, computando-se o <strong>primeiro</strong> e excluindo-se o <strong>último</strong>.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Exceções</div>
+    <div class="lex-section-title" style="font-size: 0.85rem">
+      <span class="material-symbols-outlined">exposure_neg_1</span>
+      2. Frações e Unidades
+    </div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Pena de prisão:</strong> dia do cumprimento computado integralmente (não se exclui o primeiro)</div>
-      <div class="lex-expandable-item"><strong>Internação (medida de segurança):</strong> contagem também integral</div>
+      <div class="lex-expandable-item">Desprezam-se as frações de dia (horas) nas penas privativas de liberdade.</div>
+      <div class="lex-expandable-item">Os meses e anos são contados pelo calendário comum (Gregoriano).</div>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Prazos Processuais</div>
-    <div class="lex-expandable-item">Seguem regra diversa: inclui o primeiro, exclui o último, e prorroga se terminar em feriado.</div>
-    <div class="lex-expandable-item">Art. 28 é do <strong>CPM</strong> (prazos penais, não processuais).</div>
+
+  <div class="lex-cols">
+    <div class="lex-section-container">
+      <div class="lex-section-title" style="font-size: 0.85rem; color: var(--purple);">
+        <span class="material-symbols-outlined">history_edu</span>
+        Prazo Penal (CPM)
+      </div>
+      <div class="lex-summary-content" style="font-size: 0.8rem">
+        <strong>Inclui o 1º dia.</strong> Não se prorroga se cair em fim de semana ou feriado.
+      </div>
+    </div>
+    <div class="lex-section-container">
+      <div class="lex-section-title" style="font-size: 0.85rem; color: var(--acc);">
+        <span class="material-symbols-outlined">gavel</span>
+        Prazo Processual (CPPM)
+      </div>
+      <div class="lex-summary-content" style="font-size: 0.8rem">
+        <strong>Exclui o 1º dia</strong> e inclui o último. Prorroga-se se o dia final não for útil.
+      </div>
+    </div>
   </div>
-  
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>Cuidado:</strong> Para fins de <strong>Pena de Prisão</strong>, qualquer fração do dia de início já computa como 1 dia inteiro cumprido. O militar começou a cumprir pena às 23h50? Aquele dia já conta integralmente.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">💡</span>
+    <div class="lex-summary-content">
+      <strong>Exemplo:</strong> Se um militar é preso para cumprir 10 dias em uma sexta-feira: <br/>
+      • O prazo começa a contar <strong>na própria sexta</strong> (dia 1). <br/>
+      • O término não é adiado se cair em feriado. <br/>
+      • Ele será solto assim que o prazo de 10 dias se completar, excluindo o dia do vencimento do cálculo de permanência.
+    </div>
+  </div>
+
   <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que você tem uma viagem de 5 dias. Se você sai na segunda-feira, contam: segunda (1º dia), terça (2º), quarta (3º), quinta (4º) — e chegam na sexta. No Direito Militar, a contagem de prazos penais funciona assim: conta o primeiro dia, mas não conta o último. É como dizer "você tem até quinta-feira", e quinta não conta.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    A contagem de prazos penais segue a regra "computa o primeiro, exclui o último". Por exemplo, se um prazo é de 5 dias e começa segunda, termina na sexta (contou seg, ter, qua, qui = 4 dias + o primeiro = 5, excluiu a sexta). Para penas de prisão e internação, o dia inteiro conta.
+    <span class="material-symbols-outlined">hotel_class</span>
+    <div class="lex-summary-content">
+      <strong>Analogia da Estadia:</strong> No Direito Penal, é como uma diária de hotel ao contrário: se você entrou no quarto (prisão), não importa se foi às 10h ou às 22h, o hotel já te cobra a primeira diária cheia (o dia já conta a seu favor para a pena acabar logo).
+    </div>
   </div>
 </div>`
   },
 
-  "Aplicação no que tange ao Militar (Art. 9°, CPM)": {
+  // ═══════════════════════════════════════════════════════
+  // APLICAÇÃO NO QUEETANGE AO MILITAR
+  // ═══════════════════════════════════════════════════════
+
+ "Aplicação no que tange ao Militar (Art. 9°, CPM)": {
     icon: "🎖️",
     color: "#1e3a5f",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🎖️</div>
-    <h1 class="notion-title">Aplicação no que tange ao Militar (Art. 9°, CPM)</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 9° CPM</span>
-      <span class="meta-tag tag-b">Competência da Justiça Militar</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Art. 9º do CPM</div>
+    <div class="tag tag-g">Lei 13.491/2017</div>
+    <h1>Crimes Militares em Tempo de Paz</h1>
+    <p>O coração do DPM: define quando uma conduta atrai a competência da Justiça Militar e a aplicação do Código Penal Militar.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_tree</span>
+      1. Os Três Pilares do Crime Militar
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Art. 9º, I (Próprios):</strong><br/>
+          Crimes previstos <u>somente</u> no CPM (ex: deserção, dormir em serviço).
+        </div>
+      </div>
+
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Art. 9º, II (Impróprios):</strong><br/>
+          Crimes do CPM ou da <u>Lei Comum</u>, quando praticados por militar em serviço ou no quartel.
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Quem julga?</div>
-    <div class="lex-expandable-item">A <strong>Justiça Militar da União</strong> julga os crimes militares definidos no CPM praticados por:</div>
+    <div class="lex-section-title" style="font-size: 0.85rem">
+      <span class="material-symbols-outlined">fact_check</span>
+      2. Quando o crime é militar? (Art. 9º, II)
+    </div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Militares das Forças Armadas</strong> (ativos e reformados — estes apenas em certas hipóteses)</div>
-      <div class="lex-expandable-item"><strong>Militares estaduais</strong> (PM e BM) em situação de atividade, quando o crime for militar e praticado contra bens, serviços ou interesses da União, ou em contexto de serviço/atribuição típica (Súmula Vinculante 53 do STF)</div>
+      <div class="lex-expandable-item"><strong>Lugar:</strong> Praticado em lugar sujeito à administração militar (quartéis, navios).</div>
+      <div class="lex-expandable-item"><strong>Serviço:</strong> Militar em serviço ou atuando em razão da função, mesmo fora do quartel.</div>
+      <div class="lex-expandable-item"><strong>Patrimônio:</strong> Contra o patrimônio sob administração militar ou a ordem administrativa militar.</div>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Conceito de Crime Militar (Art. 9°, CPM)</div>
-    <div class="lex-expandable-item">O CPM adotou um <strong>sistema misto</strong>:</div>
+
+  <div class="lex-cols">
+    <div class="lex-section-container">
+      <div class="lex-section-title" style="font-size: 0.85rem">
+        <span class="material-symbols-outlined">person_off</span>
+        3. O Civil e o Art. 9º, III
+      </div>
+      <div class="lex-summary-content" style="font-size: 0.8rem">
+        Civis <strong>podem</strong> cometer crimes militares contra as Forças Armadas (União). <br/>
+        <strong>Atenção:</strong> Civil <u>não</u> comete crime militar no âmbito estadual (PM/BM).
+      </div>
+    </div>
+    <div class="callout callout-rose" style="margin:0">
+      <span class="material-symbols-outlined">gavel</span>
+      <div class="lex-summary-content">
+        <strong>Justiça Militar Estadual:</strong> Só julga militares. Civis que atacam a PM vão para a Justiça Comum.
+      </div>
+    </div>
   </div>
-  
-  <div class="callout callout-green">
-    Critério Material (Art. 9°, I)<br/>
-    Crimes que, por sua <strong>natureza</strong> (previstos no CPM), são considerados militares<br/>
-    Podem ser cometidos por <strong>civil</strong> ou <strong>militar</strong>
-  </div>
-  <div class="callout callout-green">
-    Critério Formal (Art. 9°, II)<br/>
-    Crimes cometidos por <strong>militar</strong> em situação de atividade<br/>
-    Mesmo que sejam crimes <strong>comuns</strong> previstos no CP, desde que praticados em contexto de <strong>serviço ou função militar</strong>
-  </div>
-  
+
   <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Exemplo:</strong><br/>
-    • Civil que pratica peculato → Justiça Militar (crime previsto no CPM)<br/>
-    • Militar que pratica furto comum fora do quartel → Justiça Comum<br/>
-    • Militar que pratica furto durante serviço → Justiça Militar
+    <span class="material-symbols-outlined">star</span>
+    <div class="lex-summary-content">
+      <strong>Grande Mudança (2017):</strong> Agora, qualquer crime previsto na <strong>Legislação Extravagante</strong> (Lei de Drogas, Estatuto do Desarmamento, Tortura) pode ser crime militar se praticado nas condições do Art. 9º, II.
+    </div>
   </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine um hospital. Se um médico comete um erro médico, ele responde no Tribunal de Ética Médica. Mas se o mesmo médico comete um crime comum (como furto numa loja), ele vai para a Justiça Comum. Com militares é parecido: eles têm uma Justiça especial para crimes relacionados à função militar, mas crimes comuns do dia a dia vão para a Justiça Comum.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    O Art. 9° define quando um crime é "militar". Existem duas formas: (1) pela natureza — crimes como deserção ou peculato militar, que só existem no CPM; ou (2) pela pessoa — quando um militar comete um crime comum, mas em serviço. É como ter uma "regra da casa" além das regras da cidade.
+    <div class="lex-summary-content">
+      <strong>Pense na "Farda Invisível":</strong><br/>
+      Se o militar está "vestindo" a função (em serviço, no quartel ou defendendo bens da União), ele atrai o crime para a Justiça Militar. Se ele está de férias, agindo como um cidadão comum contra outro cidadão comum, a farda não está lá e o crime é comum.
+    </div>
+  </div>
+
+  <div class="lex-summary" style="margin-top: 1rem;">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo de Competência:</strong><br/>
+      • Militar (Serviço) x Militar = <strong>JM</strong><br/>
+      • Militar (Serviço) x Civil = <strong>JM</strong><br/>
+      • Civil x Instituição Militar (União) = <strong>JMU</strong><br/>
+      • Militar (Folga/Férias) x Civil = <strong>Justiça Comum</strong>
+    </div>
   </div>
 </div>`
   },
+
+  // ═══════════════════════════════════════════════════════
+  // CPM: TIPICIDADE, AUTORIA E PARTICIPAÇÃO
+  // ═══════════════════════════════════════════════════════
 
   "Tipicidade e Princípios Especiais": {
     icon: "📝",
     color: "#0891b2",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">📝</div>
-    <h1 class="notion-title">Tipicidade e Princípios Especiais</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Princípio da Insignificância</span>
-      <span class="meta-tag tag-b">Bagatela Militar</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Tipicidade Militar</div>
+    <div class="tag tag-r">Hierarquia e Disciplina</div>
+    <h1>Tipicidade e Princípios Especiais</h1>
+    <p>A adequação da conduta ao tipo penal militar, onde a proteção da <strong>instituição</strong> muitas vezes supera o valor do objeto material.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">balance</span>
+      1. Princípio da Insignificância no CPM
+    </div>
+    <div class="lex-expandable-item">
+      <span>Afasta a tipicidade material quando a lesão ao bem jurídico é ínfima.</span>
+    </div>
+
+    <div class="lex-cols" style="margin-top: 0.5rem;">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Rigor Militar:</strong> No DPM, a aplicação é <strong>excepcional e restrita</strong>. Pequenos furtos entre militares ferem a confiança e a disciplina, impedindo a bagatela.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>STF/STJ:</strong> Não se aplica, em regra, a crimes de posse de entorpecentes dentro de unidades militares (segurança da tropa).
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Princípio da Insignificância (Bagatela)</div>
-    <div class="lex-expandable-item">Com os requisitos objetivos (mínima ofensividade, ausência de periculosidade social) e subjetivos.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">military_tech</span>
+      2. O "Animus Militaris"
+    </div>
+    <div class="lex-expandable-item">
+      <span>É a intenção de afetar o serviço, a disciplina ou a autoridade militar.</span>
+    </div>
+    <div class="callout callout-gold">
+      <span class="material-symbols-outlined">priority_high</span>
+      <div class="lex-summary-content">
+        <strong>Fator de Tipicidade:</strong> Para que o crime seja militar, muitas vezes analisa-se se a conduta atingiu os pilares das Forças Armadas (Art. 142 CF).
+      </div>
+    </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Animus Militaris</div>
-    <div class="lex-expandable-item">Consideração do <strong>"animus militaris"</strong> — valorização da <strong>disciplina e hierarquia</strong>.</div>
-    <div class="lex-expandable-item">O CEBRASPE cobra que, na esfera militar, o princípio seja aplicado com <strong>maior rigor</strong>, pois o bem jurídico tutelado (a disciplina) é de natureza <strong>coletiva e institucional</strong>.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">gavel</span>
+      3. Crimes de Mera Conduta
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">No CPM, muitos crimes se consumam sem necessidade de resultado físico (dano material).</p>
+    
+    <div class="lex-cols">
+      <div class="callout callout-blue">
+        <strong>Deserção (Art. 187):</strong><br/>
+        Consuma-se com a ausência injustificada por mais de 8 dias. Não precisa "causar prejuízo" à missão.
+      </div>
+      <div class="callout callout-purple">
+        <strong>Dormir em Serviço:</strong><br/>
+        Basta o ato de dormir. A segurança da unidade já é considerada afetada pela mera conduta.
+      </div>
+    </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Crimes de Mera Conduta e Formais</div>
-    <div class="lex-expandable-item">O CPM possui diversos tipos em que a <strong>consumação independe do resultado naturalístico</strong>.</div>
-    <div class="lex-expandable-item"><strong>Exemplo:</strong> Deserção (Art. 187) — consuma-se pelo mero afastamento, sem necessidade de dano.</div>
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">smart_toy</span>
+    <div class="lex-summary-content">
+      <strong>Bizu CEBRASPE:</strong> A banca adora afirmar que a disciplina e a hierarquia são bens jurídicos <strong>disponíveis</strong>. Errado! São bens <u>institucionais e indisponíveis</u>, por isso a bagatela é tão difícil de ser aceita.
+    </div>
   </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine uma escola onde é proibido usar celular na sala de aula. Se um aluno pega o celular e manda uma mensagem, já cometeu a infração — não importa se a mensagem foi importante ou não, nem se prejudicou alguém. No Direito Militar, alguns crimes são assim: basta fazer a ação proibida, não precisa causar dano. Deserção, por exemplo, é só sair sem permissão — não precisa acontecer nada de ruim.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Tipicidade" significa que algo está descrito na lei como crime. No Direito Militar, alguns crimes são formais — ou seja, a lei já considera crime só pelo fato de ter feito a ação, sem precisar provar que causou dano. Isso existe porque a disciplina militar é um bem tão importante que merece proteção especial.
+    <div class="lex-summary-content">
+      <strong>Analogia da Sentinela:</strong> Imagine uma sentinela que abandona o posto por 5 minutos para tomar café. Não houve ataque, ninguém morreu e nada foi roubado. No mundo civil, "não deu em nada". No mundo militar, a segurança de todos foi posta em risco. O crime é a <strong>quebra da confiança</strong>, não o dano físico.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo:</strong> Tipicidade Militar = Conduta + Descrição na Lei + Ofensa à Instituição (Hierarquia/Disciplina).
+    </div>
   </div>
 </div>`
-  },
+},
 
-  "Relação de Causalidade e Resultado (Art. 18, CPM)": {
+  // ═══════════════════════════════════════════════════════
+  //  RELAÇÃO DE CASUALIDADE E RESULTADO
+  // ═══════════════════════════════════════════════════════
+
+"Relação de Causalidade e Resultado (Art. 18, CPM)": {
     icon: "🔗",
     color: "#4338ca",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🔗</div>
-    <h1 class="notion-title">Relação de Causalidade e Resultado</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 18 CPM</span>
-      <span class="meta-tag tag-b">Conditio Sine Qua Non</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 18 CPM</div>
+    <div class="tag tag-b">Nexo Causal</div>
+    <h1>Relação de Causalidade</h1>
+    <p>O elo físico e jurídico que liga a conduta do agente ao resultado ilícito.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_tree</span>
+      1. Teoria da Equivalência (Conditio Sine Qua Non)
+    </div>
+    <div class="lex-expandable-item">
+      <span>Causa é toda ação ou omissão sem a qual o resultado não teria ocorrido.</span>
+    </div>
+    
+    <div class="callout callout-blue">
+      <span class="material-symbols-outlined">science</span>
+      <div class="lex-summary-content">
+        <strong>Método de Eliminação de Thyrén:</strong> Se você mentalmente retirar a conduta e o resultado desaparecer, essa conduta é <strong>causa</strong>.
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Teoria da Conditio Sine Qua Non</div>
-    <div class="lex-expandable-item">O CPM adota a mesma linha do Código Penal comum.</div>
-    <div class="lex-expandable-item">Considera-se causa a <strong>ação ou omissão sem a qual o resultado não teria ocorrido</strong>.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">Alt_Route</span>
+      2. Causas Supervenientes (Art. 18, §1º e §2º)
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">Quando algo novo acontece após a conduta e influencia o resultado:</p>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Absolutamente Independente:</strong><br/>
+          O resultado ocorreria de qualquer forma (Ex: Veneno + Raio). 
+          <br/>➡️ <strong>O agente só responde pela tentativa.</strong>
+        </div>
+      </div>
+
+      <div class="lex-summary" style="border-left: 3px solid var(--gold);">
+        <div class="lex-summary-content">
+          <strong>Relativamente Independente:</strong><br/>
+          Soma-se à conduta. Se ela <u>por si só</u> causou o resultado (Ex: Ambulância bate). 
+          <br/>➡️ <strong>Exclui a imputação do resultado.</strong>
+        </div>
+      </div>
+    </div>
   </div>
+
   
-  <div class="lex-section-container">
-    <div class="lex-section-title">Superveniência de Causa Independente (Art. 18, §2°, CPM)</div>
-    <div class="lex-expandable-item">Causas <strong>relativamente independentes</strong> não excluem a imputação quando, por si só, produziram o resultado.</div>
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>Regra de Ouro:</strong> A causa superveniente <u>relativamente</u> independente exclui o resultado se ela produziu o efeito <strong>por si só</strong> (o desdobramento não era esperado/natural da conduta). O agente responde apenas pelos atos já praticados.
+    </div>
   </div>
-  
+
+  <div class="lex-summary" style="margin-top: 1rem;">
+    <span class="lex-summary-icon">🚑</span>
+    <div class="lex-summary-content">
+      <strong>Exemplo de Prova:</strong><br/>
+      Militar atira em outro (lesão leve). A vítima é levada na ambulância, que capota e a vítima morre no acidente.<br/>
+      • O capotamento é causa <strong>relativamente independente</strong> que produziu o resultado <strong>por si só</strong>.<br/>
+      • O atirador responde apenas por <strong>Tentativa de Homicídio</strong> (ou Lesão), mas NÃO pela morte.
+    </div>
+  </div>
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense em um acidente de carro. Você bate em outro veículo e o motorista fica levemente machucado. Mas no hospital, ele tem uma reação alérgica inesperada ao remédio e fica gravemente ferido. A reação alérgica é uma "causa independente", mas você ainda é responsável porque o acidente foi o que levou ele ao hospital. A lesão grave não teria acontecido sem a sua batida.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    A relação de causalidade é a conexão entre a ação e o resultado. No Direito Militar, usa-se a teoria "conditio sine qua non" (condição sem a qual não): se o resultado não teria acontecido sem a ação da pessoa, então existe causalidade. Mesmo que outras coisas aconteçam depois, se a ação original foi necessária para o resultado, a responsabilidade continua.
+    <div class="lex-summary-content">
+      <strong>Analogia do Dominó:</strong><br/>
+      A causalidade é uma fileira de dominós. Se você derruba o primeiro e todos caem, você é o culpado pelo último. Mas se no meio do caminho um <strong>gato pula na mesa</strong> e derruba o último dominó antes da sua "onda" chegar, você não é o culpado pela queda final, apenas por ter começado a mexer nos primeiros.
+    </div>
   </div>
 </div>`
-  },
+}, 
+  
+  // ═══════════════════════════════════════════════════════
+  // CRIME TENTADO E CONSUMADO
+  // ═══════════════════════════════════════════════════════
 
   "Crime Tentado e Consumado (Arts. 30 e 31, CPM)": {
     icon: "🎯",
@@ -1398,940 +1558,1853 @@ window.DA = {
     <div class="lex-expandable-item">Ocorre quando o crime reúne <strong>todos os elementos de sua definição legal</strong>.</div>
   </div>
   
-  <div class="lex-section-container">
-    <div class="lex-section-title">Tentativa (Art. 31)</div>
-    <div class="lex-expandable-item">O agente pratica <strong>atos executórios</strong>, mas o crime não se consuma por <strong>circunstâncias alheias à sua vontade</strong>.</div>
-    <div class="lex-expandable-item"><strong>Punição:</strong> Aplica-se a pena do crime consumado, <strong>diminuída de 1/3 a 2/3</strong>.</div>
-  </div>
+<div style="background-color: #1a1a2e; border: 1px solid #3f3f5f; border-radius: 12px; padding: 20px; color: #e0e0e0; font-family: sans-serif; max-width: 500px;">
   
-  <div class="callout callout-rose">
-    <span class="callout-icon">⚠️</span>
-    <strong>Diferença crucial:</strong><br/>
-    O CPM prevê tentativa punível para <strong>todos os crimes</strong>, salvo disposição em contrário.
+  <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 20px; border-bottom: 1px solid #3f3f5f; padding-bottom: 10px;">
+    <div style="background: #e91e63; width: 4px; height: 20px; border-radius: 2px;"></div>
+    <strong style="font-size: 1.1rem; letter-spacing: 0.5px;">Tentativa <span style="color: #888; font-weight: normal;">(Art. 31)</span></strong>
   </div>
+
+  <div style="margin-bottom: 20px;">
+    <div style="font-size: 0.75rem; color: #888; text-transform: uppercase; margin-bottom: 5px; font-weight: bold;">O que é?</div>
+    <p style="margin: 0; line-height: 1.5; font-size: 1rem;">
+      Início da <strong>execução</strong> + <span style="color: #f48fb1;">não consumação</span> por fatores externos (alheios à vontade).
+    </p>
+  </div>
+
+  <div style="background: rgba(233, 30, 99, 0.1); border: 1px solid rgba(233, 30, 99, 0.3); padding: 15px; border-radius: 8px; display: flex; align-items: center; justify-content: space-between;">
+    <div>
+      <div style="font-size: 0.75rem; color: #f48fb1; text-transform: uppercase; font-weight: bold;">Punição</div>
+      <div style="font-size: 0.9rem;">Pena do crime consumado</div>
+    </div>
+    
+    <div style="text-align: right;">
+      <div style="font-size: 1.2rem; font-weight: bold; color: #f48fb1;">↓ 1/3 a 2/3</div>
+      <div style="font-size: 0.7rem; color: #888;">(Redução)</div>
+    </div>
+  </div>
+
+  <div style="margin-top: 15px; font-size: 0.85rem; color: #b0b0b0; font-style: italic; display: flex; gap: 8px;">
+    <span>📌</span>
+    <span>No CPM, a tentativa é punível para <strong>todos</strong> os crimes, salvo disposição em contrário.</span>
+  </div>
+
+</div>
+  
+<div class="callout callout-rose">
+  <span class="callout-icon">⚠️</span>
+  <div>
+    <strong>Regra de Tentativa no CPM:</strong>
+    <p>Diferente do CP comum, no CPM a tentativa é <strong>punível para todos os crimes</strong>, salvo disposição em contrário.</p>
+  </div>
+</div>
   
   <div class="lex-section-container">
     <div class="lex-section-title">Arrependimento Eficaz e Posterior (Arts. 32 e 33)</div>
     <div class="lex-expandable-item">Seguem a lógica do CP comum.</div>
-    <div class="lex-expandable-item"><strong>Arrependimento posterior:</strong> reparação do dano — exige que o crime seja cometido <strong>sem violência ou grave ameaça à pessoa</strong>.</div>
-  </div>
+    <div class="lex-expandable-item">
+  <strong>Arrependimento posterior:</strong>
+  <p>Exige reparação do dano até o recebimento da denúncia, <em>exclusivamente</em> em crimes cometidos <strong>sem violência ou grave ameaça à pessoa</strong>.</p>
+</div>
   
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que você tenta fazer um bolo, mas o forno quebra no meio do caminho e o bolo não fica pronto. Você tentou (tentativa), mas algo fora do seu controle impediu (forno quebrou). No crime, é parecido: se você tenta roubar mas o alarme toca e você foge, é tentativa de furto — você não conseguiu por circunstâncias alheias à sua vontade. Mas se você mesmo decide parar antes de concluir, pode ser "arrependimento eficaz".<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Crime consumado" é quando a pessoa faz tudo que a lei descreve como crime. "Tentativa" é quando a pessoa começou, mas algo fora do controle dela impediu de terminar. O CPM é mais rigoroso que o CP comum: praticamente todo crime tem tentativa punível. O arrependimento eficaz é quando a pessoa muda de ideia e desiste por conta própria — nesse caso, pode não ser punida ou ter pena reduzida.
+ <div style="background-color: #1a1a2e; border: 1px solid #3f3f5f; border-radius: 12px; padding: 20px; color: #e0e0e0; font-family: sans-serif; max-width: 500px;">
+  
+  <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 20px;">
+    <span style="background: #6a1b9a; padding: 4px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; color: white;">💡CONCEITO</span>
+    <strong style="color: #b39ddb;">Entendendo a Execução</strong>
   </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 25px;">
+    
+    <div style="background: #252545; border-left: 4px solid #9d7bd8; padding: 12px; border-radius: 4px;">
+      <div style="color: #9d7bd8; font-size: 0.7rem; font-weight: bold; text-transform: uppercase; margin-bottom: 5px;">Tentativa</div>
+      <p style="margin: 0; font-size: 0.9rem; line-height: 1.4;">O <strong>forno quebra</strong>.<br/>Fator externo impediu.</p>
+    </div>
+
+    <div style="background: #252545; border-left: 4px solid #9d7bd8; padding: 12px; border-radius: 4px;">
+      <div style="color: #9d7bd8; font-size: 0.7rem; font-weight: bold; text-transform: uppercase; margin-bottom: 5px;">Arrependimento</div>
+      <p style="margin: 0; font-size: 0.9rem; line-height: 1.4;"><strong>Você desliga</strong> o fogo.<br/>Sua vontade impediu.</p>
+    </div>
+
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 12px; border-top: 1px solid #3f3f5f; padding-top: 15px;">
+    
+    <div style="display: flex; gap: 10px;">
+      <span style="color: #9d7bd8;">●</span>
+      <p style="margin: 0; font-size: 0.95rem;"><strong>Consumação:</strong> O crime percorre todo o caminho (o bolo ficou pronto).</p>
+    </div>
+
+    <div style="display: flex; gap: 10px;">
+      <span style="color: #9d7bd8;">●</span>
+      <p style="margin: 0; font-size: 0.95rem;"><strong>Tentativa:</strong> Início da execução interrompido por vontade <strong>alheia</strong>.</p>
+    </div>
+
+    <div style="margin-top: 10px; background: rgba(211, 47, 47, 0.1); border: 1px solid rgba(211, 47, 47, 0.3); padding: 10px; border-radius: 6px;">
+      <p style="margin: 0; font-size: 0.85rem; color: #ff8a80;">
+        <strong>⚠️ No CPM:</strong> Rigor absoluto. A tentativa é punível para quase todos os crimes militares.
+      </p>
+    </div>
+
+  </div>
+</div> 
+
 </div>`
   },
 
-  "Concurso de Agentes (Art. 49, CPM)": {
+  // ═══════════════════════════════════════════════════════
+  // CONCURSO DE AGENTES
+  // ═══════════════════════════════════════════════════════
+
+"Concurso de Agentes (Art. 49, CPM)": {
     icon: "👥",
     color: "#7c2d12",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">👥</div>
-    <h1 class="notion-title">Concurso de Agentes</h1>
-    <div class="notion-meta">
-      <span class="callout-orange">Art. 49 CPM</span>
-      <span class="meta-tag tag-b">Teoria Monista</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Art. 49 ao 52 CPM</div>
+    <div class="tag tag-b">Teoria Monista</div>
+    <h1>Concurso de Agentes</h1>
+    <p>Ocorre quando duas ou mais pessoas se unem para a prática do mesmo crime militar, ligadas pelo mesmo vínculo subjetivo.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">group</span>
+      1. Teoria Monista (Unitária)
+    </div>
+    <div class="lex-expandable-item">
+      <span>Todos os que concorrem para o crime incidem nas penas a este cominadas, na medida de sua culpabilidade.</span>
+    </div>
+    
+    <div class="lex-quote">
+      "Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas..." — Art. 49 CPM
     </div>
   </div>
+
+  <div class="lex-cols">
+    <div class="callout callout-blue">
+      <span class="material-symbols-outlined">person</span>
+      <div>
+        <strong>Autor:</strong><br/>
+        Quem executa a ação principal descrita no tipo penal (o núcleo do crime).
+      </div>
+    </div>
+    <div class="callout callout-green">
+      <span class="material-symbols-outlined">handshake</span>
+      <div>
+        <strong>Partícipe:</strong><br/>
+        Quem induz, instiga ou presta auxílio material sem executar o núcleo.
+      </div>
+    </div>
+  </div>
+
   
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
-    <div class="lex-expandable-item">Ocorre quando <strong>duas ou mais pessoas concorrem</strong> para a prática do mesmo crime militar.</div>
-    <div class="lex-quote">"Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade." — Art. 49 CPM</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">sync_alt</span>
+      2. Comunicabilidade (Art. 50 CPM)
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">Define o que "passa" de um criminoso para o outro quando agem juntos:</p>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Circunstâncias Pessoais:</strong><br/>
+          <u>Não se comunicam</u>. (Ex: reincidência, emoção, parentesco).
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Elementares do Crime:</strong><br/>
+          <u>Comunicam-se</u>, desde que conhecidas pelo comparsa.
+        </div>
+      </div>
+    </div>
+
+    <div class="callout callout-gold">
+      <span class="material-symbols-outlined">info</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo Clássico:</strong> Se um civil ajuda um militar a cometer <strong>Peculato</strong>, o civil também responde por Peculato Militar, pois a condição de "militar" é elementar (essencial) para este crime existir.
+      </div>
+    </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Teoria Monista (Unitária)</div>
-    <div class="lex-expandable-item">O CPM adotou expressamente a <strong>teoria monista</strong>.</div>
-    <div class="lex-expandable-item">Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">trending_down</span>
+      3. Participação de Menor Importância (Art. 51)
+    </div>
+    <div class="lex-expandable-item">
+      <span>Se a participação for de somenos importância, a pena pode ser reduzida de <strong>1/3 a 2/3</strong>.</span>
+    </div>
   </div>
-  
-  <div class="callout callout-green">
-    🎭 Autor<br/>
-    Quem <strong>executa</strong> o fato
-  </div>
-  <div class="callout callout-green">
-    🤝 Partícipe<br/>
-    Quem <strong>induz, instiga ou auxilia</strong>
-  </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine um assalto a banco. O ladrão que entra armado e pega o dinheiro é o autor. O amigo que fica do lado de fora vigiando se vem polícia é partícipe. No Direito Militar, ambos respondem pelo mesmo crime, mas o vigia pode ter pena reduzida porque sua participação foi menos importante. É como uma peça de teatro: quem faz o papel principal e quem faz figurante são diferentes, mas ambos fazem parte da peça.
+    <div class="lex-summary-content">
+      <strong>Analogia do Teatro:</strong><br/>
+      Imagine uma peça. O <strong>Autor</strong> é o ator principal que fala as falas (executa o crime). O <strong>Partícipe</strong> é o iluminador ou o figurinista; eles não aparecem "falando", mas sem o apoio deles a peça não aconteceria. No final, ambos recebem as críticas pela peça (respondem pelo crime), mas o juiz dá o "prêmio" (pena) conforme o tamanho do papel de cada um.
+    </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Comunicabilidade (Art. 50, CPM)</div>
-    <div class="lex-expandable-item">As <strong>circunstâncias pessoais</strong> não se comunicam; as <strong>elementares</strong> se comunicam.</div>
-    <div class="lex-expandable-item"><strong>Exemplo:</strong> O civil que se associa ao militar para praticar peculato responde pelo crime militar, pois a qualidade de funcionário público (militar) é elementar do tipo do Art. 303 do CPM.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Participação de Menor Importância (Art. 51)</div>
-    <div class="lex-expandable-item">Redução de <strong>1/3 a 2/3</strong> da pena.</div>
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine um roubo a banco. Uma pessoa entra armada e pega o dinheiro (autor). Outra pessoa fica do lado de fora vigiando se vem polícia (partícipe). No Direito Militar, ambos respondem pelo mesmo crime, mas o vigia pode ter pena menor porque sua participação foi menos importante. É como numa peça de teatro: quem faz o papel principal e quem faz figurante são diferentes, mas ambos fazem parte da peça.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Concurso de agentes" é quando duas ou mais pessoas participam do mesmo crime. No CPM, a teoria é "monista" — ou seja, tanto quem executa (autor) quanto quem ajuda (partícipe) respondem pelo mesmo crime. A diferença é que o juiz ajusta a pena conforme a importância de cada um. Quem apenas auxiliou pode ter redução de 1/3 a 2/3 da pena.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu de Prova:</strong><br/>
+      • <strong>Teoria:</strong> Monista (Regra).<br/>
+      • <strong>Pena:</strong> Individualizada pela culpabilidade.<br/>
+      • <strong>Menor Importância:</strong> Redução de 1/3 a 2/3.
+    </div>
   </div>
 </div>`
-  },
+  },  
+
+  // ═══════════════════════════════════════════════════════
+  // ARTS. 46 A 48, CPM
+  // ═══════════════════════════════════════════════════════
 
   "Espécies de Imputabilidade (Arts. 46 a 48, CPM)": {
     icon: "🧠",
     color: "#6d28d9",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🧠</div>
-    <h1 class="notion-title">Espécies de Imputabilidade</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Arts. 46 a 48 CPM</span>
-      <span class="meta-tag tag-b">Critério Biopsicológico</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-a">Arts. 46 a 48 CPM</div>
+    <div class="tag tag-b">Culpabilidade</div>
+    <h1>Espécies de Imputabilidade</h1>
+    <p>A graduação da capacidade mental do agente e como isso define a resposta do Estado (Pena ou Medida de Segurança).</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Critério Biopsicológico</div>
-    <div class="lex-expandable-item">Adotado também pelo Código Penal comum:</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Critério Biológico:</strong> Existência de doença mental, desenvolvimento mental incompleto ou retardado</div>
-      <div class="lex-expandable-item"><strong>Critério Psicológico:</strong> Consequente incapacidade de entendimento ou de autodeterminação no momento do fato</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">psychiatry</span>
+      1. O Critério Biopsicológico
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">O Brasil adota a união de dois fatores para definir a responsabilidade:</p>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Biológico:</strong><br/>
+          Presença de doença mental, desenvolvimento incompleto ou retardado.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Psicológico:</strong><br/>
+          Incapacidade de <u>entender</u> o erro ou <u>controlar</u> a vontade no momento do ato.
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Quadro Resumo — Imputabilidade</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">view_list</span>
+      2. Tabela de Responsabilidade Militar
+    </div>
+    
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Inimputável:</strong> Doença mental total → Medida de segurança</div>
-      <div class="lex-expandable-item"><strong>Semi-imputável:</strong> Doença mental parcial → Pena reduzida OU medida de segurança (sistema vicariante)</div>
-      <div class="lex-expandable-item"><strong>Imputável:</strong> Plena capacidade → Pena integral</div>
+      <div class="lex-summary" style="margin-bottom: 0.5rem;">
+        <span class="lex-summary-icon">❌</span>
+        <div class="lex-summary-content">
+          <strong>Inimputável (Art. 46):</strong> Totalmente incapaz. <br/>
+          ➡️ <strong>Sanção:</strong> Isento de Pena + Medida de Segurança.
+        </div>
+      </div>
+      
+      <div class="lex-summary" style="margin-bottom: 0.5rem;">
+        <span class="lex-summary-icon">⚠️</span>
+        <div class="lex-summary-content">
+          <strong>Semi-imputável (Art. 48):</strong> Capacidade reduzida. <br/>
+          ➡️ <strong>Sanção (Vicariante):</strong> Pena reduzida (1/3 a 2/3) <u>OU</u> Medida de Segurança.
+        </div>
+      </div>
+
+      <div class="lex-summary" style="margin-bottom: 0.5rem;">
+        <span class="lex-summary-icon">✅</span>
+        <div class="lex-summary-content">
+          <strong>Imputável:</strong> Plena capacidade. <br/>
+          ➡️ <strong>Sanção:</strong> Pena Integral (conforme o tipo penal).
+        </div>
+      </div>
     </div>
   </div>
-  
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">child_care</span>
+    <div class="lex-summary-content">
+      <strong>Menores de 18 anos:</strong> São <u>sempre</u> inimputáveis (Art. 50 do CPM e Art. 228 da CF/88). No caso deles, o critério é puramente <strong>biológico</strong> (idade), não se analisa o psicológico.
+    </div>
+  </div>
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">priority_high</span>
+    <div class="lex-summary-content">
+      <strong>Bizu:</strong> O juiz militar não pode acumular pena e medida de segurança para o mesmo réu semi-imputável. Lembre-se: <strong>Sistema Vicariante = Escolha Alternativa.</strong>
+    </div>
+  </div>
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense em uma pessoa que tem um surto psicótico e, sem saber o que está fazendo, agride alguém. Ela não podia entender que estava errado — é "inimputável". Agora pense em alguém com depressão que comete um crime: sabe que está errado, mas a doença afeta o julgamento — é "semi-imputável". Uma pessoa saudável que comete um crime sabendo do erro é "imputável" e responde integralmente.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Imputabilidade" é a capacidade de uma pessoa de entender que está fazendo algo errado e de se controlar. No Direito Militar, usam-se dois critérios: biológico (tem alguma doença mental?) e psicológico (consegue entender e se controlar?). Se não consegue de forma alguma → inimputável (tratamento médico). Se consegue um pouco → semi-imputável (pena menor ou tratamento). Se consegue totalmente → imputável (pena normal).
+    <div class="lex-summary-content">
+      <strong>Analogia da Bateria:</strong><br/>
+      • <strong>Imputável:</strong> Bateria 100%. O aparelho funciona perfeitamente.<br/>
+      • <strong>Semi-imputável:</strong> Bateria em 15% (Modo Economia). O aparelho funciona, mas com falhas e lentidão.<br/>
+      • <strong>Inimputável:</strong> Bateria 0%. O aparelho não liga; precisa ser levado para a assistência técnica (tratamento).
+    </div>
+  </div>
+
+  <div class="lex-summary" style="margin-top: 1rem;">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo de Ouro:</strong> <br/>
+      Capacidade total = Pena. <br/>
+      Capacidade parcial = Pena ↓ ou Tratamento. <br/>
+      Capacidade zero = Tratamento.
+    </div>
   </div>
 </div>`
-  },
+},
 
-  "Inimputáveis (Art. 46, CPM)": {
+  // ═══════════════════════════════════════════════════════
+  // ARTS. 46, CPM
+  // ═══════════════════════════════════════════════════════
+
+"Inimputáveis (Art. 46, CPM)": {
     icon: "🛡️",
     color: "#15803d",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🛡️</div>
-    <h1 class="notion-title">Inimputáveis (Art. 46, CPM)</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 46 CPM</span>
-      <span class="meta-tag tag-b">Absolutamente Inimputáveis</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Art. 46 CPM</div>
+    <div class="tag tag-g">Isenção de Pena</div>
+    <h1>Inimputáveis</h1>
+    <p>Agentes que, por condições biopsicológicas, são totalmente desprovidos de discernimento ou autocontrole no momento do crime.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">medical_services</span>
+      1. Causas Biopsicológicas
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">O CPM exige que a condição mental torne o agente <strong>inteiramente incapaz</strong> de entender a ilicitude ou de agir conforme esse entendimento:</p>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Doença Mental:</strong><br/>
+          Alterações mórbidas da mente (ex: esquizofrenia, psicoses graves).
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--gold);">
+        <div class="lex-summary-content">
+          <strong>Desenvolvimento Incompleto:</strong><br/>
+          Inclui a menoridade penal (menores de 18 anos) e silvícolas não integrados.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Desenvolvimento Retardado:</strong><br/>
+          Casos de oligofrenia em graus profundos (antigamente denominados como "idiotia" ou "imbecilidade").
+        </div>
+      </div>
     </div>
   </div>
+
   
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Hipóteses de Inimputabilidade</div>
-    <div class="lex-expandable-item">São absolutamente inimputáveis os agentes que, no momento da ação ou omissão, eram <strong>inteiramente incapazes</strong> de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento, em razão de:</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Doença mental</strong></div>
-      <div class="lex-expandable-item"><strong>Desenvolvimento mental incompleto</strong> (ex: menor de 18 anos)</div>
-      <div class="lex-expandable-item"><strong>Desenvolvimento mental retardado</strong></div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">local_hospital</span>
+      2. Absolvição Imprópria
+    </div>
+    <div class="lex-expandable-item">
+      <span>O juiz profere uma sentença absolutória, mas impõe uma <strong>Medida de Segurança</strong>.</span>
+    </div>
+    
+    <div class="callout callout-green">
+      <span class="material-symbols-outlined">health_and_safety</span>
+      <div class="lex-summary-content">
+        <strong>Objetivo:</strong> Diferente da pena (que é retributiva), a medida de segurança é <strong>preventiva e terapêutica</strong>. Visa o tratamento do agente e a proteção da sociedade.
+      </div>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Consequência</div>
-    <div class="lex-expandable-item">Não há aplicação de pena.</div>
-    <div class="lex-expandable-item">Aplica-se <strong>medida de segurança</strong> (internação em manicômio judiciário ou tratamento ambulatorial), nos termos do Art. 107 e seguintes do CPM.</div>
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>Sistema Biopsicológico:</strong> O Brasil adota esse critério. Não basta ter a doença (biológico), é preciso que ela tenha retirado a capacidade de entendimento no momento do fato (psicológico). A única exceção é o menor de 18 anos, que é puramente <u>biológico</u> (presunção absoluta).
+    </div>
   </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine alguém que tem uma crise de esquizofrenia e, durante o surto, destrói patrimônio público. Essa pessoa não sabia o que estava fazendo — não tinha consciência do ato. Em vez de ir para a prisão, ela vai para um hospital psiquiátrico para tratamento. Isso é uma "medida de segurança": protege a sociedade, mas também ajuda a pessoa doente.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Inimputável" significa que a pessoa, no momento do crime, era totalmente incapaz de entender que estava errado ou de se controlar. Isso pode ser por doença mental, retardamento mental ou ser menor de idade. Ao invés de punir, a lei busca proteger: aplica uma "medida de segurança" que pode ser internação ou tratamento ambulatorial, dependendo do caso.
+    <div class="lex-summary-content">
+      <strong>Analogia do Navegador:</strong><br/>
+      O <strong>Imputável</strong> tem um GPS funcionando e o volante na mão. O <strong>Inimputável</strong> está com o GPS quebrado (não entende onde está) ou com o volante travado (não consegue desviar do erro). Punir quem não pode "dirigir" sua própria vontade não é justiça, é vingança; por isso a lei troca a prisão pelo hospital.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Ficha Técnica:</strong><br/>
+      • <strong>Capacidade:</strong> Zero (Inteiramente incapaz).<br/>
+      • <strong>Pena?</strong> Não. Isento.<br/>
+      • <strong>Sanção?</strong> Sim (Medida de Segurança).<br/>
+      • <strong>Menor de 18:</strong> Sempre inimputável no CPM (segue a Constituição).
+    </div>
   </div>
 </div>`
-  },
+  },  
 
-  "Semi-imputáveis (Art. 48, CPM)": {
+  // ═══════════════════════════════════════════════════════
+  // SEMI-IMPUTÁVEIS
+  // ═══════════════════════════════════════════════════════
+
+ "Semi-imputáveis (Art. 48, CPM)": {
     icon: "⚖️",
     color: "#a16207",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⚖️</div>
-    <h1 class="notion-title">Semi-imputáveis (Art. 48, CPM)</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 48 CPM</span>
-      <span class="meta-tag tag-b">Sistema Vicariante</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 48 CPM</div>
+    <div class="tag tag-y">Sistema Vicariante</div>
+    <h1>Responsabilidade Limitada (Semi-imputáveis)</h1>
+    <p>Agentes que possuem a capacidade de compreensão ou autodeterminação <strong>parcialmente</strong> reduzida por saúde mental.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">psychology</span>
+      1. O Estado de Semi-imputabilidade
+    </div>
+    <div class="lex-expandable-item">
+      <span>O agente possui perturbação mental ou desenvolvimento incompleto, mas <strong>não é inteiramente incapaz</strong>.</span>
+    </div>
+    <div class="lex-expandable-item">
+      <span>Ele compreende o ilícito, mas tem dificuldade em controlar seus impulsos ou entender a gravidade total.</span>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
-    <div class="lex-expandable-item">São os agentes que, embora possuíssem <strong>alguma perturbação da saúde mental</strong> ou desenvolvimento mental incompleto/retardado, <strong>não eram inteiramente incapazes</strong> de entender o caráter ilícito do fato ou de autodeterminar-se.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Sistema Vicariante no CPM</div>
-    <div class="lex-expandable-item">O juiz escolhe <strong>uma das alternativas</strong>:</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Pena reduzida</strong> (de 1/3 a 2/3) — para aqueles que não necessitam de tratamento especial</div>
-      <div class="lex-expandable-item"><strong>Medida de segurança</strong> (internação ou tratamento) — para aqueles que necessitam de tratamento, sendo mais adequada a ressocialização</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">alt_route</span>
+      2. Sistema Vicariante (Substitutivo)
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">Diferente do Direito Comum, no CPM o juiz <strong>deve escolher</strong> apenas um caminho:</p>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Caminho A: PENA</strong><br/>
+          Reduzida de <strong>1/3 a 2/3</strong>. Aplicada quando a punição é suficiente.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Caminho B: MEDIDA DE SEGURANÇA</strong><br/>
+          Internação ou tratamento. Aplicada quando há periculosidade.
+        </div>
+      </div>
     </div>
   </div>
+
   
+
   <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Diferença importante:</strong><br/>
-    No <strong>CPM</strong> → sistema <strong>vicariante</strong> (escolhe-se uma alternativa)<br/>
-    No <strong>CP comum</strong> → sistema <strong>duplo binário</strong> (aplica-se pena reduzida E, se necessário, medida de segurança)
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>Pegadinha de Concurso:</strong><br/>
+      • <strong>CP Comum:</strong> Pode haver substituição da pena por medida de segurança, mas a regra geral permite o "duplo binário" em alguns casos históricos. <br/>
+      • <strong>CPM:</strong> É <u>proibido</u> acumular as duas. Ou o juiz pune (com redução), ou ele trata. É um ou outro.
+    </div>
   </div>
-  
+
+  <div class="lex-section-container">
+    <div class="lex-section-title" style="font-size: 0.85rem">
+      <span class="material-symbols-outlined">fact_check</span>
+      3. Critérios de Aplicação
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Fator Biopsicológico:</strong> Não basta ter a doença, ela deve ter afetado a capacidade no momento do crime.</div>
+      <div class="lex-expandable-item"><strong>Poder de Escolha:</strong> A escolha do juiz entre pena ou medida de segurança deve ser fundamentada no laudo pericial.</div>
+    </div>
+  </div>
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine alguém com transtorno bipolar que, em um episódio de mania, gasta todo o dinheiro da empresa. A pessoa sabia que estava errado, mas a doença dificultou o controle. No CPM, o juiz tem duas opções: (1) dar uma pena menor, se a pessoa não precisa de tratamento; ou (2) mandar para tratamento, se a doença exige acompanhamento. O juiz escolhe UMA das opções — não pode dar as duas ao mesmo tempo.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Semi-imputável" é quando a pessoa tem alguma doença mental ou problema de desenvolvimento, mas ainda consegue entender um pouco que está errado. No CPM, o sistema é "vicariante" (substitutivo): o juiz escolhe entre pena reduzida OU medida de segurança. No CP comum, a pessoa pode receber as duas coisas juntas. É uma diferença importante entre os dois códigos.
+    <div class="lex-summary-content">
+      <strong>Analogia do Óculos:</strong><br/>
+      O <strong>Imputável</strong> enxerga o crime com perfeição. O <strong>Inimputável</strong> é cego (não vê o erro). O <strong>Semi-imputável</strong> enxerga tudo embaçado: ele vê que há algo ali, mas não distingue bem. <br/><br/>
+      O <strong>Sistema Vicariante</strong> é como um médico que precisa decidir: ou ele te dá uma <strong>multa</strong> pelo descuido com a visão, ou ele te dá um <strong>óculos/tratamento</strong>. Ele não pode te dar os dois no Direito Militar.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu para decorar:</strong><br/>
+      Semi-imputável no CPM = <strong>"V" de Vicariante</strong> (ou Pena ↓ ou Medida de Segurança). Nunca os dois juntos!
+    </div>
   </div>
 </div>`
-  },
+  }, 
 
-  "Imputáveis": {
+  // ═══════════════════════════════════════════════════════
+  //  IMPUTÁVEIS
+  // ═══════════════════════════════════════════════════════
+
+ "Imputáveis": {
     icon: "✅",
     color: "#166534",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">✅</div>
-    <h1 class="notion-title">Imputáveis</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Capacidade Plena</span>
-      <span class="meta-tag tag-b">Pena Integral</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Culpabilidade</div>
+    <div class="tag tag-b">Capacidade Penal</div>
+    <h1>Imputáveis</h1>
+    <p>A regra geral do Direito Penal: o indivíduo que possui plena consciência de seus atos e liberdade de escolha.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">psychology</span>
+      1. Os Dois Elementos Fundamentais
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">Para ser imputável, o agente deve possuir, no momento da ação, dois requisitos simultâneos:</p>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Elemento Intelectual:</strong><br/>
+          Capacidade de <u>entender</u> o caráter ilícito do fato (saber que é errado).
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Elemento Volitivo:</strong><br/>
+          Capacidade de <u>auto-determinar-se</u> (conseguir controlar a própria vontade).
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
-    <div class="lex-expandable-item">São os agentes que, no momento do fato, possuíam <strong>plena capacidade de entender e de autodeterminar-se</strong>.</div>
-    <div class="lex-expandable-item">Respondem <strong>integralmente</strong> pela pena prevista no tipo penal.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">gavel</span>
+      2. Consequência Jurídica
+    </div>
+    <div class="lex-expandable-item">
+      <span>O agente responde <strong>integralmente</strong> pela pena prevista para o crime.</span>
+    </div>
+    <div class="lex-expandable-item">
+      <span>Não há direito a reduções baseadas em saúde mental ou imaturidade.</span>
+    </div>
   </div>
-  
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">info</span>
+    <div class="lex-summary-content">
+      <strong>Presunção de Capacidade:</strong> No Direito Penal, a imputabilidade é presumida. Ou seja, todos são considerados capazes até que se prove (via exame pericial) uma das causas de <u>inimputabilidade</u> (doença mental, menoridade, etc).
+    </div>
+  </div>
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine um adulto saudável, sem problemas mentais, que decide furar o cofre da empresa. Ele sabe exatamente que está roubando, sabe que é crime, mas escolhe fazer mesmo assim. Esse é o caso mais comum: pessoa com plena capacidade de entender e agir. Ela vai responder pelo crime normalmente, sem redução de pena.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Imputável" é a regra geral: a pessoa tem plena capacidade mental de entender que está fazendo algo errado e de escolher não fazer. É a situação da maioria das pessoas. Nesse caso, a pessoa responde integralmente pela pena que a lei prevê para o crime — sem redução e sem atenuantes especiais de saúde mental.
+    <div class="lex-summary-content">
+      <strong>Analogia do Condutor:</strong><br/>
+      Imagine um motorista dirigindo um carro em perfeitas condições, com freios bons (controle) e conhecendo todas as placas de trânsito (entendimento). Se ele decidir furar o sinal vermelho, ele é 100% responsável, pois tinha tanto a visão da regra quanto o controle do pedal.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo Direto:</strong><br/>
+      • <strong>O que é?</strong> Entendimento + Vontade.<br/>
+      • <strong>Pena?</strong> Integral (100%).<br/>
+      • <strong>Momento?</strong> Analisa-se a capacidade no exato instante da <u>conduta</u>.
+    </div>
   </div>
 </div>`
   },
 
-  "Emoção e Paixão (Art. 28, CPM)": {
+  // ═══════════════════════════════════════════════════════
+  // EMOÇÃO E PAIXÃO
+  // ═══════════════════════════════════════════════════════
+
+ "Emoção e Paixão (Art. 28, CPM)": {
     icon: "💔",
     color: "#be185d",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">💔</div>
-    <h1 class="notion-title">Emoção e Paixão</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 28, §1° e §2° CPM</span>
-      <span class="meta-tag tag-b">Atenuante de Pena</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Art. 28, I e II, CPM</div>
+    <div class="tag tag-y">Responsabilidade Penal</div>
+    <h1>Emoção e Paixão</h1>
+    <p>Diferente do senso comum, estados emocionais intensos não retiram a capacidade de compreensão do militar perante a lei.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">psychology_alt</span>
+      1. A Regra da Imputabilidade
+    </div>
+    <div class="lex-expandable-item">
+      <span>A emoção ou a paixão <strong>NÃO EXCLUEM</strong> a imputabilidade penal militar.</span>
+    </div>
+    <div class="lex-expandable-item">
+      <span>O militar é treinado para o autocontrole; logo, a perda de controle emocional é vista com rigor.</span>
+    </div>
+
+    <div class="lex-cols" style="margin-top: 1rem;">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Emoção:</strong> Estado afetivo súbito, passageiro e intenso (fúria, medo, susto).
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Paixão:</strong> Estado afetivo duradouro, crônico e profundo (amor, ódio, ciúme).
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Efeitos no CPM</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">trending_down</span>
+      2. Relevância para a Pena
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">Embora não livrem do crime, podem influenciar no cálculo da punição:</p>
+    
+    <div class="callout callout-green">
+      <span class="material-symbols-outlined">history_edu</span>
+      <div class="lex-summary-content">
+        <strong>Atenuante Genérica:</strong> Se o crime foi cometido sob influência de "violenta emoção, provocada por ato injusto da vítima", a pena pode ser atenuada (Art. 72, III, 'c').
+      </div>
+    </div>
   </div>
-  <div class="callout callout-rose">
-    Imputabilidade<br/>
-    <strong>NÃO exclui</strong> a imputabilidade (Art. 28, §1)
-  </div>
-  <div class="callout callout-green">
-    Pena<br/>
-    Podem <strong>atenuar</strong> a pena, se forem relevantes (Art. 28, §2)
-  </div>
-  
+
   <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Diferença do CP comum:</strong><br/>
-    No CPM, a emoção ou paixão <strong>não excluem a culpabilidade</strong>, mas servem como <strong>atenuante genérica</strong>.
+    <span class="material-symbols-outlined">compare_arrows</span>
+    <div class="lex-summary-content">
+      <strong>Ponto de Prova:</strong> Tanto no CP quanto no CPM, emoção e paixão <u>não excluem</u> o crime. A diferença é que a justiça militar valoriza ainda mais o <strong>Dever de Suportar</strong> situações de estresse extremo.
+    </div>
   </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que um militar descobre que sua esposa está sendo traída e, num momento de fúria (emoção violenta), agride o outro homem. Ele estava extremamente emocionado, mas ainda sabia que agredir era errado. No CPM, essa emoção pode diminuir a pena (atenuante), mas não o deixa impune. No direito comum, em alguns casos, a emoção pode até excluir a culpabilidade, mas no militar isso não acontece.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Emoção e paixão" no Direito Militar funcionam como "atenuantes" — ou seja, podem diminuir a pena, mas não fazem a pessoa ficar livre de culpa. Isso porque a disciplina militar exige que os militares controlem suas emoções, mesmo em situações difíceis. A emoção pode justificar uma pena menor, mas não anula o crime.
+    <div class="lex-summary-content">
+      <strong>Analogia do Termostato:</strong><br/>
+      Imagine que o militar deve agir como um termostato de precisão. Mesmo que o ambiente "esquente" (emoção violenta), o aparelho deve manter a temperatura operacional (respeito à lei). Se o termostato quebra e deixa a temperatura subir, ele falhou em sua função principal, mesmo que a causa externa tenha sido um calor excessivo.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo Final:</strong><br/>
+      • Excluem o crime? ❌ <strong>Não.</strong><br/>
+      • Podem diminuir a pena? ✅ <strong>Sim (como atenuante).</strong><br/>
+      • Diferença entre elas? <strong>Duração</strong> (Emoção = Faísca / Paixão = Incêndio).
+    </div>
   </div>
 </div>`
   },
+
+  // ═══════════════════════════════════════════════════════
+  // EMBRIAGUEZ
+  // ═══════════════════════════════════════════════════════
 
   "Embriaguez (Art. 28, CPM)": {
     icon: "🍷",
     color: "#9a3412",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🍷</div>
-    <h1 class="notion-title">Embriaguez</h1>
-    <div class="notion-meta">
-      <span class="callout-orange">Art. 28 CPM</span>
-      <span class="meta-tag tag-b">Espécies de Embriaguez</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Art. 28 CPM</div>
+    <div class="tag tag-y">Actio Libera in Causa</div>
+    <h1>Embriaguez no Direito Militar</h1>
+    <p>Regras sobre a responsabilidade penal do agente que comete crimes sob efeito de álcool ou substâncias análogas.</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Quadro — Embriaguez no CPM</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Acidental (completa/total):</strong> Exclui imputabilidade → Medida de segurança</div>
-      <div class="lex-expandable-item"><strong>Acidental (incompleta/parcial):</strong> Reduz pena → Semi-imputabilidade</div>
-      <div class="lex-expandable-item"><strong>Voluntária (dolosa):</strong> NÃO exclui imputabilidade → Pena integral</div>
-      <div class="lex-expandable-item"><strong>Culposa:</strong> NÃO exclui imputabilidade → Pena integral</div>
-      <div class="lex-expandable-item"><strong>Preordenada:</strong> NÃO exclui imputabilidade → Agravante de pena (Art. 70, V, CPM)</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">liquor</span>
+      1. Classificação e Consequências
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Voluntária ou Culposa:</strong><br/>
+          O agente bebe porque quer ou por descuido. <br/>
+          ➡️ <strong>Não excluem a imputabilidade.</strong> Pena integral.
+        </div>
+      </div>
+
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Acidental (Caso Fortuito/Força Maior):</strong><br/>
+          O agente bebe sem saber ou é forçado. <br/>
+          ➡️ <strong>Pode excluir ou reduzir a pena.</strong>
+        </div>
+      </div>
     </div>
   </div>
-  
-  <div class="callout callout-rose">
-    <span class="callout-icon">⚠️</span>
-    <strong>Regra importante:</strong><br/>
-    A embriaguez <strong>voluntária, culposa ou preordenada NUNCA exclui a imputabilidade</strong> no CPM.
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">priority_high</span>
+      2. Embriaguez Preordenada
+    </div>
+    <div class="lex-expandable-item">
+      <span>É aquela em que o agente se embriaga <strong>para criar coragem</strong> ou para usar a embriaguez como desculpa para o crime.</span>
+    </div>
+    <div class="callout callout-gold">
+      <span class="material-symbols-outlined">trending_up</span>
+      <div class="lex-summary-content">
+        <strong>Agravante:</strong> No CPM, esta conduta é uma <strong>agravante genérica</strong> (Art. 70, inciso II, alínea 'l').
+      </div>
+    </div>
   </div>
+
   
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">gavel</span>
+    <div class="lex-summary-content">
+      <strong>Princípio Fundamental:</strong> O CPM adota a teoria da <em>Actio Libera in Causa</em> (Ação Livre na Causa). Se o agente era livre para decidir se bebia ou não, ele é responsável pelo que fizer enquanto estiver bêbado.
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title" style="font-size: 0.85rem">
+      <span class="material-symbols-outlined">fact_check</span>
+      3. Impacto na Capacidade Penal
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Completa (Acidental):</strong> Isento de pena (Art. 28, §1º).</div>
+      <div class="lex-expandable-item"><strong>Incompleta (Acidental):</strong> Redução de 1/3 a 2/3 (Art. 28, §2º).</div>
+      <div class="lex-expandable-item"><strong>Patológica:</strong> Tratada como doença mental (Inimputável).</div>
+    </div>
+  </div>
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que um militar sai para beber com amigos (embriaguez voluntária) e, bêbado, briga e quebra algumas coisas no bar. Ele não pode dizer "não sabia o que estava fazendo porque estava bêbado" — no Direito Militar, quem bebe por conta própria assume as consequências. Agora, imagine que ele bebeu um suco que estava contaminado com álcool sem saber (embriaguez acidental) — aí sim pode haver redução de pena ou até tratamento.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    No Direito Militar, existe uma regra de ouro: se a pessoa bebeu por vontade própria (voluntária), por negligência (culposa) ou para ter coragem de cometer o crime (preordenada), a embriaguez NÃO diminui a responsabilidade. Só pode haver redução ou anulação de culpa se a embriaguez foi acidental — ou seja, a pessoa não sabia que estava consumindo álcool ou foi forçada.
+    <div class="lex-summary-content">
+      <strong>Analogia do Piloto Automático:</strong><br/>
+      Imagine que você desliga o sensor de colisão do seu carro de propósito e depois bate. Você não pode culpar o carro por não ter parado sozinho. No Direito Militar, beber por conta própria é como "desligar seus sensores": você responde por tudo o que acontecer enquanto o seu "sistema" estiver fora de controle.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu para Prova:</strong><br/>
+      Bebeu porque quis? ➡️ <strong>Cadeia.</strong><br/>
+      Bebeu pra ter coragem? ➡️ <strong>Cadeia + Agravante.</strong><br/>
+      Bebeu "sem querer" (acidental) e apagou? ➡️ <strong>Livre (Isento).</strong>
+    </div>
   </div>
 </div>`
   },
 
-  "Autor e Partícipe": {
+  // ═══════════════════════════════════════════════════════
+  // AUTOR E PARTÍCIPE
+  // ═══════════════════════════════════════════════════════
+
+"Autor e Partícipe": {
     icon: "🎭",
     color: "#4c1d95",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🎭</div>
-    <h1 class="notion-title">Autor e Partícipe</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Autoria e Participação</span>
-      <span class="meta-tag tag-b">Teoria Monista</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 49 a 52 CPM</div>
+    <div class="tag tag-b">Concurso de Pessoas</div>
+    <h1>Autor e Partícipe</h1>
+    <p>A distinção entre quem executa o núcleo do crime e quem apenas colabora para que ele ocorra.</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Autor</div>
-    <div class="lex-expandable-item">É quem <strong>executa a conduta típica</strong>, seja diretamente, seja mediante instrumento (autor mediato).</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Autor Imediato:</strong> Executa pessoalmente o fato</div>
-      <div class="lex-expandable-item"><strong>Autor Mediato:</strong> Utiliza-se de outra pessoa como instrumento (ex: coação moral irresistível, erro invencível)</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">person_play</span>
+      1. Figuras de Autoria
+    </div>
+    <div class="lex-expandable-item">
+      <span>O autor é o protagonista da conduta típica. No CPM, ele se manifesta de três formas principais:</span>
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Autor Imediato:</strong><br/>
+          Quem executa diretamente os verbos do tipo (atira, subtrai, abandona).
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Autor Mediato:</strong><br/>
+          Usa outra pessoa (sem dolo ou culpa) como "ferramenta" para o crime.
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Partícipe</div>
-    <div class="lex-expandable-item">É quem, <strong>sem executar a conduta principal</strong>, induz, instiga ou auxilia o autor a praticar o crime.</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Participação Moral:</strong> Induzimento ou instigação</div>
-      <div class="lex-expandable-item"><strong>Participação Material:</strong> Auxílio ou colaboração</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">support</span>
+      2. A Participação (Acessória)
     </div>
-    <div class="lex-expandable-item">O partícipe responde pelo <strong>mesmo crime do autor</strong> (teoria monista), mas sua pena é dosada conforme sua culpabilidade (Art. 49, parte final).</div>
+    <div class="lex-expandable-item">
+      <span>O partícipe não realiza o verbo principal, mas sua conduta é o combustível para o crime:</span>
+    </div>
+
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Moral:</strong><br/>
+          <u>Induzimento</u> (criar a ideia) ou <u>Instigação</u> (reforçar ideia existente).
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--gold);">
+        <div class="lex-summary-content">
+          <strong>Material:</strong><br/>
+          <u>Auxílio</u> físico (emprestar arma, vigiar o local, fornecer senhas).
+        </div>
+      </div>
+    </div>
   </div>
+
   
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Coautoria</div>
-    <div class="lex-expandable-item">Ocorre quando dois ou mais agentes executam, de forma conjunta e <strong>comunidade de desígnios</strong>, o crime.</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Unidade de desígnios:</strong> Todos querem o mesmo resultado</div>
-      <div class="lex-expandable-item"><strong>Contribuição causal:</strong> Cada um contribui para a execução</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">groups</span>
+      3. Coautoria
     </div>
-    <div class="lex-expandable-item">No CPM, a coautoria pode ser <strong>direta</strong> (todos executam) ou <strong>indireta</strong> (alguns executam, outros participam de forma relevante na fase executória).</div>
+    <div class="lex-expandable-item">
+      <span>Ocorre quando há o <strong>vínculo subjetivo</strong> (liame) entre os agentes.</span>
+    </div>
+    <div class="callout callout-blue">
+      <span class="material-symbols-outlined">link</span>
+      <div class="lex-summary-content">
+        <strong>Liame Subjetivo:</strong> Não basta fazerem a mesma coisa; todos devem estar cientes e em comum acordo para o mesmo resultado criminoso.
+      </div>
+    </div>
   </div>
-  
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">gavel</span>
+    <div class="lex-summary-content">
+      <strong>Teoria Monista (Regra):</strong> Todos os que concorrem para o crime respondem pelo <u>mesmo crime</u>. O autor do furto e o partícipe que vigia a porta respondem ambos por <strong>furto</strong>. A diferença será apenas no tamanho da pena.
+    </div>
+  </div>
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense em uma "trollagem" que sai do controle. Um grupo de amigos decide pregar uma peça em alguém: um distrai a vítima (partícipe), outro pega as chaves do carro sem permissão (autor). No Direito Militar, quem pegou as chaves é o "autor" — quem executou a ação. Quem distraiu é o "partícipe" — quem ajudou sem executar diretamente. Ambos respondem, mas de formas diferentes.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Autor" é quem realmente faz o crime, com as próprias mãos ou usando alguém como instrumento. "Partícipe" é quem ajuda, incita ou facilita, mas não executa diretamente. No Direito Militar, a teoria é "monista": tanto autor quanto partícipe respondem pelo mesmo crime, mas o juiz ajusta a pena conforme a importância de cada um. Coautoria é quando todos executam juntos, como num assalto em grupo.
+    <div class="lex-summary-content">
+      <strong>Analogia da Cozinha:</strong><br/>
+      Imagine o preparo de um prato. O <strong>Autor</strong> é o chef que cozinha e tempera (executa). O <strong>Partícipe</strong> é quem comprou os ingredientes ou leu a receita para o chef (ajuda). O <strong>Autor Mediato</strong> é quem manda um assistente colocar "açúcar" num prato, sabendo que na verdade é veneno. No final, todos participaram do jantar, mas cada um teve um papel.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Destaques para Revisão:</strong><br/>
+      • <strong>Autor:</strong> Dono do fato (executa).<br/>
+      • <strong>Partícipe:</strong> Acessório (instiga ou auxilia).<br/>
+      • <strong>Pena:</strong> Medida pela culpabilidade de cada um (Art. 49).
+    </div>
   </div>
 </div>`
   },
 
-  "Concurso de Penas": {
+   // ═══════════════════════════════════════════════════════
+  // CONCURSO DE PENAS
+  // ═══════════════════════════════════════════════════════
+
+"Concurso de Penas": {
     icon: "📊",
     color: "#1e40af",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">📊</div>
-    <h1 class="notion-title">Concurso de Penas</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Concurso Material e Formal</span>
-      <span class="meta-tag tag-b">Art. 74 CPM</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-y">Art. 79 ao 81 CPM</div>
+    <div class="tag tag-b">Aplicação da Pena</div>
+    <h1>Concurso de Crimes e Penas</h1>
+    <p>Regras para quando o agente, mediante uma ou várias condutas, pratica dois ou mais crimes militares.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">analytics</span>
+      1. Regras de Unificação
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Material (Art. 79):</strong><br/>
+          Várias ações ➡️ Vários crimes. <br/>
+          Regra: <strong>Cúmulo Material</strong> (As penas são somadas).
+        </div>
+      </div>
+
+      <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Formal (Art. 79, §1º):</strong><br/>
+          Uma ação ➡️ Vários crimes. <br/>
+          Regra: <strong>Exasperação</strong> (Pena mais grave + aumento de 1/6 a 1/2).
+        </div>
+      </div>
     </div>
   </div>
+
   
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Concurso Material (Art. 74, I, CPM)</div>
-    <div class="lex-expandable-item">Quando o agente pratica <strong>dois ou mais crimes</strong>.</div>
-    <div class="lex-expandable-item">As penas aplicadas para cada crime são <strong>somadas</strong> (cumulação material).</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">repeat</span>
+      2. Crime Continuado (Art. 80)
+    </div>
+    <div class="lex-expandable-item">
+      <span>Crimes da mesma espécie, praticados em condições semelhantes de tempo, lugar e modo.</span>
+    </div>
+    <div class="callout callout-blue">
+      <span class="material-symbols-outlined">settings_backup_restore</span>
+      <div class="lex-summary-content">
+        <strong>Ficção Jurídica:</strong> Os crimes subsequentes são considerados continuação do primeiro. Aplica-se a pena de um só, aumentada de 1/6 a 1/2.
+      </div>
+    </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Concurso Formal (Art. 74, II, CPM)</div>
-    <div class="lex-expandable-item">Quando o agente, mediante <strong>uma única ação ou omissão</strong>, pratica dois ou mais crimes.</div>
-    <div class="lex-expandable-item">Aplica-se a <strong>pena mais grave, aumentada de 1/6 a 1/2</strong>.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">warning</span>
+      3. Concurso de Penas com Violência
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">No CPM, há casos onde a lei exige a <strong>cumulação</strong>, mesmo que pareça um crime único:</p>
+    <div class="callout callout-rose">
+      <strong>Injúria Real (Art. 217):</strong><br/>
+      Aplica-se a pena da injúria <u>mais</u> a pena correspondente à violência (Lesão ou Homicídio). Não há absorção aqui!
+    </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Concurso de Penas em Crimes Complexos</div>
-    <div class="lex-expandable-item">Em crimes como a <strong>injúria real</strong> (Art. 217, CPM), aplica-se a pena de injúria (detenção de 3 meses a 1 ano) <strong>além da pena correspondente à violência</strong>.</div>
-    <div class="lex-expandable-item">Não é concurso de crimes, mas sim <strong>concurso de penas dentro de um crime complexo</strong>.</div>
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">gavel</span>
+    <div class="lex-summary-content">
+      <strong>Limite Máximo:</strong> No concurso de crimes, a pena privativa de liberdade não pode exceder <strong>30 anos</strong> para reclusão e <strong>20 anos</strong> para detenção (conforme limites gerais do CPM).
+    </div>
   </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine uma pessoa que, em um único dia: (1) rouba uma loja de manhã; (2) rouba outra loja à tarde. São dois crimes separados → "concurso material" (somam as penas). Agora imagine que ela agride alguém E rouba o celular da vítima na mesma ação. Um ato, dois crimes → "concurso formal" (pena mais grave aumentada). Já a "injúria real" é diferente: ofender alguém usando violência é UM crime que já inclui duas penas na própria lei.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Concurso de penas" é quando uma pessoa comete mais de um crime e precisa cumprir penas por todos eles. "Concurso material" é quando são crimes separados em momentos diferentes (somam as penas). "Concurso formal" é quando um único ato gera vários crimes (aplica a maior pena + aumento). Crime complexo é quando a própria lei já prevê múltiplas penas para um único crime.
+    <div class="lex-summary-content">
+      <strong>Analogia das Multas:</strong><br/>
+      • <strong>Material:</strong> É como levar 3 multas em dias diferentes; você paga o valor das 3 somadas.<br/>
+      • <strong>Formal:</strong> É como passar num radar acima da velocidade (1 infração) e estar sem cinto (outra infração) ao mesmo tempo. O guarda aplica a multa maior com um acréscimo pelo "combo".
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu de Prova:</strong><br/>
+      • <strong>Soma:</strong> Material (Várias condutas).<br/>
+      • <strong>Aumento:</strong> Formal ou Continuado (Uma conduta ou sequência similar).<br/>
+      • <strong>Regra Especial:</strong> No CPM, violência contra a pessoa geralmente <u>soma</u> (não absorve).
+    </div>
   </div>
 </div>`
   },
 
-  "Penas no CPM": {
+  // ═══════════════════════════════════════════════════════
+  // CPM: PENAS
+  // ═══════════════════════════════════════════════════════
+
+"Penas no CPM": {
     icon: "⚖️",
     color: "#991b1b",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⚖️</div>
-    <h1 class="notion-title">Penas Principais no CPM</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 55 CPM</span>
-      <span class="meta-tag tag-b">Espécies de Penas</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Art. 55 CPM</div>
+    <div class="tag tag-y">Lei 14.688/2023</div>
+    <h1>Penas Principais no CPM</h1>
+    <p>O Código Penal Militar possui um rol de sanções específico, adaptado à hierarquia e disciplina das Forças Armadas.</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Quadro — Penas no CPM</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Morte:</strong> Pena corporal (vida). Aplicável apenas em tempo de guerra, nos crimes expressamente previstos (Art. 55, "a"). Proibida em tempo de paz (CF/88, Art. 5°, XLVII).</div>
-      <div class="lex-expandable-item"><strong>Reclusão:</strong> Privativa de liberdade. Regime inicial fechado, semiaberto ou aberto. Mais grave que a detenção.</div>
-      <div class="lex-expandable-item"><strong>Detenção:</strong> Privativa de liberdade. Regime inicial semiaberto ou aberto. Não admite regime fechado.</div>
-      <div class="lex-expandable-item"><strong>Prisão:</strong> Privativa de liberdade. Pena de curta duração (até 6 meses), substitutiva ou autônoma para contravenções militares.</div>
-      <div class="lex-expandable-item"><strong>Impedimento:</strong> Restritiva de direitos (divergente). Impede o exercício de cargo/função por até 3 anos.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">format_list_numbered</span>
+      1. Espécies de Penas (Rol Taxativo)
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Morte:</strong> Executada por fuzilamento. <u>Apenas em tempo de guerra declarada</u>.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Reclusão e Detenção:</strong> Penas de prisão. A reclusão é mais severa e admite regime fechado.
+        </div>
+      </div>
+    </div>
+
+    <div class="lex-cols" style="margin-top: 0.5rem;">
+      <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Prisão:</strong> Pena de até 2 anos (após 2023), cumprida em recinto militar, sem rigor de isolamento.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Impedimento:</strong> Exclusiva do crime de <u>insubmissão</u>. O sujeito fica na unidade sem participar de serviços.
+        </div>
+      </div>
     </div>
   </div>
+
   
+
   <div class="callout callout-rose">
-    <span class="callout-icon">⚠️</span>
-    <strong>LEI N° 14.688/2023:</strong><br/>
-    A pena de <strong>suspensão do exercício do posto, graduação, cargo ou função</strong> (antiga alínea "f" do Art. 55) foi <strong>REVOGADA</strong>.
+    <span class="material-symbols-outlined">new_releases</span>
+    <div class="lex-summary-content">
+      <strong>REVOGAÇÕES (Lei 14.688/23):</strong> As penas de <u>Reforma</u> e de <u>Suspensão do exercício do posto/cargo</u> foram <strong>extintas</strong>. Não marque essas opções em prova como penas principais!
+    </div>
   </div>
-  
+
   <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Multa no CPM:</strong><br/>
-    Não existe pena de multa prevista na Parte Especial do CPM. Há divergência sobre sua aplicação em crimes militares por extensão (Lei n° 13.491/2017).
+    <span class="material-symbols-outlined">payments</span>
+    <div class="lex-summary-content">
+      <strong>Multa:</strong> Não existe como pena principal no CPM original. Contudo, pode aparecer em "crimes militares por extensão" (crimes da lei comum julgados pela Justiça Militar).
+    </div>
   </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine uma escada de gravidade: no topo está a pena de morte (só em guerra), depois a reclusão (prisão em presídio militar), depois a detenção (prisão mais leve), depois a prisão (curta duração) e por fim o impedimento (não pode exercer cargo). No Direito Militar, a pena de morte existe na lei, mas só pode ser aplicada em tempo de guerra declarada. Em tempo de paz, a mais grave é a reclusão.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    As penas no CPM seguem uma hierarquia de gravidade. "Reclusão" é a mais comum para crimes graves — é cumprir a pena em presídio militar. "Detenção" é para crimes menos graves, com regime menos rigoroso. "Prisão" é de curta duração. "Impedimento" é proibir a pessoa de exercer cargo ou função. A Lei 14.688/2023 revogou a antiga "suspensão do posto", que era uma pena específica militar.
+    <div class="lex-summary-content">
+      <strong>Analogia da Escada:</strong><br/>
+      Imagine uma escada de contenção: a <strong>Reclusão</strong> é a cela trancada; a <strong>Prisão</strong> é o quartel com limites; e o <strong>Impedimento</strong> é como um "castigo de quarto" onde você não sai de casa, mas não está algemado. A <strong>Morte</strong> é o último degrau, guardado apenas para o caos da guerra.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu de Ouro:</strong><br/>
+      • Morte (Guerra) | Reclusão | Detenção | Prisão | Impedimento.<br/>
+      • <strong>Dica:</strong> No CPM, o tempo máximo de pena agora segue o teto de <strong>40 anos</strong> (Pacote Anticrime).
+    </div>
   </div>
 </div>`
   },
 
+  // ═══════════════════════════════════════════════════════
+  // Arts. 99 a 108, CPM
+  // ═══════════════════════════════════════════════════════
+  
   "Penas Acessórias (Arts. 99 a 108, CPM)": {
     icon: "➕",
     color: "#854d0e",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">➕</div>
-    <h1 class="notion-title">Penas Acessórias</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Arts. 99 a 108 CPM</span>
-      <span class="meta-tag tag-b">Automáticas</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-y">Arts. 98 a 108 CPM</div>
+    <div class="tag tag-b">Efeitos da Condenação</div>
+    <h1>Penas Acessórias</h1>
+    <p>Sanções que orbitam a pena principal e visam afastar do ambiente militar aqueles que feriram a honra da instituição.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">auto_fix_high</span>
+      1. A Questão da Automaticidade
+    </div>
+    <div class="lex-expandable-item">
+      <span>No Direito Militar, as penas acessórias são <strong>automáticas e obrigatórias</strong>.</span>
+    </div>
+    <div class="lex-quote">
+      Diferente do Direito Comum (onde o juiz precisa motivar), no CPM a sentença condenatória já carrega consigo esses efeitos se os requisitos forem atingidos.
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Natureza</div>
-    <div class="lex-expandable-item">As penas acessórias são aplicadas <strong>automaticamente</strong> com a pena principal, sem necessidade de previsão no preceito secundário do tipo.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Quadro — Penas Acessórias</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Perda do posto e patente:</strong> Condenação a pena privativa de liberdade por mais de 2 anos, ou por qualquer tempo em crimes cometidos com violência ou grave ameaça (Art. 99).</div>
-      <div class="lex-expandable-item"><strong>Indignidade para o oficialato:</strong> Condenação a pena privativa de liberdade, independentemente do tempo (Art. 100).</div>
-      <div class="lex-expandable-item"><strong>Exclusão das Forças Armadas:</strong> Para praças, quando condenados a pena privativa de liberdade por mais de 2 anos (Art. 101).</div>
-      <div class="lex-expandable-item"><strong>Perda de função pública:</strong> Quando o crime é cometido com abuso de poder ou violação de dever funcional (Art. 102).</div>
-      <div class="lex-expandable-item"><strong>Inabilitação para cargo/função:</strong> Por até 10 anos, nos crimes praticados com abuso de poder ou violação de dever (Art. 104).</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_balance</span>
+      2. Principais Espécies e Requisitos
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Perda de Posto e Patente:</strong> Aplicada a oficiais condenados a pena superior a 2 anos.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Exclusão das Forças:</strong> Aplicada a praças condenados a pena superior a 2 anos.
+        </div>
+      </div>
+    </div>
+
+    <div class="lex-cols" style="margin-top: 0.5rem;">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Indignidade/Incompatibilidade:</strong> Para oficiais, em crimes de traição, espionagem ou condutas infames.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Perda de Função Pública:</strong> Se houver abuso de poder ou violação de dever funcional.
+        </div>
+      </div>
     </div>
   </div>
+
   
+
   <div class="callout callout-rose">
-    <span class="callout-icon">⚠️</span>
-    <strong>Automaticidade:</strong><br/>
-    As penas acessórias são <strong>automáticas e obrigatórias</strong> quando presentes os requisitos legais. O juiz <strong>não pode deixar de aplicá-las</strong> por discricionariedade.
+    <span class="material-symbols-outlined">gavel</span>
+    <div class="lex-summary-content">
+      <strong>Conflito Aparente (CF/88):</strong> A Constituição diz que o Oficial só perde o posto por decisão de tribunal específico. <strong>Entendimento STF:</strong> A pena acessória de perda de posto automática do CPM deve passar por um processo específico no Tribunal Militar após a condenação transitada em julgado.
+    </div>
   </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine um motorista que é pego dirigindo bêbado. Além da multa (pena principal), ele tem a CNH cassada automaticamente (pena acessória). No Direito Militar é parecido: se um militar é condenado a mais de 2 anos de prisão, ele PERDE AUTOMATICAMENTE o posto e a patente — o juiz não pode "dar mole" e deixar ele continuar como oficial. Algumas penas acessórias são automáticas, outras precisam que o juiz declare expressamente.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Penas acessórias" são consequências automáticas da condenação, além da pena principal. No CPM, algumas são automáticas: perda de posto/patente (se >2 anos), indignidade para oficialato, exclusão das Forças Armadas para praças. Outras precisam de declaração do juiz: perda de função pública, inabilitação. O juiz não pode escolher não aplicar as automáticas, mas decide sobre as declaradas.
+    <div class="lex-summary-content">
+      <strong>Analogia da "Mancha na Farda":</strong><br/>
+      Imagine que a Pena Principal é a <strong>limpeza</strong> (pagar pelo que fez). A Pena Acessória é a <strong>retirada da farda</strong>. O Estado entende que se o crime foi grave o suficiente (mais de 2 anos), aquela farda ficou "manchada" para sempre e o militar não pode mais vesti-la, independentemente de ele querer ou não.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo para Prova:</strong><br/>
+      • Condenação > 2 anos? ➡️ <strong>Perda do Posto (Oficial) ou Exclusão (Praça).</strong><br/>
+      • São facultativas? ❌ <strong>Não, são obrigatórias/automáticas no CPM.</strong><br/>
+      • Perda de direitos políticos? ✅ Também ocorre enquanto durarem os efeitos da condenação.
+    </div>
   </div>
 </div>`
   },
 
-  "Efeitos da Condenação": {
+  // ═══════════════════════════════════════════════════════
+  // EFEITOS DA CONDENAÇÃO
+  // ═══════════════════════════════════════════════════════
+
+ "Efeitos da Condenação": {
     icon: "📋",
     color: "#374151",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">📋</div>
-    <h1 class="notion-title">Efeitos da Condenação</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Efeitos Penais e Extrapenais</span>
-      <span class="meta-tag tag-b">CPM</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Teoria Geral</div>
+    <div class="tag tag-b">CPM</div>
+    <h1>Efeitos da Condenação</h1>
+    <p>A sentença penal não encerra sua força apenas na aplicação da pena; ela reverbera em outras esferas da vida do condenado.</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Classificação dos Efeitos</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Efeitos Principais:</strong> A própria pena aplicada (reclusão, detenção, prisão, impedimento) ou medida de segurança</div>
-      <div class="lex-expandable-item"><strong>Efeitos Secundários Penais:</strong> Reincidência, maus antecedentes, impedimento de novos benefícios</div>
-      <div class="lex-expandable-item"><strong>Efeitos Secundários Extrapenais:</strong> Obrigação de reparar o dano, perda de cargo ou função</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_tree</span>
+      1. As Três Esferas de Consequência
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Principais:</strong><br/>
+          A própria sanção (Pena ou Medida de Segurança).
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Secundários Penais:</strong><br/>
+          Reincidência, maus antecedentes e fim da primariedade.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Extrapenais:</strong><br/>
+          Consequências civis e administrativas (reparar dano, perda de cargo).
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que você é suspenso da escola (efeito principal). Além disso, você fica com "negativo" no histórico (efeito secundário penal), e seus pais te obrigam a pagar o prejuízo que causou (efeito extrapenal). A condenação militar funciona assim: (1) cumpre a pena; (2) fica marcado como reincidente se cometer novo crime; (3) tem que indenizar quem prejudicou.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    Uma condenação penal gera três tipos de consequências: (1) Efeitos principais — a própria pena que a pessoa cumpre; (2) Efeitos secundários penais — consequências que afetam a situação jurídica do condenado, como ser considerado reincidente se cometer novo crime; (3) Efeitos extrapenais — consequências fora da esfera criminal, como ter que pagar indenização ou perder cargo.
+    <div class="lex-summary-content">
+      <strong>Analogia do Histórico Escolar:</strong><br/>
+      Imagine ser suspenso (Efeito Principal). O fato de você não poder mais participar do grêmio estudantil por ser "reincidente" é o efeito penal secundário. Ter que pagar pelo vidro quebrado na diretoria é o efeito extrapenal.
+    </div>
   </div>
 </div>`
   },
+
+  // ═══════════════════════════════════════════════════════
+  // EFEITOS EXTRAPENAIS
+  // ═══════════════════════════════════════════════════════
 
   "Efeitos Extrapenais no CPM": {
     icon: "📜",
     color: "#475569",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">📜</div>
-    <h1 class="notion-title">Efeitos Extrapenais no CPM</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Efeitos Extrapenais</span>
-      <span class="meta-tag tag-b">Automáticos e Declarados</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-y">Efeitos Civis</div>
+    <div class="tag tag-b">Confisco e Reparação</div>
+    <h1>Efeitos Extrapenais</h1>
+    <p>Consequências automáticas e declaradas que atingem o patrimônio e a vida funcional do militar.</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Obrigação de Reparar o Dano (Efeito Genérico e Automático)</div>
-    <div class="lex-expandable-item">Assim como no CP (art. 91, I), a condenação penal militar torna certa a obrigação de indenizar o dano causado pelo crime.</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Natureza:</strong> Efeito extrapenal genérico</div>
-      <div class="lex-expandable-item"><strong>Automaticidade:</strong> Automático — independe de declaração expressa na sentença</div>
-      <div class="lex-expandable-item"><strong>Efeito:</strong> Constitui título executivo judicial (ação civil ex delicto)</div>
-      <div class="lex-expandable-item"><strong>Fundamento:</strong> Art. 91, I, do CP (aplicável subsidiariamente ao CPM, por força do art. 3° do CPPM)</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">settings_suggest</span>
+      1. Efeitos Genéricos e Automáticos
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">Independem de menção na sentença. Ocorrem por força de lei:</p>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Reparação do Dano:</strong><br/>
+          A sentença vale como título para cobrar a indenização civil (Art. 91, I, CP).
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Confisco (Perda de Bens):</strong><br/>
+          Perda em favor da União dos instrumentos, produtos ou proveitos do crime.
+        </div>
+      </div>
     </div>
   </div>
+
   
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Perda de Instrumentos e Produto do Crime (Confisco)</div>
-    <div class="lex-expandable-item">O confisco de bens decorrentes da atividade criminosa também é efeito automático da condenação.</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Instrumentos do crime:</strong> Coisas cujo fabrico, alienação, uso, porte ou detenção constitua fato ilícito (arma de fogo sem registro, documento falso)</div>
-      <div class="lex-expandable-item"><strong>Produto do crime:</strong> Aquilo que foi diretamente obtido com a infração (dinheiro subtraído, material bélico desviado)</div>
-      <div class="lex-expandable-item"><strong>Proveito do crime:</strong> Bens ou valores adquiridos com o produto do crime (imóvel comprado com dinheiro do desvio)</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">gavel</span>
+      2. Efeitos Específicos: O divisor de águas
     </div>
-    <div class="lex-expandable-item">No CPM, o confisco é <strong>automático</strong> e não depende de declaração motivada, seguindo a mesma sistemática do art. 91, II, do CP.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Efeitos Específicos no Âmbito Militar (Não Automáticos)</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Perda do posto e patente:</strong> Automático — Art. 99</div>
-      <div class="lex-expandable-item"><strong>Indignidade para o oficialato:</strong> Automático — Art. 100</div>
-      <div class="lex-expandable-item"><strong>Exclusão das FA (praças):</strong> Automático — Art. 101</div>
-      <div class="lex-expandable-item"><strong>Perda de função pública:</strong> Não automático — requer declaração motivada — Art. 102</div>
-      <div class="lex-expandable-item"><strong>Inabilitação para cargo/função:</strong> Não automático — requer declaração motivada — Art. 104</div>
+    <div class="lex-expandable-item">
+      <span>Aqui o CPM se diferencia. É o ponto que mais cai em provas:</span>
+    </div>
+
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 4px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Sempre Automáticos:</strong><br/>
+          • Perda de Posto/Patente (Art. 99)<br/>
+          • Exclusão das Forças (Art. 101)<br/>
+          • Indignidade p/ Oficialato (Art. 100)
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 4px solid var(--gold);">
+        <div class="lex-summary-content">
+          <strong>Exigem Declaração:</strong><br/>
+          • Perda de Função Pública (Art. 102)<br/>
+          • Inabilitação p/ cargo (Art. 104)
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Regra de ouro para provas:</strong><br/>
-    • Automáticos: perda do posto/patente, exclusão das FA, indignidade<br/>
-    • Declaração motivada: perda de função pública, inabilitação
+    <span class="material-symbols-outlined">priority_high</span>
+    <div class="lex-summary-content">
+      <strong>Bizu Supremo:</strong> No Direito Penal Comum, a perda de cargo raramente é automática. No <strong>Direito Militar</strong>, as penas de Perda de Posto e Exclusão são <strong>AUTOMÁTICAS</strong> e obrigatórias se preenchidos os requisitos.
+    </div>
   </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense em uma condenação como uma sentença que gera efeitos automaticamente, como quando você é demitido de um emprego: além de perder o salário, você perde automaticamente o plano de saúde da empresa. Mas talvez precise de uma decisão específica para perder o direito a uma indenização. No Direito Militar, alguns efeitos vêm "de brinde" com a condenação (indenizar, perder bens do crime), outros o juiz tem que determinar expressamente (perder função pública).<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Efeitos extrapenais" são consequências da condenação que vão além da punição criminal. Alguns são automáticos: obrigação de reparar o dano (indenizar), perda de instrumentos e produto do crime (confisco), perda de posto/patente para militares condenados a mais de 2 anos. Outros precisam de declaração expressa do juiz: perda de função pública, inabilitação. A diferença é importante para provas.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Checklist de Revisão:</strong><br/>
+      • <strong>Automático:</strong> Indenizar, Confisco, Perda de Posto/Exclusão.<br/>
+      • <strong>Não Automático:</strong> Perda de função pública (civil) e Inabilitação.
+    </div>
   </div>
 </div>`
-  },
+  }, 
+
+  // ═══════════════════════════════════════════════════════
+  // REINCIDÊNCIA
+  // ═══════════════════════════════════════════════════════
 
   "Reincidência (Art. 78, CPM)": {
     icon: "🔄",
     color: "#c2410c",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🔄</div>
-    <h1 class="notion-title">Reincidência (Art. 78, CPM)</h1>
-    <div class="notion-meta">
-      <span class="callout-orange">Art. 78 CPM</span>
-      <span class="meta-tag tag-b">Reincidência Específica</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Art. 71 e 78 CPM</div>
+    <div class="tag tag-y">Agravante Especial</div>
+    <h1>Reincidência Militar</h1>
+    <p>Ocorre quando o agente comete um novo crime após já ter sido condenado por sentença transitada em julgado por crime anterior.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">compare_arrows</span>
+      1. Diferença Fundamental
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">Fique atento: a reincidência no CPM é <strong>mais restrita</strong> que no Código Penal Comum.</p>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>No CPM (Militar):</strong><br/>
+          Só gera reincidência se o crime anterior for <u>militar</u> ou contra a <u>segurança nacional</u>.
+        </div>
+      </div>
+
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>No CP (Comum):</strong><br/>
+          Qualquer crime anterior (comum ou militar) gera reincidência para o novo crime comum.
+        </div>
+      </div>
     </div>
   </div>
+
   
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Reincidência no CPM vs. CP Comum</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">history</span>
+      2. Período Depurador (5 anos)
+    </div>
+    <div class="lex-expandable-item">
+      <span>A reincidência não é eterna. Ela deixa de existir se entre a data da <strong>extinção da pena</strong> anterior e o <strong>novo crime</strong> decorrer tempo superior a <strong>5 anos</strong>.</span>
+    </div>
+    <div class="lex-quote">
+      "Não se considera a reincidência se entre a data do cumprimento ou extinção da pena e a infração posterior tiver decorrido período de tempo superior a cinco anos..." — Art. 71, §1º CPM
+    </div>
   </div>
-  <div class="callout callout-green">
-    CPM (Art. 78)<br/>
-    Crime anterior contra a <strong>segurança nacional ou instituição militar</strong><br/>
-    Prazo: 5 anos<br/>
-    Efeito: Agravante, impede sursis e livramento condicional
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">gavel</span>
+      3. Impactos na Condenação
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Agravante:</strong> Aumenta obrigatoriamente a pena na segunda fase da dosimetria.</div>
+      <div class="lex-expandable-item"><strong>Sursis:</strong> Impede a concessão da suspensão condicional da pena (Art. 84).</div>
+      <div class="lex-expandable-item"><strong>Livramento:</strong> Torna os requisitos para o livramento condicional mais rigorosos.</div>
+    </div>
   </div>
-  <div class="callout callout-green">
-    CP Comum<br/>
-    Crime anterior, <strong>qualquer que seja a natureza</strong><br/>
-    Prazo: 5 anos<br/>
-    Efeito: Agravante, impede sursis e livramento condicional
-  </div>
-  
+
   <div class="callout callout-rose">
-    <span class="callout-icon">⚠️</span>
-    <strong>Reincidência Específica:</strong><br/>
-    No CPM, a reincidência exige que o crime anterior seja contra a <strong>segurança nacional ou instituições militares</strong>.<br/><br/>
-    <strong>Assertiva FALSA:</strong> "A reincidência no CPM considera qualquer crime anterior, independentemente da natureza."
+    <span class="material-symbols-outlined">report_problem</span>
+    <div class="lex-summary-content">
+      <strong>Pegadinha Comum:</strong> Crimes militares <u>propriamente ditos</u> (ex: deserção) geram reincidência para crimes militares <u>impropriamente ditos</u> (ex: furto em quartel). O que importa é que o primeiro tenha sido militar!
+    </div>
   </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine um militar que foi condenado por deserção (crime militar) em 2020. Se em 2023 (menos de 5 anos depois) ele comete outro crime militar, ele é considerado "reincidente" — o que deixa a pena mais pesada. Mas se em vez disso ele comete um crime comum (como furto numa loja civil), não é reincidente no sentido militar, porque o crime anterior não foi contra a instituição militar.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Reincidência" é quando uma pessoa comete um crime, cumpre ou extingue a pena, e comete outro crime depois. No Direito Militar, isso só conta se o crime anterior foi contra a segurança nacional ou instituições militares. Se foi um crime comum comum, não configura reincidência militar — embora possa ser considerado "maus antecedentes", que também pioram a pena.
+    <div class="lex-summary-content">
+      <strong>Analogia da Ficha Suja:</strong><br/>
+      Imagine que você tem dois prontuários: um da <strong>Escola (Militar)</strong> e um do <strong>Clube (Comum)</strong>. No Direito Militar, você só é considerado "reincidente de comportamento" se a sua primeira advertência também tiver sido na <u>Escola</u>. Se você aprontou no Clube e depois na Escola, a Escola te olha como "novato" (embora com maus antecedentes), mas não como reincidente específico.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu Final:</strong><br/>
+      • <strong>O que conta?</strong> Crime Militar + Crime Militar.<br/>
+      • <strong>Prazo?</strong> 5 anos (do fim da pena anterior até o novo crime).<br/>
+      • <strong>Crime Político?</strong> Não gera reincidência (Art. 71, §2º).
+    </div>
   </div>
 </div>`
   },
 
-  "Maus Antecedentes (Art. 70, VI, CPM)": {
+    // ═══════════════════════════════════════════════════════
+  // 
+  // ═══════════════════════════════════════════════════════
+
+"Maus Antecedentes (Art. 70, VI, CPM)": {
     icon: "📉",
     color: "#78716c",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">📉</div>
-    <h1 class="notion-title">Maus Antecedentes</h1>
-    <div class="notion-meta">
-      <span class="callout-gold">Art. 70, VI, CPM</span>
-      <span class="meta-tag tag-b">Circunstância Agravante</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-y">Art. 70, VI e Art. 69 CPM</div>
+    <div class="tag tag-b">Dosimetria da Pena</div>
+    <h1>Maus Antecedentes</h1>
+    <p>O histórico de condenações anteriores que, embora não gere reincidência, demonstra uma inclinação do agente para a prática ilícita.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">balance</span>
+      1. Aplicação na Pena-Base
+    </div>
+    <div class="lex-expandable-item">
+      <span>Diferente da reincidência (que é agravante), os <strong>maus antecedentes</strong> são analisados na <strong>primeira fase</strong> da dosimetria (Art. 69).</span>
+    </div>
+    <div class="lex-expandable-item">
+      <span>O juiz utiliza o histórico para fixar a pena inicial acima do mínimo legal.</span>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
-    <div class="lex-expandable-item">A condenação anterior, mesmo que <strong>não configure reincidência</strong> (por ser crime comum ou por ter ultrapassado o prazo de 5 anos), pode ser valorada como <strong>maus antecedentes</strong>, agravando a pena.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">difference</span>
+      2. Antecedentes vs. Reincidência
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">Muitos candidatos confundem os dois. Veja a diferença técnica:</p>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Reincidência:</strong><br/>
+          Novo crime em até <strong>5 anos</strong> após a extinção da pena anterior. (Critério Temporal).
+        </div>
+      </div>
+
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Maus Antecedentes:</strong><br/>
+          Condenações que ocorreram há <strong>mais de 5 anos</strong> ou por crimes que não geram reincidência militar.
+        </div>
+      </div>
+    </div>
   </div>
+
   
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">gavel</span>
+    <div class="lex-summary-content">
+      <strong>Súmula 444 STJ:</strong> É vedada a utilização de inquéritos policiais e ações penais em curso para agravar a pena-base. <strong>Apenas condenações transitadas em julgado</strong> contam como maus antecedentes.
+    </div>
+  </div>
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense em alguém que foi pego dirigindo bêbado há 10 anos e agora comete um crime militar. Como já se passaram mais de 5 anos, não é "reincidente", mas o juiz pode olhar para o histórico e dizer "esta pessoa já teve problemas com a lei antes". Isso são "maus antecedentes" — o juiz considera o histórico da pessoa para aumentar a pena, mesmo que não se encaixe na regra técnica de reincidência.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Maus antecedentes" é quando o juiz, ao aplicar a pena, considera que a pessoa já tem histórico de condenações anteriores, mesmo que elas não configurem "reincidência" tecnicamente. Reincidência tem regras estritas (crime anterior específico, prazo de 5 anos). Maus antecedentes é mais amplo: qualquer condenação anterior pode ser considerada pelo juiz para aumentar a pena, desde que não seja tão antiga que perdeu relevância.
+    <div class="lex-summary-content">
+      <strong>Analogia do Cartão Vermelho:</strong><br/>
+      A <strong>Reincidência</strong> é como levar dois cartões amarelos no mesmo jogo: a punição é imediata e severa (Expulsão). <br/><br/>
+      Os <strong>Maus Antecedentes</strong> são como o juiz olhar o seu histórico de campeonatos passados: você não será expulso agora por algo que fez ano passado, mas o juiz será muito mais rigoroso nas faltas leves que você cometer hoje porque sabe que você é um "jogador faltoso".
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu de Prova:</strong><br/>
+      • <strong>Fase:</strong> 1ª fase (Pena-base).<br/>
+      • <strong>Requisito:</strong> Trânsito em julgado anterior.<br/>
+      • <strong>Exemplo:</strong> Crimes comuns anteriores ou crimes militares há mais de 5 anos.
+    </div>
   </div>
 </div>`
   },
+
+// ═══════════════════════════════════════════════════════
+  // REABILITAÇÃO E EXTINÇÃO
+  // ═══════════════════════════════════════════════════════
 
   "Extinção dos Efeitos da Condenação": {
     icon: "🗑️",
     color: "#65a30d",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🗑️</div>
-    <h1 class="notion-title">Extinção dos Efeitos da Condenação</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Reabilitação</span>
-      <span class="meta-tag tag-b">Arts. 120 a 122 CPM</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Arts. 134 e 135 CPM</div>
+    <div class="tag tag-b">Reabilitação</div>
+    <h1>Reabilitação Criminal</h1>
+    <p>O instituto que permite ao condenado o retorno ao status de "ficha limpa" para fins sociais, sob condições estritas de bom comportamento.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">history</span>
+      1. Requisitos Cumulativos
+    </div>
+    <div class="lex-expandable-item">
+      <span>O pedido pode ser feito após <strong>2 anos</strong> do dia em que for extinta a pena ou terminar sua execução.</span>
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Bom Comportamento:</strong> Demonstrado pública e privadamente durante o período de prova.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Reparação:</strong> Indispensável ter reparado o dano, salvo impossibilidade provada.
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Reabilitação (Arts. 120 a 122, CPM)</div>
-    <div class="lex-expandable-item">A reabilitação é o instituto que <strong>restaura os direitos atingidos pela condenação</strong>.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">visibility_off</span>
+      2. O que a Reabilitação Garante?
+    </div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Prazo:</strong> 2 anos após o cumprimento ou extinção da pena</div>
-      <div class="lex-expandable-item"><strong>Condições:</strong> Bom comportamento, residência fixa, reparação do dano (ou prova de impossibilidade)</div>
-      <div class="lex-expandable-item"><strong>Efeito:</strong> Sigilo dos antecedentes, mas <strong>não extingue a reincidência</strong> para fins futuros</div>
+      <div class="lex-expandable-item"><strong>Sigilo dos Antecedentes:</strong> Não constarão em folhas de antecedentes (salvo requisição judicial).</div>
+      <div class="lex-expandable-item"><strong>Restauração de Direitos:</strong> Cancela os efeitos extrapenais (como a inabilitação para cargo público).</div>
     </div>
   </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Importante:</strong><br/>
-    A reabilitação <strong>não extingue a reincidência</strong>. Se o reabilitado praticar novo crime, será considerado reincidente se o crime anterior estiver dentro do prazo de 5 anos.
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>Cuidado:</strong> A reabilitação <u>não apaga</u> a reincidência. Se o reabilitado cometer novo crime dentro do período depurador (5 anos), ele ainda será tecnicamente <strong>reincidente</strong>. Ela limpa a "imagem social", mas não a "memória jurídica".
+    </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Prescrição e Efeitos</div>
-    <div class="lex-expandable-item">A prescrição extingue a punibilidade e, consequentemente, os efeitos principais da condenação, mas <strong>não atinge, em regra, os efeitos extrapenais</strong> (ex: obrigação de reparar o dano subsiste).</div>
-  </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine uma pessoa que foi condenada por furto, cumpriu a pena e, 2 anos depois, pede a "reabilitação". É como pedir uma "segunda chance" ao juiz: "Juiz, eu me comportei bem, trabalhei, paguei minhas dívidas, posso ter meus direitos de volta?" Se o juiz concede, os antecedentes ficam em sigilo — mas se a pessoa cometer outro crime dentro de 5 anos do crime anterior, ainda pode ser considerada reincidente. A "ficha limpa" não apaga tudo.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Reabilitação" é uma forma de "limpar a ficha" após cumprir a pena. A pessoa pede ao juiz para restaurar seus direitos, e se tiver bom comportamento, residência fixa e tiver reparado o dano (ou provado que não podia), pode conseguir. O efeito é que os antecedentes ficam em sigilo — mas a reabilitação não apaga a reincidência para fins futuros, se o novo crime ocorrer dentro de 5 anos do anterior.
+    <div class="lex-summary-content">
+      <strong>Analogia do Nome no SPC:</strong><br/>
+      Imagine que você pagou uma dívida. A Reabilitação é o banco tirando seu nome da lista de devedores (você volta a ter crédito). Porém, o banco ainda guarda no sistema interno dele que você já atrasou no passado. Se você pedir um novo empréstimo (cometer novo crime), eles saberão do seu histórico.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Ponto Chave:</strong><br/>
+      • Prazo: 2 anos.<br/>
+      • Revogação: Se o sujeito for condenado por crime posterior, a reabilitação é revogada (Art. 135).
+    </div>
   </div>
 </div>`
   },
+
+  // ═══════════════════════════════════════════════════════
+  // MEDIDAS DE SEGURANÇA
+  // ═══════════════════════════════════════════════════════
 
   "Medidas de Segurança — Detentivas": {
     icon: "🏥",
     color: "#0369a1",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🏥</div>
-    <h1 class="notion-title">Medidas Detentivas (Privativas de Liberdade)</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 109, I CPM</span>
-      <span class="meta-tag tag-b">Internação</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-y">Arts. 110 a 115 CPM</div>
+    <div class="tag tag-b">Prevenção Especial</div>
+    <h1>Medidas de Segurança Detentivas</h1>
+    <p>Sanções com fins terapêuticos e preventivos aplicadas a quem possui periculosidade social reconhecida.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">local_hospital</span>
+      1. Internação vs. Tratamento
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Internação:</strong> Manicômio Judiciário. Destinada a <u>inimputáveis</u> com periculosidade.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Tratamento Ambulatorial:</strong> Sem internação. Destinada a casos de menor gravidade/periculosidade.
+        </div>
+      </div>
     </div>
   </div>
+
   
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Espécies</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">groups</span>
+      2. Quem pode sofrer a medida?
+    </div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Internação em estabelecimento de custódia e tratamento:</strong> Recolhimento a manicômio judiciário ou seção especial de estabelecimento penal — Art. 109, I</div>
-      <div class="lex-expandable-item"><strong>Tratamento ambulatorial:</strong> Tratamento em regime ambulatorial, sem privação de liberdade — Art. 109, I</div>
+      <div class="lex-expandable-item"><strong>Militares:</strong> Condenados a +2 anos de prisão que demonstrem periculosidade ao sair.</div>
+      <div class="lex-expandable-item"><strong>Semi-imputáveis:</strong> Substituindo a pena (Sistema Vicariante).</div>
+      <div class="lex-expandable-item"><strong>Civis:</strong> Sempre que praticarem crime militar e forem inimputáveis.</div>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Destinatários (Art. 111, CPM)</div>
-    <div class="lex-expandable-item">Podem ser aplicadas a <strong>civis e militares</strong>:</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>I:</strong> Militares condenados a pena privativa de liberdade por tempo superior a 2 anos; os que perderam função, posto ou patente; os excluídos das Forças Armadas</div>
-      <div class="lex-expandable-item"><strong>II:</strong> Semi-imputáveis (Art. 48, CPM)</div>
-      <div class="lex-expandable-item"><strong>III:</strong> Nos casos do Art. 115 (cassação de CNH) e seus parágrafos</div>
-      <div class="lex-expandable-item"><strong>IV:</strong> Civis em todos os casos previstos em lei</div>
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">alarm</span>
+    <div class="lex-summary-content">
+      <strong>Duração da Medida:</strong> O CPM prevê prazo indeterminado enquanto persistir a periculosidade. <br/>
+      <strong>⚠️ STF/STJ:</strong> O tempo total da Medida de Segurança não pode ultrapassar o limite máximo da pena abstratamente prevista para o crime (teto de 40 anos).
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu Final:</strong><br/>
+      • Penas = Punir o fato (Retributiva).<br/>
+      • Medidas de Segurança = Tratar o agente (Preventiva/Terapêutica).
     </div>
   </div>
 </div>`
   },
+
+ // ═══════════════════════════════════════════════════════
+  // MEDIDAS DE SEGURANÇA (NÃO DETENTIVAS E PATRIMONIAIS)
+  // ═══════════════════════════════════════════════════════
 
   "Medidas de Segurança — Não Detentivas": {
     icon: "🚫",
     color: "#d97706",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🚫</div>
-    <h1 class="notion-title">Medidas Não Detentivas (Restritivas)</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Arts. 115 a 117 CPM</span>
-      <span class="meta-tag tag-b">Exclusivas do CPM</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-y">Arts. 115 a 117 CPM</div>
+    <div class="tag tag-b">Restritivas</div>
+    <h1>Medidas Não Detentivas</h1>
+    <p>Sanções que limitam a liberdade de locomoção e o exercício de direitos, sem a necessidade de internação hospitalar.</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Espécies</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Interdição de licença para direção de veículos motorizados:</strong> Cassação da CNH por prazo mínimo de 1 ano — Art. 115</div>
-      <div class="lex-expandable-item"><strong>Exílio local:</strong> Proibição de residir ou permanecer na localidade, município ou comarca do crime por 1 ano, no mínimo — Art. 116</div>
-      <div class="lex-expandable-item"><strong>Proibição de frequentar determinados lugares:</strong> Vedação de acesso a lugares que favoreçam o retorno à atividade criminosa por 1 ano, no mínimo — Art. 117</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">map</span>
+      1. Espécies Exclusivas do Direito Militar
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">O CPM traz figuras que não existem no Código Penal comum:</p>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Exílio Local:</strong><br/>
+          Proibição de residir ou permanecer na localidade do crime por no mínimo <u>1 ano</u>.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Proibição de Lugares:</strong><br/>
+          Vedação de acesso a locais que favoreçam a recidiva criminosa (ex: bares, cassinos).
+        </div>
+      </div>
     </div>
   </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Exclusivas do CPM:</strong><br/>
-    O <strong>exílio local</strong> e a <strong>proibição de frequentar determinados lugares</strong> são medidas de segurança exclusivas do CPM, não previstas no Código Penal comum.
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">directions_car</span>
+      2. Interdição de Licença (Art. 115)
+    </div>
+    <div class="lex-expandable-item">
+      <span>Cassação do direito de dirigir por prazo mínimo de <strong>1 ano</strong>.</span>
+    </div>
+    <div class="lex-quote">
+      Aplicável quando o crime militar é cometido na direção de veículo motorizado, demonstrando periculosidade do condutor.
+    </div>
   </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense em alguém que dirigiu bêbado e causou um acidente. Além da prisão, o juiz pode cassar a CNH (não pode mais dirigir) — é uma medida de segurança "não detentiva". O "exílio local" é parecido: o juiz pode proibir a pessoa de morar na cidade onde cometeu o crime por um tempo, para afastá-la do ambiente que favoreceu o delito. É como um "afastamento geográfico" obrigatório.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Medidas de segurança não detentivas" são punições que não envolvem prisão, mas restringem liberdades. No CPM, existem exclusivas: exílio local (proibir de morar/permanecer na localidade) e proibição de frequentar lugares (impedir de ir em locais que favoreçam o crime). Além disso, pode haver cassação de CNH para crimes de trânsito. Essas medidas são aplicadas quando a pessoa é considerada perigosa, mas não precisa estar presa.
+    <div class="lex-summary-content">
+      <strong>Analogia do "Castigo Geográfico":</strong><br/>
+      O <strong>Exílio Local</strong> é como um "banimento" temporário. O Estado entende que o ambiente daquela cidade é o que induz o sujeito ao crime, então a solução é "cortar a raiz" obrigando-o a mudar de ares para proteger a sociedade local.
+    </div>
   </div>
 </div>`
   },
+
+   // ═══════════════════════════════════════════════════════
+  // MEDIDAS DE SEGURANÇA (PATRIMONIAIS)
+  // ═══════════════════════════════════════════════════════
 
   "Medidas de Segurança — Patrimoniais": {
     icon: "💰",
     color: "#15803d",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">💰</div>
-    <h1 class="notion-title">Medidas Patrimoniais</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Arts. 118 e 119 CPM</span>
-      <span class="meta-tag tag-b">Confisco</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Arts. 118 e 119 CPM</div>
+    <div class="tag tag-b">Efeitos Reais</div>
+    <h1>Medidas Patrimoniais</h1>
+    <p>Sanções que recaem sobre bens, estabelecimentos ou instrumentos utilizados na empreitada criminosa.</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Espécies</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Interdição de estabelecimento ou sede de sociedade/associação:</strong> Proibição de exercer no local o mesmo comércio/indústria ou atividade social (15 dias a 6 meses) — Art. 118</div>
-      <div class="lex-expandable-item"><strong>Confisco:</strong> Perda de instrumentos e produtos do crime, <strong>independentemente de autoria ou punibilidade</strong> — Art. 119</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_balance</span>
+      1. Confisco (Art. 119)
+    </div>
+    <div class="lex-expandable-item">
+      <span>Perda em favor da União dos <strong>instrumentos</strong> (arma, veículo) e <strong>produtos</strong> (dinheiro, bens) do crime.</span>
+    </div>
+    <div class="callout callout-rose">
+      <strong>Independência:</strong> O confisco ocorre mesmo que o agente seja absolvido por inimputabilidade ou que a punibilidade seja extinta. O objeto "criminoso" não pode voltar à circulação.
     </div>
   </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine um bar que vive sendo usado por traficantes para negociar drogas. O juiz pode ordenar o "confisco" do estabelecimento — ou seja, o Estado toma posse do imóvel porque ele foi usado para crime. É como confiscar o carro de quem dirige bêbado: o bem vira propriedade do Estado porque foi instrumento ou produto do crime.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Medidas patrimoniais" atingem bens e valores. O "confisco" é quando o Estado toma posse definitiva de coisas usadas no crime (arma do crime, carro usado para fugir) ou do produto do crime (dinheiro roubado). A "interdição de estabelecimento" fecha por tempo determinado um local que serviu para crime (ex: cassino clandestino). Essas medidas podem ser aplicadas mesmo que o dono não seja punido criminalmente.
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">storefront</span>
+      2. Interdição de Estabelecimento
+    </div>
+    <div class="lex-expandable-item">
+      <span>Proibição de exercer atividade social, comercial ou industrial no local onde o crime era fomentado.</span>
+    </div>
+    <div class="lex-quote">
+      <strong>Prazo:</strong> 15 dias a 6 meses. O objetivo é desarticular o ponto de apoio do crime.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo de Ouro:</strong><br/>
+      As medidas patrimoniais visam descapitalizar o crime e neutralizar locais de infração.
+    </div>
   </div>
 </div>`
   },
+
+   // ═══════════════════════════════════════════════════════
+  // DURAÇÃO
+  // ═══════════════════════════════════════════════════════
 
   "Duração e Controle das Medidas de Segurança": {
     icon: "⏳",
     color: "#4338ca",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⏳</div>
-    <h1 class="notion-title">Duração e Controle das Medidas de Segurança</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Arts. 112 a 114 CPM</span>
-      <span class="meta-tag tag-b">Prazo e Perícias</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Execução Penal</div>
+    <div class="tag tag-y">Controle Pericial</div>
+    <h1>Duração e Controle</h1>
+    <p>Diferente da pena, que tem tempo certo, a medida de segurança foca na <u>cessação da periculosidade</u>.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">timer</span>
+      1. O Sistema de Prazos
+    </div>
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Prazo Mínimo:</strong><br/>
+          De <strong>1 a 3 anos</strong>. Definido pelo juiz na sentença.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Prazo Máximo:</strong><br/>
+          Indeterminado no CPM, mas limitado a <strong>40 anos</strong> pelo STF.
+        </div>
+      </div>
     </div>
   </div>
+
   
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Prazo Mínimo (Art. 112, §1°)</div>
-    <div class="lex-expandable-item">Fixado pelo juiz na sentença, entre <strong>1 e 3 anos</strong>.</div>
-    <div class="lex-expandable-item">Durante esse período mínimo, <strong>não há exame de cessação da periculosidade</strong>.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Prazo Máximo e Controvérsia</div>
-    <div class="lex-expandable-item">A medida de segurança tem duração <strong>indeterminada</strong>, perdurando enquanto não cessar a periculosidade.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">clinical_notes</span>
+      2. Perícia de Cessação (Art. 112)
+    </div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>STJ (Súmula 527):</strong> O tempo de duração não pode ultrapassar o limite máximo da pena abstratamente cominada ao delito praticado</div>
-      <div class="lex-expandable-item"><strong>STF:</strong> O prazo máximo é de 40 anos (art. 75, CP), por vedação constitucional às sanções de caráter perpétuo (CF, art. 5°, XLVII, "b")</div>
+      <div class="lex-expandable-item">A primeira perícia ocorre logo após o fim do <strong>prazo mínimo</strong>.</div>
+      <div class="lex-expandable-item">Se a periculosidade persistir, novas perícias são feitas <strong>anualmente</strong>.</div>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Perícias e Controle</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Perícia inicial:</strong> Após o prazo mínimo fixado</div>
-      <div class="lex-expandable-item"><strong>Perícias subsequentes:</strong> De ano em ano, ou a qualquer tempo, por determinação do juiz da execução (Art. 112, §2°)</div>
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">gavel</span>
+    <div class="lex-summary-content">
+      <strong>Liberação Condicional:</strong> A desinternação é sempre <strong>reversível</strong>. Se no primeiro ano de liberdade o sujeito demonstrar periculosidade, a medida é restabelecida imediatamente.
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Desinternação ou Liberação Condicional</div>
-    <div class="lex-expandable-item">Sempre <strong>condicional</strong> (Art. 112, §3°).</div>
-    <div class="lex-expandable-item">Se o agente, antes de decorrido 1 ano, praticar fato indicativo de persistência da periculosidade, a medida é restabelecida.</div>
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense em alguém que foi internado por ter problemas mentais e ser considerado perigoso. Depois de 2 anos, os médicos dizem que ele está curado e pode sair — mas com condições: precisa fazer tratamento, não pode sair do país, tem que se apresentar periodicamente. Se dentro de 1 ano ele comete outro crime ou mostra sinais de doença, volta para internação. A medida de segurança é como uma "prisão médica" que só termina quando a pessoa realmente não é mais perigosa.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    Medidas de segurança têm prazo mínimo (1 a 3 anos, fixado pelo juiz) e prazo máximo indeterminado (enquanto houver periculosidade). A cada ano, médicos fazem perícia para ver se a pessoa ainda é perigosa. Se estiver curada, pode ser liberada condicionalmente. Se persistir a doença ou periculosidade, continua internada. O STF diz que o máximo é 40 anos (vedação constitucional às sanções perpétuas).
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu Final:</strong><br/>
+      • Mínimo: 1 a 3 anos.<br/>
+      • Máximo: 40 anos (Limite Constitucional).<br/>
+      • Critério: Periculosidade (não a gravidade do crime).
+    </div>
   </div>
 </div>`
   },
+
+// ═══════════════════════════════════════════════════════
+  // MEDIDAS DE SEGURANÇA E PROCESSO
+  // ═══════════════════════════════════════════════════════
 
   "Internação Substitutiva (Art. 113, CPM)": {
     icon: "🔄",
     color: "#0d9488",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🔄</div>
-    <h1 class="notion-title">Internação Substitutiva</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 113 CPM</span>
-      <span class="meta-tag tag-b">Superveniência de Cura</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 113 CPM</div>
+    <div class="tag tag-b">Dinâmica Terapêutica</div>
+    <h1>Internação Substitutiva</h1>
+    <p>O regramento para a transição entre a medida de segurança e a pena privativa de liberdade em caso de melhora do quadro clínico.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">health_and_safety</span>
+      1. Superveniência de Cura
+    </div>
+    <div class="lex-expandable-item">
+      <span>O que ocorre se o internado recuperar a sanidade antes do fim do prazo?</span>
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Transferência:</strong><br/>
+          O sujeito é levado ao estabelecimento penal comum para cumprir o restante da pena original.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Direitos Preservados:</strong><br/>
+          O tempo de internação conta como pena cumprida (detração) e não impede o livramento condicional.
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Superveniência de Cura</div>
-    <div class="lex-expandable-item">Se o internado estiver curado antes do término da medida:</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Pode ser transferido para estabelecimento penal para cumprir o restante da pena</div>
-      <div class="lex-expandable-item">Não perde o direito ao livramento condicional</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">emergency</span>
+      2. Ébrios e Toxicômanos (§3°)
+    </div>
+    <div class="lex-expandable-item">
+      <span>Sujeitam-se à internação curativa sob as mesmas normas dos inimputáveis.</span>
+    </div>
+    <div class="callout callout-blue">
+      A internação visa o tratamento da dependência que gera a periculosidade, mantendo o controle pericial anual após o prazo mínimo.
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Persistência do Estado Mórbido</div>
-    <div class="lex-expandable-item">Se, ao término do prazo mínimo, persistir o estado psíquico e a periculosidade, há determinação judicial para continuidade da medida.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Ébrios Habituais ou Toxicômanos</div>
-    <div class="lex-expandable-item">Sujeitam-se à internação para fim curativo, sob as mesmas normas (Art. 113, §3°).</div>
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine alguém que foi internado em hospital psiquiátrico por ter cometido um crime durante um surto. Depois de 1 ano, os médicos dizem que ele está completamente curado. Aí ele pode ser transferido para um presídio normal para cumprir o resto da pena, ou, se a pena já acabaria, pode ser liberado. Mas se a cura não acontecer e ele continuar doente e perigoso, a internação continua. É como ficar de licença médica até realmente ficar bom para voltar ao trabalho.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Internação substitutiva" são regras para quando a pessoa melhora antes do fim da medida de segurança. Se curou completamente, pode ir para presídio ou ser liberada. Se não curou, continua internada. Alcoólatras e viciados em drogas também podem ser internados para tratamento curativo, seguindo as mesmas regras de revisão periódica.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu:</strong> Curou? ➡️ Volta pro presídio (se sobrar pena). Não curou? ➡️ Continua internado (enquanto houver periculosidade).
+    </div>
   </div>
 </div>`
   },
@@ -2340,35 +3413,61 @@ window.DA = {
     icon: "📊",
     color: "#6b7280",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">📊</div>
-    <h1 class="notion-title">Medidas de Segurança — Quadro Resumo</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Arts. 109 a 119 CPM</span>
-      <span class="meta-tag tag-b">Síntese</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Resumo Geral</div>
+    <div class="tag tag-y">Arts. 109 a 119 CPM</div>
+    <h1>Síntese das Medidas de Segurança</h1>
+    <p>Um guia rápido para diferenciar as espécies de sanções preventivas do Código Penal Militar.</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Quadro Síntese</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Internação (Detentiva):</strong> Inimputáveis, semi-imputáveis perigosos — Prazo indeterminado (mín. 1-3 anos)</div>
-      <div class="lex-expandable-item"><strong>Tratamento ambulatorial (Não detentiva):</strong> Inimputáveis, semi-imputáveis perigosos — Prazo indeterminado (mín. 1-3 anos)</div>
-      <div class="lex-expandable-item"><strong>Interdição de CNH (Não detentiva):</strong> Condenados por crimes na direção — Mínimo 1 ano</div>
-      <div class="lex-expandable-item"><strong>Exílio local (Não detentiva):</strong> Qualquer condenado perigoso — Mínimo 1 ano</div>
-      <div class="lex-expandable-item"><strong>Proibição de frequentar lugares (Não detentiva):</strong> Qualquer condenado perigoso — Mínimo 1 ano</div>
-      <div class="lex-expandable-item"><strong>Interdição de estabelecimento (Patrimonial):</strong> Sociedades/associações criminosas — 15 dias a 6 meses</div>
-      <div class="lex-expandable-item"><strong>Confisco (Patrimonial):</strong> Qualquer agente (independente de punibilidade) — Perpétuo (perda da coisa)</div>
+    <div class="lex-table-container">
+      <table class="lex-table">
+        <thead>
+          <tr>
+            <th>Espécie</th>
+            <th>Tipo</th>
+            <th>Prazo Mínimo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Internação</td>
+            <td>Detentiva</td>
+            <td>1 a 3 anos</td>
+          </tr>
+          <tr>
+            <td>Trat. Ambulatorial</td>
+            <td>Não Detentiva</td>
+            <td>1 a 3 anos</td>
+          </tr>
+          <tr>
+            <td>Exílio Local</td>
+            <td>Restritiva</td>
+            <td>1 ano</td>
+          </tr>
+          <tr>
+            <td>Interdição CNH</td>
+            <td>Restritiva</td>
+            <td>1 ano</td>
+          </tr>
+          <tr>
+            <td>Confisco</td>
+            <td>Patrimonial</td>
+            <td>Definitivo</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que o Estado tem um "arsenal de ferramentas" para proteger a sociedade de pessoas perigosas. Algumas ferramentas prendem (internação), outras só restringem (cassar CNH, proibir de ir em certos lugares), outras atingem bens (confiscar carro usado no crime, fechar bar de traficantes). Cada ferramenta é usada conforme o caso: se a pessoa é doente mental e perigosa → internação. Se é alcoólatra que dirige bêbado → cassar CNH. Se é organização criminosa → confiscar bens.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    Medidas de segurança são "proteções especiais" que a lei permite além das penas normais. Elas visam proteger a sociedade de pessoas perigosas ou impedir que bens sejam usados para crime. Podem ser: detentivas (internação), não detentivas (restrições de liberdade) ou patrimoniais (perda de bens). Cada uma tem destinatários específicos e prazos próprios.
+    <div class="lex-summary-content">
+      <strong>Analogia da Caixa de Ferramentas:</strong><br/>
+      O Estado usa a ferramenta certa para cada "defeito": Se o problema é mental (Internação); Se o problema é o ambiente (Exílio); Se o problema é o objeto (Confisco). O objetivo nunca é a vingança, mas o conserto ou a neutralização do risco.
+    </div>
   </div>
 </div>`
   },
@@ -2377,44 +3476,39 @@ window.DA = {
     icon: "⚖️",
     color: "#1d4ed8",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⚖️</div>
-    <h1 class="notion-title">Ação Penal Militar</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">CPPM</span>
-      <span class="meta-tag tag-b">Direito Público Subjetivo</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Processo Penal Militar</div>
+    <div class="tag tag-b">Direito de Agir</div>
+    <h1>Ação Penal Militar</h1>
+    <p>O mecanismo jurídico que retira o Judiciário da inércia para aplicar a lei penal militar.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_balance</span>
+      1. Natureza Jurídica
+    </div>
+    <div class="lex-expandable-item">
+      <span>É um <strong>direito público subjetivo</strong>, autônomo e abstrato.</span>
+    </div>
+    <div class="lex-quote">
+      Não se confunde com o crime, nem com o IPM. O IPM investiga; a Ação Penal julga.
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
-    <div class="lex-expandable-item">A ação penal militar é o <strong>direito público subjetivo</strong> de provocar a atividade jurisdicional do Estado-Juiz, com o objetivo de obter a aplicação do direito penal militar ao caso concreto.</div>
-    <div class="lex-expandable-item">É o instrumento que dá início ao <strong>processo penal militar</strong>.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Regramento</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Natureza:</strong> Direito público subjetivo</div>
-      <div class="lex-expandable-item"><strong>Finalidade:</strong> Provocar a jurisdição para aplicação do jus puniendi estatal</div>
-      <div class="lex-expandable-item"><strong>Regramento:</strong> Código de Processo Penal Militar (CPPM)</div>
-    </div>
-  </div>
-  
+
   <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>IPM ≠ Ação Penal:</strong><br/>
-    A ação penal militar é <strong>autônoma</strong> em relação ao Inquérito Policial Militar (IPM).<br/>
-    O IPM é peça meramente informativa; a ação penal só se instaura com o oferecimento da denúncia ou queixa.
+    <span class="material-symbols-outlined">lightbulb</span>
+    <div class="lex-summary-content">
+      <strong>O IPM é Dispensável:</strong> Se o Ministério Público já tiver provas suficientes (documentos, flagrante), ele pode oferecer a denúncia sem necessidade de instaurar um Inquérito Policial Militar.
+    </div>
   </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que você sofreu um acidente de carro e quer processar o outro motorista. Primeiro, a polícia faz um boletim de ocorrência (IPM) para apurar os fatos. Mas o processo só começa de verdade quando você entra na Justiça com uma ação. No Direito Militar é igual: primeiro a polícia militar investiga (IPM), depois o Ministério Público Militar entra com a "ação penal" — é esse documento que inicia oficialmente o processo no tribunal.<br/><br/>
-    <strong>EXPLICAÇÃO SIMPLES:</strong><br/>
-    "Ação penal" é o pedido formal para que o Judiciário julgue alguém por crime. É o "ponto de partida" do processo. No Direito Militar, quase sempre é o Ministério Público Militar (MPM) que entra com essa ação, após receber o IPM (inquérito policial). Sem ação penal, não há processo. O IPM é só investigação; a ação penal é o que leva o caso ao juiz.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Ponto de Prova:</strong> A ação penal militar inicia-se com o recebimento da <strong>denúncia</strong> pelo juiz, marcando o fim da fase investigativa e o início da fase judicial.
+    </div>
   </div>
 </div>`
   },
@@ -2423,93 +3517,120 @@ window.DA = {
     icon: "🏛️",
     color: "#1e40af",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🏛️</div>
-    <h1 class="notion-title">Ação Penal Pública Militar</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Regra Geral</span>
-      <span class="meta-tag tag-b">MPM</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Regra Geral</div>
+    <div class="tag tag-y">Dominus Litis</div>
+    <h1>Ação Pública e Princípios</h1>
+    <p>No Direito Militar, o interesse público na hierarquia e disciplina torna a ação penal quase exclusivamente pública.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">gavel</span>
+      1. Titularidade e Espécies
     </div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Regra no CPM</div>
-    <div class="lex-expandable-item">A regra no Código Penal Militar é a <strong>ação penal pública incondicionada</strong> promovida pelo <strong>Ministério Público Militar (MPM)</strong>.</div>
-  </div>
-  
-  <div class="callout callout-green">
-    Pública Incondicionada<br/>
-    MPM age <strong>independentemente</strong> da vontade da vítima ou de qualquer autoridade<br/>
-    Ex: Deserção, peculato, violência contra superior
-  </div>
-  <div class="callout callout-green">
-    Pública Condicionada<br/>
-    MPM só age após <strong>manifestação da vítima</strong> (representação) ou de autoridade (requisição)<br/>
-    Ex: Crimes contra a honra praticados entre militares
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Princípios Aplicáveis</div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Indisponibilidade:</strong> O MPM não pode desistir da ação penal uma vez proposta</div>
-      <div class="lex-expandable-item"><strong>Indivisibilidade:</strong> O MPM deve processar todos os autores e partícipes do crime, salvo exceções legais</div>
-      <div class="lex-expandable-item"><strong>Intranscendência:</strong> A ação penal não ultrapassa a pessoa do acusado</div>
+      <div class="lex-expandable-item"><strong>Pública Incondicionada (Regra):</strong> O Ministério Público Militar (MPM) atua sozinho.</div>
+      <div class="lex-expandable-item"><strong>Pública Condicionada (Exceção):</strong> Depende de requisição (ex: crimes contra a honra de autoridade).</div>
     </div>
   </div>
-  
-  <div class="callout callout-rose">
-    <span class="callout-icon">⚠️</span>
-    <strong>Assertiva FALSA:</strong><br/>
-    "O Ministério Público Militar pode desistir da ação penal após o oferecimento da denúncia."<br/><br/>
-    O princípio da <strong>indisponibilidade</strong> impede a desistência.
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">rule</span>
+      2. Princípios Fundamentais
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Indisponibilidade:</strong><br/>
+          O MPM <u>não pode desistir</u> da ação penal militar após protocolada.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Obrigatoriedade:</strong><br/>
+          Presentes os indícios de autoria e prova de crime, o MPM <u>deve</u> processar.
+        </div>
+      </div>
+    </div>
   </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que alguém é vítima de um assalto. A polícia prende o ladrão e o Ministério Público entra com a ação penal. Mesmo que a vítima mude de ideia e queira "perdoar" o ladrão, o processo continua — porque a ação é pública. O MPM representa a sociedade, não só a vítima. É como se o Estado dissesse: "O crime afeta a todos, então todos querem justiça, não só a vítima."
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">dangerous</span>
+    <div class="lex-summary-content">
+      <strong>Cuidado:</strong> Não existe ação penal exclusivamente privada no Direito Militar (como a Queixa-Crime comum). O máximo que ocorre é a ação privada <strong>subsidiária da pública</strong> se o MPM for inerte.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo Final:</strong> O MPM é o "dono da ação". Ele não desiste, não escolhe quem processar (indivisibilidade) e não pode ignorar o crime militar se houver provas.
+    </div>
   </div>
 </div>`
   },
+
+ // ═══════════════════════════════════════════════════════
+  // AÇÃO PENAL PRIVADA E PRAZOS
+  // ═══════════════════════════════════════════════════════
 
   "Ação Penal Privada Militar": {
     icon: "👤",
     color: "#a16207",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">👤</div>
-    <h1 class="notion-title">Ação Penal Privada Militar</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Excepcional</span>
-      <span class="meta-tag tag-b">Queixa-crime</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-y">Art. 121 CPPM</div>
+    <div class="tag tag-b">Excepcionalidade</div>
+    <h1>Ação Penal Privada</h1>
+    <p>Hipótese rara no Direito Militar onde o Estado transfere ao ofendido o direito de iniciar o processo criminal.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">person_search</span>
+      1. Modalidades de Ação Privada
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Propriamente Dita:</strong><br/>
+          A lei reserva exclusivamente à vítima o início da ação (ex: certos crimes contra a honra).
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Subsidiária da Pública:</strong><br/>
+          Ocorre se o MPM for <u>inerte</u> e não oferecer denúncia no prazo legal.
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
-    <div class="lex-expandable-item">É a ação promovida pelo <strong>ofendido ou seu representante legal</strong>, mediante queixa-crime, quando a lei expressamente prevê essa modalidade.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Crimes contra a Honra</div>
-    <div class="lex-expandable-item">Nos crimes de <strong>calúnia, difamação e injúria</strong> praticados entre militares, a ação penal pode ser privada.</div>
-    <div class="lex-expandable-item"><strong>Exceção:</strong> Se o crime for praticado contra militar <strong>em razão da função</strong>, ou contra as <strong>instituições militares</strong>, a ação será <strong>pública incondicionada</strong>.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Legitimidade</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>MPM (Ação Pública):</strong> Legitimidade concorrente e exclusiva para as ações penais públicas</div>
-      <div class="lex-expandable-item"><strong>Ofendido (Ação Privada):</strong> Legitimidade exclusiva para ação penal privada propriamente dita; legitimidade subsidiária para ação penal privada subsidiária da pública</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">edit_document</span>
+      2. O Instrumento: Queixa-Crime
+    </div>
+    <div class="lex-expandable-item">
+      <span>Diferente da Denúncia (do MPM), a ação privada inicia-se pela <strong>Queixa</strong>, assinada por advogado ou defensor público.</span>
+    </div>
+    <div class="lex-quote">
+      <strong>Prazo Decadencial:</strong> 6 meses, contados do dia em que se sabe quem é o autor do crime. Se não agir, o direito "morre".
     </div>
   </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine dois militares que brigam e um chama o outro de "ladrão" (calúnia). Se foi uma briga pessoal, sem relação com o trabalho, a vítima tem que entrar na Justiça sozinha com uma queixa — é ação privada. Mas se o ofensor disse isso durante uma reunião de comando, afetando a hierarquia militar, então o MPM entra automaticamente — vira ação pública.
+    <div class="lex-summary-content">
+      <strong>Analogia do "Processo Particular":</strong><br/>
+      Imagine que alguém riscou seu carro de propósito. O Estado não vai gastar recursos para te defender automaticamente; você é quem precisa contratar um advogado e processar. No militar, a regra é o Estado agir, mas em brigas de "honra pessoal" sem impacto na tropa, ele deixa o "boleto" do processo na sua mão.
+    </div>
   </div>
 </div>`
   },
@@ -2518,41 +3639,57 @@ window.DA = {
     icon: "⏰",
     color: "#be123c",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⏰</div>
-    <h1 class="notion-title">Prazos para Oferecimento da Denúncia</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 48 CPPM</span>
-      <span class="meta-tag tag-b">Prazos Impróprios</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Art. 79 CPPM</div>
+    <div class="tag tag-y">Cronograma Processual</div>
+    <h1>Prazos da Denúncia</h1>
+    <p>Regras de tempo para que o Ministério Público Militar formalize a acusação após receber o IPM.</p>
+  </div>
+
+  
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">schedule</span>
+      1. Regra dos 5 e 15
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="background: rgba(225, 29, 72, 0.1); border-left: 4px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>RÉU PRESO:</strong><br/>
+          Prazo de <strong>5 dias</strong>. <br/>A liberdade é a prioridade.
+        </div>
+      </div>
+      <div class="lex-summary" style="background: rgba(14, 165, 233, 0.1); border-left: 4px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>RÉU SOLTO:</strong><br/>
+          Prazo de <strong>15 dias</strong>. <br/>Contados do recebimento dos autos pelo MPM.
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Prazos (Impróprios)</div>
-  </div>
-  <div class="callout callout-green">
-    Preso<br/>
-    <strong>5 dias</strong>
-  </div>
-  <div class="callout callout-green">
-    Solto<br/>
-    <strong>15 dias</strong>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Natureza: Prazos Impróprios</div>
-    <div class="lex-expandable-item">O descumprimento <strong>não extingue a punibilidade</strong>, mas pode gerar:</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">priority_high</span>
+      2. Consequências do Atraso
+    </div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Ação privada subsidiária da pública</strong> (se houver inércia injustificada do MPM)</div>
-      <div class="lex-expandable-item"><strong>Relaxamento da prisão</strong> (se o acusado estiver preso)</div>
+      <div class="lex-expandable-item"><strong>Prazos Impróprios:</strong> O atraso não gera o fim do processo nem a perda do direito de punir do Estado.</div>
+      <div class="lex-expandable-item"><strong>Relaxamento:</strong> Se o réu estiver preso e o prazo estourar, a prisão torna-se ilegal e ele deve ser solto.</div>
+      <div class="lex-expandable-item"><strong>Inércia:</strong> Abre brecha para a Ação Privada Subsidiária da Pública.</div>
     </div>
   </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que alguém é preso em flagrante. A polícia tem prazos para fazer o inquérito e o Ministério Público tem prazos para oferecer a denúncia. Se a pessoa está presa, o prazo é de 5 dias; se está solta, é de 15 dias. Mas esses prazos são "impróprios" — se passarem, o crime não "prescreve". O que pode acontecer é: se o preso ficar muito tempo sem denúncia, pode ser solto (relaxamento da prisão), ou a vítima pode entrar com a ação sozinha se o MPM demorar demais.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu de Prova:</strong><br/>
+      • 5 dias (Preso) | 15 dias (Solto).<br/>
+      • O prazo pode ser triplicado pelo juiz em casos excepcionais (Art. 79, §1º CPPM).
+    </div>
   </div>
 </div>`
   },
@@ -2561,86 +3698,127 @@ window.DA = {
     icon: "💬",
     color: "#7c3aed",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">💬</div>
-    <h1 class="notion-title">Ação Penal nos Crimes Contra a Honra</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Especial Atenção</span>
-      <span class="meta-tag tag-b">Calúnia, Difamação, Injúria</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Calúnia, Difamação e Injúria</div>
+    <div class="tag tag-b">Critério da Função</div>
+    <h1>Honra no Meio Militar</h1>
+    <p>A natureza da ação penal muda drasticamente conforme quem é a vítima e em qual circunstância a ofensa ocorreu.</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Quadro — Crimes Contra a Honra</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Praticados entre militares, sem relação com a função:</strong> Ação PRIVADA (queixa-crime) — a honra pessoal prevalece</div>
-      <div class="lex-expandable-item"><strong>Praticados contra militar em razão da função:</strong> Ação PÚBLICA INCONDICIONADA — o interesse militar e a hierarquia são atingidos</div>
-      <div class="lex-expandable-item"><strong>Praticados contra instituição militar:</strong> Ação PÚBLICA INCONDICIONADA — a disciplina e a imagem institucional são bens tutelados</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">balance</span>
+      1. Divisor de Águas: A Função
+    </div>
+    
+    <div class="lex-table-container">
+      <table class="lex-table">
+        <thead>
+          <tr>
+            <th>Cenário</th>
+            <th>Tipo de Ação</th>
+            <th>Titular</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Entre militares (Vida Privada)</td>
+            <td><strong>Privada</strong></td>
+            <td>Ofendido (Queixa)</td>
+          </tr>
+          <tr>
+            <td>Contra militar <u>em serviço</u></td>
+            <td><strong>Pública Incond.</strong></td>
+            <td>MPM (Denúncia)</td>
+          </tr>
+          <tr>
+            <td>Contra a Instituição Militar</td>
+            <td><strong>Pública Incond.</strong></td>
+            <td>MPM (Denúncia)</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine dois soldados que se desentendem num bar no fim de semana e um xinga o outro. Isso é uma questão pessoal — a vítima decide se quer processar. Agora imagine um subordinado que chama o superior de "incompetente" durante uma operação militar. Isso afeta a hierarquia e a instituição — aí o Estado entra automaticamente, não depende da vontade da vítima.
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">tips_and_updates</span>
+    <div class="lex-summary-content">
+      <strong>Ponto de Atenção:</strong> No Direito Comum, crimes contra a honra são, via de regra, de ação privada. No <strong>Direito Militar</strong>, se a ofensa atingir a hierarquia ou o serviço, o MPM assume o controle total (Pública Incondicionada).
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu Final:</strong> Ofendeu o homem? Ação Privada. Ofendeu a farda/função? Ação Pública.
+    </div>
   </div>
 </div>`
   },
+
+  // ═══════════════════════════════════════════════════════
+  // CPM: CAUSAS EXTINTIVAS DA PUNIBILIDADE
+  // ═══════════════════════════════════════════════════════
 
   "Causas Extintivas da Punibilidade (Art. 123, CPM)": {
     icon: "🚫",
     color: "#991b1b",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🚫</div>
-    <h1 class="notion-title">Causas Extintivas da Punibilidade</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 123 CPM</span>
-      <span class="meta-tag tag-b">Extinção da Punibilidade</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-y">Art. 123 CPM </div>
+    <div class="tag tag-b">Punibilidade</div>
+    <h1>Extinção da Punibilidade</h1>
+    <p>Hipóteses jurídicas que impedem o Estado de exercer o seu <i>jus puniendi</i> (direito de punir).</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">balance</span>
+      1. Natureza do Rol: Exemplificativo ou Taxativo?
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Visão do STM (Majoritária):</strong><br/>
+          O rol do Art. 123 é <strong>TAXATIVO</strong>. Apenas o que está ali extingue a punibilidade militar.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Cícero Neves (Doutrina):</strong><br/>
+          O rol é <strong>EXEMPLIFICATIVO</strong>, pois existem causas fora dele (ex: Art. 303, §4º).
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Posições Doutrinárias</div>
-  </div>
-  <div class="callout callout-green">
-    Cícero Neves<br/>
-    Meramente <strong>exemplificativo</strong> — existem outras causas extintivas espalhadas pelo CPM
-  </div>
-  <div class="callout callout-green">
-    STM<br/>
-    <strong>Taxativo</strong> — apenas as elencadas no art. 123 extinguem a punibilidade
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine uma lista de compras. Cícero Neves diz: "Aqui estão alguns exemplos do que comprar, mas pode ter outros itens na loja". O STM diz: "Só pode comprar o que está nesta lista, nada mais". Para concursos, a posição do STM é mais cobrada: só as causas do art. 123 extinguem a punibilidade. Se não está na lista, não extingue.
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Causas Previstas no Art. 123, CPM</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">format_list_bulleted</span>
+      2. As Causas do Art. 123
+    </div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>I — Morte do agente</strong></div>
-      <div class="lex-expandable-item"><strong>II — Anistia, graça ou indulto</strong> (previstas no art. 107, II, CP, aplicado subsidiariamente)</div>
-      <div class="lex-expandable-item"><strong>III — Abolitio criminis</strong> (retroatividade de lei que não mais considera o fato como criminoso)</div>
-      <div class="lex-expandable-item"><strong>IV — Prescrição</strong></div>
-      <div class="lex-expandable-item"><strong>VI — Ressarcimento do dano, no peculato culposo</strong> (art. 303, §4°, CPM)</div>
+      <div class="lex-expandable-item"><strong>I — Morte do agente:</strong> O Estado não pune herdeiros na esfera criminal.</div>
+      <div class="lex-expandable-item"><strong>II — Anistia, Graça ou Indulto:</strong> Formas de perdão soberano.</div>
+      <div class="lex-expandable-item"><strong>III — Abolitio Criminis:</strong> Lei nova que deixa de considerar o fato como crime.</div>
+      <div class="lex-expandable-item"><strong>IV — Prescrição:</strong> Perda do direito de punir pelo decurso do tempo.</div>
+      <div class="lex-expandable-item"><strong>VI — Ressarcimento no Peculato Culposo:</strong> Extingue se ocorrer antes da sentença final.</div>
+    </div>
+    <div class="callout callout-gold">
+      <strong>Curiosidade:</strong> O inciso V não existe no texto original do CPM (erro de numeração do legislador).
     </div>
   </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Observação:</strong><br/>
-    O inciso V do art. 123 foi omitido na numeração original do CPM.
-  </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense numa dívida que você tem com o banco. Se você morre, a dívida não desaparece — ela é herdada pelos herdeiros. Mas no Direito Penal é diferente: se o acusado morre, o processo acaba. Não faz sentido punir um morto. Outras formas de acabar o processo são: anistia (perdão coletivo), graça (perdão individual dado pelo Presidente), indulto (perdão de pena), ou quando a lei muda e deixa de considerar aquilo crime (abolição do crime).
+    <div class="lex-summary-content">
+      <strong>Analogia da "Multa Condoada":</strong><br/>
+      Imagine que você recebeu uma multa. Se o órgão de trânsito diz que "o erro foi do sistema" (Abolitio), ou se passou tempo demais sem cobrar (Prescrição), ou se o Diretor do órgão decidiu te perdoar (Graça), a multa some. A causa extintiva é o "borrachão" que apaga a dívida com o Estado.
+    </div>
   </div>
 </div>`
   },
@@ -2649,36 +3827,51 @@ window.DA = {
     icon: "⚰️",
     color: "#374151",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⚰️</div>
-    <h1 class="notion-title">Morte do Agente</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 123, I CPM</span>
-      <span class="meta-tag tag-b">Efeitos</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Princípio da Pessoalidade</div>
+    <div class="tag tag-b">Art. 123, I</div>
+    <h1>Morte do Agente</h1>
+    <p>A extinção da punibilidade decorrente do falecimento do acusado ou condenado.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">person_off</span>
+      1. Intransmissibilidade da Pena
+    </div>
+    <div class="lex-expandable-item">
+      <span>A punição criminal é <strong>personalíssima</strong>. Nenhuma pena passará da pessoa do condenado.</span>
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Esfera Penal:</strong><br/>
+          EXTINGUE-SE. O processo é arquivado ou a execução da pena cessa imediatamente.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Esfera Civil/Extrapenal:</strong><br/>
+          SUBSISTE. A obrigação de reparar o dano pode ser cobrada dos herdeiros até o limite da herança.
+        </div>
+      </div>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Efeito</div>
-    <div class="lex-expandable-item">Extinge a punibilidade do agente falecido.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Efeitos Extrapenais Subsistem</div>
-    <div class="lex-expandable-item">Atinge <strong>apenas a esfera penal</strong>. Os efeitos extrapenais (ex: obrigação de reparar o dano) subsistem e podem recair sobre o patrimônio do de cujus.</div>
-  </div>
-  
+
   <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Regra:</strong><br/>
-    A morte do agente extingue a punibilidade, mas <strong>não extingue a obrigação de indenizar</strong> a vítima.
+    <span class="material-symbols-outlined">gavel</span>
+    <div class="lex-summary-content">
+      <strong>Prova da Morte:</strong> Apenas a <u>Certidão de Óbito</u> original faz prova para a extinção da punibilidade. Documentos hospitalares não bastam para o juiz extinguir a ação.
+    </div>
   </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que alguém cometeu um crime e faleceu antes do julgamento. O processo criminal acaba porque não tem como punir um morto. Mas se essa pessoa tinha bens, a vítima ainda pode cobrar indenização desses bens — a parte civil continua, só a penal que para.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo de Ouro:</strong> A morte "mata" a pretensão punitiva (prisão), mas não a pretensão ressarcitória (dinheiro).
+    </div>
   </div>
 </div>`
   },
@@ -2687,897 +3880,1385 @@ window.DA = {
     icon: "📜",
     color: "#1d4ed8",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">📜</div>
-    <h1 class="notion-title">Anistia, Graça e Indulto</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 123, II CPM</span>
-      <span class="meta-tag tag-b">Causas de Extinção</span>
-    </div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Quadro Comparativo</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Anistia:</strong> Coletivo, abstrato — Congresso Nacional (Lei Federal) — Fato criminoso (crimes políticos, militares ou eleitorais) — Extingue punibilidade e apaga reincidência; efeitos civis permanecem</div>
-      <div class="lex-expandable-item"><strong>Graça:</strong> Individual (indulto individual) — Presidente da República (Decreto) — Agente condenado — Extingue a pena (total ou parcial), mas não apaga a reincidência</div>
-      <div class="lex-expandable-item"><strong>Indulto:</strong> Coletivo — Presidente da República (Decreto) — Grupo indeterminado de condenados — Extingue a pena (total=indulto; parcial=comutação); não apaga a reincidência</div>
-    </div>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Diferença crucial:</strong><br/>
-    • <strong>Anistia:</strong> extingue punibilidade + apaga reincidência<br/>
-    • <strong>Graça/Indulto:</strong> extinguem pena + NÃO apagam reincidência
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense em três tipos de perdão: Anistia é como um perdão coletivo dado a todos que cometeram certos crimes políticos (como na ditadura militar). Graça é quando o Presidente perdoa uma pessoa específica, como um presidiário idoso. Indulto é quando o Presidente perdoa um grupo de presos, como todos que cumpriram 1/3 da pena e têm bom comportamento. Só a anistia "limpa a ficha" — graça e indulto não apagam a reincidência.
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Perdão Estatal</div>
+    <div class="tag tag-b">Art. 123, II</div>
+    <h1>Perdão: Anistia, Graça e Indulto</h1>
+    <p>As três vias pelas quais o Poder Público abre mão de punir por razões políticas, humanitárias ou sociais.</p>
   </div>
 
-<br><br>
-<div class="lex-block">
-  <div class="notion-header">
-    <h1 class="notion-title">Anistia — Detalhes Importantes</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Lei n° 6.683/79</span>
-      <span class="meta-tag tag-b">Competência do Congresso</span>
+  <div class="lex-section-container">
+    <div class="lex-table-container">
+      <table class="lex-table">
+        <thead>
+          <tr>
+            <th>Característica</th>
+            <th>Anistia</th>
+            <th>Graça</th>
+            <th>Indulto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Titular</strong></td>
+            <td>Congresso (Lei)</td>
+            <td>Presidente (Decreto)</td>
+            <td>Presidente (Decreto)</td>
+          </tr>
+          <tr>
+            <td><strong>Alcance</strong></td>
+            <td>Coletiva</td>
+            <td>Individual</td>
+            <td>Coletivo</td>
+          </tr>
+          <tr>
+            <td><strong>Reincidência</strong></td>
+            <td>APAGA</td>
+            <td>MANTÉM</td>
+            <td>MANTÉM</td>
+          </tr>
+          <tr>
+            <td><strong>Momento</strong></td>
+            <td>Qualquer fase</td>
+            <td>Após condenação</td>
+            <td>Após condenação</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Competência</div>
-    <div class="lex-expandable-item"><strong>Competência exclusiva da União</strong> (CF, art. 21, XVII) e <strong>privativa do Congresso Nacional</strong> (CF, art. 48, VIII).</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Características</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">auto_awesome</span>
+      1. O Diferencial da Anistia
+    </div>
     <div class="lex-list">
-      <div class="lex-expandable-item">Pode ser concedida <strong>antes ou depois</strong> da condenação</div>
-      <div class="lex-expandable-item">O anistiado <strong>não precisa aceitar</strong> o benefício</div>
-      <div class="lex-expandable-item">A anistia <strong>não pode ser revogada</strong></div>
+      <div class="lex-expandable-item"><strong>Retroativa:</strong> Age como se o crime nunca tivesse ocorrido para fins penais.</div>
+      <div class="lex-expandable-item"><strong>Irrevogável:</strong> Uma vez concedida por lei, não pode ser desfeita por outra lei posterior.</div>
+      <div class="lex-expandable-item"><strong>Objetiva:</strong> Foca no <u>fato</u> (ex: crimes políticos de 1979) e não na pessoa.</div>
     </div>
   </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Exemplo clássico:</strong><br/>
-    Lei n° 6.683/79 (anistia política).
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>Ponto Cego:</strong> Nenhuma dessas causas apaga os efeitos <strong>civis</strong>. Mesmo anistiado ou indultado, a obrigação de indenizar a vítima permanece intacta.
+    </div>
   </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    A anistia de 1979 foi como um "reset" histórico: o Congresso perdoou todos que cometeram crimes políticos durante a ditadura militar. É diferente de graça e indulto porque: (1) é lei do Congresso, não decreto do Presidente; (2) pode ser concedida antes ou depois da condenação; (3) a pessoa não precisa aceitar; (4) apaga a reincidência. É o "perdão mais completo" que existe.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu de Ouro:</strong><br/>
+      • <strong>Anistia:</strong> Congresso + Lei + Apaga Reincidência.<br/>
+      • <strong>Indulto/Graça:</strong> Presidente + Decreto + Mantém Reincidência.
+    </div>
   </div>
 </div>`
   },
+  
+ "Abolitio Criminis (Art. 123, III, CPM)": {
+    icon: "📜",
+    color: "#0369a1",
+    aprendizado: `
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Novatio Legis In Melius</div>
+    <div class="tag tag-b">Art. 123, III</div>
+    <h1>Abolitio Criminis</h1>
+    <p>Ocorre quando uma lei nova retira do ordenamento jurídico a natureza criminosa de um fato anteriormente punível.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">history_edu</span>
+      1. Retroatividade Plena
+    </div>
+    <div class="lex-expandable-item">
+      <span>A lei penal retroage para beneficiar o réu, cessando imediatamente a execução e os efeitos <strong>penais</strong> da condenação.</span>
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>O que APAGA:</strong><br/>
+          A pena, a reincidência e o registro nos antecedentes criminais.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>O que FICA:</strong><br/>
+          Os efeitos civis (obrigação de indenizar) permanecem válidos.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">priority_high</span>
+    <div class="lex-summary-content">
+      <strong>Abolitio vs. Continuidade:</strong> Não confunda com a mera revogação de um artigo onde a conduta migra para outro (Princípio da Continuidade Normativo-Típica). Na Abolitio, o Estado decide que aquela conduta <u>não é mais crime</u> em lugar nenhum.
+    </div>
+  </div>
+
+  <div class="callout callout-purple">
+    <span class="callout-icon">💡</span>
+    <div class="lex-summary-content">
+      <strong>Analogia da Regra de Jogo:</strong><br/>
+      Imagine que no futebol fosse proibido fazer gol de cabeça. Se a regra mudar amanhã e passar a ser permitido, quem foi expulso ontem por isso não pode ter o histórico "sujo". O juiz (Estado) apaga a falta porque agora o jogo aceita aquela jogada.
+    </div>
+  </div>
+</div>`
+  },
+
+  "Prescrição Militar (Art. 123, IV, CPM)": {
+    icon: "⌛",
+    color: "#ea580c",
+    aprendizado: `
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Art. 125 CPM</div>
+    <div class="tag tag-y">Prazos Específicos</div>
+    <h1>Prescrição Militar</h1>
+    <p>A perda do direito de punir ou de executar a pena pelo Estado devido à sua inércia durante o tempo fixado em lei.</p>
+  </div>
+
+  
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">bolt</span>
+      1. Diferença de Prazos (CPM vs CP)
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">Fique atento: os prazos no Direito Militar são diferentes e muitas vezes mais curtos que no comum.</p>
+    
+    <div class="lex-table-container">
+      <table class="lex-table">
+        <thead>
+          <tr>
+            <th>Pena Máxima</th>
+            <th>Prazo (CPM)</th>
+            <th>Prazo (CP)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>+10 a 20 anos</td>
+            <td><strong>16 anos</strong></td>
+            <td>20 anos</td>
+          </tr>
+          <tr>
+            <td>+5 a 10 anos</td>
+            <td><strong>12 anos</strong></td>
+            <td>16 anos</td>
+          </tr>
+          <tr>
+            <td>+3 a 5 anos</td>
+            <td><strong>8 anos</strong></td>
+            <td>10 anos</td>
+          </tr>
+          <tr>
+            <td>-1 ano</td>
+            <td><strong>2 anos</strong></td>
+            <td>3 anos</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">running_with_errors</span>
+      2. Casos Especiais (Art. 125, §2º)
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Deserção:</strong> A prescrição só começa a correr no dia em que o desertor completa 45 anos (se praça) ou 60 anos (se oficial).</div>
+      <div class="lex-expandable-item"><strong>Insubmissão:</strong> Prazo de 8 anos, ou quando o insubmisso atingir 30 anos de idade.</div>
+    </div>
+  </div>
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>Redução pela Metade:</strong> Se o criminoso era menor de 21 anos ou maior de 70 na data da sentença, os prazos de prescrição são reduzidos pela metade (Art. 129).
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu de Prova:</strong> No CPM, não existe prescrição de 20 anos. O prazo máximo é de <strong>30 anos</strong> (apenas para crimes punidos com morte) ou 16 anos para a maioria dos crimes graves.
+    </div>
+  </div>
+</div>`
+  },
+
+  "Peculato Culposo: Ressarcimento (Art. 123, VI)": {
+    icon: "💰",
+    color: "#16a34a",
+    aprendizado: `
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Causa Especial</div>
+    <div class="tag tag-b">Art. 303, §4º</div>
+    <h1>Ressarcimento no Peculato Culposo</h1>
+    <p>A única hipótese onde o pagamento do prejuízo extingue a punibilidade de forma direta e específica no CPM.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">payments</span>
+      1. Regra do Tempo
+    </div>
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Antes da Sentença Final:</strong><br/>
+          Extingue a punibilidade. O réu sai sem condenação criminal.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Após a Sentença Final:</strong><br/>
+          Não extingue, mas reduz a pena imposta pela metade.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">report_problem</span>
+    <div class="lex-summary-content">
+      <strong>Atenção Máxima:</strong> Isso <u>só vale</u> para a modalidade <strong>CULPOSA</strong> (quando o militar é negligente e permite que outro subtraia o bem). No Peculato Doloso (querer roubar), o ressarcimento é apenas uma atenuante, nunca extingue a pena.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo:</strong> Pagou antes do trânsito em julgado? Extingue. Pagou depois? Reduz metade. (SÓ NO CULPOSO!)
+    </div>
+  </div>
+</div>`
+  },
+ 
+  "Anistia, Graça e Indulto": {
+    icon: "📜",
+    color: "#1d4ed8",
+    aprendizado: `
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Perdão Estatal</div>
+    <div class="tag tag-b">Art. 123, II</div>
+    <h1>Perdão: Anistia, Graça e Indulto</h1>
+    <p>As três vias pelas quais o Poder Público abre mão de punir por razões políticas, humanitárias ou sociais.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-table-container">
+      <table class="lex-table">
+        <thead>
+          <tr>
+            <th>Característica</th>
+            <th>Anistia</th>
+            <th>Graça</th>
+            <th>Indulto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Titular</strong></td>
+            <td>Congresso (Lei)</td>
+            <td>Presidente (Decreto)</td>
+            <td>Presidente (Decreto)</td>
+          </tr>
+          <tr>
+            <td><strong>Alcance</strong></td>
+            <td>Coletiva</td>
+            <td>Individual</td>
+            <td>Coletivo</td>
+          </tr>
+          <tr>
+            <td><strong>Reincidência</strong></td>
+            <td>APAGA</td>
+            <td>MANTÉM</td>
+            <td>MANTÉM</td>
+          </tr>
+          <tr>
+            <td><strong>Momento</strong></td>
+            <td>Qualquer fase</td>
+            <td>Após condenação</td>
+            <td>Após condenação</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">auto_awesome</span>
+      1. O Diferencial da Anistia
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Retroativa:</strong> Age como se o crime nunca tivesse ocorrido para fins penais.</div>
+      <div class="lex-expandable-item"><strong>Irrevogável:</strong> Uma vez concedida por lei, não pode ser desfeita por outra lei posterior.</div>
+      <div class="lex-expandable-item"><strong>Objetiva:</strong> Foca no <u>fato</u> (ex: crimes políticos de 1979) e não na pessoa.</div>
+    </div>
+  </div>
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>Ponto Cego:</strong> Nenhuma dessas causas apaga os efeitos <strong>civis</strong>. Mesmo anistiado ou indultado, a obrigação de indenizar a vítima permanece intacta.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu de Ouro:</strong><br/>
+      • <strong>Anistia:</strong> Congresso + Lei + Apaga Reincidência.<br/>
+      • <strong>Indulto/Graça:</strong> Presidente + Decreto + Mantém Reincidência.
+    </div>
+  </div>
+</div>`
+  },
+ 
+// ═══════════════════════════════════════════════════════
+  // PERDÕES E PRESCRIÇÃO
+  // ═══════════════════════════════════════════════════════
 
   "Graça — Detalhes Importantes": {
     icon: "👑",
     color: "#a16207",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">👑</div>
-    <h1 class="notion-title">Graça — Detalhes Importantes</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 84, XII CF</span>
-      <span class="meta-tag tag-b">Prerrogativa do Presidente</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 84, XII CF</div>
+    <div class="tag tag-b">Indulto Individual</div>
+    <h1>Graça Presidencial</h1>
+    <p>A clemência destinada a uma pessoa específica, geralmente por razões humanitárias ou mérito extraordinário.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">person_pin</span>
+      1. Características Essenciais
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Provocação:</strong> Diferente do indulto, a Graça <u>exige pedido</u> do condenado, MP ou Conselho Penitenciário.</div>
+      <div class="lex-expandable-item"><strong>Momento:</strong> Só pode ser concedida <u>após</u> o trânsito em julgado da condenação.</div>
+      <div class="lex-expandable-item"><strong>Vedações:</strong> Proibida para crimes Hediondos, Tortura, Tráfico e Terrorismo (3T + H).</div>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Prerrogativa</div>
-    <div class="lex-expandable-item">Prerrogativa do <strong>Presidente da República</strong> (CF, art. 84, XII), <strong>delegável</strong> a Ministros de Estado.</div>
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">gavel</span>
+    <div class="lex-summary-content">
+      <strong>Efeito Limitado:</strong> Extingue apenas a pena (efeito executório). O sujeito continua sendo considerado <strong>reincidente</strong> para crimes futuros e a obrigação de reparar o dano civil permanece.
+    </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Dependência de Provocação</div>
-    <div class="lex-expandable-item">Depende de <strong>provocação</strong> (pedido do condenado, MP, Conselho Penitenciário ou autoridade administrativa).</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Limitação</div>
-    <div class="lex-expandable-item">Não se aplica a <strong>crimes hediondos, tortura, tráfico de drogas e terrorismo</strong> (CF, art. 5°, XLIII).</div>
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Graça é como um "perdão individual" dado pelo Presidente. É diferente da anistia porque: (1) é decreto, não lei; (2) só pode ser dada depois da condenação; (3) a pessoa precisa pedir (não é automática); (4) não apaga a reincidência. O Presidente pode perdoar a pena, mas a pessoa continua tendo "ficha criminal" — se cometer outro crime, pode ser considerada reincidente.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">💡</span>
+    <div class="lex-summary-content">
+      <strong>Exemplo Prático:</strong> Imagine um militar condenado que contrai uma doença terminal. O Presidente pode conceder a Graça para que ele não morra no presídio. É um ato de humanidade focado no indivíduo.
+    </div>
   </div>
 </div>`
   },
+
+  //------------------------------------------
+  //------------------------------------------------
 
   "Indulto — Detalhes Importantes": {
     icon: "📜",
     color: "#7c2d12",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">📜</div>
-    <h1 class="notion-title">Indulto — Detalhes Importantes</h1>
-    <div class="notion-meta">
-      <span class="callout-orange">Decreto Presidencial</span>
-      <span class="meta-tag tag-b">Discricionário</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Decreto Presidencial</div>
+    <div class="tag tag-y">Ato Coletivo</div>
+    <h1>Indulto Natalino/Coletivo</h1>
+    <p>Ato discricionário do Presidente da República focado em um grupo de condenados que atendam a requisitos pré-estabelecidos.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">groups</span>
+      1. Dinâmica do Benefício
     </div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Prerrogativa</div>
-    <div class="lex-expandable-item">Prerrogativa do <strong>Presidente da República</strong>, delegável.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Características</div>
     <div class="lex-list">
-      <div class="lex-expandable-item">Concedido <strong>de ofício</strong>, por decreto</div>
-      <div class="lex-expandable-item">Destinado a um <strong>grupo indeterminado</strong></div>
-      <div class="lex-expandable-item">Atuação <strong>discricionária</strong> do Chefe do Executivo</div>
-      <div class="lex-expandable-item">O Poder Judiciário só pode analisar sua <strong>constitucionalidade</strong>, não o mérito</div>
+      <div class="lex-expandable-item"><strong>De Ofício:</strong> O Presidente assina o decreto sem precisar de pedido individual.</div>
+      <div class="lex-expandable-item"><strong>Critérios:</strong> Geralmente exige tempo de pena cumprido e bom comportamento (ex: "Indulto de Natal").</div>
+      <div class="lex-expandable-item"><strong>Controle:</strong> O Judiciário não pode julgar se o Presidente "fez bem ou mal" (mérito), apenas se o decreto é constitucional.</div>
     </div>
   </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Indulto é como quando o Presidente decide perdoar todos os presos que cumpriram 1/3 da pena e têm bom comportamento. É um perdão coletivo (como a anistia), mas é dado por decreto (como a graça), e não apaga a reincidência (como a graça). É o "meio-termo" entre anistia e graça. O Presidente decide "de ofício" — não precisa de pedido de ninguém — mas o Judiciário pode verificar se o decreto é constitucional.
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">block</span>
+    <div class="lex-summary-content">
+      <strong>Não confunda:</strong> Indulto não é "saidinha" (saída temporária). O indulto é o <u>perdão da pena</u>. Se concedido, o sujeito não volta mais para o sistema prisional por aquele crime.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo:</strong> Coletivo + Decreto + Discricionário + Não apaga a reincidência.
+    </div>
   </div>
 </div>`
   },
+
+  //---------------------------------------------------
 
   "Abolitio Criminis (Art. 123, III, CPM)": {
     icon: "🆓",
     color: "#15803d",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🆓</div>
-    <h1 class="notion-title">Abolitio Criminis</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 123, III CPM</span>
-      <span class="meta-tag tag-b">Despenalização</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-y">Art. 123, III CPM</div>
+    <div class="tag tag-b">Efeito Retroativo</div>
+    <h1>Abolitio Criminis</h1>
+    <p>Quando o Estado decide que uma conduta não deve mais ser crime, retirando sua tipicidade.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">history</span>
+      1. Efeitos da Lei Nova
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Penal:</strong> Apaga tudo. Cessa a pena, apaga a reincidência e limpa os antecedentes.</div>
+      <div class="lex-expandable-item"><strong>Civil:</strong> Mantém. Se houve dano à vítima, a obrigação de pagar continua existindo.</div>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Retroatividade da Lei mais Benéfica</div>
-    <div class="lex-expandable-item">Retroatividade de lei que <strong>não mais considera o fato como criminoso</strong>.</div>
+
+  <div class="lex-cols">
+    <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+      <div class="lex-summary-content">
+        <strong>Abolitio:</strong> O fato deixa de ser crime. (Ex: O crime de adultério no CP Comum).
+      </div>
+    </div>
+    <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+      <div class="lex-summary-content">
+        <strong>Novatio Legis in Melius:</strong> O fato continua sendo crime, mas com punição mais branda.
+      </div>
+    </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Efeito</div>
-    <div class="lex-expandable-item">Extinção da punibilidade, inclusive com relação às <strong>sentenças condenatórias já transitadas em julgado</strong> (art. 2°, §1°, CP, aplicado subsidiariamente).</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Diferenciação</div>
-    <div class="lex-expandable-item">Se a nova lei <strong>apenas modifica o tipo penal</strong> (ex: altera a pena), não há abolitio criminis — aplica-se a lei mais benéfica, mas o fato continua sendo crime.</div>
-  </div>
-  
+
   <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que um comportamento era crime (como portar certa quantidade de droga) e uma nova lei despenaliza — não é mais crime. Isso é abolitio criminis: a lei nova "absolve" quem cometeu o crime antes, mesmo que já tenha sido condenado. Mas se a lei só muda a pena (de 5 para 2 anos), não é abolitio — continua sendo crime, só aplica a pena menor.
+    <span class="lex-summary-icon">💡</span>
+    <div class="lex-summary-content">
+      <strong>Ponto Chave:</strong> A Abolitio Criminis "limpa a ficha" penal completamente, agindo como se o condenado nunca tivesse cometido o erro aos olhos da lei criminal.
+    </div>
   </div>
 </div>`
   },
 
-  "Prescrição da Pretensão Punitiva (Art. 124, CPM)": {
+  //-----------------------------------------------------
+  
+  "Prescrição da Pretensão Punitiva (Art. 125, CPM)": {
     icon: "⏳",
     color: "#7c3aed",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⏳</div>
-    <h1 class="notion-title">Prescrição da Pretensão Punitiva</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 124 CPM</span>
-      <span class="meta-tag tag-b">Em Abstrato</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Art. 125 CPM</div>
+    <div class="tag tag-b">Pena em Abstrato</div>
+    <h1>Cálculo da Prescrição Militar</h1>
+    <p>O prazo de validade para o Estado processar o militar criminoso, baseado na gravidade máxima do delito.</p>
+  </div>
+
+  
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">event_note</span>
+      1. Tabela de Prazos (Art. 125)
+    </div>
+    <div class="lex-table-container">
+      <table class="lex-table">
+        <thead>
+          <tr>
+            <th>Pena Máxima Cominada</th>
+            <th>Prazo Prescricional</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pena de Morte (Guerra)</td>
+            <td><strong>30 anos</strong></td>
+          </tr>
+          <tr>
+            <td>Superior a 12 anos</td>
+            <td><strong>20 anos</strong></td>
+          </tr>
+          <tr>
+            <td>Superior a 8 e até 12 anos</td>
+            <td><strong>16 anos</strong></td>
+          </tr>
+          <tr>
+            <td>Superior a 4 e até 8 anos</td>
+            <td><strong>12 anos</strong></td>
+          </tr>
+          <tr>
+            <td>Superior a 2 e até 4 anos</td>
+            <td><strong>8 anos</strong></td>
+          </tr>
+          <tr>
+            <td>Entre 1 e 2 anos</td>
+            <td><strong>4 anos</strong></td>
+          </tr>
+          <tr>
+            <td>Menos de 1 ano</td>
+            <td><strong>2 anos</strong></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
-    <div class="lex-expandable-item">A prescrição é a perda do direito de punir do Estado em razão do decurso do tempo.</div>
-    <div class="lex-expandable-item">Impede o Estado de <strong>processar</strong> o agente.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Prazos (Pena Máxima em Abstrato)</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>30 anos:</strong> Pena de morte</div>
-      <div class="lex-expandable-item"><strong>20 anos:</strong> Superior a 12 anos</div>
-      <div class="lex-expandable-item"><strong>16 anos:</strong> Superior a 8 anos e até 12 anos</div>
-      <div class="lex-expandable-item"><strong>12 anos:</strong> Superior a 4 anos e até 8 anos</div>
-      <div class="lex-expandable-item"><strong>8 anos:</strong> Superior a 2 anos e até 4 anos</div>
-      <div class="lex-expandable-item"><strong>4 anos:</strong> Igual a 1 ano ou superior a 1 ano até 2 anos</div>
-      <div class="lex-expandable-item"><strong>3 anos:</strong> Inferior a 1 ano</div>
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>Regra de Ouro (Inimputáveis):</strong> A prescrição também se aplica às medidas de segurança, seguindo o mesmo prazo da pena máxima do crime cometido.
     </div>
   </div>
-  
-  <div class="callout callout-rose">
-    <span class="callout-icon">⚠️</span>
-    <strong>Diferença crucial:</strong><br/>
-    Na Justiça Militar, os prazos são contados pela <strong>pena máxima cominada ao crime (CPM)</strong>, não pela pena efetivamente aplicada (como no CP comum).
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que alguém cometeu um crime que prevê pena de 2 a 8 anos de prisão. No CPM, a prescrição é calculada pela pena máxima (8 anos) — então o prazo é de 12 anos. Se passarem 12 anos sem que o Estado processe a pessoa, o crime "prescreve" e não pode mais ser punido. É como um "prazo de validade" para o direito de punir.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">💡</span>
+    <div class="lex-summary-content">
+      <strong>Dica de Prova:</strong> No CPM não existe prescrição em 3 anos (como no comum). Ou é 2 anos (pena < 1 ano) ou pula para 4 anos (pena entre 1 e 2 anos).
+    </div>
   </div>
 </div>`
   },
+
+ //----------------------------------
+ //----------------------------------
+
+// ═══════════════════════════════════════════════════════
+  // PRESCRIÇÃO: EXECUÇÃO E INTERRUPÇÃO
+  // ═══════════════════════════════════════════════════════
 
   "Prescrição da Pretensão Executória (Art. 126, CPM)": {
     icon: "⚖️",
     color: "#be185d",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⚖️</div>
-    <h1 class="notion-title">Prescrição da Pretensão Executória</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 126 CPM</span>
-      <span class="meta-tag tag-b">Em Concreto</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Art. 126 CPM</div>
+    <div class="tag tag-b">Pena em Concreto</div>
+    <h1>Prescrição Executória (PPE)</h1>
+    <p>Ocorre quando o Estado já tem o título condenatório, mas perde o prazo para iniciar a execução da pena.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">timer_off</span>
+      1. Cálculo e Base de Tempo
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Base:</strong> Calcula-se pela <strong>pena fixada na sentença</strong> (já transitada em julgado para a acusação).</div>
+      <div class="lex-expandable-item"><strong>Prazos:</strong> São os mesmos da tabela do Art. 125.</div>
+      <div class="lex-expandable-item"><strong>Aumento Especial:</strong> O prazo aumenta em <strong>1/3</strong> se o condenado for criminoso habitual ou profissional.</div>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
-    <div class="lex-expandable-item">Impede o Estado de <strong>executar a pena já aplicada</strong>.</div>
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">directions_run</span>
+    <div class="lex-summary-content">
+      <strong>Exemplo Prático:</strong> O militar foi condenado a 2 anos (prazo de prescrição de 4 anos). Ele foge antes de ser preso. Se o Estado não capturá-lo em 4 anos, a PPE ocorre e ele não poderá mais ser preso por essa condenação.
+    </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Prazos</div>
-    <div class="lex-expandable-item"><strong>Regra:</strong> Mesmos prazos do art. 125 (prescrição em abstrato).</div>
-    <div class="lex-expandable-item"><strong>Aumento:</strong> Aumentam-se de <strong>1/3</strong> se o condenado é criminoso habitual ou profissional (art. 126, caput).</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Contagem</div>
-    <div class="lex-expandable-item">Os prazos são contados pela <strong>pena fixada na sentença</strong> (em concreto), não pela pena máxima do tipo.</div>
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    A "prescrição da pretensão executória" é diferente: ela impede o Estado de executar uma pena que já foi aplicada. Imagine que alguém foi condenado a 5 anos, mas fugiu e nunca foi preso. Se passar tempo demais (contado pela pena de 5 anos + 1/3 se for reincidente), a pena "prescreve" e não precisa mais ser cumprida.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Diferença Chave:</strong> <br/>
+      • Pretensão <strong>Punitiva</strong>: Antes de julgar (olha a pena máxima da lei).<br/>
+      • Pretensão <strong>Executória</strong>: Após julgar (olha a pena que o juiz deu).
+    </div>
   </div>
 </div>`
   },
 
+  //---------------------------------------------
+  //-------------------------------------------------
+ 
   "Causas Interruptivas da Prescrição": {
     icon: "🔔",
     color: "#d97706",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🔔</div>
-    <h1 class="notion-title">Causas Interruptivas da Prescrição</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 125, §5° CPM</span>
-      <span class="meta-tag tag-b">Interrupção</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 125, §5° CPM</div>
+    <div class="tag tag-y">Reinício do Prazo</div>
+    <h1>Causas Interruptivas</h1>
+    <p>Momentos processuais que "zeram" o cronômetro da prescrição e fazem a contagem recomeçar do início.</p>
   </div>
+
   
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Causas (Art. 125, §5°, CPM)</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">format_list_numbered</span>
+      1. Marcos de Interrupção
+    </div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Recebimento da denúncia ou queixa</strong> — Interrompe o prazo prescricional</div>
-      <div class="lex-expandable-item"><strong>Decisão definitiva de pronúncia ou impronúncia</strong> — Interrompe o prazo prescricional</div>
-      <div class="lex-expandable-item"><strong>Sentença condenatória transitada em julgado</strong> — Interrompe o prazo prescricional</div>
-      <div class="lex-expandable-item"><strong>Qualquer ato inequívoco de início ou prosseguimento da execução</strong> — Interrompe o prazo prescricional</div>
+      <div class="lex-expandable-item"><strong>Recebimento da Denúncia:</strong> Zera o prazo quando o juiz aceita a acusação.</div>
+      <div class="lex-expandable-item"><strong>Pronúncia:</strong> Nos crimes de competência do Tribunal do Júri (se houver).</div>
+      <div class="lex-expandable-item"><strong>Sentença Condenatória:</strong> A publicação da decisão que condena o réu.</div>
+      <div class="lex-expandable-item"><strong>Início da Execução:</strong> O primeiro ato para cumprir a pena.</div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Efeito da Interrupção</div>
-    <div class="lex-expandable-item">A interrupção <strong>reinicia a contagem do prazo por inteiro</strong>.</div>
-    <div class="lex-expandable-item">O efeito se estende a <strong>todos os autores do crime</strong> e, nos crimes conexos processados no mesmo feito, a todos os envolvidos (art. 125, §6°).</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_tree</span>
+      2. Extensão dos Efeitos (§6°)
+    </div>
+    <div class="lex-quote">
+      A interrupção contra um dos autores do crime <strong>estende-se aos demais</strong> (coautores e partícipes). Não há prescrição "fatiada" se o processo for conjunto.
+    </div>
   </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense no prazo de prescrição como um timer de cozinha. Se o Ministério Público denuncia a pessoa, o timer zera e começa a contar de novo. Qualquer ato do processo (denúncia, sentença, ato de execução) zera o timer. Isso vale para todos os envolvidos no crime — se um é denunciado, o prazo de todos interrompe.
+    <div class="lex-summary-content">
+      <strong>Analogia do Cronômetro:</strong> Imagine que o Estado tem 4 anos para te julgar. Faltando um mês para acabar o prazo, o juiz recebe a denúncia. O cronômetro que estava em 3 anos e 11 meses volta para <strong>zero</strong> e o Estado ganha mais 4 anos inteiros.
+    </div>
   </div>
 </div>`
   },
 
+    //---------------------------------------------
+  //-------------------------------------------------
+ 
   "Prescrição Retroativa": {
     icon: "⏮️",
     color: "#4338ca",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⏮️</div>
-    <h1 class="notion-title">Prescrição Retroativa</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 125, §1° CPM</span>
-      <span class="meta-tag tag-b">Em Concreto</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 125, §1° CPM</div>
+    <div class="tag tag-b">Pena Fixada</div>
+    <h1>Prescrição Retroativa</h1>
+    <p>Uma modalidade de prescrição da pretensão punitiva que olha para o <u>passado</u> do processo após a sentença.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">history</span>
+      1. Como funciona?
+    </div>
+    <p class="lex-summary-content" style="padding: 0 0.5rem">Só ocorre se houver sentença condenatória com trânsito em julgado para a acusação (ou recurso improvido).</p>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>O Gatilho:</strong><br/>
+          O juiz aplica a pena (ex: 1 ano). Agora, o prazo de prescrição não é mais pela lei (ex: 8 anos), mas pelo 1 ano aplicado (4 anos).
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>O Olhar:</strong><br/>
+          Verifica-se se, <u>entre a denúncia e a sentença</u>, já haviam se passado esses 4 anos. Se sim, prescreveu retroativamente.
+        </div>
+      </div>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Hipótese</div>
-    <div class="lex-expandable-item">Sobreveniente sentença condenatória, de que <strong>somente o réu tenha recorrido</strong>.</div>
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>Vetação Importante:</strong> No Direito Comum, não se pode mais usar a prescrição retroativa para períodos <u>anteriores</u> à denúncia. No CPM, a lógica foca no tempo decorrido entre os marcos interruptivos já existentes.
+    </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Regra</div>
-    <div class="lex-expandable-item">A prescrição passa a ser regulada pela <strong>pena imposta</strong> (prescrição em concreto), e deve ser declarada de ofício se houver decorrido tempo suficiente entre a última causa interruptiva e a sentença.</div>
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que alguém foi condenado a 2 anos, mas apelou e o processo demorou muito. Se entre a última interrupção e a sentença final já passou tempo suficiente para prescrever 2 anos, o juiz deve declarar a prescrição automaticamente — a pessoa não pode ser presa por um crime que já prescreveu enquanto esperava o julgamento.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu Final:</strong> A prescrição retroativa serve para punir a <strong>lentidão da Justiça</strong> durante o andamento do processo, usando a pena real do caso como régua.
+    </div>
   </div>
 </div>`
   },
 
-  "Redução de Prazos Prescricionais": {
+   //---------------------------------------------
+  //-------------------------------------------------
+
+"Redução de Prazos Prescricionais (Art. 129, CPM)": {
     icon: "⬇️",
     color: "#15803d",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⬇️</div>
-    <h1 class="notion-title">Redução de Prazos Prescricionais</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 129 CPM</span>
-      <span class="meta-tag tag-b">Metade do Prazo</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 129 CPM</div>
+    <div class="tag tag-b">Fator Etário</div>
+    <h1>Redução de Prazos</h1>
+    <p>O benefício da redução temporal para agentes que a lei considera com discernimento em formação ou senilidade avançada.</p>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Hipóteses</div>
-    <div class="lex-expandable-item">Os prazos de prescrição são <strong>reduzidos de metade</strong> quando o agente era, ao tempo do crime:</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Menor de 21 (vinte e um) anos</strong></div>
-      <div class="lex-expandable-item"><strong>Maior de 70 (setenta) anos</strong></div>
-    </div>
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    O legislador entendeu que jovens (menos de 21) e idosos (mais de 70) merecem proteção especial. Então, se um jovem de 20 anos ou um idoso de 75 cometeu crime, o prazo de prescrição é metade do normal. Se o prazo normal é 8 anos, para eles é 4 anos — o Estado tem menos tempo para punir.
-  </div>
-</div>`
-  },
 
-  "Peculato Culposo — Ressarcimento": {
-    icon: "💰",
-    color: "#166534",
-    aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">💰</div>
-    <h1 class="notion-title">Peculato Culposo — Ressarcimento do Dano</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 303, §4° CPM</span>
-      <span class="meta-tag tag-b">Causa Extintiva Especial</span>
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">person_celebrate</span>
+      1. Hipóteses de Redução pela Metade
+    </div>
+    <p class="lex-summary-content">O prazo prescricional é cortado em <strong>50%</strong> se o agente for:</p>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Menor de 21 anos:</strong><br/>
+          Na <u>data do fato</u> (momento da ação ou omissão).
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Maior de 70 anos:</strong><br/>
+          Na <u>data da sentença</u> (primeira decisão condenatória).
+        </div>
+      </div>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Causa Extintiva Exclusiva</div>
-    <div class="lex-expandable-item">No <strong>peculato culposo</strong> (art. 303, §4°, CPM), a punibilidade extingue-se se o agente <strong>reparar o dano antes da sentença definitiva</strong>.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Efeito da Reparação Tardia</div>
-    <div class="lex-expandable-item">Se a reparação ocorrer <strong>após o trânsito em julgado</strong>, a pena será apenas <strong>reduzida</strong>.</div>
-  </div>
-  
+
   <div class="callout callout-rose">
-    <span class="callout-icon">⚠️</span>
-    <strong>Exclusividade:</strong><br/>
-    A extinção da punibilidade pelo ressarcimento do dano só ocorre no <strong>peculato culposo</strong>.<br/><br/>
-    No <strong>peculato doloso</strong>, a reparação do dano é apenas <strong>atenuante</strong> (art. 70, VIII, CPM).
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>Pegadinha de Prova:</strong> Fique atento aos marcos temporais! Para o jovem, conta o dia do crime. Para o idoso, conta o dia em que o juiz assina a sentença.
+    </div>
   </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine um militar que administrava verbas e, por descuido (culpa), deixou de prestar contas corretamente. Isso é peculato culposo — se ele pagar o que faltava antes da sentença final, o processo acaba. Mas se ele intencionalmente desviou dinheiro (doloso), só pagar não salva — só pode reduzir a pena. O perdão é só para quem errou sem querer.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu:</strong> Se o crime prescreve em 8 anos, para esses agentes prescreverá em apenas <strong>4 anos</strong>.
+    </div>
   </div>
 </div>`
   },
 
-  "Perdão Judicial": {
-    icon: "🙏",
-    color: "#a855f7",
-    aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🙏</div>
-    <h1 class="notion-title">Perdão Judicial</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 123, IX CPM</span>
-      <span class="meta-tag tag-b">Aplicação Subsidiária</span>
-    </div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Previsão</div>
-    <div class="lex-expandable-item">Art. 123, IX, CPM (aplicação subsidiária do art. 107, IX, CP).</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
-    <div class="lex-expandable-item">O juiz concede o perdão em hipóteses legalmente previstas.</div>
-    <div class="callout callout-gold">
-      <strong>Exemplos:</strong><br/>
-      art. 24 do CP (desnecessidade da pena); art. 121, §5°, CP (homicídio culposo com perdão judicial).
-    </div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Natureza</div>
-    <div class="lex-expandable-item">Nos casos previstos em lei, o perdão judicial constitui <strong>direito subjetivo do réu</strong> — o juiz não tem opção.</div>
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    O "perdão judicial" é quando a própria lei diz que o juiz deve perdoar o réu em certas situações. Por exemplo, em alguns homicídios culposos (sem intenção), se o réu se comportou bem e a pena seria muito pequena, o juiz pode dispensar a pena. É diferente de graça (dada pelo Presidente) — aqui é o juiz que aplica, e é um direito do réu quando a lei permite.
-  </div>
-</div>`
-  },
-
-  "Deserção — Prescrição Especial": {
+    //---------------------------------------------
+  //-------------------------------------------------
+ 
+  "Deserção — Prescrição Especial (Art. 132, CPM)": {
     icon: "🏃",
     color: "#991b1b",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🏃</div>
-    <h1 class="notion-title">Deserção — Prescrição Especial</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 132 CPM</span>
-      <span class="meta-tag tag-b">Prescrição por Idade</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Art. 132 CPM</div>
+    <div class="tag tag-y">Prescrição por Idade</div>
+    <h1>Deserção: Regra Sui Generis</h1>
+    <p>Na deserção, o tempo não é o único senhor da prescrição; a idade do desertor é o marco definitivo.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">hourglass_disabled</span>
+      1. Limites de Impunibilidade
+    </div>
+    <div class="lex-expandable-item">
+      <span>O crime de deserção <u>não prescreve</u> enquanto o militar não atingir a idade limite do serviço.</span>
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="background: rgba(22, 101, 52, 0.1); border-left: 4px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>PRAÇA:</strong><br/>
+          Só prescreve quando completar <strong>45 anos</strong>.
+        </div>
+      </div>
+      <div class="lex-summary" style="background: rgba(30, 58, 95, 0.1); border-left: 4px solid var(--blue);">
+        <div class="lex-summary-content">
+          <strong>OFICIAL:</strong><br/>
+          Só prescreve quando completar <strong>60 anos</strong>.
+        </div>
+      </div>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Regra Especial</div>
-    <div class="lex-expandable-item">A prescrição só extingue a punibilidade quando o desertor atinge determinada <strong>idade</strong>, mesmo que já decorrido o prazo prescricional.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Idades-limite</div>
-  </div>
-  <div class="callout callout-green">
-    Praça<br/>
-    <strong>45 (quarenta e cinco) anos</strong>
-  </div>
-  <div class="callout callout-green">
-    Oficial<br/>
-    <strong>60 (sessenta) anos</strong>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Importante:</strong><br/>
-    Nos crimes de deserção, a <strong>idade do agente</strong> tem relevância direta para a prescrição. A prescrição comum pode não ser suficiente se o desertor ainda não atingiu a idade-limite.
-  </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine um soldado que desertou (abandonou o quartel sem permissão) aos 25 anos. Mesmo que passe o prazo prescricional normal, ele só estará "livre" do crime quando completar 45 anos (se for praça) ou 60 anos (se for oficial). É uma regra especial para deserção: a idade do desertor é que conta, não só o tempo que passou.
+    <div class="lex-summary-content">
+      <strong>Por que isso existe?</strong><br/>
+      A deserção atinge o dever militar. Enquanto o sujeito for "útil" ou estiver em idade de serviço, o Estado mantém o direito de capturá-lo e puni-lo para que ele cumpra seu tempo ou responda pela quebra da disciplina.
+    </div>
   </div>
 </div>`
   },
 
-  "Estrutura do Art. 9°, CPM — Sistema Misto": {
+    //---------------------------------------------
+  //-------------------------------------------------
+ 
+  "Perdão Judicial (Art. 123, IX, CPM)": {
+    icon: "🙏",
+    color: "#a855f7",
+    aprendizado: `
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Direito Subjetivo</div>
+    <div class="tag tag-b">Causa Restritiva</div>
+    <h1>Perdão Judicial</h1>
+    <p>Hipótese em que o juiz, embora reconheça o crime, deixa de aplicar a pena por previsão expressa em lei.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">gavel</span>
+      1. Aplicação e Natureza
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Exclusividade Legal:</strong> Só pode ser aplicado se houver previsão específica para aquele crime (ex: Homicídio Culposo grave).</div>
+      <div class="lex-expandable-item"><strong>Direito do Réu:</strong> Se os requisitos forem preenchidos, o juiz <u>deve</u> conceder; não é uma escolha política como a Graça.</div>
+      <div class="lex-expandable-item"><strong>Súmula 18 STJ:</strong> A sentença que concede o perdão judicial é <strong>declaratória da extinção da punibilidade</strong>, não subsistindo qualquer efeito condenatório.</div>
+    </div>
+  </div>
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">psychology</span>
+    <div class="lex-summary-content">
+      <strong>O "Sofrimento como Pena":</strong> O exemplo mais comum é o pai que, por negligência (culpa), causa um acidente que vitima o próprio filho. A lei entende que o sofrimento moral já foi tão grande que a pena de prisão seria inútil e cruel.
+    </div>
+  </div>
+</div>`
+  },
+
+    //---------------------------------------------
+  //-------------------------------------------------
+
+  "Estrutura do Art. 9º, CPM — Sistema Misto": {
     icon: "🏗️",
     color: "#1e3a5f",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🏗️</div>
-    <h1 class="notion-title">Estrutura do Art. 9°, CPM</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Sistema Misto</span>
-      <span class="meta-tag tag-b">Critério Material e Formal</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Teoria Geral</div>
+    <div class="tag tag-r">Art. 9º CPM</div>
+    <h1>O que é Crime Militar?</h1>
+    <p>A definição fundamental que separa a Justiça Comum da Justiça Militar. O Brasil adota o <strong>Sistema Misto</strong>.</p>
+  </div>
+
+  
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_balance</span>
+      1. Os Dois Pilares do Art. 9º
+    </div>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Critério Material (Inciso I):</strong><br/>
+          Crimes previstos <u>somente</u> no CPM (Ex: Deserção). São militares pela própria natureza, não importa quem os cometa.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Critério Formal (Inciso II):</strong><br/>
+          Crimes previstos no CPM ou na <u>Legislação Comum</u>, mas cometidos por militar em certas condições (ex: em serviço ou contra a tropa).
+        </div>
+      </div>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Conceito de Crime Militar</div>
-    <div class="lex-expandable-item">A definição de crime militar é o ponto de partida para determinar a competência da Justiça Militar da União (JMU) ou da Justiça Militar Estadual (JME).</div>
+
+  <div class="callout callout-rose">
+    <span class="material-symbols-outlined">new_releases</span>
+    <div class="lex-summary-content">
+      <strong>Alteração Importante (Lei 13.491/17):</strong> Ampliou drasticamente o inciso II. Agora, quase <u>qualquer crime da lei comum</u> (como tortura ou abuso de autoridade) pode ser crime militar se praticado por militar em serviço.
+    </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Sistema Misto do Art. 9°, CPM</div>
-  </div>
-  <div class="callout callout-green">
-    Critério Material (Art. 9°, I)<br/>
-    Crimes que, por sua <strong>natureza</strong> (previstos no CPM), são considerados militares<br/>
-    Independente do sujeito ativo (podem ser cometidos por civil)
-  </div>
-  <div class="callout callout-green">
-    Critério Formal (Art. 9°, II)<br/>
-    Crimes cometidos por <strong>militar</strong> em situação de atividade<br/>
-    Mesmo crimes <strong>comuns</strong> do CP, desde que em contexto de serviço/função militar
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    O Art. 9° do CPM funciona como uma "chave" que determina quando um crime é militar. Critério material: um civil que entra num quartel e agride um soldado comete crime militar porque a natureza do ato (contra militar em lugar militar) define isso. Critério formal: um militar que fura fila no banco comete crime comum, mas se furar fila dentro do quartel durante serviço, vira crime militar.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Resumo:</strong> Para ser crime militar, o fato precisa estar "carimbado" pelo Art. 9º. Se não se encaixar em nenhum inciso, o crime é comum, mesmo que o autor use farda.
+    </div>
   </div>
 </div>`
   },
 
-  "Crimes Militares Próprios": {
+   //---------------------------------------------
+  //-------------------------------------------------
+  
+  "Crimes Militares Próprios (Art. 9º, I, CPM)": {
     icon: "🎖️",
     color: "#1e40af",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🎖️</div>
-    <h1 class="notion-title">Crimes Militares Próprios</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Natureza Militar</span>
-      <span class="meta-tag tag-b">Art. 9°, I CPM</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Ratione Legis</div>
+    <div class="tag tag-b">Art. 9°, I CPM</div>
+    <h1>Crimes Próprios</h1>
+    <p>São crimes que só existem no CPM ou que, embora previstos no CP Comum, possuem definição diversa que protege a essência das Forças Armadas.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">shield</span>
+      1. A Essência da Natureza Militar
     </div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
-    <div class="lex-expandable-item">São aqueles definidos <strong>exclusivamente no CPM</strong>, independentemente de quem os pratique (militar ou civil).</div>
-    <div class="lex-expandable-item">A tipicidade está na ofensa a <strong>bens jurídicos tipicamente militares</strong>, como a hierarquia, a disciplina ou o serviço militar.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Hipóteses do Art. 9°, I</div>
+    <div class="lex-expandable-item">
+      <span>Focam em bens jurídicos <strong>exclusivamente militares</strong>: Hierarquia, Disciplina e o Serviço.</span>
+    </div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Art. 9°, I:</strong> Crimes previstos no CPM, ainda que também o sejam com igual definição na lei penal comum (concurso aparente de normas), quando praticados por militar em situação de atividade</div>
-      <div class="lex-expandable-item"><strong>Art. 9°, I, "a":</strong> Contra militar na mesma situação de atividade</div>
-      <div class="lex-expandable-item"><strong>Art. 9°, I, "b":</strong> Contra militar na reserva ou reformado, ou contra civil em lugar sujeito a administração militar</div>
-      <div class="lex-expandable-item"><strong>Art. 9°, I, "c":</strong> Durante período de manobras ou exercício, contra militar da reserva, reformado ou civil</div>
+      <div class="lex-expandable-item"><strong>Exemplos Clássicos:</strong> Deserção, Insubmissão, Violência contra Superior, Dormir em Serviço.</div>
+      <div class="lex-expandable-item"><strong>Doutrina:</strong> Para a maioria dos autores, civil <u>não</u> comete crime próprio (exceção: Insubmissão).</div>
     </div>
   </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Requisito cumulativo:</strong><br/>
-    O art. 9°, I é cumulativo: exige (1) militar em atividade E (2) local sujeito a administração militar (ou manobra).<br/><br/>
-    Se o militar em atividade agride um civil na rua (fora do quartel e fora de manobra) → <strong>crime comum (Justiça Comum)</strong>.
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">rule</span>
+      2. O Concurso de Normas
+    </div>
+    <div class="lex-expandable-item">
+      Se um crime está no CPM e no CP Comum com definições idênticas, mas é praticado por militar em atividade, o <strong>Art. 9º, I</strong> atrai para a Justiça Militar.
+    </div>
   </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Crimes militares "próprios" são aqueles que só existem porque são contra a instituição militar: deserção, insubordinação, motim, violência contra superior. Mesmo um civil pode cometer crime militar próprio se, por exemplo, agredir um militar dentro do quartel. É como entrar numa escola e ter que seguir as regras daquela escola, mesmo não sendo aluno.
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>Cuidado:</strong> Muitos editais consideram "Crime Próprio" apenas aquele que <u>só existe no CPM</u>. Se o crime existe nos dois códigos (ex: Homicídio), ele é chamado por parte da doutrina de <strong>Impropriamente Militar</strong>.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">💡</span>
+    <div class="lex-summary-content">
+      <strong>Resumo:</strong> É o crime "da farda". Sem a estrutura militar, esses crimes sequer fariam sentido (ex: não existe "deserção" de funcionário de padaria).
+    </div>
   </div>
 </div>`
   },
 
-  "Crimes Militares por Extensão": {
+  //---------------------------------------------
+  //-------------------------------------------------
+
+  "Crimes Militares por Extensão (Art. 9º, II)": {
     icon: "➕",
     color: "#9a3412",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">➕</div>
-    <h1 class="notion-title">Crimes Militares por Extensão</h1>
-    <div class="notion-meta">
-      <span class="callout-orange">Razão da Pessoa ou Local</span>
-      <span class="meta-tag tag-b">Art. 9°, II CPM</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Lei 13.491/2017</div>
+    <div class="tag tag-y">Revolução no CPM</div>
+    <h1>Crimes por Extensão</h1>
+    <p>A "grande rede" que puxa crimes da legislação comum para o âmbito militar através das alíneas do inciso II.</p>
+  </div>
+
+  
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">extension</span>
+      1. A Nova Realidade
+    </div>
+    <div class="lex-expandable-item">
+      <span>Antes de 2017, o crime precisava estar "escrito" no CPM. Hoje, se estiver na <strong>Lei Comum</strong> (Lei de Drogas, Estatuto do Desarmamento, Tortura) e o militar estiver em serviço, é crime militar.</span>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Conceito (Lei 13.491/2017)</div>
-    <div class="lex-expandable-item">São crimes previstos <strong>exclusivamente na legislação comum</strong> (Código Penal ou leis extravagantes) que passam a ser considerados militares quando praticados nas condições estabelecidas no art. 9°, inciso II, do CPM.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Classificação</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Crime propriamente militar:</strong> Art. 9°, I — Previsto apenas no CPM, ofende bens jurídicos exclusivamente militares</div>
-      <div class="lex-expandable-item"><strong>Crime impropriamente militar:</strong> Art. 9°, II (antes da Lei 13.491/17) — Previsto no CPM e na lei comum; torna-se militar pelas circunstâncias</div>
-      <div class="lex-expandable-item"><strong>Crime militar por extensão:</strong> Art. 9°, II (após Lei 13.491/17) — Previsto apenas na lei comum; torna-se militar pelas circunstâncias</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">format_list_bulleted</span>
+      2. Condições Atraidoras (Alíneas a-e)
+    </div>
+    <div class="lex-table-container">
+      <table class="lex-table">
+        <thead>
+          <tr>
+            <th>Alínea</th>
+            <th>Condição (Contexto)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>"a"</strong></td>
+            <td>Militar Ativo vs. Militar Ativo</td>
+          </tr>
+          <tr>
+            <td><strong>"b"</strong></td>
+            <td>Militar Ativo em Lugar sob Adm. Militar</td>
+          </tr>
+          <tr>
+            <td><strong>"c"</strong></td>
+            <td>Militar em Serviço (mesmo fora do quartel)</td>
+          </tr>
+          <tr>
+            <td><strong>"e"</strong></td>
+            <td>Militar em GLO (Garantia da Lei e da Ordem)</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Hipóteses do Art. 9°, I (letras d, e)</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Art. 9°, I, "d":</strong> Crimes praticados por <strong>civil contra militar</strong> em situação de atividade, em lugar sujeito a administração militar</div>
-      <div class="lex-expandable-item"><strong>Art. 9°, I, "e":</strong> Crimes praticados por <strong>civil contra militar</strong> durante manobras ou exercício</div>
-    </div>
-  </div>
-  
-  <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Exemplo:</strong><br/>
-    • Civil entra em quartel e agride militar de serviço → <strong>crime militar</strong> (Justiça Militar)<br/>
-    • Civil agride militar em bar (fora de serviço) → <strong>crime comum</strong> (Justiça Comum)
-  </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    "Crimes por extensão" são crimes comuns que "ganham" a característica de crime militar pelo contexto. Um furto é crime comum, mas se é praticado por militar durante serviço militar, passa a ser julgado pela Justiça Militar. É como um crime "comum" que, por circunstâncias especiais, vira "militar" — a lei "estende" a competência militar para esses casos.
+    <div class="lex-summary-content">
+      <strong>O "Militar em Serviço":</strong> Esta é a alínea mais importante ("c"). Se o militar está fardado, na viatura, fazendo patrulhamento e comete um Abuso de Autoridade (lei extravagante), ele comete <strong>Crime Militar por Extensão</strong>.
+    </div>
+  </div>
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu:</strong> Não procure o crime apenas no CPM. Se o militar está em serviço, qualquer "vacilo" penal previsto em qualquer lei brasileira será julgado pelo Conselho de Justiça.
+    </div>
   </div>
 </div>`
   },
 
-  "Crimes Militares por Extensão — Lei 13.491/2017": {
+  //---------------------------------------------
+  //-------------------------------------------------
+
+ "Crimes Militares por Extensão — Lei 13.491/2017": {
     icon: "📜",
     color: "#4338ca",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">📜</div>
-    <h1 class="notion-title">Crimes Militares por Extensão — Lei 13.491/2017</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Nova Categoria</span>
-      <span class="meta-tag tag-b">Ampliação da Competência</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Lei 13.491/2017</div>
+    <div class="tag tag-b">Ampliação Crítica</div>
+    <h1>Crimes por Extensão & Competência</h1>
+    <p>A mutação do Art. 9º que transformou crimes da legislação comum (Tortura, Abuso, Estatuto do Desarmamento) em Crimes Militares.</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">O que mudou com a Lei 13.491/2017?</div>
-    <div class="lex-expandable-item">A competência da Justiça Militar foi ampliada para abranger:</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Crimes previstos na legislação comum praticados por militares em serviço ou em razão da função</div>
-      <div class="lex-expandable-item">Crimes contra o patrimônio sob administração militar</div>
-      <div class="lex-expandable-item">Crimes contra a ordem administrativa militar</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_balance_wallet</span>
+      1. A Nova Tipicidade Indireta
+    </div>
+    <div class="lex-expandable-item">
+      <span>O CPM deixou de ser um "rol fechado". Agora, qualquer crime previsto na <strong>Legislação Extravagante</strong> pode ser militar se praticado sob as condições do Art. 9º, II.</span>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Crimes Dolosos Contra a Vida e o Tribunal do Júri</div>
-    <div class="lex-expandable-item">A lei alterou o §2° do art. 9°, estabelecendo que os crimes dolosos contra a vida praticados por militares das Forças Armadas contra civil serão da competência da Justiça Militar se praticados no contexto de:</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Missões previstas no art. 9°, II, alíneas "c", "d" ou "e"</div>
-      <div class="lex-expandable-item">Garantia da Lei e da Ordem (GLO)</div>
-      <div class="lex-expandable-item">Atribuições estabelecidas pelo Presidente da República ou Ministro da Defesa</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">gavel</span>
+      2. Homicídio Doloso contra Civil: A Regra do §2º
+    </div>
+    <p class="lex-summary-content">Cuidado! A competência varia conforme a Força do militar:</p>
+    
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Militares Estaduais (PM/BM):</strong><br/>
+          Sempre <strong>Tribunal do Júri</strong> (Justiça Comum), conforme Art. 125, §4º da CF.
+        </div>
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <div class="lex-summary-content">
+          <strong>Forças Armadas (Marinha/Exército/Aeronáutica):</strong><br/>
+          <strong>Justiça Militar da União</strong>, se em GLO, Sentinela ou Missão Presidencial.
+        </div>
+      </div>
     </div>
   </div>
+
   
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">security</span>
+      3. Hipóteses de Competência da JMU (§2º)
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>GLO:</strong> Garantia da Lei e da Ordem.</div>
+      <div class="lex-expandable-item"><strong>Atribuições do PR:</strong> Missões determinadas pelo Presidente ou Ministro da Defesa.</div>
+      <div class="lex-expandable-item"><strong>Segurança de Instituições:</strong> Atuação em defesa de prédios e patrimônio militar.</div>
+    </div>
+  </div>
+
   <div class="callout callout-gold">
-    <span class="callout-icon">📌</span>
-    <strong>Regra importante:</strong><br/>
-    Nem todo homicídio doloso praticado por militar contra civil vai para o Tribunal do Júri. Se o crime for praticado no contexto de <strong>serviço, missão ou GLO</strong>, a competência é da <strong>Justiça Militar</strong>.
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Fundamentos Constitucionais</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Competência privativa da União:</strong> CF, art. 22, I — legislar sobre direito penal</div>
-      <div class="lex-expandable-item"><strong>Definição legal de crime militar:</strong> CF, art. 124 e art. 125, §4°</div>
-      <div class="lex-expandable-item"><strong>Controle de convencionalidade:</strong> A lei é compatível com os tratados de direitos humanos</div>
+    <span class="material-symbols-outlined">psychology</span>
+    <div class="lex-summary-content">
+      <strong>Atenção ao STF (ADI 5901):</strong> A constitucionalidade dessa lei foi questionada, mas o entendimento prevalente é de que a União tem competência plena para definir o que é crime militar, logo, a lei é <strong>válida</strong>.
     </div>
   </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    A Lei 13.491/2017 foi uma grande mudança. Antes, se um militar cometia homicídio doloso contra civil, ia para o Tribunal do Júri (Justiça Comum). Depois da lei, se o crime foi durante missão ou GLO, vai para Justiça Militar. É como se o legislador dissesse: "crimes cometidos em serviço militar são tão especiais que merecem julgamento especializado, mesmo sendo crimes comuns."
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu Supremo:</strong> <br/>
+      • Civil morreu? <br/>
+      • Foi <u>PM</u>? Júri. <br/>
+      • Foi <u>Exército em GLO</u>? Justiça Militar.
+    </div>
   </div>
 </div>`
   },
 
-  "Quadro — Crime Próprio x Impróprio": {
+ //-----------------------------------
+ //------------------------------------
+
+"Quadro — Crime Próprio x Impróprio": {
     icon: "📊",
     color: "#6b7280",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">📊</div>
-    <h1 class="notion-title">Quadro — Crime Próprio x Impróprio</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Classificação</span>
-      <span class="meta-tag tag-b">Síntese</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Classificação Doutrinária</div>
+    <div class="tag tag-b">Art. 9º CPM</div>
+    <h1>Classificação dos Crimes Militares</h1>
+    <p>A síntese definitiva para diferenciar a natureza da infração penal militar.</p>
   </div>
+
   
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Classificação dos Crimes Militares</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_tree</span>
+      1. Divisão por Tipicidade
+    </div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Crime Próprio:</strong> Previsto no CPM, ofende bens jurídicos militares, praticado por militar em serviço</div>
-      <div class="lex-expandable-item"><strong>Crime Impróprio:</strong> Previsto no CP comum, mas praticado por militar em contexto de serviço/função</div>
-      <div class="lex-expandable-item"><strong>Crime por Extensão:</strong> Previsto no CP comum, praticado por militar em razão da função (Lei 13.491/2017)</div>
+      <div class="lex-expandable-item">
+        <strong>Propriamente Militares:</strong> 
+        Previstos <u>apenas</u> no CPM. Protegem a essência da instituição (ex: Deserção). Geralmente só podem ser cometidos por militares.
+      </div>
+      <div class="lex-expandable-item">
+        <strong>Impropriamente Militares:</strong> 
+        Previstos no CPM e no CP Comum com redação igual ou semelhante (ex: Homicídio, Furto). Tornam-se militares pelo <u>contexto</u> do Art. 9º.
+      </div>
+      <div class="lex-expandable-item">
+        <strong>Por Extensão (Lei 13.491/17):</strong> 
+        Previstos <u>apenas</u> na legislação comum (ex: Tortura, Abuso). São atraídos para a Justiça Militar pelas condições do Art. 9º, II.
+      </div>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Quem pratica, Contra quem, Onde</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">ads_click</span>
+      2. Elementos de Conexão (Os "Ondes" e "Quens")
+    </div>
+    <div class="lex-cols">
+      <div class="lex-summary" style="border-left: 3px solid var(--green);">
+        <strong>Sujeitos:</strong> Militar da ativa (autor principal) vs. Militar ou Civil (vítima).
+      </div>
+      <div class="lex-summary" style="border-left: 3px solid var(--acc);">
+        <strong>Local/Situação:</strong> Lugar sob administração militar, em serviço ou em manobra.
+      </div>
+    </div>
   </div>
-  <div class="callout callout-green">
-    Quem pratica<br/>
-    Militar (ativo, reserva, reformado)<br/>
-    Civil (em certos casos)
-  </div>
-  <div class="callout callout-green">
-    Contra quem<br/>
-    Militar (ativo, reserva, reformado)<br/>
-    Civil (em certos casos)
-  </div>
-  <div class="callout callout-green">
-    Onde<br/>
-    Lugar sujeito à administração militar<br/>
-    Manobras/exercícios
-  </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense em três "tipos" de crime militar: (1) Próprio — só existe no CPM, como deserção; (2) Impróprio — existe no CP e no CPM, vira militar pelas circunstâncias; (3) Por Extensão — só existe no CP, mas a lei "estende" a competência militar para ele. O que determina é: quem fez (militar ou civil), contra quem (militar ou civil), e onde (quartel, rua, missão).
+    <div class="lex-summary-content">
+      <strong>Analogia da "Regra de Condomínio":</strong><br/>
+      Imagine um prédio. "Crime Próprio" é quebrar uma regra que só existe no condomínio (ex: barulho após as 22h). "Crime Impróprio" é algo que é proibido em todo lugar (ex: roubo), mas que vira assunto do síndico porque foi feito pelo zelador em serviço dentro do prédio.
+    </div>
   </div>
 </div>`
   },
+
+  //------------------------------------------------------------------------------
+  //------------------------------------------------------------------------------
 
   "Exemplos de Crimes Militares por Extensão": {
     icon: "📋",
     color: "#b45309",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">📋</div>
-    <h1 class="notion-title">Exemplos de Crimes Militares por Extensão</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Lei Comum → Crime Militar</span>
-      <span class="meta-tag tag-b">Aplicação do Art. 9°, II</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Casos Práticos</div>
+    <div class="tag tag-y">Lei 13.491/2017</div>
+    <h1>Exemplos de Crimes por Extensão</h1>
+    <p>Veja como leis que não estão no CPM "entram" para a Justiça Militar.</p>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Quadro — Exemplos</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Abuso de autoridade (Lei 13.869/2019):</strong> Praticado por militar em serviço contra civil ou contra patrimônio militar</div>
-      <div class="lex-expandable-item"><strong>Homicídio doloso (Art. 121 CP):</strong> Praticado por militar contra civil no contexto de missão, GLO ou atribuição do Presidente/MD</div>
-      <div class="lex-expandable-item"><strong>Furto (Art. 155 CP):</strong> Praticado por militar em serviço contra patrimônio militar</div>
-      <div class="lex-expandable-item"><strong>Lesão corporal (Art. 129 CP):</strong> Praticada por militar contra civil em contexto de serviço militar</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">assignment_turned_in</span>
+      1. Aplicação Real (Lei Comum → Justiça Militar)
+    </div>
+    <div class="lex-table-container">
+      <table class="lex-table">
+        <thead>
+          <tr>
+            <th>Crime (Lei Comum)</th>
+            <th>Contexto Militar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Abuso de Autoridade</strong></td>
+            <td>PM em patrulhamento invadindo domicílio sem ordem.</td>
+          </tr>
+          <tr>
+            <td><strong>Tortura</strong></td>
+            <td>Militar usando violência para obter confissão em quartel.</td>
+          </tr>
+          <tr>
+            <td><strong>Lei de Drogas</strong></td>
+            <td>Militar vendendo entorpecente dentro da unidade.</td>
+          </tr>
+          <tr>
+            <td><strong>Estatuto do Desarmamento</strong></td>
+            <td>Porte ilegal de arma de uso restrito por militar em serviço.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Jurisprudência Aplicável</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>STJ:</strong> Nos crimes de quadrilha armada cometidos antes da Lei 13.491/17, o processamento deve se dar perante a Justiça Militar Estadual (AgInt no REsp 1.682.508/RJ)</div>
-      <div class="lex-expandable-item"><strong>STM:</strong> A Lei 13.491/2017 é constitucional e ampliou o conceito de crime militar, incluindo os crimes da legislação comum</div>
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">gavel</span>
+    <div class="lex-summary-content">
+      <strong>Entendimento Jurisprudencial:</strong> <br/>
+      Para crimes cometidos <strong>antes</strong> da Lei 13.491/17, a regra é a irretroatividade se for para prejudicar o réu. No entanto, o STJ e o STM já pacificaram que a mudança de competência (processo) tem aplicação imediata.
     </div>
   </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Exemplos práticos: se um militar desvia dinheiro público durante serviço → peculato (próprio). Se um militar agride alguém num bar → lesão corporal (comum). Mas se agride durante uma operação de GLO → vira crime militar por extensão. A diferença é o contexto: se a função militar "entra na jogada", o crime vira militar.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Bizu Final:</strong> Se cair na prova "Crime de Abuso de Autoridade praticado por militar em serviço", a resposta é: <strong>CRIME MILITAR</strong>. (Mesmo que o Abuso de Autoridade não esteja escrito dentro do Código Penal Militar).
+    </div>
   </div>
 </div>`
   },
 
-  "Aplicação da Lei Penal Militar — Princípios": {
+ //--------------------------------------------
+ //--------------------------------------------
+ "Aplicação da Lei Penal Militar — Princípios": {
     icon: "⚖️",
     color: "#1e40af",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">⚖️</div>
-    <h1 class="notion-title">Aplicação da Lei Penal Militar — Princípios</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 1° CPM</span>
-      <span class="meta-tag tag-b">Síntese</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-g">Art. 1° ao 6° CPM</div>
+    <div class="tag tag-b">Lei no Tempo</div>
+    <h1>Princípios Fundamentais</h1>
+    <p>As regras básicas que regem como e quando o Estado pode usar o Código Penal Militar.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">gavel</span>
+      1. Legalidade e Anterioridade (Art. 1°)
+    </div>
+    <div class="lex-expandable-item">
+      <span>Não há crime sem lei anterior, nem pena sem prévia cominação legal.</span>
+    </div>
+    <div class="lex-summary" style="border-left: 3px solid var(--rose);">
+      <strong>O detalhe de prova:</strong> No CPM, o princípio da legalidade estende-se expressamente às <strong>medidas de segurança</strong>.
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Princípio da Legalidade (Art. 1°, CPM)</div>
-    <div class="lex-expandable-item">Não há crimes sem lei anterior que o defina, nem penas sem cominação legal.</div>
-    <div class="lex-expandable-item">A banca adora cobrar que a "medida de segurança" também obedece a este princípio, embora o artigo mencione apenas "pena".</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">update</span>
+      2. Retroatividade e Lei Intermediária
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Regra:</strong> A lei penal não retroage, salvo para beneficiar o réu (<i>Lex Mitior</i>).</div>
+      <div class="lex-expandable-item"><strong>Lei Intermediária:</strong> Se entre o crime e o julgamento surgir uma lei "X" mais benéfica que a do crime e a do julgamento, aplica-se a "X" (Art. 2°, §1°).</div>
+      <div class="lex-expandable-item"><strong>Exceção (Art. 3°):</strong> Leis Temporárias ou Excepcionais <u>sempre</u> se aplicam ao fato ocorrido na sua vigência, mesmo sendo mais severas que a lei posterior (Ultratividade).</div>
+    </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Princípio da Anterioridade</div>
-    <div class="lex-expandable-item">A lei penal militar (LPM) só alcança fatos ocorridos após sua vigência (Art. 2° caput).</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Irretroatividade (Art. 2°, §1°)</div>
-    <div class="lex-expandable-item">A LPM não retroage.</div>
-    <div class="lex-expandable-item"><strong>Exceção:</strong> Novatio legis in mellius (lei posterior que beneficia o agente) retroage para alcançar fatos anteriores. Aplicável inclusive ao trânsito em julgado (sentença condenatória irrecorrível).</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Retroatividade da Lei Intermediária</div>
-    <div class="lex-expandable-item">Se entre a data do fato e a sentença houver uma terceira lei (intermediária), e esta for mais benéfica, ela deve ser aplicada, mesmo que já revogada ao tempo da sentença.</div>
-  </div>
-  
+
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Imagine que em 2020 um crime previa pena de 5 anos. Em 2021, uma nova lei reduziu para 3 anos. Em 2022, outra lei voltou para 5 anos. Se alguém cometeu o crime em 2020, mas é julgado em 2022, aplica a lei de 2021 (3 anos) — a intermediária mais benéfica. É como se a lei de 2021 fosse uma "oferta relâmpago" que valia naquele período.
+    <div class="lex-summary-content">
+      <strong>Analogia da Oferta:</strong><br/>
+      A Lei Intermediária é como uma promoção que aconteceu enquanto você esperava o produto. Mesmo que a promoção já tenha acabado quando você chegou no caixa (julgamento), você tem direito ao preço mais baixo daquela época.
+    </div>
   </div>
 </div>`
   },
 
-  "DICAS — Direito Penal Militar": {
+  "DICAS DE OURO — Especialidade Militar": {
     icon: "🎯",
     color: "#dc2626",
     aprendizado: `
-<div class="lex-block">
-  <div class="notion-header">
-    <div class="notion-icon">🎯</div>
-    <h1 class="notion-title">DICAS — Direito Penal Militar</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Para Provas</span>
-      <span class="meta-tag tag-b">CEBRASPE/STM</span>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-r">Checklist de Prova</div>
+    <div class="tag tag-y">Foco: CEBRASPE/VUNESP</div>
+    <h1>Síntese de Diferenças Críticas</h1>
+    <p>Onde o CPM se afasta do Código Penal Comum e as bancas adoram "pescar" candidatos.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">warning</span>
+      1. Reincidência no CPM (Diferença Crucial!)
+    </div>
+    <div class="lex-quote">
+      Diferente do CP Comum, a reincidência no CPM <strong>não é geral</strong>. Para fins de agravamento de pena, exige-se que o crime anterior tenha sido contra a <strong>Segurança Nacional ou Instituições Militares</strong> (Art. 71, II).
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Concurso de Penas vs. Concurso de Crimes</div>
-    <div class="lex-expandable-item">Na injúria real (Art. 217), a expressão "além da pena correspondente à violência" não significa concurso de crimes, mas sim <strong>concurso de penas dentro de um crime complexo</strong>.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Aplicação Retroativa da Lei Mais Benéfica</div>
-    <div class="lex-expandable-item">A pena de detenção do Art. 204 (pós-Lei n° 14.688/2023) é mais benéfica que a antiga suspensão do posto e deve retroagir.</div>
-    <div class="lex-expandable-item">A regra de unificação do Art. 79 também deve observar o critério mais favorável ao réu.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Penas Acessórias Automáticas</div>
-    <div class="lex-expandable-item">A perda do posto e patente é automática para condenações a pena privativa de liberdade superior a 2 anos. Não cabe ao juiz "não aplicar" se presentes os requisitos legais.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Automaticidade vs. Declaração Motivada</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Automáticos:</strong> perda do posto/patente, exclusão das FA, indignidade, confisco</div>
-      <div class="lex-expandable-item"><strong>Declaração motivada:</strong> perda de função pública, inabilitação</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">new_releases</span>
+      2. Penas Acessórias: O "Automático"
+    </div>
+    <div class="lex-table-container">
+      <table class="lex-table">
+        <thead>
+          <tr>
+            <th>Efeito</th>
+            <th>Tipo</th>
+            <th>Requisito</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Perda de Posto/Patente</td>
+            <td><strong>Automático</strong></td>
+            <td>Pena > 2 anos</td>
+          </tr>
+          <tr>
+            <td>Exclusão das FA</td>
+            <td><strong>Automático</strong></td>
+            <td>Pena > 2 anos (Praças)</td>
+          </tr>
+          <tr>
+            <td>Confisco</td>
+            <td><strong>Automático</strong></td>
+            <td>Sempre (Instrumentos/Produto)</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
-  
+
   <div class="lex-section-container">
-    <div class="lex-section-title">Reincidência Específica</div>
-    <div class="lex-expandable-item">A assertiva "A reincidência no CPM considera qualquer crime anterior, independentemente da natureza" é <strong>FALSA</strong>.</div>
-    <div class="lex-expandable-item">No CPM, a reincidência exige que o crime anterior seja contra a <strong>segurança nacional ou instituição militar</strong> (Art. 78).</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">history_edu</span>
+      3. Lei 14.688/2023 (Atualização!)
+    </div>
+    <p class="lex-summary-content">Muitas penas de "suspensão" foram convertidas em <strong>detenção</strong>. Como a detenção é tecnicamente menos gravosa que certas restrições militares antigas, ela deve retroagir para beneficiar réus em processos antigos.</p>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Confisco Automático</div>
-    <div class="lex-expandable-item">O confisco de instrumentos e produto do crime é automático, não dependendo de pedido expresso do Ministério Público.</div>
-    <div class="lex-expandable-item">Diferentemente do "confisco alargado" do Pacote Anticrime, que não se aplica ao CPM.</div>
+
+  <div class="callout callout-gold">
+    <span class="material-symbols-outlined">priority_high</span>
+    <div class="lex-summary-content">
+      <strong>Erro Comum:</strong> Achar que o Pacote Anticrime (Lei 13.964/19) mudou tudo no CPM. <strong>Falso!</strong> O CPM é regido pela especialidade. Institutos como o ANPP (Acordo de Não Persecução Penal) são proibidos na Justiça Militar (Súmula 18 STM).
+    </div>
   </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Reabilitação e Sigilo</div>
-    <div class="lex-expandable-item">A reabilitação apenas "apaga" os antecedentes para efeito de maus antecedentes, mas não impede que a condenação seja considerada para fins de reincidência, se dentro do prazo de 5 anos.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Súmula 18 do STM</div>
-    <div class="lex-expandable-item">Embora trate do Acordo de Não Persecução Penal (ANPP), a Súmula 18 do STM reforça a especialidade do Direito Penal Militar, indicando que nem todos os institutos do processo penal comum são automaticamente aplicáveis à Justiça Militar.</div>
-  </div>
-  
-  <div class="lex-section-container">
-    <div class="lex-section-title">Inexistência de Efeitos do Pacote Anticrime</div>
-    <div class="lex-expandable-item">O "confisco alargado" (art. 91-A do CP) e os efeitos automáticos para crimes contra a mulher (art. 92, §2°, CP) não foram expressamente incorporados ao CPM, devendo ser aplicados com cautela e apenas quando compatíveis com a sistemática castrense.</div>
-  </div>
-  
-  <div class="callout callout-purple">
-    <span class="callout-icon">💡</span>
-    <strong>EXEMPLO DO DIA A DIA:</strong><br/>
-    Pense em Direito Penal Militar como um jogo com regras próprias. Muitas coisas do "mundo civil" não se aplicam automaticamente no "mundo militar". Por exemplo: no direito comum, o Pacote Anticrime criou regras novas de confisco; no militar, essas regras não existem — continua valendo o confisco tradicional. É como jogar futebol em um campo com regras de handebol — precisa saber qual é o "jogo" certo para cada situação.
+
+  <div class="lex-summary">
+    <span class="lex-summary-icon">📝</span>
+    <div class="lex-summary-content">
+      <strong>Mantra de Prova:</strong> No Militar, a Hierarquia e Disciplina são os bens jurídicos supremos. Tudo o que protege esses dois pilares tende a ser mais rígido e "automático".
+    </div>
   </div>
 </div>`
   },
-
 };

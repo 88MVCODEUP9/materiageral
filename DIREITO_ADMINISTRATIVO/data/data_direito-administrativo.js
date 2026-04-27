@@ -303,7 +303,7 @@ window.DA = {
         <span class="material-symbols-outlined">gavel</span> L — Legalidade
       </div>
       <div class="lex-list">
-        <div class="lex-expandable-item"><strong>Administração:</strong> Só faz o que a lei permite.</div>
+        <div class="lex-expandable-item"><strong>Agente Administrativo:</strong> Só faz o que a lei permite.</div>
         <div class="lex-expandable-item"><strong>Particular:</strong> Faz tudo que a lei não proíbe.</div>
       </div>
       <div class="lex-summary" style="border-left-color: var(--acc);">

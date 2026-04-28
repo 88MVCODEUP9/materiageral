@@ -68,7 +68,7 @@ window.DA = {
 
     <div class="lex-section-container">
       <div class="lex-section-title">
-        <span class="material-symbols-outlined">settings_gear</span>
+        <span class="material-symbols-outlined">settings</span>
         Critério Material (Objetivo)
       </div>
       <p class="lex-summary-content" style="margin-bottom: 0.5rem;">Foca em <strong>O QUE</strong> é feito.</p>
@@ -303,7 +303,7 @@ window.DA = {
         <span class="material-symbols-outlined">gavel</span> L — Legalidade
       </div>
       <div class="lex-list">
-        <div class="lex-expandable-item"><strong>Agente Administrativo:</strong> Só faz o que a lei permite.</div>
+        <div class="lex-expandable-item"><strong>Agente Público:</strong> Só faz o que a lei permite.</div>
         <div class="lex-expandable-item"><strong>Particular:</strong> Faz tudo que a lei não proíbe.</div>
       </div>
       <div class="lex-summary" style="border-left-color: var(--acc);">
@@ -360,20 +360,52 @@ window.DA = {
       </div>
     </div>
   </div>
+<div class="lex-section-container">
+  <div class="lex-section-title">
+    <span class="material-symbols-outlined">bolt</span>
+    E — Eficiência (EC 19/98)
+  </div>
 
-  <div class="lex-section-container">
-    <div class="lex-section-title">
-      <span class="material-symbols-outlined">bolt</span> E — Eficiência (EC 19/98)
+  <div class="lex-list">
+    <div class="lex-expandable-item">
+      Obter melhores resultados com menores custos.
     </div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Obter melhores resultados com menores custos.</div>
-      <div class="lex-expandable-item">Base da Administração Gerencial (foco no cidadão).</div>
+    <div class="lex-expandable-item">
+      Base da Administração Gerencial (foco no cidadão).
     </div>
-    <div class="callout callout-gold">
-      <div class="lex-summary-content">
-        <strong>Exemplo:</strong> Digitalização de serviços para reduzir filas e tempo de espera.
-      </div>
+  </div>
+
+  <div class="callout callout-gold">
+    <div class="lex-summary-content">
+      <strong>Exemplo:</strong>
+      Digitalização de serviços para reduzir filas e tempo de espera.
     </div>
+  </div>
+
+  <div class="callout callout-green">
+    <div class="lex-summary-content">
+      <strong>Requisitos para estabilidade:</strong>
+      <ol>
+        <li>
+          <strong>Aprovação em Concurso Público (Legalidade/Impessoalidade):</strong>
+          O acesso deve ser democrático, isonômico e pautado na lei.
+        </li>
+        <li>
+          <strong>Três anos de efetivo exercício:</strong>
+          Cumprimento do estágio probatório.
+        </li>
+        <li>
+          <strong>Avaliação especial de desempenho (Eficiência):</strong>
+          Análise de produtividade, iniciativa e assiduidade.
+        </li>
+        <li>
+          <strong>Cargo de provimento efetivo:</strong>
+          Não se aplica a cargos em comissão ou empregos regidos pela CLT.
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
   </div>
 
 
@@ -2713,7 +2745,7 @@ window.DA = {
     <h1 class="notion-title">Organização Administrativa</h1>
     <div class="notion-meta">
       <span class="meta-tag tag-b">Adm. Direta e Indireta</span>
-      <span class="meta-tag tag-gold">Art. 37, XIX CF</span>
+      <span class="meta-tag tag-y">Art. 37, XIX CF</span>
     </div>
   </div>
 

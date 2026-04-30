@@ -1,15 +1,10 @@
-/* ══════════════════════════════════════════════════════════════
-   MV ESTUDOS — COMBINED STYLES
-   Base styles with responsive media queries
-══════════════════════════════════════════════════════════════ */
-
 /* ── BASE TOKENS (Desktop default) ── */
 :root {
-  --bg0:    #07090f;
+  --bg0:    #0f0807;
   --bg1:    #0c0f1a;
-  --bg2:    #111520;
-  --bg3:    #161b28;
-  --bg4:    #1d2335;
+  --bg2:    #ff74fd2f;
+  --bg3:    #f41ff165;
+  --bg4:    #ff74fd2f;
   --bghov:  #222840;
 
   --txt:    #e4e8f0;

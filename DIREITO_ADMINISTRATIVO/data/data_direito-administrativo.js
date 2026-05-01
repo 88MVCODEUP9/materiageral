@@ -2356,6 +2356,69 @@ window.DA = {
     aprendizado: `
 <div class="lex-block">
 
+<!-- ===== INICO ===== -->
+
+<div class="audio-player-card" style="margin:0 0 24px 0; font-family:Arial, sans-serif; display:flex; align-items:center; justify-content:center; padding:15px; box-sizing:border-box; color:#fff; border-radius:16px; overflow:hidden;">
+
+<div style=" background:rgba(255,255,255,0.08); backdrop-filter:blur(20px); border-radius:25px; padding:25px; width:100%; max-width:520px; box-shadow:0 20px 50px rgba(0,0,0,0.5); text-align:center; box-sizing:border-box;">
+
+<!-- INFO -->
+<div style="margin-bottom:20px;">
+
+<div style=" font-size:clamp(20px,5vw,28px); font-weight:bold; background:linear-gradient(90deg,#6366f1,#ec4899); -webkit-background-clip:text; color:transparent; line-height:1.2;"> Responsabilidades do </div>
+
+<div style=" color:#cbd5e1; font-size:clamp(14px,3vw,18px); margin-top:5px;">Estado</div>
+</div>
+
+<!-- CONTROLES -->
+<div style=" display:flex; justify-content:center; align-items:center; gap:15px; margin-bottom:20px; flex-wrap:wrap;">
+
+<button class="audio-prev-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-backward-fast"></i>
+</button>
+
+<button class="audio-play-btn" style=" width:68px; height:68px; border-radius:50%; border:none; background:linear-gradient(135deg,#6366f1,#8b5cf6); color:white; font-size:26px; cursor:pointer; box-shadow:0 10px 30px rgba(99,102,241,0.5); flex-shrink:0;">
+<i class="audio-play-icon fas fa-circle-play"></i>
+</button>
+
+<button class="audio-next-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-forward-fast"></i>
+</button>
+
+</div>
+
+<!-- PROGRESS -->
+<div style=" display:flex; align-items:center; gap:8px; width:100%; font-size:14px;">
+
+<span class="audio-time-now" style="min-width:42px;">0:00</span>
+
+<div class="audio-progress-bar" style=" flex:1; height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-progress-fill" style=" height:100%; width:0%; background:linear-gradient(90deg,#6366f1,#ec4899); border-radius:5px;"></div>
+</div>
+
+<span class="audio-time-full" style="min-width:42px;">0:00</span>
+</div>
+
+<!-- VOLUME -->
+<div style=" display:flex; align-items:center; gap:10px; margin-top:20px; width:100%;">
+
+<button class="audio-volume-btn" style=" width:40px; height:40px; border:none; border-radius:10px; background:rgba(255,255,255,0.1); color:white; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-volume-up"></i>
+</button>
+
+<div class="audio-volume-slider" style="flex:1;height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-volume-fill" style=" height:100%; width:70%; background:linear-gradient(90deg,#6366f1,#8b5cf6); border-radius:5px;"> </div>
+</div></div></div>
+
+<audio class="audio-element" preload="metadata">
+<source src="./shared/mp3/Controle da administração pública.mp3">
+</audio>
+</div></div></div>
+
+<!-- ===== FIM ===== -->
+
   <div class="notion-header">
     <div class="notion-icon">⚖️</div>
     <h1 class="notion-title">Responsabilidade Civil do Estado</h1>

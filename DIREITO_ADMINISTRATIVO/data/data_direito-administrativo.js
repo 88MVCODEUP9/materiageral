@@ -2208,44 +2208,76 @@ window.DA = {
     </div>
   </div>
 
-  <div class="lex-section-container">
-    <div class="lex-section-title">Controle Administrativo — Autotutela</div>
-    <div class="callout callout-blue">
-      <span class="callout-icon">⚖️</span>
-      <div><strong>Súmula 473 STF:</strong> "A administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, porquanto deles não se adquirem direitos; ou revogá-los, por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos."</div>
+ <div class="topic-content fade-in">
+  <h1>Controle da Administração Pública</h1>
+
+  <div class="lex-block">
+    
+    <div class="lex-cols">
+      
+      <div class="lex-section-container">
+        <div class="lex-section-title">Controle Administrativo — Autotutela</div>
+        
+        <div class="callout">
+          <span class="callout-icon">⚖️</span>
+          <div><strong>Súmula 473 STF:</strong> "A administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais... ou revogá-los, por motivo de conveniência ou oportunidade."</div>
+        </div>
+
+        <div class="lex-expandable-item">
+          <strong>Anulação:</strong> Retira ato <u>ilegal</u>. Efeitos <strong>retroativos (ex tunc)</strong>. Adm ou Judiciário. Prazo: 5 anos.
+        </div>
+        
+        <div class="lex-expandable-item">
+          <strong>Revogação:</strong> Retira ato <u>válido</u> por mérito (inoportuno). Efeitos <strong>não retroativos (ex nunc)</strong>. Apenas a Adm.
+        </div>
+        
+        <div class="lex-expandable-item">
+          <strong>Retificação:</strong> Corrige <u>erro material</u> sem alterar o conteúdo central do ato.
+        </div>
+
+        <div class="callout callout-purple" style="margin-top:8px;">
+          <span class="callout-icon">🎯</span>
+          <div class="lex-summary-content"><strong>Exemplo Revogação:</strong> Prefeito cancela festa por previsão de chuva. Ato era legal. <strong>Juiz não interfere.</strong></div>
+        </div>
+      </div>
+
+      <div class="lex-section-container">
+        <div class="lex-section-title">Controle Judicial — Limites</div>
+        
+        <div class="tag tag-b">Anulação</div>
+        <div class="tag tag-g">Só Legalidade — Nunca Mérito</div>
+
+        <div class="lex-expandable-item">
+          <strong>Inafastabilidade (Art. 5º, XXXV):</strong> O Judiciário sempre pode apreciar lesão ou ameaça a direito.
+        </div>
+        
+        <div class="lex-expandable-item">
+          <strong>Caráter Repressivo:</strong> Geralmente exercido após a prática do ato administrativo.
+        </div>
+        
+        <div class="lex-expandable-item">
+          <strong>Vedação ao Mérito:</strong> O juiz <u>não pode revogar</u> atos, apenas <strong>anular</strong> se houver ilegalidade.
+        </div>
+
+        <div class="lex-expandable-item">
+          <strong>Abuso de Poder:</strong> Pode controlar a <strong>razoabilidade</strong>. Se for desproporcional, anula-se por ilegalidade.
+        </div>
+
+        <div class="callout callout-rose" style="margin-top:8px;">
+          <span class="callout-icon">❌</span>
+          <div class="lex-summary-content"><strong>Exemplo Anulação:</strong> Nomeação de parente (nepotismo). É ilegal. Juiz anula com efeito <strong>ex tunc</strong>.</div>
+        </div>
+      </div>
+
+    </div> <div class="lex-summary">
+      <span class="lex-summary-icon">💡</span>
+      <div class="lex-summary-content">
+        <strong>Dica de Ouro:</strong> Lembre-se da regra do "R" e do "A". <strong>R</strong>evogação = <strong>R</strong>eprefeitura (só ela faz) e efeito ex <strong>N</strong>unc (<strong>N</strong>unca retroage). <strong>A</strong>nulação = <strong>A</strong>paga tudo (ex tunc/retroage).
+      </div>
     </div>
 
-    <div class="lex-expandable-item"><strong>Anulação:</strong> retira ato <u>ilegal</u>. Efeitos <strong>retroativos (ex tunc)</strong>. Pode ser feita pela Administração ou pelo Judiciário. Prazo: <strong>5 anos</strong> (Lei 9.784/99, art. 54), salvo má-fé comprovada.</div>
-    <div class="lex-expandable-item"><strong>Revogação:</strong> retira ato <u>válido</u> por motivo de mérito — tornou-se inoportuno ou inconveniente. Efeitos <strong>não retroativos (ex nunc)</strong>. Apenas a <strong>própria Administração</strong> pode revogar. <u>O Judiciário NÃO pode revogar.</u></div>
-    <div class="lex-expandable-item"><strong>Retificação:</strong> corrige <u>erro material</u> sem alterar o conteúdo central do ato.</div>
-
-    <div class="callout callout-purple" style="margin-top:8px;">
-      <span class="callout-icon">🎯</span>
-      <div class="lex-summary-content"><strong>Exemplo de Revogação:</strong> Prefeitura autorizou festa de Réveillon na praia. Previsão de temporal → prefeito revoga. Era ato legal, mas tornou-se inoportuno. <strong>O juiz não pode fazer isso.</strong></div>
-    </div>
-    <div class="callout callout-purple" style="margin-top:8px;">
-      <span class="callout-icon">❌</span>
-      <div class="lex-summary-content"><strong>Exemplo de Anulação:</strong> Prefeito nomeia sobrinho sem concurso → MP entra na Justiça → juiz anula. Era ilegal desde o início. Efeito ex tunc (como se nunca tivesse existido).</div>
-    </div>
   </div>
-
-  <div class="notion-header" style="margin-top: 40px;">
-    <div class="notion-icon">⚖️</div>
-    <h1 class="notion-title">Controle Judicial</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Anulação</span>
-      <span class="meta-tag tag-g">Só Legalidade — Nunca Mérito</span>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Princípios e Limites</div>
-    <div class="lex-expandable-item"><strong>Art. 5º, XXXV CF — Inafastabilidade:</strong> "A lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito."</div>
-    <div class="lex-expandable-item">Normalmente exercido em caráter <strong>repressivo</strong> — após o ato já praticado.</div>
-    <div class="lex-expandable-item">Pode <strong>anular</strong> atos ilegais. <u>Nunca revoga</u> (revogação = mérito = exclusivo da Adm.).</div>
-    <div class="lex-expandable-item">Não reexamina o <strong>mérito administrativo</strong> (conveniência/oportunidade) — Súmula 473 STF.</div>
-    <div class="lex-expandable-item">Pode controlar <strong>razoabilidade e proporcionalidade</strong> de atos discricionários — se abusivos, anula por ilegalidade.</div>
-  </div>
+</div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Instrumentos de Controle Judicial</div>
@@ -2413,7 +2445,7 @@ window.DA = {
 </div></div></div>
 
 <audio class="audio-element" preload="metadata">
-<source src="./shared/mp3/Controle da administração pública.mp3">
+<source src="./shared/mp3/Responsabilidades do Estado.mp3">
 </audio>
 </div></div></div>
 

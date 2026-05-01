@@ -326,7 +326,7 @@ body {
   border-color: rgba(79,126,248,0.25);
 }
 .topic-btn .topic-icon { font-size: 1rem; flex-shrink: 0; }
-.topic-btn .topic-lbl { flex: 1; }
+.topic-btn .topic-label { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
 .topic-btn .topic-check {
   margin-left: auto;
   flex-shrink: 0;

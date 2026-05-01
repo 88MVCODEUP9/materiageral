@@ -5,6 +5,70 @@ window.DA = {
     color: "#4a85f0",
     aprendizado: `
 <div class="lex-block fade-in">
+
+<!-- ===== INICO ===== -->
+
+<div class="audio-player-card" style="margin:0 0 24px 0; font-family:Arial, sans-serif; display:flex; align-items:center; justify-content:center; padding:15px; box-sizing:border-box; color:#fff; border-radius:16px; overflow:hidden;">
+
+<div style=" background:rgba(255,255,255,0.08); backdrop-filter:blur(20px); border-radius:25px; padding:25px; width:100%; max-width:520px; box-shadow:0 20px 50px rgba(0,0,0,0.5); text-align:center; box-sizing:border-box;">
+
+<!-- INFO -->
+<div style="margin-bottom:20px;">
+
+<div style=" font-size:clamp(20px,5vw,28px); font-weight:bold; background:linear-gradient(90deg,#6366f1,#ec4899); -webkit-background-clip:text; color:transparent; line-height:1.2;"> Conceito de Administração </div>
+
+<div style=" color:#cbd5e1; font-size:clamp(14px,3vw,18px); margin-top:5px;"> Pública </div>
+</div>
+
+<!-- CONTROLES -->
+<div style=" display:flex; justify-content:center; align-items:center; gap:15px; margin-bottom:20px; flex-wrap:wrap;">
+
+<button class="audio-prev-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-backward-fast"></i>
+</button>
+
+<button class="audio-play-btn" style=" width:68px; height:68px; border-radius:50%; border:none; background:linear-gradient(135deg,#6366f1,#8b5cf6); color:white; font-size:26px; cursor:pointer; box-shadow:0 10px 30px rgba(99,102,241,0.5); flex-shrink:0;">
+<i class="audio-play-icon fas fa-circle-play"></i>
+</button>
+
+<button class="audio-next-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-forward-fast"></i>
+</button>
+
+</div>
+
+<!-- PROGRESS -->
+<div style=" display:flex; align-items:center; gap:8px; width:100%; font-size:14px;">
+
+<span class="audio-time-now" style="min-width:42px;">0:00</span>
+
+<div class="audio-progress-bar" style=" flex:1; height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-progress-fill" style=" height:100%; width:0%; background:linear-gradient(90deg,#6366f1,#ec4899); border-radius:5px;"></div>
+</div>
+
+<span class="audio-time-full" style="min-width:42px;">0:00</span>
+</div>
+
+<!-- VOLUME -->
+<div style=" display:flex; align-items:center; gap:10px; margin-top:20px; width:100%;">
+
+<button class="audio-volume-btn" style=" width:40px; height:40px; border:none; border-radius:10px; background:rgba(255,255,255,0.1); color:white; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-volume-up"></i>
+</button>
+
+<div class="audio-volume-slider" style="flex:1;height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-volume-fill" style=" height:100%; width:70%; background:linear-gradient(90deg,#6366f1,#8b5cf6); border-radius:5px;"> </div>
+</div></div></div>
+
+<audio class="audio-element" preload="metadata">
+<source src="./shared/mp3/Conceito de Administração Pública.mp3">
+</audio>
+</div></div></div>
+
+<!-- ===== FIM ===== -->
+
   <div class="topic-content">
     <div class="tag tag-b">Direito Administrativo</div>
     <div class="tag tag-g">Fundamentos</div>
@@ -140,6 +204,70 @@ window.DA = {
     color: "#a78bfa",
     aprendizado: `
 <div class="lex-block fade-in">
+
+<!-- ===== INICO ===== -->
+
+<div class="audio-player-card" style="margin:0 0 24px 0; font-family:Arial, sans-serif; display:flex; align-items:center; justify-content:center; padding:15px; box-sizing:border-box; color:#fff; border-radius:16px; overflow:hidden;">
+
+<div style=" background:rgba(255,255,255,0.08); backdrop-filter:blur(20px); border-radius:25px; padding:25px; width:100%; max-width:520px; box-shadow:0 20px 50px rgba(0,0,0,0.5); text-align:center; box-sizing:border-box;">
+
+<!-- INFO -->
+<div style="margin-bottom:20px;">
+
+<div style=" font-size:clamp(20px,5vw,28px); font-weight:bold; background:linear-gradient(90deg,#6366f1,#ec4899); -webkit-background-clip:text; color:transparent; line-height:1.2;"> Princípios </div>
+
+<div style=" color:#cbd5e1; font-size:clamp(14px,3vw,18px); margin-top:5px;"></div>
+</div>
+
+<!-- CONTROLES -->
+<div style=" display:flex; justify-content:center; align-items:center; gap:15px; margin-bottom:20px; flex-wrap:wrap;">
+
+<button class="audio-prev-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-backward-fast"></i>
+</button>
+
+<button class="audio-play-btn" style=" width:68px; height:68px; border-radius:50%; border:none; background:linear-gradient(135deg,#6366f1,#8b5cf6); color:white; font-size:26px; cursor:pointer; box-shadow:0 10px 30px rgba(99,102,241,0.5); flex-shrink:0;">
+<i class="audio-play-icon fas fa-circle-play"></i>
+</button>
+
+<button class="audio-next-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-forward-fast"></i>
+</button>
+
+</div>
+
+<!-- PROGRESS -->
+<div style=" display:flex; align-items:center; gap:8px; width:100%; font-size:14px;">
+
+<span class="audio-time-now" style="min-width:42px;">0:00</span>
+
+<div class="audio-progress-bar" style=" flex:1; height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-progress-fill" style=" height:100%; width:0%; background:linear-gradient(90deg,#6366f1,#ec4899); border-radius:5px;"></div>
+</div>
+
+<span class="audio-time-full" style="min-width:42px;">0:00</span>
+</div>
+
+<!-- VOLUME -->
+<div style=" display:flex; align-items:center; gap:10px; margin-top:20px; width:100%;">
+
+<button class="audio-volume-btn" style=" width:40px; height:40px; border:none; border-radius:10px; background:rgba(255,255,255,0.1); color:white; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-volume-up"></i>
+</button>
+
+<div class="audio-volume-slider" style="flex:1;height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-volume-fill" style=" height:100%; width:70%; background:linear-gradient(90deg,#6366f1,#8b5cf6); border-radius:5px;"> </div>
+</div></div></div>
+
+<audio class="audio-element" preload="metadata">
+<source src="./shared/mp3/Princípios.mp3">
+</audio>
+</div></div></div>
+
+<!-- ===== FIM ===== -->
+
   <div class="notion-header">
     <div class="notion-icon">📜</div>
     <h1 class="notion-title">Princípios Expressos — LIMPE</h1>
@@ -389,6 +517,70 @@ window.DA = {
     color: "#38bdf8",
     aprendizado: `
 <div class="lex-block fade-in">
+
+<!-- ===== INICO ===== -->
+
+<div class="audio-player-card" style="margin:0 0 24px 0; font-family:Arial, sans-serif; display:flex; align-items:center; justify-content:center; padding:15px; box-sizing:border-box; color:#fff; border-radius:16px; overflow:hidden;">
+
+<div style=" background:rgba(255,255,255,0.08); backdrop-filter:blur(20px); border-radius:25px; padding:25px; width:100%; max-width:520px; box-shadow:0 20px 50px rgba(0,0,0,0.5); text-align:center; box-sizing:border-box;">
+
+<!-- INFO -->
+<div style="margin-bottom:20px;">
+
+<div style=" font-size:clamp(20px,5vw,28px); font-weight:bold; background:linear-gradient(90deg,#6366f1,#ec4899); -webkit-background-clip:text; color:transparent; line-height:1.2;"> Regime Jurídico  </div>
+
+<div style=" color:#cbd5e1; font-size:clamp(14px,3vw,18px); margin-top:5px;">Administrativo</div>
+</div>
+
+<!-- CONTROLES -->
+<div style=" display:flex; justify-content:center; align-items:center; gap:15px; margin-bottom:20px; flex-wrap:wrap;">
+
+<button class="audio-prev-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-backward-fast"></i>
+</button>
+
+<button class="audio-play-btn" style=" width:68px; height:68px; border-radius:50%; border:none; background:linear-gradient(135deg,#6366f1,#8b5cf6); color:white; font-size:26px; cursor:pointer; box-shadow:0 10px 30px rgba(99,102,241,0.5); flex-shrink:0;">
+<i class="audio-play-icon fas fa-circle-play"></i>
+</button>
+
+<button class="audio-next-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-forward-fast"></i>
+</button>
+
+</div>
+
+<!-- PROGRESS -->
+<div style=" display:flex; align-items:center; gap:8px; width:100%; font-size:14px;">
+
+<span class="audio-time-now" style="min-width:42px;">0:00</span>
+
+<div class="audio-progress-bar" style=" flex:1; height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-progress-fill" style=" height:100%; width:0%; background:linear-gradient(90deg,#6366f1,#ec4899); border-radius:5px;"></div>
+</div>
+
+<span class="audio-time-full" style="min-width:42px;">0:00</span>
+</div>
+
+<!-- VOLUME -->
+<div style=" display:flex; align-items:center; gap:10px; margin-top:20px; width:100%;">
+
+<button class="audio-volume-btn" style=" width:40px; height:40px; border:none; border-radius:10px; background:rgba(255,255,255,0.1); color:white; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-volume-up"></i>
+</button>
+
+<div class="audio-volume-slider" style="flex:1;height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-volume-fill" style=" height:100%; width:70%; background:linear-gradient(90deg,#6366f1,#8b5cf6); border-radius:5px;"> </div>
+</div></div></div>
+
+<audio class="audio-element" preload="metadata">
+<source src="./shared/mp3/Regime jurídico administrativo.mp3">
+</audio>
+</div></div></div>
+
+<!-- ===== FIM ===== -->
+
   <div class="topic-content">
     <div class="tag tag-b">Regime Jurídico</div>
     <div class="tag tag-g">Direito Público</div>
@@ -525,7 +717,70 @@ window.DA = {
     aprendizado: `
 <div class="lex-block">
 
-  <div class="notion-header">
+<!-- ===== INICO ===== -->
+
+<div class="audio-player-card" style="margin:0 0 24px 0; font-family:Arial, sans-serif; display:flex; align-items:center; justify-content:center; padding:15px; box-sizing:border-box; color:#fff; border-radius:16px; overflow:hidden;">
+
+<div style=" background:rgba(255,255,255,0.08); backdrop-filter:blur(20px); border-radius:25px; padding:25px; width:100%; max-width:520px; box-shadow:0 20px 50px rgba(0,0,0,0.5); text-align:center; box-sizing:border-box;">
+
+<!-- INFO -->
+<div style="margin-bottom:20px;">
+
+<div style=" font-size:clamp(20px,5vw,28px); font-weight:bold; background:linear-gradient(90deg,#6366f1,#ec4899); -webkit-background-clip:text; color:transparent; line-height:1.2;"> Poderes da Administração </div>
+
+<div style=" color:#cbd5e1; font-size:clamp(14px,3vw,18px); margin-top:5px;">Pública</div>
+</div>
+
+<!-- CONTROLES -->
+<div style=" display:flex; justify-content:center; align-items:center; gap:15px; margin-bottom:20px; flex-wrap:wrap;">
+
+<button class="audio-prev-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-backward-fast"></i>
+</button>
+
+<button class="audio-play-btn" style=" width:68px; height:68px; border-radius:50%; border:none; background:linear-gradient(135deg,#6366f1,#8b5cf6); color:white; font-size:26px; cursor:pointer; box-shadow:0 10px 30px rgba(99,102,241,0.5); flex-shrink:0;">
+<i class="audio-play-icon fas fa-circle-play"></i>
+</button>
+
+<button class="audio-next-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-forward-fast"></i>
+</button>
+
+</div>
+
+<!-- PROGRESS -->
+<div style=" display:flex; align-items:center; gap:8px; width:100%; font-size:14px;">
+
+<span class="audio-time-now" style="min-width:42px;">0:00</span>
+
+<div class="audio-progress-bar" style=" flex:1; height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-progress-fill" style=" height:100%; width:0%; background:linear-gradient(90deg,#6366f1,#ec4899); border-radius:5px;"></div>
+</div>
+
+<span class="audio-time-full" style="min-width:42px;">0:00</span>
+</div>
+
+<!-- VOLUME -->
+<div style=" display:flex; align-items:center; gap:10px; margin-top:20px; width:100%;">
+
+<button class="audio-volume-btn" style=" width:40px; height:40px; border:none; border-radius:10px; background:rgba(255,255,255,0.1); color:white; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-volume-up"></i>
+</button>
+
+<div class="audio-volume-slider" style="flex:1;height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-volume-fill" style=" height:100%; width:70%; background:linear-gradient(90deg,#6366f1,#8b5cf6); border-radius:5px;"> </div>
+</div></div></div>
+
+<audio class="audio-element" preload="metadata">
+<source src="./shared/mp3/Poderes da administração pública.mp3">
+</audio>
+</div></div></div>
+
+<!-- ===== FIM ===== -->
+
+<div class="notion-header">
     <div class="notion-icon">⚡</div>
     <h1 class="notion-title">Poderes Administrativos</h1>
     <div class="notion-meta">
@@ -683,6 +938,69 @@ window.DA = {
     aprendizado: `
 <div class="lex-block">
 
+<!-- ===== INICO ===== -->
+
+<div class="audio-player-card" style="margin:0 0 24px 0; font-family:Arial, sans-serif; display:flex; align-items:center; justify-content:center; padding:15px; box-sizing:border-box; color:#fff; border-radius:16px; overflow:hidden;">
+
+<div style=" background:rgba(255,255,255,0.08); backdrop-filter:blur(20px); border-radius:25px; padding:25px; width:100%; max-width:520px; box-shadow:0 20px 50px rgba(0,0,0,0.5); text-align:center; box-sizing:border-box;">
+
+<!-- INFO -->
+<div style="margin-bottom:20px;">
+
+<div style=" font-size:clamp(20px,5vw,28px); font-weight:bold; background:linear-gradient(90deg,#6366f1,#ec4899); -webkit-background-clip:text; color:transparent; line-height:1.2;"> Serviço </div>
+
+<div style=" color:#cbd5e1; font-size:clamp(14px,3vw,18px); margin-top:5px;">Pública</div>
+</div>
+
+<!-- CONTROLES -->
+<div style=" display:flex; justify-content:center; align-items:center; gap:15px; margin-bottom:20px; flex-wrap:wrap;">
+
+<button class="audio-prev-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-backward-fast"></i>
+</button>
+
+<button class="audio-play-btn" style=" width:68px; height:68px; border-radius:50%; border:none; background:linear-gradient(135deg,#6366f1,#8b5cf6); color:white; font-size:26px; cursor:pointer; box-shadow:0 10px 30px rgba(99,102,241,0.5); flex-shrink:0;">
+<i class="audio-play-icon fas fa-circle-play"></i>
+</button>
+
+<button class="audio-next-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-forward-fast"></i>
+</button>
+
+</div>
+
+<!-- PROGRESS -->
+<div style=" display:flex; align-items:center; gap:8px; width:100%; font-size:14px;">
+
+<span class="audio-time-now" style="min-width:42px;">0:00</span>
+
+<div class="audio-progress-bar" style=" flex:1; height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-progress-fill" style=" height:100%; width:0%; background:linear-gradient(90deg,#6366f1,#ec4899); border-radius:5px;"></div>
+</div>
+
+<span class="audio-time-full" style="min-width:42px;">0:00</span>
+</div>
+
+<!-- VOLUME -->
+<div style=" display:flex; align-items:center; gap:10px; margin-top:20px; width:100%;">
+
+<button class="audio-volume-btn" style=" width:40px; height:40px; border:none; border-radius:10px; background:rgba(255,255,255,0.1); color:white; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-volume-up"></i>
+</button>
+
+<div class="audio-volume-slider" style="flex:1;height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-volume-fill" style=" height:100%; width:70%; background:linear-gradient(90deg,#6366f1,#8b5cf6); border-radius:5px;"> </div>
+</div></div></div>
+
+<audio class="audio-element" preload="metadata">
+<source src="./shared/mp3/Serviço público.mp3">
+</audio>
+</div></div></div>
+
+<!-- ===== FIM ===== -->
+
   <div class="notion-header">
     <div class="notion-icon">🚇</div>
     <h1 class="notion-title">Serviços Públicos</h1>
@@ -812,6 +1130,69 @@ window.DA = {
     color: "#4a85f0",
     aprendizado: `
 <div class="lex-block">
+
+<!-- ===== INICO ===== -->
+
+<div class="audio-player-card" style="margin:0 0 24px 0; font-family:Arial, sans-serif; display:flex; align-items:center; justify-content:center; padding:15px; box-sizing:border-box; color:#fff; border-radius:16px; overflow:hidden;">
+
+<div style=" background:rgba(255,255,255,0.08); backdrop-filter:blur(20px); border-radius:25px; padding:25px; width:100%; max-width:520px; box-shadow:0 20px 50px rgba(0,0,0,0.5); text-align:center; box-sizing:border-box;">
+
+<!-- INFO -->
+<div style="margin-bottom:20px;">
+
+<div style=" font-size:clamp(20px,5vw,28px); font-weight:bold; background:linear-gradient(90deg,#6366f1,#ec4899); -webkit-background-clip:text; color:transparent; line-height:1.2;"> Atos </div>
+
+<div style=" color:#cbd5e1; font-size:clamp(14px,3vw,18px); margin-top:5px;">Administrativos</div>
+</div>
+
+<!-- CONTROLES -->
+<div style=" display:flex; justify-content:center; align-items:center; gap:15px; margin-bottom:20px; flex-wrap:wrap;">
+
+<button class="audio-prev-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-backward-fast"></i>
+</button>
+
+<button class="audio-play-btn" style=" width:68px; height:68px; border-radius:50%; border:none; background:linear-gradient(135deg,#6366f1,#8b5cf6); color:white; font-size:26px; cursor:pointer; box-shadow:0 10px 30px rgba(99,102,241,0.5); flex-shrink:0;">
+<i class="audio-play-icon fas fa-circle-play"></i>
+</button>
+
+<button class="audio-next-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-forward-fast"></i>
+</button>
+
+</div>
+
+<!-- PROGRESS -->
+<div style=" display:flex; align-items:center; gap:8px; width:100%; font-size:14px;">
+
+<span class="audio-time-now" style="min-width:42px;">0:00</span>
+
+<div class="audio-progress-bar" style=" flex:1; height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-progress-fill" style=" height:100%; width:0%; background:linear-gradient(90deg,#6366f1,#ec4899); border-radius:5px;"></div>
+</div>
+
+<span class="audio-time-full" style="min-width:42px;">0:00</span>
+</div>
+
+<!-- VOLUME -->
+<div style=" display:flex; align-items:center; gap:10px; margin-top:20px; width:100%;">
+
+<button class="audio-volume-btn" style=" width:40px; height:40px; border:none; border-radius:10px; background:rgba(255,255,255,0.1); color:white; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-volume-up"></i>
+</button>
+
+<div class="audio-volume-slider" style="flex:1;height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-volume-fill" style=" height:100%; width:70%; background:linear-gradient(90deg,#6366f1,#8b5cf6); border-radius:5px;"> </div>
+</div></div></div>
+
+<audio class="audio-element" preload="metadata">
+<source src="./shared/mp3/Atos administrativos.mp3">
+</audio>
+</div></div></div>
+
+<!-- ===== FIM ===== -->
 
   <div class="notion-header">
     <div class="notion-icon">📋</div>
@@ -969,6 +1350,70 @@ window.DA = {
     color: "#a78bfa",
     aprendizado: `
 <div class="lex-block">
+
+
+<!-- ===== INICO ===== -->
+
+<div class="audio-player-card" style="margin:0 0 24px 0; font-family:Arial, sans-serif; display:flex; align-items:center; justify-content:center; padding:15px; box-sizing:border-box; color:#fff; border-radius:16px; overflow:hidden;">
+
+<div style=" background:rgba(255,255,255,0.08); backdrop-filter:blur(20px); border-radius:25px; padding:25px; width:100%; max-width:520px; box-shadow:0 20px 50px rgba(0,0,0,0.5); text-align:center; box-sizing:border-box;">
+
+<!-- INFO -->
+<div style="margin-bottom:20px;">
+
+<div style=" font-size:clamp(20px,5vw,28px); font-weight:bold; background:linear-gradient(90deg,#6366f1,#ec4899); -webkit-background-clip:text; color:transparent; line-height:1.2;"> Contratos </div>
+
+<div style=" color:#cbd5e1; font-size:clamp(14px,3vw,18px); margin-top:5px;">Administrativos e Licitação</div>
+</div>
+
+<!-- CONTROLES -->
+<div style=" display:flex; justify-content:center; align-items:center; gap:15px; margin-bottom:20px; flex-wrap:wrap;">
+
+<button class="audio-prev-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-backward-fast"></i>
+</button>
+
+<button class="audio-play-btn" style=" width:68px; height:68px; border-radius:50%; border:none; background:linear-gradient(135deg,#6366f1,#8b5cf6); color:white; font-size:26px; cursor:pointer; box-shadow:0 10px 30px rgba(99,102,241,0.5); flex-shrink:0;">
+<i class="audio-play-icon fas fa-circle-play"></i>
+</button>
+
+<button class="audio-next-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-forward-fast"></i>
+</button>
+
+</div>
+
+<!-- PROGRESS -->
+<div style=" display:flex; align-items:center; gap:8px; width:100%; font-size:14px;">
+
+<span class="audio-time-now" style="min-width:42px;">0:00</span>
+
+<div class="audio-progress-bar" style=" flex:1; height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-progress-fill" style=" height:100%; width:0%; background:linear-gradient(90deg,#6366f1,#ec4899); border-radius:5px;"></div>
+</div>
+
+<span class="audio-time-full" style="min-width:42px;">0:00</span>
+</div>
+
+<!-- VOLUME -->
+<div style=" display:flex; align-items:center; gap:10px; margin-top:20px; width:100%;">
+
+<button class="audio-volume-btn" style=" width:40px; height:40px; border:none; border-radius:10px; background:rgba(255,255,255,0.1); color:white; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-volume-up"></i>
+</button>
+
+<div class="audio-volume-slider" style="flex:1;height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-volume-fill" style=" height:100%; width:70%; background:linear-gradient(90deg,#6366f1,#8b5cf6); border-radius:5px;"> </div>
+</div></div></div>
+
+<audio class="audio-element" preload="metadata">
+<source src="./shared/mp3/Contratos administrativos e licitação.mp3">
+</audio>
+</div></div></div>
+
+<!-- ===== FIM ===== -->
 
   <div class="notion-header">
     <div class="notion-icon">📑</div>
@@ -1215,11 +1660,74 @@ window.DA = {
     aprendizado: `
 <div class="lex-block">
 
+<!-- ===== INICO ===== -->
+
+<div class="audio-player-card" style="margin:0 0 24px 0; font-family:Arial, sans-serif; display:flex; align-items:center; justify-content:center; padding:15px; box-sizing:border-box; color:#fff; border-radius:16px; overflow:hidden;">
+
+<div style=" background:rgba(255,255,255,0.08); backdrop-filter:blur(20px); border-radius:25px; padding:25px; width:100%; max-width:520px; box-shadow:0 20px 50px rgba(0,0,0,0.5); text-align:center; box-sizing:border-box;">
+
+<!-- INFO -->
+<div style="margin-bottom:20px;">
+
+<div style=" font-size:clamp(20px,5vw,28px); font-weight:bold; background:linear-gradient(90deg,#6366f1,#ec4899); -webkit-background-clip:text; color:transparent; line-height:1.2;"> Bens </div>
+
+<div style=" color:#cbd5e1; font-size:clamp(14px,3vw,18px); margin-top:5px;">Públicos</div>
+</div>
+
+<!-- CONTROLES -->
+<div style=" display:flex; justify-content:center; align-items:center; gap:15px; margin-bottom:20px; flex-wrap:wrap;">
+
+<button class="audio-prev-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-backward-fast"></i>
+</button>
+
+<button class="audio-play-btn" style=" width:68px; height:68px; border-radius:50%; border:none; background:linear-gradient(135deg,#6366f1,#8b5cf6); color:white; font-size:26px; cursor:pointer; box-shadow:0 10px 30px rgba(99,102,241,0.5); flex-shrink:0;">
+<i class="audio-play-icon fas fa-circle-play"></i>
+</button>
+
+<button class="audio-next-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-forward-fast"></i>
+</button>
+
+</div>
+
+<!-- PROGRESS -->
+<div style=" display:flex; align-items:center; gap:8px; width:100%; font-size:14px;">
+
+<span class="audio-time-now" style="min-width:42px;">0:00</span>
+
+<div class="audio-progress-bar" style=" flex:1; height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-progress-fill" style=" height:100%; width:0%; background:linear-gradient(90deg,#6366f1,#ec4899); border-radius:5px;"></div>
+</div>
+
+<span class="audio-time-full" style="min-width:42px;">0:00</span>
+</div>
+
+<!-- VOLUME -->
+<div style=" display:flex; align-items:center; gap:10px; margin-top:20px; width:100%;">
+
+<button class="audio-volume-btn" style=" width:40px; height:40px; border:none; border-radius:10px; background:rgba(255,255,255,0.1); color:white; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-volume-up"></i>
+</button>
+
+<div class="audio-volume-slider" style="flex:1;height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-volume-fill" style=" height:100%; width:70%; background:linear-gradient(90deg,#6366f1,#8b5cf6); border-radius:5px;"> </div>
+</div></div></div>
+
+<audio class="audio-element" preload="metadata">
+<source src="./shared/mp3/Bens públicos.mp3">
+</audio>
+</div></div></div>
+
+<!-- ===== FIM ===== -->
+
   <div class="notion-header">
     <div class="notion-icon">🏛️</div>
     <h1 class="notion-title">Bens Públicos</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-b">Art. 98 CC</span>
+      <span class="meta-tag tag-b">Arts. 98–103 CC</span>
       <span class="meta-tag tag-g">Classificação e Destinação</span>
     </div>
   </div>
@@ -1235,6 +1743,7 @@ window.DA = {
     <div class="lex-expandable-item">Incidem <strong>normas especiais</strong>, diferentes das que regem bens privados.</div>
     <div class="lex-expandable-item">Devem ter destinação que atenda ao <strong>interesse público</strong>, direta ou indiretamente.</div>
     <div class="lex-expandable-item"><strong>Afetação:</strong> destinação específica do bem público.</div>
+    <div class="lex-expandable-item">Inclui bens de EP e SEM <strong>prestadoras de serviços públicos</strong> — regime jurídico misto.</div>
   </div>
 
   <div class="lex-section-container">
@@ -1242,6 +1751,30 @@ window.DA = {
     <div class="lex-expandable-item">Doutrina majoritária: são <strong>bens privados</strong> (Art. 98 CC/2002).</div>
     <div class="lex-expandable-item">STF: bens das SEM são <strong>privados inconfundíveis</strong> com os do Estado.</div>
     <div class="lex-expandable-item">Devem prestar contas ao <strong>Tribunal de Contas</strong> — natureza administrativa híbrida.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Classificação por Destinação (Art. 99 CC)</div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Uso Comum do Povo:</strong> destinados ao uso coletivo (praças, ruas, praias, rios navegáveis, mares). Uso gratuito — pode ser remunerado por lei (ex.: pedágio, estacionamento). Povo é o beneficiário direto.</div>
+      <div class="lex-expandable-item"><strong>Uso Especial:</strong> afetados ao uso da Administração (imóveis de repartições, escolas, quartéis, hospitais, fóruns). Beneficiários: usuários do serviço e servidores. <strong>Não podem ser alienados enquanto afetados.</strong></div>
+      <div class="lex-expandable-item"><strong>Dominicais:</strong> sem destinação pública definida. Podem ser alienados para obtenção de renda (terras devolutas, imóveis inservíveis, prédios desativados). Administração é a beneficiária direta.</div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Atributos dos Bens Públicos</div>
+
+    <div class="lex-expandable-item"><strong>Inalienabilidade Relativa:</strong> regra geral é a impossibilidade de venda. Exceção: bens dominicais desafetados, observados interesse público, avaliação prévia, licitação (concorrência/leilão) e autorização legislativa para imóveis.</div>
+
+    <div class="lex-expandable-item"><strong>Impenhorabilidade:</strong> bens públicos não podem ser penhorados para pagamento de dívidas da administração. STJ tem posição pela impenhorabilidade absoluta, mesmo para autarquias.</div>
+
+    <div class="lex-expandable-item"><strong>Imprescritibilidade:</strong> bens públicos <u>não se perdem por usucapião</u>, ainda que dominicais.</div>
+
+    <div class="callout callout-blue" style="margin-top:8px;">
+      <span class="callout-icon">⚖️</span>
+      <div><strong>Súmula 340 STF:</strong> "Desde a vigência do Código Civil, os bens dominicais, como os demais bens públicos, não podem ser adquiridos por usucapião." — Arts. 183, §3º e 191, § único CF confirmam.</div>
+    </div>
   </div>
 
   <div class="lex-section-container">
@@ -1254,31 +1787,22 @@ window.DA = {
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Classificação por Destinação</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Uso Comum do Povo:</strong> destinados ao uso coletivo (praças, ruas, praias). Uso gratuito (pode ser remunerado: pedágio, estacionamento). Povo é o beneficiário direto.</div>
-      <div class="lex-expandable-item"><strong>Uso Especial:</strong> afetados ao uso da Administração (imóveis de repartições, veículos oficiais, mercados públicos). Beneficiários: usuários do serviço e servidores.</div>
-      <div class="lex-expandable-item"><strong>Dominicais:</strong> sem destinação pública definida. Podem ser alienados para obtenção de renda (terras devolutas, imóveis inservíveis). Administração é a beneficiária direta.</div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Classificação por Disponibilidade</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Indisponíveis:</strong> não podem ser alienados ou onerados. Ex: bens de uso comum do povo.</div>
-      <div class="lex-expandable-item"><strong>Patrimoniais Indisponíveis:</strong> suscetíveis de avaliação pecuniária, mas utilizados pela Administração. Ex: bens de uso especial.</div>
-      <div class="lex-expandable-item"><strong>Patrimoniais Disponíveis:</strong> podem ser alienados segundo preceitos legais. Ex: bens dominicais.</div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
     <div class="lex-section-title">Afetação e Desafetação</div>
-    <div class="lex-expandable-item"><strong>Afetação:</strong> atribuição de destinação específica ao bem público.</div>
-    <div class="lex-expandable-item">Pode ser <strong>explícita</strong> (lei, ato administrativo, registro) ou <strong>implícita</strong> (uso pelo Poder Público).</div>
-    <div class="lex-expandable-item"><strong>Desafetação:</strong> mudança da destinação do bem — inclui bens na categoria dominical para alienação.</div>
-    <div class="callout callout callout-gold" style="margin-top:8px;">
+    <div class="lex-expandable-item"><strong>Afetação:</strong> atribuição de destinação específica ao bem público. Pode ser <strong>explícita</strong> (lei, ato administrativo, registro) ou <strong>implícita</strong> (uso pelo Poder Público).</div>
+    <div class="lex-expandable-item"><strong>Desafetação:</strong> mudança da destinação do bem — migra para categoria dominical, permitindo alienação. STJ exige <strong>ato formal</strong> (não basta abandono tácito).</div>
+    <div class="callout callout-gold" style="margin-top:8px;">
       <span class="callout-icon">💡</span>
-      <strong>Exemplos:</strong> aeroporto desativado, computadores inservíveis em depósito.
+      <strong>Exemplos:</strong> aeroporto desativado, computadores inservíveis em depósito — são bens desafetados (dominicais).
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Utilização por Particulares</div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Permissão de Uso:</strong> ato unilateral, discricionário, precário — revogável a qualquer tempo. Ex.: barraca de praia por temporada.</div>
+      <div class="lex-expandable-item"><strong>Autorização de Uso:</strong> ato administrativo vinculado, precário. Ex.: comércio ambulante em via pública.</div>
+      <div class="lex-expandable-item"><strong>Concessão de Uso:</strong> contrato formal, licitação obrigatória, prazo determinado. Ex.: área em aeroporto para estacionamento.</div>
+      <div class="lex-expandable-item"><strong>Concessão de Direito Real de Uso:</strong> transfere direito real ao particular, registrado em cartório. Ex.: loteamento popular em terra pública (programa habitacional).</div>
     </div>
   </div>
 
@@ -1298,7 +1822,7 @@ window.DA = {
 
   <div class="callout-orange">
     <span class="callout-icon">💡</span>
-    <div><strong>Resumo:</strong> Comum = povo usa | Especial = Administração usa | Dominicais = podem ser vendidos | Indisponíveis = não podem ser alienados</div>
+    <div><strong>Resumo PMAL:</strong> Comum = povo usa (gratuito, pode ser cobrado por lei) | Especial = Administração usa (afetado, inalienável) | Dominicais = podem ser vendidos após desafetação | Imprescritíveis = nunca usucapião | Impenhoráveis = não respondem por dívidas</div>
   </div>
 
 </div>`
@@ -1311,6 +1835,69 @@ window.DA = {
     color: "#f59e0b",
     aprendizado: `
 <div class="lex-block">
+
+<!-- ===== INICO ===== -->
+
+<div class="audio-player-card" style="margin:0 0 24px 0; font-family:Arial, sans-serif; display:flex; align-items:center; justify-content:center; padding:15px; box-sizing:border-box; color:#fff; border-radius:16px; overflow:hidden;">
+
+<div style=" background:rgba(255,255,255,0.08); backdrop-filter:blur(20px); border-radius:25px; padding:25px; width:100%; max-width:520px; box-shadow:0 20px 50px rgba(0,0,0,0.5); text-align:center; box-sizing:border-box;">
+
+<!-- INFO -->
+<div style="margin-bottom:20px;">
+
+<div style=" font-size:clamp(20px,5vw,28px); font-weight:bold; background:linear-gradient(90deg,#6366f1,#ec4899); -webkit-background-clip:text; color:transparent; line-height:1.2;"> Administração </div>
+
+<div style=" color:#cbd5e1; font-size:clamp(14px,3vw,18px); margin-top:5px;">Direta e Indireta</div>
+</div>
+
+<!-- CONTROLES -->
+<div style=" display:flex; justify-content:center; align-items:center; gap:15px; margin-bottom:20px; flex-wrap:wrap;">
+
+<button class="audio-prev-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-backward-fast"></i>
+</button>
+
+<button class="audio-play-btn" style=" width:68px; height:68px; border-radius:50%; border:none; background:linear-gradient(135deg,#6366f1,#8b5cf6); color:white; font-size:26px; cursor:pointer; box-shadow:0 10px 30px rgba(99,102,241,0.5); flex-shrink:0;">
+<i class="audio-play-icon fas fa-circle-play"></i>
+</button>
+
+<button class="audio-next-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-forward-fast"></i>
+</button>
+
+</div>
+
+<!-- PROGRESS -->
+<div style=" display:flex; align-items:center; gap:8px; width:100%; font-size:14px;">
+
+<span class="audio-time-now" style="min-width:42px;">0:00</span>
+
+<div class="audio-progress-bar" style=" flex:1; height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-progress-fill" style=" height:100%; width:0%; background:linear-gradient(90deg,#6366f1,#ec4899); border-radius:5px;"></div>
+</div>
+
+<span class="audio-time-full" style="min-width:42px;">0:00</span>
+</div>
+
+<!-- VOLUME -->
+<div style=" display:flex; align-items:center; gap:10px; margin-top:20px; width:100%;">
+
+<button class="audio-volume-btn" style=" width:40px; height:40px; border:none; border-radius:10px; background:rgba(255,255,255,0.1); color:white; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-volume-up"></i>
+</button>
+
+<div class="audio-volume-slider" style="flex:1;height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-volume-fill" style=" height:100%; width:70%; background:linear-gradient(90deg,#6366f1,#8b5cf6); border-radius:5px;"> </div>
+</div></div></div>
+
+<audio class="audio-element" preload="metadata">
+<source src="./shared/mp3/Administração direta e indireta.mp3">
+</audio>
+</div></div></div>
+
+<!-- ===== FIM ===== -->
 
   <div class="notion-header">
     <div class="notion-icon">🗂️</div>
@@ -1336,12 +1923,7 @@ window.DA = {
       <div class="lex-expandable-item">Órgãos públicos <strong>sem personalidade jurídica própria</strong>.</div>
       <div class="lex-expandable-item">Despesas realizadas pela esfera a qual pertencem.</div>
       <div class="lex-expandable-item">Abrange os <strong>três poderes</strong>: Executivo, Legislativo e Judiciário.</div>
-      <div class="callout callout-purple">
-        <span class="callout-icon">🚮</span>
-        <div class="lex-summary-content">
-          <strong>Exemplo prático:</strong> A prefeitura de São Paulo tem caminhões próprios de lixo e servidores municipais que fazem a coleta domiciliar em toda a cidade. Isso é prestação direta do serviço público — o próprio governo executa, sem contratar empresas privadas. Se houver um acidente com o caminhão de lixo, quem responde é a própria prefeitura (pessoa jurídica de direito público).
-        </div>
-      </div>
+      <div class="lex-expandable-item"><strong>Exemplo PMAL:</strong> A Polícia Militar de Alagoas é órgão da Adm. Direta do Estado (vinculada à Secretaria de Segurança Pública).</div>
     </div>
 
     <div class="lex-section-container">
@@ -1356,125 +1938,129 @@ window.DA = {
       <div class="lex-expandable-item">Autonomia: <strong>administrativa e financeira</strong> apenas.</div>
       <div class="lex-expandable-item"><strong>NÃO</strong> têm autonomia política.</div>
       <div class="lex-expandable-item"><strong>Personalidade jurídica própria</strong>, patrimônio e orçamento próprio.</div>
-      <div class="lex-expandable-item">Criação: <strong>lei específica</strong> (Art. 37, XIX CF).</div>
+      <div class="lex-expandable-item">Criação: <strong>lei específica ou lei autorizativa + registro</strong> (Art. 37, XIX CF).</div>
       <div class="lex-expandable-item">Caracterizada pela <strong>descentralização</strong>.</div>
-      <div class="callout callout-purple">
-        <span class="callout-icon">💳</span>
-        <div class="lex-summary-content">
-          <strong>Exemplo prático:</strong> O INSS (Instituto Nacional do Seguro Social) é uma autarquia federal que administra a previdência. Ele tem diretor próprio, orçamento próprio e pode contratar funcionários pela CLT (não só por concurso). Mas ele não pode criar leis (não tem autonomia política) e foi criado por lei específica. Se você processar o INSS, processa essa entidade específica, não o governo federal diretamente.
-        </div>
-      </div>
+      <div class="lex-expandable-item">Sujeitas a <strong>supervisão ministerial</strong> (controle finalístico, sem hierarquia).</div>
     </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Formas de Organização</div>
   </div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Formas de Organização — Diferenças Práticas</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">🏭</span>
-      <div class="lex-summary-content">
-        <strong>Explicação passo a passo:</strong> Imagine uma grande empresa de chocolates. <strong>Centralização</strong> é a fábrica matriz fazendo tudo. <strong>Desconcentração</strong> é criar setores dentro da fábrica (embalagem, qualidade, expedição). <strong>Descentralização</strong> é criar filiais ou contratar outras empresas para distribuir o produto. No governo é a mesma coisa!
-      </div>
-    </div>
-  </div>
-
-  <div class="lex-cols">
-    <div class="lex-section-container">
-      <div class="lex-section-title">Centralização</div>
-      <div class="lex-expandable-item">Serviço prestado pela <strong>própria</strong> Adm. Direta.</div>
-      <div class="lex-expandable-item">O Estado executa suas tarefas <strong>diretamente</strong>.</div>
-      <div class="callout callout-purple">
-        <span class="callout-icon">🚔</span>
-        <div class="lex-summary-content">
-          <strong>Exemplo:</strong> A Polícia Militar de um estado é centralizada — o próprio governo estadual mantém os policiais, pagamentos, viaturas e equipamentos. Não há intermediário.
+    <div class="lex-cols">
+      <div class="lex-section-container">
+        <div class="lex-section-title">Centralização</div>
+        <div class="lex-expandable-item">Serviço prestado pela <strong>própria</strong> Adm. Direta.</div>
+        <div class="lex-expandable-item">O Estado executa suas tarefas <strong>diretamente</strong>.</div>
+        <div class="callout callout-purple">
+          <span class="callout-icon">🚔</span>
+          <div class="lex-summary-content"><strong>Exemplo:</strong> A Polícia Militar estadual — o próprio governo mantém policiais, viaturas e equipamentos. Sem intermediário.</div>
         </div>
       </div>
-    </div>
 
-    <div class="lex-section-container">
-      <div class="lex-section-title">Descentralização</div>
-      <div class="lex-expandable-item">Transferência para <strong>outra pessoa jurídica</strong>.</div>
-      <div class="lex-expandable-item">Cria <strong>ENTIDADES</strong> da Administração Indireta.</div>
-      <div class="lex-expandable-item">Não há hierarquia, apenas <strong>supervisão/tutela</strong>.</div>
-      <div class="callout callout-purple">
-        <span class="callout-icon">💧</span>
-        <div class="lex-summary-content">
-          <strong>Exemplo:</strong> O governo cria uma autarquia chamada Companhia de Saneamento Básico (SABESP) para cuidar do abastecimento de água. A SABESP tem vida própria, pode contratar funcionários pela CLT, mas o governo estadual supervisiona e nomeia diretores. Isso é descentralização — outra pessoa jurídica faz o serviço.
+      <div class="lex-section-container">
+        <div class="lex-section-title">Descentralização</div>
+        <div class="lex-expandable-item">Transferência para <strong>outra pessoa jurídica</strong>.</div>
+        <div class="lex-expandable-item">Cria <strong>ENTIDADES</strong> da Adm. Indireta.</div>
+        <div class="lex-expandable-item">Não há hierarquia, apenas <strong>supervisão/tutela</strong>.</div>
+        <div class="callout callout-purple">
+          <span class="callout-icon">💧</span>
+          <div class="lex-summary-content"><strong>Exemplo:</strong> SABESP — autarquia com vida própria, pode contratar por CLT, mas o governo supervisiona e nomeia diretores.</div>
         </div>
       </div>
-    </div>
 
-    <div class="lex-section-container">
-      <div class="lex-section-title">Desconcentração</div>
-      <div class="lex-expandable-item">Distribuição <strong>interna</strong> de competências.</div>
-      <div class="lex-expandable-item">Cria <strong>ÓRGÃOS</strong> — mesma pessoa jurídica.</div>
-      <div class="lex-expandable-item">Há <strong>hierarquia e subordinação</strong>.</div>
-      <div class="callout callout-purple">
-        <span class="callout-icon">📋</span>
-        <div class="lex-summary-content">
-          <strong>Exemplo:</strong> O Ministério da Saúde (pessoa jurídica única) cria departamentos internos: um para vacinação, outro para hospitais, outro para medicamentos. Todos são "órgãos" sem vida jurídica própria — se vacinação errar, responde o Ministério da Saúde como um todo. É como divisões dentro da mesma empresa.
+      <div class="lex-section-container">
+        <div class="lex-section-title">Desconcentração</div>
+        <div class="lex-expandable-item">Distribuição <strong>interna</strong> de competências.</div>
+        <div class="lex-expandable-item">Cria <strong>ÓRGÃOS</strong> — mesma pessoa jurídica.</div>
+        <div class="lex-expandable-item">Há <strong>hierarquia e subordinação</strong>.</div>
+        <div class="callout callout-purple">
+          <span class="callout-icon">📋</span>
+          <div class="lex-summary-content"><strong>Exemplo:</strong> Ministério da Saúde cria departamentos internos (vacinação, hospitais, medicamentos) — todos órgãos sem vida jurídica própria.</div>
         </div>
       </div>
     </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Entidades da Administração Indireta</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">🧩</span>
-      <div class="lex-summary-content">
-        <strong>Explicação passo a passo:</strong> São "braços especializados" do governo. Cada tipo tem uma função diferente: autarquias regulam e fiscalizam, fundações fazem pesquisa e cultura, empresas exploram atividades comerciais, e consórcios unem prefeituras para fazer projetos juntas. Todos são criados por lei e têm personalidade própria.
+    <div class="lex-section-title">Entidades da Administração Indireta — Quadro Completo</div>
+
+    <div class="callout callout-blue" style="margin-bottom:12px;">
+      <span class="callout-icon">📊</span>
+      <div>
+        <strong>Tabela Comparativa:</strong>
+        <div style="overflow-x:auto;margin-top:8px;">
+          <table style="width:100%;border-collapse:collapse;font-size:0.85em;">
+            <thead>
+              <tr style="background:rgba(255,255,255,0.1);">
+                <th style="padding:6px 10px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.2);">Característica</th>
+                <th style="padding:6px 10px;text-align:center;border-bottom:1px solid rgba(255,255,255,0.2);">Autarquia</th>
+                <th style="padding:6px 10px;text-align:center;border-bottom:1px solid rgba(255,255,255,0.2);">Fundação Pública</th>
+                <th style="padding:6px 10px;text-align:center;border-bottom:1px solid rgba(255,255,255,0.2);">Empresa Pública</th>
+                <th style="padding:6px 10px;text-align:center;border-bottom:1px solid rgba(255,255,255,0.2);">S.E.M.</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding:5px 10px;">Personalidade</td><td style="padding:5px 10px;text-align:center;">Dir. Público</td><td style="padding:5px 10px;text-align:center;">Públ. ou Priv.</td><td style="padding:5px 10px;text-align:center;">Dir. Privado</td><td style="padding:5px 10px;text-align:center;">Dir. Privado</td></tr>
+              <tr style="background:rgba(255,255,255,0.04);"><td style="padding:5px 10px;">Criada por</td><td style="padding:5px 10px;text-align:center;">Lei específica</td><td style="padding:5px 10px;text-align:center;">Lei aut. + registro</td><td style="padding:5px 10px;text-align:center;">Lei aut. + registro</td><td style="padding:5px 10px;text-align:center;">Lei aut. + registro</td></tr>
+              <tr><td style="padding:5px 10px;">Capital</td><td style="padding:5px 10px;text-align:center;">—</td><td style="padding:5px 10px;text-align:center;">Público</td><td style="padding:5px 10px;text-align:center;">100% público</td><td style="padding:5px 10px;text-align:center;">Maioria pública (51%)</td></tr>
+              <tr style="background:rgba(255,255,255,0.04);"><td style="padding:5px 10px;">Foro</td><td style="padding:5px 10px;text-align:center;">Justiça Federal</td><td style="padding:5px 10px;text-align:center;">JF (se pública)</td><td style="padding:5px 10px;text-align:center;">Justiça Federal</td><td style="padding:5px 10px;text-align:center;">Justiça Estadual</td></tr>
+              <tr><td style="padding:5px 10px;">Falência</td><td style="padding:5px 10px;text-align:center;">Não</td><td style="padding:5px 10px;text-align:center;">Não</td><td style="padding:5px 10px;text-align:center;">Não (art. 2º, I, Lei 11.101)</td><td style="padding:5px 10px;text-align:center;">Não</td></tr>
+              <tr style="background:rgba(255,255,255,0.04);"><td style="padding:5px 10px;">Concurso</td><td style="padding:5px 10px;text-align:center;">Sim</td><td style="padding:5px 10px;text-align:center;">Sim</td><td style="padding:5px 10px;text-align:center;">Sim</td><td style="padding:5px 10px;text-align:center;">Sim</td></tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Autarquias:</strong> desempenho de atividades típicas de Estado (fiscalização, regulação, assistência social, seguridade, poder de polícia).</div>
-    </div>
+
+    <div class="lex-expandable-item"><strong>Autarquias:</strong> desempenho de atividades típicas de Estado (fiscalização, regulação, assistência social, seguridade, poder de polícia). Têm imunidade tributária recíproca e prerrogativas fazendárias (prazo em dobro para recorrer). Ex.: IBAMA, INSS, ANVISA, ANATEL.</div>
     <div class="callout callout-purple">
       <span class="callout-icon">📡</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo de Autarquia:</strong> A ANATEL (Agência Nacional de Telecomunicações) é uma autarquia que regula telefonia e internet no Brasil. Ela multa empresas que não cumprem metas de qualidade, define regras para operadoras e fiscaliza o setor. É como um "fiscal técnico" do governo para áreas específicas.
-      </div>
+      <div class="lex-summary-content"><strong>Exemplo:</strong> ANATEL — regula telefonia e internet, multa operadoras, define regras para o setor. "Fiscal técnico" do governo com autonomia própria.</div>
     </div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Fundações Públicas:</strong> patrimônio personalizado destinado a realizar atividades de interesse social.</div>
-    </div>
+
+    <div class="lex-expandable-item"><strong>Fundações Públicas:</strong> patrimônio personalizado para atividades de interesse social (educação, pesquisa, cultura). Podem ter personalidade de direito público (criadas por lei) ou privado (lei autorizativa + registro). Ex.: Fiocruz, FUNAI.</div>
     <div class="callout callout-purple">
       <span class="callout-icon">🔬</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo de Fundação:</strong> A Fiocruz (Fundação Oswaldo Cruz) é uma fundação pública que faz pesquisa científica, produz vacinas e medicamentos, e oferece cursos na área de saúde. Ela tem patrimônio próprio (laboratórios, hospitais, terrenos) e pode receber doações e parcerias internacionais.
-      </div>
+      <div class="lex-summary-content"><strong>Atenção:</strong> Universidades federais são <u>autarquias especiais</u>, não fundações — não confundir em prova.</div>
     </div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Empresas Públicas e SEM:</strong> pessoas jurídicas de direito privado que prestam serviço público ou exploram atividade econômica.</div>
-    </div>
+
+    <div class="lex-expandable-item"><strong>Empresas Públicas:</strong> capital 100% público, qualquer forma jurídica, foro na Justiça Federal. Pode prestar serviço público (Correios) ou explorar atividade econômica (Caixa). Ex.: Caixa Econômica Federal, EBC.</div>
+
+    <div class="lex-expandable-item"><strong>Sociedades de Economia Mista:</strong> capital maioritariamente público (51% com voto), obrigatoriamente S.A., foro na Justiça Estadual. Ex.: Petrobras, Banco do Brasil.</div>
     <div class="callout callout-purple">
-      <span class="callout-icon">🏦</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo de Empresa Pública:</strong> A Caixa Econômica Federal é uma empresa pública que administra o FGTS, faz empréstimos para habitação (Minha Casa Minha Vida) e opera como banco comercial. Tem capital 100% público, mas segue regras de empresa privada para contratos e trabalhadores.
+      <span class="callout-icon">⚡</span>
+      <div class="lex-summary-content"><strong>Diferença EP × SEM:</strong> EP pode ser unipessoal e ter qualquer forma jurídica; SEM exige pluralidade de sócios e forma S.A.</div>
+    </div>
+
+    <div class="lex-expandable-item"><strong>Consórcios Públicos:</strong> acordo entre entes federativos (Lei 11.107/2005) para gestão associada de serviços. Personalidade jurídica própria — pode ser direito público (associação pública) ou privado. Ex.: consórcio intermunicipal de aterro sanitário.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Descentralização Administrativa</div>
+    <div class="lex-cols">
+      <div class="lex-section-container">
+        <div class="lex-section-title">Por Outorga (Legal)</div>
+        <div class="lex-list">
+          <div class="lex-expandable-item">Transfere <strong>Titularidade + Execução</strong>.</div>
+          <div class="lex-expandable-item">Realizada apenas por <strong>LEI</strong>.</div>
+          <div class="lex-expandable-item">Cria a Adm. Indireta (autarquias, fundações).</div>
+        </div>
+        <div class="lex-summary" style="border-left-color: var(--acc);"><div class="lex-summary-content"><strong>Exemplo:</strong> Criação do INSS por lei — ele é o "dono" do serviço previdenciário.</div></div>
       </div>
-    </div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Consórcios Públicos:</strong> associação de entes federativos para execução de atividades de interesse comum.</div>
-    </div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">🤝</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo de Consórcio:</strong> Várias prefeituras pequenas do interior se unem em um consórcio para construir juntas um aterro sanitário regional. Nenhuma teria dinheiro sozinha, mas juntas conseguem fazer uma obra melhor e mais barata, dividindo custos e responsabilidades.
+      <div class="lex-section-container">
+        <div class="lex-section-title">Por Delegação (Negocial)</div>
+        <div class="lex-list">
+          <div class="lex-expandable-item">Transfere apenas a <strong>Execução</strong>.</div>
+          <div class="lex-expandable-item">Por <strong>Contrato ou Ato</strong> administrativo.</div>
+          <div class="lex-expandable-item">Caráter precário (revogável).</div>
+        </div>
+        <div class="lex-summary" style="border-left-color: var(--gold);"><div class="lex-summary-content"><strong>Exemplo:</strong> Concessão de pedágios ou linhas de ônibus para empresas privadas.</div></div>
       </div>
     </div>
   </div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Órgãos Públicos</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">⚙️</span>
-      <div class="lex-summary-content">
-        <strong>Explicação passo a passo:</strong> Órgãos públicos são como os "setores" dentro de uma empresa. Eles não existem sozinhos — são partes de uma estrutura maior. Se um setor erra, a empresa inteira responde. No governo, se uma secretaria municipal erra, responde a prefeitura; se uma diretoria do ministério erra, responde o ministério inteiro.
-      </div>
-    </div>
     <div class="lex-list">
       <div class="lex-expandable-item"><strong>NÃO</strong> possuem personalidade jurídica própria.</div>
       <div class="lex-expandable-item">São apenas "centros de competência" dentro de uma PJ.</div>
@@ -1482,66 +2068,14 @@ window.DA = {
       <div class="lex-expandable-item">Não possuem patrimônio próprio (pertence ao Ente).</div>
     </div>
     <div class="callout callout-purple">
-      <span class="callout-icon">📚</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo prático:</strong> O Detran é um órgão do governo estadual que cuida de trânsito e habilitação. Ele não pode ser processado sozinho — se você quiser processar por uma multa indevida, processa o Estado (pessoa jurídica), não o Detran (órgão). O Detran não tem conta bancária própria nem pode comprar carros em seu nome — tudo é feito em nome do governo estadual.
-      </div>
+      <span class="callout-icon">🚗</span>
+      <div class="lex-summary-content"><strong>Exemplo:</strong> O DETRAN é órgão do Estado — não pode ser processado sozinho. Você processa o Estado (PJ). O DETRAN não tem conta bancária nem compra carros em seu próprio nome.</div>
     </div>
   </div>
 
-  <div class="lex-section-container">
-    <div class="lex-section-title">Descentralização Administrativa</div>
-    <div class="callout callout-purple">
-      <span class="material-symbols-outlined">hub</span>
-      <div class="lex-summary-content">
-        <strong>Conceito:</strong> O Estado transfere a execução ou a titularidade de um serviço para <strong>outra pessoa jurídica</strong> (Entidade). Diferente da desconcentração, aqui não há hierarquia, apenas vinculação/controle.
-      </div>
-    </div>
-
-    <div class="lex-cols">
-      <div class="lex-section-container">
-        <div class="lex-section-title">
-          <span class="material-symbols-outlined">description</span> Por Outorga (Legal)
-        </div>
-        <div class="lex-list">
-          <div class="lex-expandable-item">Transfere <strong>Titularidade + Execução</strong>.</div>
-          <div class="lex-expandable-item">Realizada apenas por <strong>LEI</strong>.</div>
-          <div class="lex-expandable-item">Cria a Adm. Indireta (Autarquias).</div>
-        </div>
-        <div class="lex-summary" style="border-left-color: var(--acc);">
-          <div class="lex-summary-content">
-            <strong>Exemplo:</strong> Criação do INSS por lei. Ele é o "dono" do serviço previdenciário agora.
-          </div>
-        </div>
-      </div>
-
-      <div class="lex-section-container">
-        <div class="lex-section-title">
-          <span class="material-symbols-outlined">handshake</span> Por Delegação (Negocial)
-        </div>
-        <div class="lex-list">
-          <div class="lex-expandable-item">Transfere apenas a <strong>Execução</strong>.</div>
-          <div class="lex-expandable-item">Por <strong>Contrato ou Ato</strong> administrativo.</div>
-          <div class="lex-expandable-item">Caráter precário (revogável).</div>
-        </div>
-        <div class="lex-summary" style="border-left-color: var(--gold);">
-          <div class="lex-summary-content">
-            <strong>Exemplo:</strong> Concessão de pedágios ou linhas de ônibus para empresas privadas.
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Consórcios Públicos</div>
-    <div class="lex-expandable-item">Acordo entre entes federativos (União, Estados, DF, Municípios).</div>
-    <div class="lex-expandable-item">Para realizar objetivos de <strong>interesse comum</strong>.</div>
-    <div class="lex-expandable-item">Gestão associada de serviços públicos.</div>
-    <div class="lex-expandable-item">Base: <strong>Lei 11.107/2005</strong>.</div>
-    <div class="lex-expandable-item">Natureza Jurídica: <strong>Direito público</strong> — associação pública, ou <strong>direito privado</strong>.</div>
-    <div class="lex-expandable-item">Personalidade jurídica própria.</div>
-    <div class="lex-expandable-item">Autonomia administrativa e financeira.</div>
+  <div class="callout-orange">
+    <span class="callout-icon">💡</span>
+    <div><strong>Resumo PMAL:</strong> Autarquia = dir. público (INSS, ANATEL) | EP = 100% público, JF (Caixa) | SEM = maioria pública, S.A., JE (Petrobras) | Nenhuma pode falir | Todas fazem licitação e concurso | PMAL = Adm. Direta do Estado de Alagoas</div>
   </div>
 
 </div>`
@@ -1555,6 +2089,69 @@ window.DA = {
     aprendizado: `
 <div class="lex-block">
 
+<!-- ===== INICO ===== -->
+
+<div class="audio-player-card" style="margin:0 0 24px 0; font-family:Arial, sans-serif; display:flex; align-items:center; justify-content:center; padding:15px; box-sizing:border-box; color:#fff; border-radius:16px; overflow:hidden;">
+
+<div style=" background:rgba(255,255,255,0.08); backdrop-filter:blur(20px); border-radius:25px; padding:25px; width:100%; max-width:520px; box-shadow:0 20px 50px rgba(0,0,0,0.5); text-align:center; box-sizing:border-box;">
+
+<!-- INFO -->
+<div style="margin-bottom:20px;">
+
+<div style=" font-size:clamp(20px,5vw,28px); font-weight:bold; background:linear-gradient(90deg,#6366f1,#ec4899); -webkit-background-clip:text; color:transparent; line-height:1.2;"> Controle da Administração </div>
+
+<div style=" color:#cbd5e1; font-size:clamp(14px,3vw,18px); margin-top:5px;">Pública</div>
+</div>
+
+<!-- CONTROLES -->
+<div style=" display:flex; justify-content:center; align-items:center; gap:15px; margin-bottom:20px; flex-wrap:wrap;">
+
+<button class="audio-prev-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-backward-fast"></i>
+</button>
+
+<button class="audio-play-btn" style=" width:68px; height:68px; border-radius:50%; border:none; background:linear-gradient(135deg,#6366f1,#8b5cf6); color:white; font-size:26px; cursor:pointer; box-shadow:0 10px 30px rgba(99,102,241,0.5); flex-shrink:0;">
+<i class="audio-play-icon fas fa-circle-play"></i>
+</button>
+
+<button class="audio-next-btn" style=" width:48px; height:48px; border-radius:14px; border:none; background:rgba(255,255,255,0.1); color:white; font-size:18px; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-forward-fast"></i>
+</button>
+
+</div>
+
+<!-- PROGRESS -->
+<div style=" display:flex; align-items:center; gap:8px; width:100%; font-size:14px;">
+
+<span class="audio-time-now" style="min-width:42px;">0:00</span>
+
+<div class="audio-progress-bar" style=" flex:1; height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-progress-fill" style=" height:100%; width:0%; background:linear-gradient(90deg,#6366f1,#ec4899); border-radius:5px;"></div>
+</div>
+
+<span class="audio-time-full" style="min-width:42px;">0:00</span>
+</div>
+
+<!-- VOLUME -->
+<div style=" display:flex; align-items:center; gap:10px; margin-top:20px; width:100%;">
+
+<button class="audio-volume-btn" style=" width:40px; height:40px; border:none; border-radius:10px; background:rgba(255,255,255,0.1); color:white; cursor:pointer; flex-shrink:0;">
+<i class="fas fa-volume-up"></i>
+</button>
+
+<div class="audio-volume-slider" style="flex:1;height:6px; background:rgba(255,255,255,0.2); border-radius:5px; cursor:pointer; overflow:hidden;">
+
+<div class="audio-volume-fill" style=" height:100%; width:70%; background:linear-gradient(90deg,#6366f1,#8b5cf6); border-radius:5px;"> </div>
+</div></div></div>
+
+<audio class="audio-element" preload="metadata">
+<source src="./shared/mp3/Controle da administração pública.mp3">
+</audio>
+</div></div></div>
+
+<!-- ===== FIM ===== -->
+
   <div class="notion-header">
     <div class="notion-icon">🔍</div>
     <h1 class="notion-title">Controle da Administração</h1>
@@ -1565,64 +2162,70 @@ window.DA = {
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
+    <div class="lex-section-title">Conceito e Fundamento</div>
     <div class="lex-expandable-item">Conjunto de mecanismos para verificar a <strong>legalidade, eficiência e legitimidade</strong> dos atos administrativos.</div>
-    <div class="lex-expandable-item">Pode ser <strong>interno</strong> (própria administração) ou <strong>externo</strong> (outros poderes).</div>
     <div class="lex-expandable-item">Objetivo: evitar <strong>arbitrariedades</strong> e garantir a <strong>observância do interesse público</strong>.</div>
+    <div class="lex-expandable-item"><strong>Fundamentos:</strong> Arts. 70–75 CF (controle externo), Art. 37 CF (princípios), Art. 5º, XXXIV CF (direito de petição).</div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Tipos de Controle</div>
-    
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Controle Direto (Interno):</strong> exercido pelos órgãos da própria administração (hierarquia).</div>
-      <div class="lex-expandable-item"><strong>Controle Indireto (Externo):</strong> exercido por órgãos de outros poderes (Judiciário, Legislativo).</div>
+    <div class="lex-section-title">Classificação do Controle</div>
+
+    <div class="callout callout-blue">
+      <span class="callout-icon">📊</span>
+      <div>
+        <strong>Quadro de Classificações:</strong>
+        <div style="overflow-x:auto;margin-top:8px;">
+          <table style="width:100%;border-collapse:collapse;font-size:0.85em;">
+            <thead>
+              <tr style="background:rgba(255,255,255,0.1);">
+                <th style="padding:6px 10px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.2);">Critério</th>
+                <th style="padding:6px 10px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.2);">Modalidades</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding:5px 10px;">Quanto ao órgão</td><td style="padding:5px 10px;">Interno (mesmo poder) e Externo (outro poder)</td></tr>
+              <tr style="background:rgba(255,255,255,0.04);"><td style="padding:5px 10px;">Quanto ao momento</td><td style="padding:5px 10px;">Prévio, Concomitante, Posterior</td></tr>
+              <tr><td style="padding:5px 10px;">Quanto ao aspecto</td><td style="padding:5px 10px;">Legalidade e Mérito (discricionariedade)</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
 
-    <div class="lex-list" style="margin-top: 16px;">
-      <div class="lex-expandable-item"><strong>Controle de Legalidade:</strong> verifica se o ato está em conformidade com a lei.</div>
-      <div class="lex-expandable-item"><strong>Controle de Mérito:</strong> avalia a conveniência e oportunidade do ato (exclusivo da administração).</div>
+    <div class="lex-list" style="margin-top:12px;">
+      <div class="lex-expandable-item"><strong>Controle de Legalidade:</strong> verifica se o ato está em conformidade com a lei. Pode ser exercido pela Administração, Judiciário, Legislativo e Tribunal de Contas.</div>
+      <div class="lex-expandable-item"><strong>Controle de Mérito:</strong> avalia a conveniência e oportunidade do ato. Exclusivo da <strong>própria administração</strong> (autotutela) — e do Legislativo em casos específicos (sustação de atos).</div>
     </div>
   </div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Momentos de Controle</div>
-    
-    <div class="callout callout-purple">
-      <span class="callout-icon">💡</span>
-      <div class="lex-summary-content">
-        <strong>Explicação passo a passo:</strong> Imagine que você vai construir uma casa. O controle preventivo é como o engenheiro revisar a planta antes da obra começar. O concomitante é o fiscal visitando a obra enquanto os pedreiros trabalham. O repressivo é a prefeitura multar depois que a casa foi construída irregularmente.
-      </div>
-    </div>
-
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Controle Preventivo:</strong> antes da prática do ato. Ex: parecer de assessoria jurídica.</div>
+      <div class="lex-expandable-item"><strong>Controle Preventivo (Prévio):</strong> antes da prática do ato — impede a prática. Ex.: parecer jurídico, veto do TCU a edital.</div>
+      <div class="lex-expandable-item"><strong>Controle Concomitante:</strong> durante a execução — acompanha em tempo real. Ex.: auditoria durante obra pública, fiscalização em canteiro de obras.</div>
+      <div class="lex-expandable-item"><strong>Controle Repressivo (Posterior):</strong> depois da prática — corrige o ato já praticado. Ex.: ação judicial para anular ato ilegal, anulação pela própria Administração.</div>
     </div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">🏠</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo prático:</strong> Uma prefeitura quer contratar uma empresa para construir uma escola. Antes de assinar o contrato, o procurador municipal revisa todos os documentos para garantir que a licitação foi feita corretamente. Esse parecer jurídico prévio é o controle preventivo — evita problemas antes que aconteçam.
-      </div>
-    </div>
+  </div>
 
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Controle Concomitante:</strong> durante a prática do ato. Ex: fiscalização em tempo real.</div>
-    </div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">🔨</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo prático:</strong> Durante a construção da mesma escola, um engenheiro municipal visita semanalmente a obra para verificar se a empresa está seguindo o projeto aprovado, usando materiais de qualidade e respeitando prazos. Se encontrar problemas, exige correção imediata. Esse é o controle concomitante — acontece durante a execução.
-      </div>
-    </div>
-
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Controle Repressivo (Posterior):</strong> depois da prática do ato. Ex: ação judicial para anular ato ilegal.</div>
-    </div>
-    <div class="callout callout-purple">
+  <div class="lex-section-container">
+    <div class="lex-section-title">Controle Administrativo — Autotutela</div>
+    <div class="callout callout-blue">
       <span class="callout-icon">⚖️</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo prático:</strong> A escola foi inaugurada, mas moradores descobrem que ela foi construída em área de proteção ambiental, violando a lei. Eles entram com uma ação na Justiça pedindo a anulação da construção. O juiz pode ordenar a demolição ou indenização. Esse é o controle repressivo — atua depois que o erro já foi cometido.
-      </div>
+      <div><strong>Súmula 473 STF:</strong> "A administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, porquanto deles não se adquirem direitos; ou revogá-los, por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos."</div>
+    </div>
+
+    <div class="lex-expandable-item"><strong>Anulação:</strong> retira ato <u>ilegal</u>. Efeitos <strong>retroativos (ex tunc)</strong>. Pode ser feita pela Administração ou pelo Judiciário. Prazo: <strong>5 anos</strong> (Lei 9.784/99, art. 54), salvo má-fé comprovada.</div>
+    <div class="lex-expandable-item"><strong>Revogação:</strong> retira ato <u>válido</u> por motivo de mérito — tornou-se inoportuno ou inconveniente. Efeitos <strong>não retroativos (ex nunc)</strong>. Apenas a <strong>própria Administração</strong> pode revogar. <u>O Judiciário NÃO pode revogar.</u></div>
+    <div class="lex-expandable-item"><strong>Retificação:</strong> corrige <u>erro material</u> sem alterar o conteúdo central do ato.</div>
+
+    <div class="callout callout-purple" style="margin-top:8px;">
+      <span class="callout-icon">🎯</span>
+      <div class="lex-summary-content"><strong>Exemplo de Revogação:</strong> Prefeitura autorizou festa de Réveillon na praia. Previsão de temporal → prefeito revoga. Era ato legal, mas tornou-se inoportuno. <strong>O juiz não pode fazer isso.</strong></div>
+    </div>
+    <div class="callout callout-purple" style="margin-top:8px;">
+      <span class="callout-icon">❌</span>
+      <div class="lex-summary-content"><strong>Exemplo de Anulação:</strong> Prefeito nomeia sobrinho sem concurso → MP entra na Justiça → juiz anula. Era ilegal desde o início. Efeito ex tunc (como se nunca tivesse existido).</div>
     </div>
   </div>
 
@@ -1631,89 +2234,28 @@ window.DA = {
     <h1 class="notion-title">Controle Judicial</h1>
     <div class="notion-meta">
       <span class="meta-tag tag-b">Anulação</span>
-      <span class="meta-tag tag-g">Legalidade</span>
+      <span class="meta-tag tag-g">Só Legalidade — Nunca Mérito</span>
     </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Controle de Legalidade pelo Judiciário</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">⚖️</span>
-      <div class="lex-summary-content">
-        <strong>Explicação passo a passo:</strong> O Judiciário (juízes e tribunais) atua como um "corretor de provas" da Administração. Ele verifica se o governo seguiu as regras (legalidade), mas não pode opinar se a decisão foi boa ou ruim (mérito). É como um árbitro de futebol: pode anular um gol irregular, mas não pode dizer que o time deveria ter jogado de outra forma.
-      </div>
-    </div>
-    <div class="lex-expandable-item">Normalmente exercido em caráter <strong>repressivo</strong> — após a administração já ter praticado o ato.</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">📋</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo prático:</strong> Maria foi aprovada em um concurso público para professora. No entanto, a prefeitura demorou 2 anos para convocá-la, e quando chamou, ela descobriu que seu cargo havia sido dado a outra pessoa por indicação política. Maria entra na Justiça com mandado de segurança. O juiz verifica que a nomeação do outro candidato violou o princípio da impessoalidade e anula o ato. O Judiciário só analisou se houve violação da lei, não se a prefeitura deveria ou não ter contratado Maria antes.
-      </div>
-    </div>
-    <div class="lex-expandable-item">A atuação do Judiciário deve se restringir ao <strong>controle de legalidade</strong> do ato — não é possível o controle do mérito administrativo.</div>
-    <div class="lex-expandable-item">Mediante o controle judicial, pode ser decretada a <strong>anulação</strong> do ato (nunca a revogação, pois esta decorre de controle de mérito).</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Atos Discricionários e o Judiciário</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">🎯</span>
-      <div class="lex-summary-content">
-        <strong>Explicação passo a passo:</strong> Quando a lei dá liberdade para o governo escolher (ato discricionário), o juiz não pode dizer "eu teria decidido diferente". Mas pode anular se a decisão foi absurda, desproporcional ou violou direitos. É como um professor que não pode mudar a nota do aluno, mas pode anular se a prova foi aplicada de forma injusta.
-      </div>
-    </div>
-    <div class="lex-expandable-item">Não se deve confundir a vedação de apreciação do mérito com a <strong>possibilidade de aferição da legalidade</strong> dos atos discricionários.</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">🚗</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo prático:</strong> O DETRAN suspende a carteira de João por 1 ano por excesso de velocidade. O juiz não pode dizer "suspenderia por apenas 6 meses" porque isso seria controlar o mérito. Mas pode anular a suspensão se descobrir que: (1) o radar estava sem calibração, (2) a velocidade permitida estava mal sinalizada, ou (3) a pena é desproporcional à infração cometida. O juiz verifica se houve legalidade e razoabilidade, não se concorda com a punição.
-      </div>
-    </div>
-    <div class="lex-expandable-item">Os controles de <strong>razoabilidade e proporcionalidade</strong> possibilitam anulação pelo Judiciário de atos discricionários praticados fora da esfera de mérito estabelecida pela lei.</div>
-  </div>
-
-  <div class="callout-orange">
-    <span class="callout-icon">💡</span>
-    <div><strong>FICA A DICA:</strong> O Poder Judiciário pode, sempre que provocado, <strong>anular</strong> atos administrativos (vinculados ou discricionários) com vícios de ilegalidade. O que não se admite é que o Judiciário <strong>revogue</strong> um ato editado pelo Executivo ou Legislativo.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Anulação x Revogação</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">🔄</span>
-      <div class="lex-summary-content">
-        <strong>Explicação passo a passo:</strong> Anular é como cancelar uma compra porque o produto era defeituoso — o ato era errado desde o início. Revogar é como devolver um produto que estava bom, mas você não precisa mais dele — o ato era válido, mas perdeu a utilidade.
-      </div>
-    </div>
-    <div class="lex-expandable-item"><strong>Anulação:</strong> Retira ato ilegal ou ilegítimo. Pode ser feita pelo Judiciário ou pela própria Administração.</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">❌</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo de Anulação:</strong> Um prefeito nomeia seu sobrinho para um cargo de confiança sem concurso público, violando a Constituição. O Ministério Público entra na Justiça e o juiz <strong>anula</strong> a nomeação porque era ilegal desde o início. É como se o ato nunca tivesse existido.
-      </div>
-    </div>
-    <div class="lex-expandable-item"><strong>Revogação:</strong> Retira ato discricionário válido que se tornou <strong>inoportuno ou inconveniente</strong> ao interesse público. Juízo exclusivo da administração que praticou o ato. O Judiciário <strong>não pode revogar</strong>.</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">✅</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo de Revogação:</strong> A prefeitura autorizou uma festa de Réveillon na praia. Depois de uma previsão de temporal severo, o prefeito <strong>revoga</strong> a autorização por questão de segurança. O ato era legal, mas se tornou inoportuno. Só a prefeitura pode fazer isso — o juiz não pode "revogar" porque não é questão de legalidade, mas de conveniência administrativa.
-      </div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Princípio da Inafastabilidade de Jurisdição</div>
-    <div class="lex-expandable-item"><strong>Art. 5º, XXXV, CF:</strong> "A lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito."</div>
+    <div class="lex-section-title">Princípios e Limites</div>
+    <div class="lex-expandable-item"><strong>Art. 5º, XXXV CF — Inafastabilidade:</strong> "A lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito."</div>
+    <div class="lex-expandable-item">Normalmente exercido em caráter <strong>repressivo</strong> — após o ato já praticado.</div>
+    <div class="lex-expandable-item">Pode <strong>anular</strong> atos ilegais. <u>Nunca revoga</u> (revogação = mérito = exclusivo da Adm.).</div>
+    <div class="lex-expandable-item">Não reexamina o <strong>mérito administrativo</strong> (conveniência/oportunidade) — Súmula 473 STF.</div>
+    <div class="lex-expandable-item">Pode controlar <strong>razoabilidade e proporcionalidade</strong> de atos discricionários — se abusivos, anula por ilegalidade.</div>
   </div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Instrumentos de Controle Judicial</div>
     <div class="lex-list">
-      <div class="lex-expandable-item">Mandado de Segurança</div>
-      <div class="lex-expandable-item">Ação Popular</div>
-      <div class="lex-expandable-item">Ação Civil Pública</div>
-      <div class="lex-expandable-item">Habeas Corpus</div>
-      <div class="lex-expandable-item">Habeas Data</div>
+      <div class="lex-expandable-item"><strong>Mandado de Segurança</strong> — ato ilegal ou abusivo de autoridade pública.</div>
+      <div class="lex-expandable-item"><strong>Ação Popular</strong> — qualquer cidadão pode impugnar ato lesivo ao patrimônio público.</div>
+      <div class="lex-expandable-item"><strong>Ação Civil Pública</strong> — MP e legitimados impugnam lesão a interesses difusos/coletivos.</div>
+      <div class="lex-expandable-item"><strong>Mandado de Injunção</strong> — omissão legislativa que impede exercício de direito constitucional.</div>
+      <div class="lex-expandable-item"><strong>Habeas Corpus</strong> — liberdade de locomoção ameaçada por ato de poder público.</div>
+      <div class="lex-expandable-item"><strong>Habeas Data</strong> — acesso a informações pessoais em bancos de dados públicos.</div>
     </div>
   </div>
 
@@ -1728,71 +2270,57 @@ window.DA = {
 
   <div class="lex-section-container">
     <div class="lex-section-title">Conceito</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">🏛️</span>
-      <div class="lex-summary-content">
-        <strong>Explicação passo a passo:</strong> O Legislativo (Câmara dos Deputados e Senado) é como o conselho fiscal de uma empresa. Ele não pode cancelar decisões do dia a dia, mas pode cobrar explicações, bloquear gastos irregulares e punir dirigentes que cometerem crimes. O controle é político porque envolve julgamentos de conveniência, não apenas questões jurídicas.
-      </div>
-    </div>
     <div class="lex-expandable-item">Fiscalização da administração pública exercida pelo <strong>Poder Legislativo</strong>.</div>
-    <div class="lex-expandable-item">Possui marcada <strong>índole política</strong> — não se limita ao controle de legalidade formal, abrangendo eficiência e conveniência pública de determinadas atuações do Poder Executivo.</div>
-    <div class="lex-expandable-item">Como há administração pública em todos os Poderes, as prerrogativas do Legislativo incluem a fiscalização da atuação administrativa em <strong>todos eles</strong>.</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">💰</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo prático:</strong> O Congresso aprovou um orçamento de R$ 10 milhões para construir um hospital. Durante a fiscalização, descobrem que o governo gastou R$ 3 milhões em aluguel de equipamentos caros sem necessidade. O Legislativo pode convocar o ministro para explicações, sustar gastos irregulares e, se houver desvio de dinheiro, abrir processo de impeachment. Isso é controle político-financeiro.
-      </div>
-    </div>
+    <div class="lex-expandable-item">Possui marcada <strong>índole política</strong> — abrange legalidade, eficiência e conveniência.</div>
+    <div class="lex-expandable-item">Alcança a atuação administrativa em <strong>todos os Poderes</strong>.</div>
   </div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Competências do Congresso Nacional (Art. 49)</div>
-    <div class="lex-expandable-item"><strong>Art. 49, X:</strong> Fiscalizar e controlar, diretamente ou por qualquer de suas Casas, os atos do Poder Executivo, incluídos os da administração indireta.</div>
-    <div class="lex-expandable-item"><strong>Art. 49, V:</strong> Sustar os atos normativos do Poder Executivo que <strong>exorbitem do poder regulamentar</strong> ou dos limites de delegação legislativa.</div>
-    <div class="lex-expandable-item"><strong>Art. 49, IX:</strong> Julgar anualmente as contas prestadas pelo Presidente da República e apreciar os relatórios sobre a execução dos planos de governo.</div>
-    <div class="lex-expandable-item"><strong>Art. 49, XII:</strong> Autorizar operações externas de natureza financeira, de interesse da União, Estados, DF, Territórios e Municípios.</div>
+    <div class="lex-expandable-item"><strong>Art. 49, X:</strong> Fiscalizar e controlar os atos do Executivo, incluídos os da administração indireta.</div>
+    <div class="lex-expandable-item"><strong>Art. 49, V:</strong> Sustar atos normativos do Executivo que <strong>exorbitem do poder regulamentar</strong> ou limites da delegação legislativa.</div>
+    <div class="lex-expandable-item"><strong>Art. 49, IX:</strong> Julgar anualmente as contas do Presidente da República.</div>
+    <div class="lex-expandable-item"><strong>Art. 49, XII:</strong> Autorizar operações externas de natureza financeira.</div>
     <div class="lex-expandable-item"><strong>Art. 49, XVI:</strong> Aprovar pedido de intervenção federal em Estado ou no DF.</div>
-    <div class="lex-expandable-item"><strong>Art. 49, XVII:</strong> Autorizar referendo e aprovar a celebração de tratados internacionais.</div>
+    <div class="lex-expandable-item"><strong>Art. 49, XVII:</strong> Autorizar referendo e aprovar celebração de tratados internacionais.</div>
   </div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Competências Exclusivas do Senado Federal (Art. 52)</div>
-    <div class="lex-expandable-item"><strong>Art. 52, I:</strong> Processar e julgar o Presidente e Vice-Presidente da República nos crimes de responsabilidade, bem como Ministros de Estado e Comandantes das Forças Armadas nos crimes conexos.</div>
-    <div class="lex-expandable-item"><strong>Art. 52, III:</strong> Aprovar previamente, por <strong>voto secreto</strong>, após arguição pública, a escolha de: magistrados dos tribunais superiores, ministros do TCU, governador de Território, presidente e diretores do Banco Central, Procurador-Geral da República.</div>
-    <div class="lex-expandable-item"><strong>Art. 52, IV:</strong> Aprovar previamente, por <strong>voto secreto</strong>, após arguição em sessão secreta, a escolha dos chefes de missão diplomática de caráter permanente.</div>
-    <div class="lex-expandable-item"><strong>Art. 52, V:</strong> Autorizar operações externas de natureza financeira de interesse da União, Estados, DF, Territórios e Municípios.</div>
-    <div class="lex-expandable-item"><strong>Art. 52, XI:</strong> Aprovar, por maioria absoluta e voto secreto, a exoneração <em>de ofício</em> do Procurador-Geral da República antes do término de seu mandato.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Fiscalização Contábil e Financeira (Arts. 70-71)</div>
-    <div class="lex-expandable-item"><strong>Art. 70, caput:</strong> Compete ao Congresso Nacional, auxiliado pelo TCU, exercer a <strong>fiscalização contábil, financeira e orçamentária</strong> federal.</div>
-    <div class="lex-expandable-item"><strong>Art. 71, § 7º:</strong> Sustar contratos que apresentem ilegalidade, mediante solicitação do TCU.</div>
+    <div class="lex-expandable-item"><strong>Art. 52, I:</strong> Processar e julgar Presidente/Vice e Ministros nos crimes de responsabilidade.</div>
+    <div class="lex-expandable-item"><strong>Art. 52, III:</strong> Aprovar por <strong>voto secreto</strong>, após arguição pública: magistrados dos tribunais superiores, ministros do TCU, Governadores de Território, presidente e diretores do Banco Central, PGR.</div>
+    <div class="lex-expandable-item"><strong>Art. 52, IV:</strong> Aprovar por <strong>voto secreto</strong>, em sessão secreta: chefes de missão diplomática permanente.</div>
+    <div class="lex-expandable-item"><strong>Art. 52, XI:</strong> Aprovar por maioria absoluta e voto secreto a exoneração <em>de ofício</em> do PGR antes do término do mandato.</div>
   </div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">TCU — Tribunal de Contas da União</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">🔍</span>
-      <div class="lex-summary-content">
-        <strong>Explicação passo a passo:</strong> O TCU é como um auditor de contas que verifica se o dinheiro público foi gasto corretamente. Ele é auxiliar do Congresso — encontra irregularidades, mas em geral precisa que o Congresso ou Executivo tomem providências. Só decide diretamente em casos específicos ou quando há inércia.
-      </div>
-    </div>
-    <div class="lex-expandable-item">Auxilia no controle externo, comprovando a <strong>probidade da administração</strong> e a regularidade dos gastos públicos.</div>
-    <div class="lex-expandable-item"><strong>Art. 71, X:</strong> Competência para <strong>sustar diretamente</strong> a execução de atos administrativos, dando ciência à Câmara e ao Senado.</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">📊</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo prático:</strong> O TCU audita um contrato de R$ 50 milhões para compra de computadores escolares e descobre preços superfaturados (o mesmo equipamento custa metade em outras prefeituras). O TCU emite parecer pela ilegalidade. Se for um ato administrativo simples, o TCU pode sustar diretamente. Se for um contrato, avisa o Congresso. Se deputados e senadores não fizerem nada em 90 dias, aí o TCU pode agir sozinho.
-      </div>
-    </div>
-    <div class="lex-expandable-item">No caso de contratos administrativos, o ato de sustação cabe ao <strong>Congresso Nacional</strong>, que solicitará ao Poder Executivo as medidas cabíveis.</div>
-    <div class="lex-expandable-item">Apenas se o Congresso ou o Executivo não efetivar as medidas no prazo de <strong>90 dias</strong> é que o TCU adquirirá competência para decidir.</div>
+    <div class="lex-expandable-item">Auxilia o Congresso no controle externo — comprova a <strong>probidade da administração</strong> e regularidade dos gastos públicos (Arts. 70–71 CF).</div>
+    <div class="lex-expandable-item"><strong>Art. 71, X:</strong> Pode <strong>sustar diretamente</strong> a execução de atos administrativos, dando ciência à Câmara e ao Senado.</div>
+    <div class="lex-expandable-item">Para <strong>contratos</strong>: a sustação cabe ao <strong>Congresso Nacional</strong> (não diretamente ao TCU).</div>
+    <div class="lex-expandable-item">Se Congresso ou Executivo inerte em <strong>90 dias</strong> → TCU adquire competência para decidir diretamente.</div>
   </div>
 
   <div class="callout callout-green">
     <span class="callout-icon">✅</span>
-    <div><strong>Resumo:</strong> TCU susta atos administrativos diretamente. Para contratos, a sustação é do Congresso Nacional. Se o Congresso ou Executivo inerte por 90 dias → TCU decide.</div>
+    <div><strong>Regra de ouro TCU:</strong> TCU susta atos administrativos diretamente | Para contratos = Congresso Nacional | Inércia de 90 dias = TCU decide.</div>
+  </div>
+
+  <div class="notion-header" style="margin-top: 40px;">
+    <div class="notion-icon">👥</div>
+    <h1 class="notion-title">Controle Social</h1>
+    <div class="notion-meta">
+      <span class="meta-tag tag-b">Controle Popular</span>
+      <span class="meta-tag tag-g">Lei 12.527/2011 · Lei 13.460/2017</span>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Instrumentos de Controle Social</div>
+    <div class="lex-expandable-item"><strong>Ouvidorias Públicas</strong> — canal direto entre cidadão e Administração (Lei 13.460/2017).</div>
+    <div class="lex-expandable-item"><strong>Conselhos Gestores de Políticas Públicas</strong> — participação da sociedade civil na formulação e fiscalização.</div>
+    <div class="lex-expandable-item"><strong>Lei de Acesso à Informação</strong> (Lei 12.527/2011) — qualquer cidadão pode solicitar informações públicas.</div>
+    <div class="lex-expandable-item"><strong>Audiências e Consultas Públicas</strong> — participação popular em decisões administrativas relevantes.</div>
   </div>
 
   <div class="notion-header" style="margin-top: 40px;">
@@ -1805,87 +2333,16 @@ window.DA = {
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Recurso em Sentido Estrito</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">📄</span>
-      <div class="lex-summary-content">
-        <strong>Explicação passo a passo:</strong> É o recurso que você entra quando recebe uma decisão negativa em primeira instância — ou seja, quando um órgão da administração decide definitivamente contra você. Ele serve para levar o caso para uma instância superior dentro da própria administração, antes de ir para a Justiça comum.
-      </div>
-    </div>
-    <div class="lex-expandable-item">Cabe em <strong>atos definitivos de 1ª instância</strong> (que põem fim à fase de instrução).</div>
-    <div class="lex-expandable-item">Exemplo: contra decisão que indefere pedido de aposentadoria.</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">👨‍🏫</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo prático:</strong> José trabalhou 35 anos como professor federal e pediu aposentadoria. O INSS indeferiu o pedido alegando falta de tempo de contribuição. José entra com <strong>recurso em sentido estrito</strong> para a instância superior do INSS em 15 dias. O recurso tem efeito suspensivo — enquanto aguarda a decisão, o prazo para José se aposentar não expira. Se for negado de novo, ele pode ir à Justiça Federal.
-      </div>
-    </div>
-    <div class="lex-expandable-item">Prazo: <strong>15 dias</strong> contados da intimação ou publicação.</div>
-    <div class="lex-expandable-item">Efeito: <strong>suspensivo</strong> (interrompe o prazo de decadência).</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Pedido de Reconsideração</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">🔄</span>
-      <div class="lex-summary-content">
-        <strong>Explicação passo a passo:</strong> Quando você já esgotou a primeira instância e foi para a segunda (ou instância final), e mesmo assim perdeu, você pode pedir para a mesma autoridade reconsiderar. É como pedir para o professor rever a correção da prova que você tirou nota baixa, apontando onde ele errou na correção.
-      </div>
-    </div>
-    <div class="lex-expandable-item">Cabe contra <strong>atos de 2ª instância</strong> ou <strong>decisões definitivas</strong>.</div>
-    <div class="lex-expandable-item">Objetivo: pedir revisão da decisão baseada em <strong>erro de fato ou de direito</strong>.</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">🏥</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo prático:</strong> Maria solicitou um medicamento caro pelo SUS. O hospital negou em primeira instância. Ela recorreu e a segunda instância também negou. Maria então entra com <strong>pedido de reconsideração</strong> apontando que o medicamento está na lista de procedimentos obrigatórios do SUS segundo portaria recente do Ministério da Saúde (erro de direito) e que ela tem laudos médicos comprovando a necessidade (erro de fato). O prazo é de 30 dias, e enquanto aguarda, o prazo para entrar na Justiça continua correndo, a menos que ela peça e consiga efeito suspensivo.
-      </div>
-    </div>
-    <div class="lex-expandable-item">Prazo: <strong>30 dias</strong>.</div>
-    <div class="lex-expandable-item">Não tem efeito suspensivo automático — pode haver pedido de <strong>efeito suspensivo específico</strong>.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Recurso Hierárquico (Voluntário)</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">⬆️</span>
-      <div class="lex-summary-content">
-        <strong>Explicação passo a passo:</strong> É quando você recorre ao chefe do seu chefe. Funciona em uma estrutura vertical: se o fiscal municipal te multou injustamente, você recorre ao chefe dele na prefeitura. É usado principalmente para atos que ainda não terminaram o processo administrativo (não definitivos).
-      </div>
-    </div>
-    <div class="lex-expandable-item">Cabe contra atos <strong>não definitivos</strong> ou quando há omissão da administração.</div>
-    <div class="lex-expandable-item">Dirigido ao <strong>superior hierárquico</strong> do autor do ato.</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">🚧</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo prático:</strong> Um fiscal municipal interditou o restaurante de Pedro por "falta de higiene" durante uma vistoria surpresa. Pedro considera a interdição abusiva porque o restaurante estava fechado para limpeza semanal. Como a interdição é um ato preparatório (não definitivo — ainda pode haver processo administrativo), Pedro entra com <strong>recurso hierárquico voluntário</strong> ao chefe do fiscal em 15 dias. O recurso é devolutivo: o restaurante permanece interditado enquanto aguarda a decisão do superior, a menos que Pedro consiga uma liminar na Justiça.
-      </div>
-    </div>
-    <div class="lex-expandable-item">Prazo: <strong>15 dias</strong>.</div>
-    <div class="lex-expandable-item">Efeito: <strong>devolutivo</strong> (não suspende a execução do ato).</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Recurso Obrigatório (Ofício)</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">📨</span>
-      <div class="lex-summary-content">
-        <strong>Explicação passo a passo:</strong> Diferente dos outros recursos que a pessoa prejudicada entra, este é "obrigatório" porque a própria administração envia para cima quando a decisão pode afetar muitas pessoas ou vai contra o que normalmente é decidido. É como quando um professor manda uma questão de prova para o coordenador porque achou que o gabarito pode estar errado.
-      </div>
-    </div>
-    <div class="lex-expandable-item">Exigido por lei quando há <strong>interesse público</strong> na revisão do ato.</div>
-    <div class="lex-expandable-item">Submetido automaticamente à autoridade superior.</div>
-    <div class="lex-expandable-item">Exemplo: decisões contrárias à jurisprudência dominante.</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">⚖️</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo prático:</strong> Uma vara do INSS concedeu aposentadoria especial a um trabalhador exposto a ruído, seguindo entendimento do STF de 2020. Porém, a jurisprudência dominante do TRF da região havia decidido meses depois que esse tipo de caso não deve mais ter aposentadoria especial. Como a decisão é contrária à jurisprudência dominante, o juiz tem obrigação de enviar oficiosamente (de ofício, sem pedido das partes) para o tribunal superior revisar. Isso é recurso obrigatório para uniformizar as decisões.
-      </div>
-    </div>
+    <div class="lex-section-title">Tipos de Recursos</div>
+    <div class="lex-expandable-item"><strong>Recurso em Sentido Estrito:</strong> contra atos definitivos de 1ª instância. Prazo: <strong>15 dias</strong>. Efeito: <strong>suspensivo</strong> (interrompe prazo de decadência).</div>
+    <div class="lex-expandable-item"><strong>Pedido de Reconsideração:</strong> contra atos de 2ª instância ou decisões definitivas. Prazo: <strong>30 dias</strong>. Efeito: <u>não tem suspensivo automático</u> — pode pedir suspensivo específico.</div>
+    <div class="lex-expandable-item"><strong>Recurso Hierárquico Voluntário:</strong> contra atos não definitivos ou omissão. Dirigido ao superior hierárquico. Prazo: <strong>15 dias</strong>. Efeito: <strong>devolutivo</strong> (não suspende o ato).</div>
+    <div class="lex-expandable-item"><strong>Recurso Obrigatório (de Ofício):</strong> exigido por lei quando há interesse público na revisão — submetido automaticamente à autoridade superior. Ex.: decisões contrárias à jurisprudência dominante.</div>
   </div>
 
   <div class="callout-orange">
     <span class="callout-icon">💡</span>
-    <div><strong>Resumo:</strong> Recurso em sentido estrito = contra atos de 1ª instância | Pedido de reconsideração = contra atos de 2ª instância | Hierárquico = para superior | Obrigatório = interesse público</div>
+    <div><strong>Resumo PMAL:</strong> Anulação (ilegalidade) ≠ Revogação (mérito) | Judiciário anula, nunca revoga | TCU: atos diretamente / contratos pelo Congresso / 90 dias de inércia → TCU age | Autotutela = Súmula 473 STF</div>
   </div>
 
 </div>`
@@ -1914,92 +2371,130 @@ window.DA = {
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Alcance da Responsabilidade</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Pessoa Jurídica de Direito Público:</strong> Administração Direta, Autarquias e Fundações Públicas</div>
-      <div class="lex-expandable-item"><strong>Pessoa Jurídica de Direito Privado:</strong> Empresas Públicas e SEM prestadoras de serviço público</div>
-      <div class="lex-expandable-item"><strong>Delegatárias:</strong> Concessionárias, Permissionárias e Autorizadas (responsabilidade subsidiária do Estado)</div>
+    <div class="lex-section-title">Evolução Histórica das Teorias</div>
+    <div class="callout callout-blue">
+      <span class="callout-icon">📊</span>
+      <div>
+        <div style="overflow-x:auto;margin-top:8px;">
+          <table style="width:100%;border-collapse:collapse;font-size:0.84em;">
+            <thead>
+              <tr style="background:rgba(255,255,255,0.1);">
+                <th style="padding:6px 10px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.2);">Teoria</th>
+                <th style="padding:6px 10px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.2);">Regra Geral</th>
+                <th style="padding:6px 10px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.2);">Observação</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding:5px 10px;"><strong>Irresponsabilidade</strong></td><td style="padding:5px 10px;">Estado não responde</td><td style="padding:5px 10px;">Monarquia absolutista</td></tr>
+              <tr style="background:rgba(255,255,255,0.04);"><td style="padding:5px 10px;"><strong>Civilista</strong></td><td style="padding:5px 10px;">Responde como particular (culpa do agente)</td><td style="padding:5px 10px;">CC/1916, art. 15</td></tr>
+              <tr><td style="padding:5px 10px;"><strong>Falha do Serviço</strong></td><td style="padding:5px 10px;">Responde se o serviço falhou</td><td style="padding:5px 10px;">Culpa anônima — France (séc. XX)</td></tr>
+              <tr style="background:rgba(255,255,255,0.04);"><td style="padding:5px 10px;"><strong>Risco Administrativo</strong></td><td style="padding:5px 10px;">Responde por atos lícitos e ilícitos (com excludentes)</td><td style="padding:5px 10px;"><strong>Adotada no Brasil — Art. 37, §6º CF</strong></td></tr>
+              <tr><td style="padding:5px 10px;"><strong>Risco Integral</strong></td><td style="padding:5px 10px;">Responde sempre, sem excludentes</td><td style="padding:5px 10px;">Parcialmente: danos nucleares e ambientais</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
-    <div class="callout">
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Alcance da Responsabilidade — Quem Responde?</div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Pessoas Jurídicas de Direito Público:</strong> Adm. Direta, Autarquias e Fundações Públicas.</div>
+      <div class="lex-expandable-item"><strong>Pessoas Jurídicas de Direito Privado Prestadoras de Serviço Público:</strong> EP e SEM quando prestam serviço público (ex.: Correios).</div>
+      <div class="lex-expandable-item"><strong>Delegatárias:</strong> Concessionárias, Permissionárias e Autorizadas — responsabilidade primária da empresa; responsabilidade <strong>subsidiária</strong> do Estado.</div>
+    </div>
+    <div class="callout" style="margin-top:8px;">
       <span class="callout-icon">⚠️</span>
-      <div><strong>Não inclui:</strong> EP e SEM que exploram atividades econômicas (regidas pelo Direito Civil/Comercial)</div>
+      <div><strong>NÃO inclui:</strong> EP e SEM que <u>exploram atividades econômicas</u> (ex.: Petrobras no mercado) — seguem regime de direito civil (responsabilidade subjetiva).</div>
     </div>
   </div>
 
   <div class="lex-cols">
     <div class="lex-section-container">
-      <div class="lex-section-title">Responsabilidade Objetiva</div>
+      <div class="lex-section-title">Responsabilidade Objetiva (Ação)</div>
       <div class="lex-expandable-item">Independe da comprovação de <strong>dolo ou culpa</strong>.</div>
-      <div class="lex-expandable-item">Basta demonstrar: <strong>conduta, dano e nexo causal</strong>.</div>
-      <div class="lex-expandable-item">Técnica de <strong>socialização de danos</strong> (solidariedade social).</div>
+      <div class="lex-expandable-item">Basta: <strong>conduta + dano + nexo causal</strong>.</div>
+      <div class="lex-expandable-item">Técnica de <strong>socialização de danos</strong>.</div>
       <div class="lex-expandable-item">Abrange danos a <strong>usuários e terceiros não usuários</strong>.</div>
+      <div class="lex-expandable-item">Agente pode ser servidor, estagiário, voluntário — qualquer um que atue "nessa qualidade".</div>
     </div>
     <div class="lex-section-container">
-      <div class="lex-section-title">Responsabilidade Subjetiva</div>
-      <div class="lex-expandable-item">Aplica-se em caso de <strong>omissão</strong> do Estado.</div>
-      <div class="lex-expandable-item">É necessária a comprovação de <strong>culpa</strong> (negligência, imprudência, imperícia).</div>
+      <div class="lex-section-title">Responsabilidade Subjetiva (Omissão)</div>
+      <div class="lex-expandable-item">Aplica-se em caso de <strong>omissão</strong> do Estado (doutrina majoritária).</div>
+      <div class="lex-expandable-item">Necessária comprovação de <strong>culpa</strong> (negligência, imprudência, imperícia).</div>
       <div class="lex-expandable-item">Também chamada de <strong>culpa anônima</strong> ou falta do serviço.</div>
+      <div class="callout callout-blue" style="margin-top:8px;">
+        <span class="callout-icon">⚖️</span>
+        <div><strong>Súmula 647 STF:</strong> "A responsabilidade do Estado por atos de seus agentes é objetiva, inclusive nos casos de omissão, quando o dever de agir decorra de obrigação legal." — STF migrou para objetiva mesmo na omissão quando há dever legal específico.</div>
+      </div>
     </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Teorias do Risco</div>
-    <div class="lex-expandable-item"><strong>Teoria do Risco Integral:</strong> Não admite causas excludentes de responsabilidade. <em>Não adotada no Brasil.</em></div>
-    <div class="lex-expandable-item"><strong>Teoria do Risco Administrativo:</strong> Admite causas excludentes (caso fortuito, força maior, culpa exclusiva da vítima). <em>Teoria adotada no Brasil.</em></div>
   </div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Causas Excludentes de Responsabilidade</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Caso Fortuito e Força Maior:</strong> STF não faz distinção entre ambas. Fatos alheios à vontade da Administração, imprevisíveis e inevitáveis.</div>
-    <div class="lex-expandable-item"><strong>Culpa Exclusiva da Vítima:</strong> Quando a vítima é única responsável pelo dano. Ex: suicídio em linha de trem.</div>
-    <div class="lex-expandable-item"><strong>Culpa Exclusiva de Terceiro:</strong> Dano causado unicamente por terceiro, sem participação do Estado.</div>
-    <div class="lex-expandable-item"><strong>Culpa Concorrente:</strong> Atenua a responsabilidade do Estado (reduz o valor da indenização). Ex: passageiro andando pendurado no trem.</div>
+    <div class="lex-expandable-item"><strong>Caso Fortuito e Força Maior:</strong> evento imprevisível e inevitável, alheio à vontade da Administração. STF não faz distinção entre ambos. Rompe o nexo causal. <em>Atenção: se a omissão estatal agravou o dano, responde parcialmente.</em></div>
+    <div class="lex-expandable-item"><strong>Culpa Exclusiva da Vítima:</strong> dano causado exclusivamente pela própria vítima. Ex.: suicídio em linha de trem, pedestre que pula sinal e é atingido por viatura em velocidade legal.</div>
+    <div class="lex-expandable-item"><strong>Culpa Exclusiva de Terceiro:</strong> dano causado unicamente por terceiro sem participação do Estado.</div>
+    <div class="lex-expandable-item"><strong>Culpa Concorrente:</strong> <u>não exclui</u>, mas <strong>atenua</strong> a responsabilidade — reduz o valor da indenização. Ex.: passageiro andando pendurado no trem.</div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Reparação de Danos</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Acordo Administrativo:</strong> Quando o dano é reconhecido e há acordo, a indenização é feita via administrativa.</div>
-      <div class="lex-expandable-item"><strong>Ação Judicial:</strong> Cabível apenas contra a Administração (STF é contrário a ação contra o agente público isoladamente).</div>
+    <div class="lex-section-title">Responsabilidade por Omissão — Casos Especiais</div>
+    <div class="lex-expandable-item"><strong>RE 841526 (Tema 362 — STF):</strong> morte de detento gera responsabilidade objetiva do Estado por omissão, quando descumprido o dever de proteção (Art. 5º, XLIX CF).</div>
+    <div class="lex-expandable-item"><strong>Preso Foragido:</strong> <u>não</u> há responsabilidade objetiva automática — exige demonstração do nexo causal direto entre a fuga e a conduta criminosa posterior.</div>
+    <div class="lex-expandable-item"><strong>Fogos de Artifício:</strong> dano por comércio irregular → responsabilidade quando há violação de dever jurídico específico de fiscalização.</div>
+    <div class="lex-expandable-item"><strong>Danos Ambientais:</strong> STJ aplica teoria do risco integral — Estado responde mesmo sem excludentes (REsp 1.071.741/SP).</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Responsabilidade das Empresas Estatais</div>
+    <div class="callout callout-blue">
+      <span class="callout-icon">📊</span>
+      <div>
+        <div style="overflow-x:auto;margin-top:8px;">
+          <table style="width:100%;border-collapse:collapse;font-size:0.85em;">
+            <thead>
+              <tr style="background:rgba(255,255,255,0.1);">
+                <th style="padding:6px 10px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.2);">Empresa</th>
+                <th style="padding:6px 10px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.2);">Atividade</th>
+                <th style="padding:6px 10px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.2);">Regime</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding:5px 10px;">Correios, EBC</td><td style="padding:5px 10px;">Serviço público</td><td style="padding:5px 10px;"><strong>Objetiva (art. 37, §6º CF)</strong></td></tr>
+              <tr style="background:rgba(255,255,255,0.04);"><td style="padding:5px 10px;">Petrobras, BB</td><td style="padding:5px 10px;">Atividade econômica</td><td style="padding:5px 10px;"><strong>Subjetiva (art. 927 CC — risco empresarial)</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Prazo Prescricional</div>
-    <div class="lex-expandable-item">A ação de indenização deve ser proposta no prazo de <strong>5 anos</strong>, contados a partir do fato danoso.</div>
-    <div class="lex-expandable-item">Base: <strong>Decreto 20.910/32, art. 1º</strong> e <strong>Lei 9.494/97, art. 1º, §6º</strong>.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Ação Regressiva</div>
-    <div class="lex-expandable-item">O Estado tem direito de <strong>regresso</strong> contra o agente público que causou o dano quando houve <strong>dolo ou culpa</strong>.</div>
-    <div class="lex-expandable-item">Base: <strong>Art. 37, §6º, parte final CF</strong>.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Responsabilidade por Omissão — Jurisprudência STF</div>
-    <div class="lex-expandable-item">RE 841526 (Tema 362): A responsabilidade por omissão também está fundamentada no art. 37, §6º CF.</div>
-    <div class="lex-expandable-item">Requisito: nexo causal entre a <strong>omissão</strong> e o dano, quando o Estado tinha <strong>dever legal específico de agir</strong>.</div>
-    <div class="lex-expandable-item">Ex: morte de detento por inobservância do dever de proteção (Art. 5º, XLIX CF).</div>
-    <div class="lex-expandable-item">Ex: dano por comércio de fogos de artifício quando há violação de dever jurídico específico de fiscalização.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Responsabilidade do Estado por Preso Foragido</div>
-    <div class="lex-expandable-item">Não se caracteriza responsabilidade objetiva quando <strong>não demonstrado o nexo causal</strong> direto entre a fuga e a conduta criminosa posterior.</div>
-    <div class="lex-expandable-item">Deve haver comprovação de que o Estado deixou de cumprir obrigação legal específica de custódia.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Responsabilidade Subsidiária</div>
+    <div class="lex-section-title">Responsabilidade Subsidiária (Delegatárias)</div>
     <div class="lex-expandable-item">O Estado responde <strong>subsidiariamente</strong> por danos causados por concessionárias e permissionárias.</div>
     <div class="lex-expandable-item">Só responde após o <strong>exaurimento do patrimônio</strong> da empresa delegatária (falência/insolvência).</div>
     <div class="lex-expandable-item">Razão: as delegatárias prestam serviço em seu nome, por sua conta e risco.</div>
   </div>
 
+  <div class="lex-section-container">
+    <div class="lex-section-title">Reparação de Danos e Prazo Prescricional</div>
+    <div class="lex-expandable-item"><strong>Acordo Administrativo:</strong> quando o dano é reconhecido e há acordo, indenização é feita pela via administrativa.</div>
+    <div class="lex-expandable-item"><strong>Ação Judicial:</strong> apenas contra a Administração (STF contra ação direta exclusiva contra o agente).</div>
+    <div class="lex-expandable-item"><strong>Prazo prescricional:</strong> <strong>5 anos</strong> contados do fato danoso — base: Decreto 20.910/32, art. 1º, e Lei 9.494/97, art. 1º, §6º.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Ação Regressiva</div>
+    <div class="lex-expandable-item">O Estado tem direito de <strong>regresso</strong> contra o agente quando houve <strong>dolo ou culpa</strong> — Art. 37, §6º, parte final CF.</div>
+    <div class="lex-expandable-item">Condição: <strong>responsabilidade subjetiva do agente</strong> — Estado responde objetivamente perante a vítima; depois busca o agente.</div>
+    <div class="lex-expandable-item"><strong>Prazo prescricional da ação regressiva:</strong> 5 anos (Decreto 20.910/32 — maioria jurisprudencial). Atenção: divergência com 3 anos se agente agiu com dolo (Lei 9.784/99).</div>
+  </div>
+
   <div class="callout-orange">
     <span class="callout-icon">💡</span>
-    <div><strong>Resumo:</strong> Ação = objetiva (§6º CF) | Omissão = subjetiva (culpa anônima) | Prazo = 5 anos | Regresso = dolo/culpa do agente</div>
+    <div><strong>Resumo PMAL:</strong> Ação = objetiva (§6º CF — sem provar culpa) | Omissão = subjetiva (culpa anônima) / objetiva se dever legal (Súmula 647 STF) | Prazo = 5 anos | Regresso = dolo/culpa do agente | Excludentes: caso fortuito, culpa exclusiva vítima | Risco Integral: danos nucleares e ambientais</div>
   </div>
 
 </div>`

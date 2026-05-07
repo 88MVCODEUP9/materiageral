@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma educacional sobre a Geografia de Alagoas — localização, relevo, clima, vegetação, hidrografia, economia e municípios.">
+    <title>Geografia de Alagoas | Plataforma Educacional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./shared/css/styles.css">
+    <link rel="stylesheet" href="./shared/css/estilos.css">
+</head>
+<body>
+    <!-- Mobile Header -->
+    <header class="mobile-header">
+        <div class="logo">
+            <div class="logo-icon"><i class="fas fa-map-marked-alt"></i></div>
+            <div class="logo-text">Geografia de Alagoas<span>Plataforma Educacional</span></div>
+        </div>
+        <div class="mobile-actions">
+            <button class="btn-icon" id="menuToggle" title="Menu"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <div class="logo-icon"><i class="fas fa-map-marked-alt"></i></div>
+                <div class="logo-text">Geografia de Alagoas<span>Plataforma Educacional</span></div>
+            </div>
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="Buscar tópico...">
+            </div>
+        </div>
+        <nav class="nav-section">
+            <div class="nav-section-title">Conteúdo</div>
+            <ul class="nav-menu" id="navMenu"></ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content" id="mainContent">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-badge"><i class="fas fa-graduation-cap"></i>Plataforma Educacional</div>
+                <h1>Geografia de Alagoas</h1>
+                <p>Explore a diversidade geográfica do segundo menor estado brasileiro, desde suas praias paradisíacas até o sertão semiárido.</p>
+                <div class="hero-stats" id="heroStats"></div>
+            </div>
+        </section>
+
+        <!-- Content -->
+        <div class="content-area" id="contentArea"></div>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <p>Plataforma Educacional — Geografia de Alagoas</p>
+            <p style="margin-top:4px; font-size:0.8rem;">Dados atualizados com base no IBGE, Censo 2022 e estimativas 2025.</p>
+        </footer>
+    </main>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTop" title="Voltar ao topo"><i class="fas fa-arrow-up"></i></button>
+
+    <script>
+        // ============================================================
+        // DADOS DO CONTEÚDO - ASSUNTO.JS
+        // ============================================================
+        const conteudo = {
+            heroStats: [
+                { value: "27.830", label: "km² de área" },
+                { value: "102", label: "municípios" },
+                { value: "3,2M", label: "habitantes" },
+                { value: "229", label: "km de litoral" }
+            ],
+
+        };
+    </script>
+    <script src="./data/data_geografia.js"></script>
+    <script src="./shared/js/app.js"></script>
+</body>
+</html>

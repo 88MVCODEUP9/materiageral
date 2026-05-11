@@ -1926,8 +1926,7 @@ Ex: acesso remoto ao trabalho, conexão segura via internet.</div>
     <span class="callout-icon">💡</span>
     <strong>Diferença de Ouro:</strong> No <strong>Phishing</strong> tradicional, o hacker joga a rede para milhões esperando que alguém caia. No <strong>Spear Phishing</strong>, ele usa um arpão para caçar um alvo específico com informações que já conhece sobre ele.
   </div>
-</div>`
-  },
+</div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Resumo Comparativo para Revisão</div>

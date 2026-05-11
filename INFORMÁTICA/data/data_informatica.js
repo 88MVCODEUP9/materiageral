@@ -1,6 +1,3 @@
-// data/data_informatica.js
-// Conteudo de Informatica — formatado com classes lex-*
-// Versao 2.0 | Organizado por categorias | Sem acentos nas chaves
 
 window.DA = {
 
@@ -1826,7 +1823,7 @@ Ex: acesso remoto ao trabalho, conexão segura via internet.</div>
 </div>`
   },
 
-  "Malwares — Tipos de Pragas Virtuais": {
+    "Malwares — Tipos de Pragas Virtuais": {
     icon: "🦠",
     color: "#f59e0b",
     aprendizado: `
@@ -1845,100 +1842,72 @@ Ex: acesso remoto ao trabalho, conexão segura via internet.</div>
     <div class="lex-expandable-item"><strong>Malware</strong> = <strong>Malicious Software</strong> (Software Malicioso).</div>
     <div class="lex-expandable-item">Qualquer programa criado com a intenção de <strong>invadir, danificar ou explorar sistemas</strong>.</div>
     <div class="lex-expandable-item">Pode infectar computadores, celulares, servidores e redes inteiras.</div>
-    <div class="lex-expandable-item">Objetivos: roubar senhas, espionar usuários, destruir arquivos, controlar sistemas remotamente, obter dinheiro.</div>
   </div>
 
   <div class="lex-cols">
     <div class="lex-section-container">
-      <div class="lex-section-title">Vírus</div>
-      <div class="lex-expandable-item">Se <strong>anexa a arquivos legítimos</strong> para se propagar.</div>
-      <div class="lex-expandable-item">Precisa que o usuário execute o arquivo infectado para agir.</div>
-      <div class="lex-expandable-item">Pode apagar arquivos, corromper programas e se replicar.</div>
-      <div class="lex-expandable-item"><strong>Subtipos:</strong> Boot (infeta MBR/inicialização), Macro (Office: Word, Excel, PowerPoint), Mutante, Polimórfico (muda de forma para evitar detecção), Stealth (se oculta), Injector, Script.</div>
-      <div class="lex-expandable-item"><strong>Exemplo real:</strong> ILOVEYOU (2000) — infectou milhões via e-mail.</div>
+      <div class="lex-section-title">Vírus (O Parasita)</div>
+      <div class="lex-expandable-item"><strong>Dependência:</strong> Precisa obrigatoriamente de um <strong>hospedeiro</strong> (arquivo ou programa) e de <strong>execução humana</strong> para agir.</div>
+      <div class="lex-expandable-item"><strong>Mecanismo:</strong> Anexa seu código a arquivos legítimos e se propaga quando esses arquivos são compartilhados e abertos.</div>
+      <div class="lex-expandable-item"><strong>Ações:</strong> Pode <strong>danificar</strong> dados, <strong>esconder</strong> pastas (ofuscação) e corromper o sistema operacional.</div>
+      <div class="lex-expandable-item"><strong>Subtipos:</strong> Boot (setor de inicialização), Macro (Office), Polimórfico (muda o código para evitar detecção) e Stealth (se oculta do antivírus).</div>
+      <div class="lex-expandable-item"><strong>Exemplo:</strong> ILOVEYOU (2000) — exigia que o usuário abrisse o anexo.</div>
     </div>
+
     <div class="lex-section-container">
-      <div class="lex-section-title">Worm (Verme)</div>
+      <div class="lex-section-title">Worm (O Autônomo)</div>
       <div class="lex-expandable-item">Se espalha <strong>automaticamente pela rede</strong>, explorando vulnerabilidades.</div>
-      <div class="lex-expandable-item"><strong>Não precisa de ação do usuário</strong> — diferente do vírus.</div>
-      <div class="lex-expandable-item">Não afeta arquivos diretamente — consome recursos e causa lentidão.</div>
-      <div class="lex-expandable-item">Pode derrubar redes inteiras pelo consumo excessivo de banda.</div>
-      <div class="lex-expandable-item"><strong>Exemplo real:</strong> Morris Worm (1988), WannaCry (2017).</div>
+      <div class="lex-expandable-item"><strong>Independência:</strong> Não precisa de hospedeiro nem de ação do usuário para se propagar.</div>
+      <div class="lex-expandable-item"><strong>Impacto:</strong> Consome largura de banda e recursos, gerando lentidão extrema na rede.</div>
+      <div class="lex-expandable-item"><strong>Exemplo:</strong> WannaCry (módulo de propagação) e Morris Worm.</div>
     </div>
+
     <div class="lex-section-container">
-      <div class="lex-section-title">Trojan (Cavalo de Troia)</div>
-      <div class="lex-expandable-item">Malware <strong>disfarçado de programa legítimo</strong>.</div>
-      <div class="lex-expandable-item">Usuário instala achando que é um software seguro ou útil.</div>
-      <div class="lex-expandable-item">Após instalado, abre acesso ao invasor.</div>
-      <div class="lex-expandable-item"><strong>NÃO se replica</strong> — diferença importante em relação ao vírus e ao worm.</div>
-      <div class="lex-expandable-item"><strong>Subtipos:</strong> Dropper (instala outros malwares), Clicker (redireciona cliques/anúncios), RAT (Remote Access Trojan — controle remoto).</div>
+      <div class="lex-section-title">Trojan (O Disfarçado)</div>
+      <div class="lex-expandable-item">Malware <strong>disfarçado de programa legítimo</strong> (presente grego).</div>
+      <div class="lex-expandable-item">O usuário instala voluntariamente achando ser algo útil.</div>
+      <div class="lex-expandable-item"><strong>NÃO se replica:</strong> Diferente de vírus e worms, ele não cria cópias de si mesmo.</div>
+      <div class="lex-expandable-item"><strong>Função:</strong> Abre portas (backdoors) para que outros malwares entrem.</div>
     </div>
+
     <div class="lex-section-container">
-      <div class="lex-section-title">Spyware (Software Espião)</div>
-      <div class="lex-expandable-item">Coleta informações do usuário <strong>sem sua permissão</strong>.</div>
-      <div class="lex-expandable-item">Pode registrar histórico de navegação e dados pessoais.</div>
-      <div class="lex-expandable-item">Frequentemente instalado junto com programas gratuitos (adware).</div>
-      <div class="lex-expandable-item"><strong>Subtipos:</strong></div>
-      <div class="lex-expandable-item">• <strong>Keylogger</strong> — registra tudo que o usuário digita (senhas, mensagens).</div>
-      <div class="lex-expandable-item">• <strong>Screenlogger</strong> — captura a tela e movimentos do mouse.</div>
-      <div class="lex-expandable-item">• <strong>Adware</strong> — exibe propagandas indesejadas; pode redirecionar navegador.</div>
-      <div class="lex-expandable-item">• <strong>Stalkerware</strong> — monitoramento oculto de celular (vigilância).</div>
+      <div class="lex-section-title">Spyware (O Espião)</div>
+      <div class="lex-expandable-item">Monitora e coleta informações <strong>sem consentimento</strong>.</div>
+      <div class="lex-expandable-item"><strong>Keylogger:</strong> Captura o que é digitado (senhas).</div>
+      <div class="lex-expandable-item"><strong>Screenlogger:</strong> Captura imagens da tela onde o mouse clica.</div>
+      <div class="lex-expandable-item"><strong>Adware:</strong> Focado em exibir anúncios invasivos.</div>
     </div>
+
     <div class="lex-section-container">
-      <div class="lex-section-title">Ransomware (Sequestro de Dados)</div>
-      <div class="lex-expandable-item">Malware que <strong>criptografa os arquivos</strong> da vítima.</div>
-      <div class="lex-expandable-item">O criminoso exige pagamento (geralmente em <strong>Bitcoin</strong>) para liberar os dados.</div>
-      <div class="lex-expandable-item">Muito usado contra empresas, hospitais e governos.</div>
-      <div class="lex-expandable-item"><strong>Exemplo real:</strong> WannaCry (2017) — 200 mil vítimas em 150 países.</div>
+      <div class="lex-section-title">Ransomware (O Sequestrador)</div>
+      <div class="lex-expandable-item"><strong>Criptografa arquivos</strong> e torna o sistema inacessível.</div>
+      <div class="lex-expandable-item">Exige resgate (geralmente em criptomoedas) para a chave de descriptografia.</div>
+      <div class="lex-expandable-item">Pode ser do tipo <strong>Locker</strong> (bloqueia o acesso ao PC) ou <strong>Crypto</strong> (bloqueia os arquivos).</div>
     </div>
+
     <div class="lex-section-container">
-      <div class="lex-section-title">Rootkit</div>
-      <div class="lex-expandable-item">Conjunto de ferramentas para <strong>esconder a presença do invasor</strong> no sistema.</div>
-      <div class="lex-expandable-item">Permite acesso oculto e persistente ao sistema.</div>
-      <div class="lex-expandable-item">Muito difícil de detectar — pode se instalar no nível do kernel.</div>
-      <div class="lex-expandable-item">O antivírus comum frequentemente <strong>não consegue remover</strong>.</div>
-    </div>
-    <div class="lex-section-container">
-      <div class="lex-section-title">Bot / Botnet</div>
-      <div class="lex-expandable-item"><strong>Bot</strong> — computador infectado controlado remotamente por um hacker.</div>
-      <div class="lex-expandable-item"><strong>Botnet</strong> (rede zumbi) — rede de bots usada para ataques coordenados.</div>
-      <div class="lex-expandable-item">Usada para ataques DDoS e envio de spam em massa.</div>
-      <div class="lex-expandable-item"><strong>Exemplo:</strong> Botnet Mirai (2016) atacou servidores da internet.</div>
-    </div>
-    <div class="lex-section-container">
-      <div class="lex-section-title">Backdoor (Porta dos Fundos)</div>
-      <div class="lex-expandable-item">Permite <strong>acesso secreto e contínuo</strong> ao sistema para o invasor.</div>
-      <div class="lex-expandable-item">Pode ser instalado por outros malwares (Trojan, Rootkit).</div>
-      <div class="lex-expandable-item">Difícil de detectar pois opera de forma oculta.</div>
+      <div class="lex-section-title">Rootkit & Bot</div>
+      <div class="lex-expandable-item"><strong>Rootkit:</strong> Conjunto de ferramentas que <strong>esconde a invasão</strong> em níveis profundos do sistema (Kernel).</div>
+      <div class="lex-expandable-item"><strong>Bot:</strong> Programa que torna o computador um "zumbi" controlado remotamente.</div>
+      <div class="lex-expandable-item"><strong>Botnet:</strong> Rede de milhares de computadores infectados para ataques DDoS.</div>
     </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Linha do Tempo dos Grandes Ataques Cibernéticos</div>
-    <div class="lex-expandable-item"><strong>1988 — Morris Worm</strong> — Primeiro grande worm. Derrubou ~10% da internet da época.</div>
-    <div class="lex-expandable-item"><strong>2000 — ILOVEYOU</strong> — Vírus via e-mail que infectou mais de 50 milhões de computadores.</div>
-    <div class="lex-expandable-item"><strong>2010 — Stuxnet</strong> — Malware criado para atacar instalações nucleares iranianas. Considerado a primeira arma cibernética.</div>
-    <div class="lex-expandable-item"><strong>2017 — WannaCry</strong> — Ransomware. Afetou hospitais, empresas e governos em 150 países.</div>
-    <div class="lex-expandable-item"><strong>2020 — SolarWinds</strong> — Ataque sofisticado de supply chain que comprometeu sistemas governamentais dos EUA.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Comparação Rápida para Prova</div>
-    <div class="lex-expandable-item"><strong>Vírus</strong> — precisa de ação humana para se espalhar (execução do arquivo).</div>
-    <div class="lex-expandable-item"><strong>Worm</strong> — se espalha sozinho pela rede, sem ação do usuário.</div>
-    <div class="lex-expandable-item"><strong>Trojan</strong> — disfarçado de programa legítimo; <strong>não se replica</strong>.</div>
-    <div class="lex-expandable-item"><strong>Ransomware</strong> — sequestra (criptografa) arquivos e pede resgate.</div>
-    <div class="lex-expandable-item"><strong>Spyware</strong> — espiona o usuário silenciosamente.</div>
-    <div class="lex-expandable-item"><strong>Rootkit</strong> — esconde invasores; difícil detecção e remoção.</div>
-    <div class="lex-expandable-item"><strong>Bot/Botnet</strong> — computador zumbi controlado remotamente.</div>
+    <div class="lex-section-title">Resumo Comparativo para Revisão</div>
+    <div class="lex-expandable-item">🔴 <strong>VÍRUS:</strong> Precisa de HOSPEDEIRO + EXECUÇÃO HUMANA.</div>
+    <div class="lex-expandable-item">🔵 <strong>WORM:</strong> Independente + REPLICAÇÃO AUTOMÁTICA via rede.</div>
+    <div class="lex-expandable-item">🟢 <strong>TROJAN:</strong> Disfarce + NÃO SE REPLICA.</div>
+    <div class="lex-expandable-item">🟡 <strong>RANSOMWARE:</strong> Sequestro + CRIPTOGRAFIA.</div>
   </div>
 
   <div class="callout callout-rose">
     <span class="callout-icon">⚠️</span>
-    <strong>Pegadinha!</strong> O Trojan (Cavalo de Troia) <strong>NÃO se replica</strong> sozinho — diferente do vírus e do worm. Afirmar que ele se replica como um vírus é uma assertiva <strong>ERRADA</strong> em provas.
+    <strong>Atenção:</strong> Em provas, a banca costuma trocar os conceitos de Vírus e Worm. Lembre-se: o <strong>Vírus</strong> é dependente (como um vírus biológico que precisa de uma célula), enquanto o <strong>Worm</strong> é autoexecutável.
   </div>
 </div>`
   },
+
 
   "Antivirus — Geracoes": {
     icon: "🛡️",

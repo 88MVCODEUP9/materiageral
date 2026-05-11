@@ -1894,6 +1894,42 @@ Ex: acesso remoto ao trabalho, conexão segura via internet.</div>
   </div>
 
   <div class="lex-section-container">
+    <div class="lex-section-title">1. Scareware (O Software do Medo)</div>
+    <div class="lex-expandable-item"><strong>Conceito:</strong> Tipo de malware que usa <strong>choque ou ansiedade</strong> para convencer o usuário a baixar algo malicioso ou comprar um software falso.</div>
+    <div class="lex-expandable-item"><strong>Como opera:</strong> Exibe avisos falsos dizendo: "Seu PC está infectado com 50 vírus!" ou "Sua licença do Windows expirou!".</div>
+    <div class="lex-expandable-item"><strong>Objetivo:</strong> Levar a vítima a pagar por uma "solução" que é, na verdade, um malware ou um software inútil.</div>
+    <div class="lex-expandable-item"><strong>Palavras-chave:</strong> Senso de urgência, alarmismo, antivírus falso, pop-ups intrusivos.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">2. Phishing (Pescaria de Dados)</div>
+    <div class="lex-expandable-item"><strong>Conceito:</strong> Técnica de enganar usuários para que revelem informações confidenciais (senhas, cartões, CPF).</div>
+    <div class="lex-expandable-item"><strong>Variações Importantes (Cai muito em prova):</strong></div>
+    <div class="lex-expandable-item">• <strong>Spear Phishing:</strong> Ataque <strong>direcionado</strong> a uma pessoa ou empresa específica (personalizado).</div>
+    <div class="lex-expandable-item">• <strong>Whaling (Baleia):</strong> Phishing focado em "peixes grandes" (CEOs, executivos, figuras públicas).</div>
+    <div class="lex-expandable-item">• <strong>Vishing:</strong> Phishing feito via <strong>voz</strong> (chamadas telefônicas falsas de bancos).</div>
+    <div class="lex-expandable-item">• <strong>Smishing:</strong> Phishing feito via <strong>SMS</strong> ou mensagens de texto.</div>
+    <div class="lex-expandable-item">• <strong>Pharmapping:</strong> Envenenamento de DNS. O usuário digita o site certo, mas é levado para um servidor falso sem perceber.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Termos e Palavras-Chave Essenciais</div>
+    <div class="lex-cols">
+       <div class="lex-expandable-item"><strong>Engenharia Social:</strong> Manipular pessoas para obter dados protegidos.</div>
+       <div class="lex-expandable-item"><strong>Urgency (Urgência):</strong> "Sua conta será bloqueada em 2 horas".</div>
+       <div class="lex-expandable-item"><strong>Spoofing:</strong> Falsificação de identidade (e-mail, IP ou número de telefone).</div>
+       <div class="lex-expandable-item"><strong>Look-alike Domain:</strong> Sites com nomes parecidos (ex: g00gle.com em vez de google.com).</div>
+    </div>
+  </div>
+
+  <div class="callout callout-blue">
+    <span class="callout-icon">💡</span>
+    <strong>Diferença de Ouro:</strong> No <strong>Phishing</strong> tradicional, o hacker joga a rede para milhões esperando que alguém caia. No <strong>Spear Phishing</strong>, ele usa um arpão para caçar um alvo específico com informações que já conhece sobre ele.
+  </div>
+</div>`
+  },
+
+  <div class="lex-section-container">
     <div class="lex-section-title">Resumo Comparativo para Revisão</div>
     <div class="lex-expandable-item">🔴 <strong>VÍRUS:</strong> Precisa de HOSPEDEIRO + EXECUÇÃO HUMANA.</div>
     <div class="lex-expandable-item">🔵 <strong>WORM:</strong> Independente + REPLICAÇÃO AUTOMÁTICA via rede.</div>
